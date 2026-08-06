@@ -28,6 +28,36 @@
       <button class="person-btn" data-who="Grant"><span class="p-emoji">🎸</span><span>Grant</span></button>
     </div>
   </div>
+
+  <!-- step 2: notifications, shown right after they tap their name -->
+  <div class="gate-inner hidden" id="notifStep">
+    <div class="gate-kicker">Step 2 of 2</div>
+    <h1 class="gate-title" id="nsTitle">Turn on notifications</h1>
+    <p class="gate-sub" id="nsSub">Every night at 8 PM your phone buzzes with that day's questions. It's the whole bit.</p>
+
+    <div id="nsInstall" class="ns-panel hidden">
+      <div class="ns-warn">iPhone only allows notifications for apps on your Home Screen. One-time setup:</div>
+      <ol class="ib-steps">
+        <li>Tap <b>Share</b> at the bottom of Safari</li>
+        <li>Scroll down → <b>Add to Home Screen</b></li>
+        <li>Tap <b>Add</b></li>
+        <li>Open <b>Eurotrip</b> from your Home Screen and you'll land right back here</li>
+      </ol>
+    </div>
+
+    <div id="nsCode" class="ns-panel hidden">
+      <div class="ns-ok">✅ Notifications on.</div>
+      <p class="gate-sub" style="margin:10px 0 14px">Last step — send this code to Coob so he can add your phone to the nightly send.</p>
+      <textarea id="nsCodeBox" class="ns-codebox" readonly></textarea>
+      <button class="person-btn" id="nsShare" style="justify-content:center;margin-top:10px"><span>📤 Send to Coob</span></button>
+      <button class="link-btn" id="nsCopy" style="margin-top:10px">or copy to clipboard</button>
+    </div>
+
+    <div class="gate-people" id="nsActions">
+      <button class="person-btn" id="nsEnable" style="justify-content:center"><span class="p-emoji">🔔</span><span>Enable notifications</span></button>
+      <button class="link-btn" id="nsSkip">skip for now</button>
+    </div>
+  </div>
 </div>
 
 <!-- ═══════ PWA INSTALL BANNER ═══════ -->

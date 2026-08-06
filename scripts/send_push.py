@@ -176,20 +176,42 @@ def main():
     token = os.environ.get("PUSH_ADMIN_TOKEN", "").strip()
     priv = os.environ.get("VAPID_PRIVATE_KEY", "").strip()
 
-    if api and token and priv:
-        try:
-            subs = fetch_subs(api, token)
-            print(f"\n🔔 Web Push — {len(subs)} subscription(s)")
-            if subs:
-                ok, dead = send_webpush(subs, title, body, site)
+    if priv:
+        subs = []
+        source = None
+
+        # Preferred: the PUSH_SUBSCRIPTIONS secret. No server involved — each
+        # phone hands Coob a code once and it gets pasted in there.
+        raw = os.environ.get("PUSH_SUBSCRIPTIONS", "").strip()
+        if raw:
+            try:
+                parsed = json.loads(raw)
+                subs = parsed if isinstance(parsed, list) else [parsed]
+                source = "PUSH_SUBSCRIPTIONS secret"
+            except json.JSONDecodeError as e:
+                print(f"  ⚠️  PUSH_SUBSCRIPTIONS is not valid JSON ({e}) — skipping it")
+
+        # Optional: a Cloudflare Worker, if one was ever deployed.
+        if not subs and api and token:
+            try:
+                subs = fetch_subs(api, token)
+                source = "Cloudflare Worker KV"
+            except Exception as e:
+                print(f"  ⚠️  Worker fetch failed: {e}")
+
+        if subs:
+            print(f"\n🔔 Web Push — {len(subs)} subscription(s) from {source}")
+            ok, dead = send_webpush(subs, title, body, site)
+            if api and token:
                 prune(api, token, dead)
-                sent_any = sent_any or ok > 0
-            else:
-                print("  (nobody has enabled notifications yet)")
-        except Exception as e:
-            print(f"  ⚠️  Web Push path failed: {e}")
+            sent_any = sent_any or ok > 0
+        else:
+            print("\n🔔 Web Push — nobody has registered a phone yet.")
+            print("   Each person: open the app → tap the 🔔 → send Coob the code.")
+            print("   Then paste all of them as a JSON array into the")
+            print("   PUSH_SUBSCRIPTIONS repo secret.")
     else:
-        print("\n(Web Push not configured — skipping)")
+        print("\n(VAPID_PRIVATE_KEY not set — Web Push skipped)")
 
     topic = os.environ.get("NTFY_TOPIC", "").strip()
     if topic:

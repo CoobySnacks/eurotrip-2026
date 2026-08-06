@@ -511,6 +511,25 @@ b,strong{font-weight:650}
 .person-btn:active{background:var(--card-2);transform:scale(.98);border-color:var(--accent)}
 .p-emoji{font-size:25px}
 
+/* ─────────── NOTIFICATION STEP ─────────── */
+.ns-panel{text-align:left;margin-bottom:20px}
+.ns-warn{
+  background:rgba(255,176,32,.1);border:1px solid rgba(255,176,32,.35);
+  border-radius:10px;padding:11px 12px;margin-bottom:12px;
+  font-size:12.5px;color:#FFD98A;line-height:1.5;
+}
+.ns-ok{
+  background:rgba(53,199,127,.12);border:1px solid rgba(53,199,127,.4);
+  border-radius:10px;padding:11px 12px;
+  font-size:14px;font-weight:750;color:#7BE0AC;text-align:center;
+}
+.ns-codebox{
+  width:100%;height:88px;resize:none;
+  background:var(--bg-2);border:1px solid var(--line-2);border-radius:10px;
+  color:var(--tx-2);font:11px/1.45 ui-monospace,SFMono-Regular,Menlo,monospace;
+  padding:10px;-webkit-user-select:all;user-select:all;
+}
+
 /* ─────────── INSTALL BANNER ─────────── */
 .install-banner{
   position:fixed;left:11px;right:11px;bottom:calc(11px + var(--safe-b));z-index:150;

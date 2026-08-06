@@ -179,22 +179,86 @@ const App = (() => {
       if (qd) { qDate = qd.dataset.qday; go('questions', { keepScroll: true }); return; }
     });
 
-    /* identity */
-    $$('.person-btn').forEach(b => b.onclick = () => {
+    /* identity → then straight into the notification step */
+    $$('.person-btn[data-who]').forEach(b => b.onclick = () => {
       Store.setWho(b.dataset.who);
-      $('#whoGate').classList.add('hidden');
       paintWho();
-      go(phase() === 'pre' ? 'today' : 'today');
-      maybeShowInstall();
+      showNotifStep();
     });
-    $('#switchWho').onclick = () => { $('#whoGate').classList.remove('hidden'); };
+
+    $('#switchWho').onclick = () => {
+      $('#whoGate').classList.remove('hidden');
+      $('#notifStep').classList.add('hidden');
+      $('.gate-inner').classList.remove('hidden');
+    };
+
+    /* ---- notification step ---- */
+    $('#nsEnable').onclick = async () => {
+      const btn = $('#nsEnable');
+      btn.disabled = true;
+      btn.innerHTML = '<span>Working…</span>';
+      const res = await Push.enable();
+
+      if (res.ok && res.auto) { finishGate(); return; }
+
+      if (res.ok) {                        // show the code to hand to Coob
+        $('#nsActions').classList.add('hidden');
+        $('#nsInstall').classList.add('hidden');
+        $('#nsCode').classList.remove('hidden');
+        $('#nsCodeBox').value = res.code;
+        $('#nsTitle').textContent = 'Almost done';
+        $('#nsSub').classList.add('hidden');
+        return;
+      }
+
+      btn.disabled = false;
+      btn.innerHTML = '<span class="p-emoji">🔔</span><span>Enable notifications</span>';
+
+      if (res.reason === 'needs-install') {
+        $('#nsInstall').classList.remove('hidden');
+        $('#nsTitle').textContent = 'Add to Home Screen first';
+        $('#nsSub').textContent = "It's an Apple rule, not ours — notifications only work for installed apps.";
+        btn.classList.add('hidden');
+      } else {
+        alert(res.reason);
+      }
+    };
+
+    $('#nsSkip').onclick = finishGate;
+
+    $('#nsShare').onclick = async () => {
+      const r = await Push.shareCode($('#nsCodeBox').value);
+      if (r === 'copied') $('#nsShare').innerHTML = '<span>✅ Copied — send it to Coob</span>';
+      if (r === 'shared') setTimeout(finishGate, 600);
+      if (r === 'manual') $('#nsCodeBox').select();
+    };
+
+    $('#nsCopy').onclick = async () => {
+      const r = await Push.copyCode($('#nsCodeBox').value);
+      $('#nsCopy').textContent = r === 'copied' ? '✅ copied' : 'select the text above and copy';
+      if (r !== 'copied') $('#nsCodeBox').select();
+      setTimeout(finishGate, 1200);
+    };
 
     /* install banner */
     $('#ibClose').onclick = () => { $('#installBanner').classList.add('hidden'); Store.dismissInstall(); };
     $('#ftInstall').onclick = () => { $('#installBanner').classList.remove('hidden'); };
 
-    /* notifications */
-    $('#notifBtn').onclick = () => Push.enable();
+    /* notifications — reopen the same step from the header bell */
+    $('#notifBtn').onclick = () => {
+      $('#whoGate').classList.remove('hidden');
+      $('.gate-inner').classList.add('hidden');
+      $('#notifStep').classList.remove('hidden');
+      $('#nsActions').classList.remove('hidden');
+      $('#nsCode').classList.add('hidden');
+      $('#nsEnable').classList.remove('hidden');
+      $('#nsEnable').disabled = false;
+      $('#nsEnable').innerHTML = '<span class="p-emoji">🔔</span><span>Enable notifications</span>';
+      if (Push.readiness() === 'needs-install') {
+        $('#nsInstall').classList.remove('hidden');
+        $('#nsEnable').classList.add('hidden');
+      }
+    };
 
     /* re-render on wake so "now" is never stale */
     document.addEventListener('visibilitychange', () => {
@@ -205,6 +269,34 @@ const App = (() => {
   function paintWho() {
     const w = Store.getWho();
     $('#ftWho').textContent = w || '—';
+  }
+
+  /** Step 2 of the gate: notifications. Skipped entirely if already on. */
+  function showNotifStep() {
+    const state = Push.readiness();
+    const already = state === 'granted' && Store.getPushState();
+    if (!Push.supported() || already) { finishGate(); return; }
+
+    $('.gate-inner').classList.add('hidden');          // hide the name picker
+    const step = $('#notifStep');
+    step.classList.remove('hidden');
+
+    if (state === 'needs-install') {
+      $('#nsInstall').classList.remove('hidden');
+      $('#nsTitle').textContent = 'Add to Home Screen first';
+      $('#nsSub').textContent = "It's an Apple rule, not ours — iPhone only allows notifications for installed apps.";
+      $('#nsEnable').classList.add('hidden');
+      $('#nsSkip').textContent = 'continue to the site →';
+    }
+  }
+
+  /** Close the gate and land on the app. */
+  function finishGate() {
+    $('#whoGate').classList.add('hidden');
+    $('#notifStep').classList.add('hidden');
+    $('.gate-inner').classList.remove('hidden');
+    go('today');
+    maybeShowInstall();
   }
 
   function maybeShowInstall() {
