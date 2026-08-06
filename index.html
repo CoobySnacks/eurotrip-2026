@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=5">
+<title>EUROTRIP 2026</title>
+<meta name="description" content="Coob, Jared & Grant — Vienna, Copenhagen, Amsterdam, London. Aug 26 – Sep 8, 2026.">
+<meta name="theme-color" content="#0B0D10">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Eurotrip">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ═══════ IDENTITY GATE ═══════ -->
+<div id="whoGate" class="gate hidden">
+  <div class="gate-inner">
+    <div class="gate-kicker">EUROTRIP 2026</div>
+    <h1 class="gate-title">Who are you?</h1>
+    <p class="gate-sub">One tap. Stored on this phone only — no accounts, no passwords.</p>
+    <div class="gate-people">
+      <button class="person-btn" data-who="Coob"><span class="p-emoji">🤠</span><span>Coob</span></button>
+      <button class="person-btn" data-who="Jared"><span class="p-emoji">🍺</span><span>Jared</span></button>
+      <button class="person-btn" data-who="Grant"><span class="p-emoji">🎸</span><span>Grant</span></button>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════ PWA INSTALL BANNER ═══════ -->
+<div id="installBanner" class="install-banner hidden">
+  <button class="ib-close" id="ibClose" aria-label="Dismiss">×</button>
+  <div class="ib-title">📲 Add this to your Home Screen</div>
+  <div class="ib-body">
+    <p>You'll get the <b>8 PM question notifications</b> each night — iPhone only allows that for installed apps.</p>
+    <ol class="ib-steps">
+      <li>Tap the <b>Share</b> button <span class="ib-icon">􀈂</span> at the bottom of Safari</li>
+      <li>Scroll down, tap <b>Add to Home Screen</b></li>
+      <li>Tap <b>Add</b></li>
+      <li>Open it from your Home Screen, then tap <b>Enable notifications</b></li>
+    </ol>
+    <p class="ib-note">Must be Safari — Chrome on iPhone can't install apps.</p>
+  </div>
+</div>
+
+<!-- ═══════ HEADER ═══════ -->
+<header id="appHeader" class="app-header">
+  <div class="hdr-left">
+    <div class="hdr-logo">EUROTRIP<span class="hdr-year">26</span></div>
+  </div>
+  <div class="hdr-right">
+    <button id="notifBtn" class="hdr-btn hidden" title="Enable notifications">🔔</button>
+  </div>
+</header>
+
+<!-- ═══════ NAV ═══════ -->
+<nav id="tabBar" class="tab-bar">
+  <button class="tab" data-tab="today">Today</button>
+  <button class="tab" data-tab="trip">Full Trip</button>
+  <button class="tab" data-tab="vienna">Vienna</button>
+  <button class="tab" data-tab="copenhagen">Copenhagen</button>
+  <button class="tab" data-tab="amsterdam">Amsterdam</button>
+  <button class="tab" data-tab="london">London</button>
+  <button class="tab" data-tab="bookings">Bookings</button>
+  <button class="tab" data-tab="money">💸 Money</button>
+  <button class="tab" data-tab="checklists">✅ Checklists</button>
+  <button class="tab" data-tab="questions">Questions</button>
+</nav>
+
+<!-- ═══════ MAIN ═══════ -->
+<main id="view" class="view"></main>
+
+<!-- ═══════ FOOTER ═══════ -->
+<footer class="app-footer">
+  <div class="ft-row">
+    <span>You're <b id="ftWho">—</b></span>
+    <button id="switchWho" class="link-btn">switch</button>
+  </div>
+  <div class="ft-row ft-meta">
+    <span id="ftVersion">EUROTRIP 2026</span>
+    <button id="ftInstall" class="link-btn">install guide</button>
+  </div>
+</footer>
+
+<script src="js/store.js"></script>
+<script src="js/time.js"></script>
+<script src="js/weather.js"></script>
+<script src="js/render.js"></script>
+<script src="js/push.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

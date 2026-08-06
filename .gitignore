@@ -1,0 +1,10 @@
+# NEVER commit the VAPID private key — it lives in GitHub Actions secrets
+.vapid.json
+*.key
+.dev.vars
+.wrangler/
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

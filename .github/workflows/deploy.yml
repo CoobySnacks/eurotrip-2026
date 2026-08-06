@@ -1,0 +1,88 @@
+name: Deploy to GitHub Pages
+
+# Every push to main republishes the site. Editing data/trip.json
+# from a phone is enough to change the trip — this does the rest.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate trip.json
+        run: |
+          python3 - <<'PY'
+          import json, sys
+
+          with open('data/trip.json', encoding='utf-8') as f:
+              D = json.load(f)
+
+          errs = []
+
+          # every venue reference must resolve
+          venues = set(D['venues'])
+          for day in D['days']:
+              for b in day['blocks']:
+                  if b.get('venue') and b['venue'] not in venues:
+                      errs.append(f"{day['date']}: unknown venue '{b['venue']}'")
+                  for s in b.get('suggestions', []) + b.get('subStops', []):
+                      if s.get('venue') and s['venue'] not in venues:
+                          errs.append(f"{day['date']}: unknown venue '{s['venue']}'")
+
+          # every day needs its question set
+          for day in D['days']:
+              q = day.get('questions', {})
+              if len(q.get('trivia', [])) < 1:
+                  errs.append(f"{day['date']}: no trivia questions")
+              if len(q.get('discussion', [])) < 1:
+                  errs.append(f"{day['date']}: no discussion questions")
+
+          # every city referenced by a day must exist
+          for day in D['days']:
+              if day['cityKey'] not in D['cities']:
+                  errs.append(f"{day['date']}: unknown city '{day['cityKey']}'")
+
+          # times must be HH:MM
+          import re
+          for day in D['days']:
+              for b in day['blocks']:
+                  if not re.fullmatch(r'\d{2}:\d{2}', b.get('time', '')):
+                      errs.append(f"{day['date']}: bad time '{b.get('time')}' on '{b.get('title')}'")
+
+          if errs:
+              print('❌ trip.json validation failed:')
+              for e in errs:
+                  print('  -', e)
+              sys.exit(1)
+
+          print(f"✅ trip.json OK — {len(D['days'])} days, {len(D['venues'])} venues, "
+                f"{sum(len(d['blocks']) for d in D['days'])} blocks")
+          PY
+
+  deploy:
+    needs: validate
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,58 @@
+name: Nightly questions push
+
+# ── 8:00 PM LOCAL, in whatever city we're in that night ──
+#
+# GitHub Actions cron is ALWAYS UTC. Summer 2026 offsets:
+#   Vienna / Copenhagen / Amsterdam = CEST = UTC+2  →  8 PM local = 18:00 UTC
+#   London                          = BST  = UTC+1  →  8 PM local = 19:00 UTC
+#
+#   Aug 27–29  Vienna      ┐
+#   Aug 30–31  Copenhagen  ├─ 18:00 UTC
+#   Sep  1     Copenhagen  │
+#   Sep  2–4   Amsterdam   ┘
+#   Sep  5–7   London      →  19:00 UTC
+#
+# Aug 26 (mid-flight) and Sep 8 (flying home) are deliberately skipped.
+#
+# Note: GitHub's scheduler can run a few minutes late under load. The
+# site unlocks the questions on its own at 8 PM local regardless, so a
+# late notification is cosmetic, not load-bearing.
+
+on:
+  schedule:
+    - cron: '0 18 27-31 8 *'   # Aug 27–31 → Vienna + Copenhagen
+    - cron: '0 18 1-4 9 *'     # Sep 1–4   → Copenhagen + Amsterdam
+    - cron: '0 19 5-7 9 *'     # Sep 5–7   → London (BST)
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Override date (YYYY-MM-DD) — leave blank for today'
+        required: false
+      dry_run:
+        description: 'Print what would be sent, send nothing'
+        type: boolean
+        default: false
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install push libraries
+        run: pip install --quiet pywebpush requests
+
+      - name: Send tonight's questions
+        env:
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          VAPID_SUBJECT:     ${{ secrets.VAPID_SUBJECT }}
+          PUSH_API:          ${{ secrets.PUSH_API }}
+          PUSH_ADMIN_TOKEN:  ${{ secrets.PUSH_ADMIN_TOKEN }}
+          NTFY_TOPIC:        ${{ secrets.NTFY_TOPIC }}
+          OVERRIDE_DATE:     ${{ inputs.date }}
+          DRY_RUN:           ${{ inputs.dry_run }}
+        run: python scripts/send_push.py

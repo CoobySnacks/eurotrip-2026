@@ -1,0 +1,19 @@
+# Cloudflare Worker config — push subscription store.
+#
+# Deploy (needs Node, or use the REST API script in ../scripts/):
+#   npx wrangler kv namespace create SUBS
+#   # paste the returned id below, then:
+#   npx wrangler secret put ADMIN_TOKEN
+#   npx wrangler deploy
+
+name = "eurotrip-push"
+main = "worker.js"
+compatibility_date = "2026-08-01"
+
+# Replace id with the value returned by `wrangler kv namespace create SUBS`
+[[kv_namespaces]]
+binding = "SUBS"
+id = "REPLACE_WITH_KV_NAMESPACE_ID"
+
+# ADMIN_TOKEN is a secret, not a var — set it with:
+#   npx wrangler secret put ADMIN_TOKEN

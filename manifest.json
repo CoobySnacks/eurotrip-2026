@@ -1,0 +1,17 @@
+{
+  "name": "EUROTRIP 2026",
+  "short_name": "Eurotrip",
+  "description": "Coob, Jared & Grant — Vienna, Copenhagen, Amsterdam, London. Aug 26 – Sep 8, 2026.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0B0D10",
+  "theme_color": "#0B0D10",
+  "categories": ["travel", "lifestyle"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

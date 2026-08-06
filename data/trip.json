@@ -1,0 +1,2369 @@
+{
+  "meta": {
+    "tripName": "EUROTRIP 2026",
+    "subtitle": "Three men. Four cities. Fourteen days.",
+    "departureISO": "2026-08-26T19:40:00-05:00",
+    "returnISO": "2026-09-08T14:10:00-05:00",
+    "startDate": "2026-08-26",
+    "endDate": "2026-09-08",
+    "travelers": ["Coob", "Jared", "Grant"],
+    "organizer": "Coob",
+    "dataVersion": "1.0.0",
+    "lastUpdated": "2026-08-06",
+    "questionsUnlockHour": 20,
+    "fixedQuestions": [
+      "Who drank the most alcohol last night?",
+      "Who's drinking the most tonight? (you gotta up those numbers pussies)"
+    ]
+  },
+
+  "cities": {
+    "dallas": {
+      "key": "dallas",
+      "name": "Dallas",
+      "flag": "🇺🇸",
+      "color": "#8A8F98",
+      "tz": "America/Chicago",
+      "lat": 32.78,
+      "lon": -96.8,
+      "currency": "USD ($)",
+      "dates": "Aug 26 · Sep 8",
+      "summary": "Where it starts and where it ends.",
+      "seasonal": "Late August: hot. 95–100°F. You won't miss it."
+    },
+    "vienna": {
+      "key": "vienna",
+      "name": "Vienna",
+      "flag": "🇦🇹",
+      "color": "#D4A537",
+      "tz": "Europe/Vienna",
+      "lat": 48.21,
+      "lon": 16.37,
+      "currency": "Euro (€)",
+      "dates": "Aug 27 – Aug 30",
+      "summary": "Imperial cafes, schnitzel the size of your head, and one very late night.",
+      "seasonal": "Early Sept average: high 74°F / low 55°F, ~1 rainy day in 4."
+    },
+    "copenhagen": {
+      "key": "copenhagen",
+      "name": "Copenhagen",
+      "flag": "🇩🇰",
+      "color": "#2E9E6B",
+      "tz": "Europe/Copenhagen",
+      "lat": 55.68,
+      "lon": 12.57,
+      "currency": "Danish krone (DKK) — cashless",
+      "dates": "Aug 30 – Sep 2",
+      "summary": "Harbour boats, street food in a shipyard, and the Rolex appointment.",
+      "seasonal": "Early Sept average: high 66°F / low 52°F, ~1 rainy day in 3."
+    },
+    "amsterdam": {
+      "key": "amsterdam",
+      "name": "Amsterdam",
+      "flag": "🇳🇱",
+      "color": "#F07427",
+      "tz": "Europe/Amsterdam",
+      "lat": 52.37,
+      "lon": 4.9,
+      "currency": "Euro (€)",
+      "dates": "Sep 2 – Sep 5",
+      "summary": "Canals, a rooftop bar we don't leave, and THE BLACK KEYS.",
+      "seasonal": "Early Sept average: high 68°F / low 54°F, ~1 rainy day in 3."
+    },
+    "london": {
+      "key": "london",
+      "name": "London",
+      "flag": "🇬🇧",
+      "color": "#D93A3A",
+      "tz": "Europe/London",
+      "lat": 51.51,
+      "lon": -0.13,
+      "currency": "Pound (£)",
+      "dates": "Sep 5 – Sep 8",
+      "summary": "Mayfair hotel, Soho pubs, and the last big nights.",
+      "seasonal": "Early Sept average: high 70°F / low 55°F, ~1 rainy day in 3."
+    }
+  },
+
+  "flights": [
+    {
+      "date": "2026-08-26",
+      "code": "BA 192",
+      "from": "DFW",
+      "fromCity": "Dallas/Fort Worth",
+      "to": "LHR",
+      "toCity": "London Heathrow",
+      "depart": "19:40",
+      "departTz": "America/Chicago",
+      "arrive": "10:55",
+      "arriveTz": "Europe/London",
+      "arriveNextDay": true,
+      "cabin": "Business (Club World)",
+      "aircraft": "Airbus A380",
+      "conf": "BLU9SX",
+      "note": "Terminal D. Lounge before boarding. Sleep on the plane — you land and go."
+    },
+    {
+      "date": "2026-08-27",
+      "code": "BA 724",
+      "from": "LHR",
+      "fromCity": "London Heathrow",
+      "to": "VIE",
+      "toCity": "Vienna",
+      "depart": "12:35",
+      "departTz": "Europe/London",
+      "arrive": "15:55",
+      "arriveTz": "Europe/Vienna",
+      "cabin": "Economy",
+      "conf": "BLU9SX",
+      "note": "Connection from BA 192. Same booking reference."
+    },
+    {
+      "date": "2026-08-30",
+      "code": "SAS",
+      "from": "VIE",
+      "fromCity": "Vienna",
+      "to": "CPH",
+      "toCity": "Copenhagen",
+      "depart": "10:15",
+      "departTz": "Europe/Vienna",
+      "arrive": "11:55",
+      "arriveTz": "Europe/Copenhagen",
+      "cabin": "Economy",
+      "conf": "BLXH8G",
+      "note": "7:00 AM pickup from the hotel. Pack the night before."
+    },
+    {
+      "date": "2026-09-02",
+      "code": "SAS 547",
+      "from": "CPH",
+      "fromCity": "Copenhagen",
+      "to": "AMS",
+      "toCity": "Amsterdam",
+      "depart": "12:40",
+      "departTz": "Europe/Copenhagen",
+      "arrive": "14:10",
+      "arriveTz": "Europe/Amsterdam",
+      "cabin": "Economy",
+      "conf": "BM22K4",
+      "note": "Schiphol Travel Taxi meets this flight (Order 8992296)."
+    },
+    {
+      "date": "2026-09-05",
+      "code": "BA 435",
+      "from": "AMS",
+      "fromCity": "Amsterdam Schiphol",
+      "to": "LHR",
+      "toCity": "London Heathrow",
+      "depart": "14:20",
+      "departTz": "Europe/Amsterdam",
+      "arrive": "14:45",
+      "arriveTz": "Europe/London",
+      "cabin": "Economy Plus",
+      "conf": "BM4I53",
+      "note": "Only 25 min on the clock — London is an hour behind. Real flight time ~1h25m."
+    },
+    {
+      "date": "2026-09-08",
+      "code": "BA 1590",
+      "operatedBy": "American Airlines",
+      "from": "LHR",
+      "fromCity": "London Heathrow — Terminal 3",
+      "to": "DFW",
+      "toCity": "Dallas/Fort Worth",
+      "depart": "10:05",
+      "departTz": "Europe/London",
+      "arrive": "14:10",
+      "arriveTz": "America/Chicago",
+      "cabin": "Business",
+      "conf": "BLU9SX",
+      "note": "7:00 AM car. Terminal 3. Declare the Rolex at US customs."
+    }
+  ],
+
+  "hotels": [
+    {
+      "cityKey": "vienna",
+      "name": "SO/ Vienna",
+      "venue": "so-vienna",
+      "checkIn": "2026-08-27",
+      "checkOut": "2026-08-30",
+      "nights": 3,
+      "conf": "QKJDDGMM",
+      "rooms": "2 rooms",
+      "note": "Balance due in Round 2. Das Loft (18th floor) is CLOSED for renovation until Sep 3 — use the lobby bar."
+    },
+    {
+      "cityKey": "copenhagen",
+      "name": "Scandic Copenhagen",
+      "venue": "scandic-copenhagen",
+      "checkIn": "2026-08-30",
+      "checkOut": "2026-09-02",
+      "nights": 3,
+      "conf": "1209031060 · 1209031059 (Grant)",
+      "rooms": "2 rooms",
+      "note": "Paid in Round 1. Check-in 3 PM."
+    },
+    {
+      "cityKey": "amsterdam",
+      "name": "Radisson Blu City Centre",
+      "venue": "radisson-blu-ams",
+      "checkIn": "2026-09-02",
+      "checkOut": "2026-09-05",
+      "nights": 3,
+      "conf": "1J1ZPDMW · 27T37G53",
+      "rooms": "2 rooms",
+      "note": "Breakfast included. Paid in Round 1."
+    },
+    {
+      "cityKey": "london",
+      "name": "The May Fair Hotel",
+      "venue": "may-fair-hotel",
+      "checkIn": "2026-09-05",
+      "checkOut": "2026-09-08",
+      "nights": 3,
+      "conf": "0RWQVWZF · 14WVV3HS (Grant)",
+      "rooms": "2 rooms",
+      "note": "Paid in Round 1. May Fair Bar is closed Sundays — Saturday night is the night."
+    }
+  ],
+
+  "transfers": [
+    {
+      "cityKey": "vienna",
+      "label": "Vienna — Airport Driver (prepaid)",
+      "status": "confirmed",
+      "legs": [
+        { "when": "Thu Aug 27, 3:55 PM", "detail": "VIE arrivals → SO/ Vienna", "conf": "AVBO53170" },
+        { "when": "Sun Aug 30, 7:00 AM", "detail": "SO/ Vienna → VIE", "conf": "AZBO50842" }
+      ],
+      "cost": "$45.80 pp — paid in Round 1",
+      "phone": null
+    },
+    {
+      "cityKey": "copenhagen",
+      "label": "Copenhagen — TAXA 4x35 minibus",
+      "status": "tobook",
+      "legs": [
+        { "when": "Sun Aug 30, ~12:10 PM", "detail": "CPH → Scandic Copenhagen", "conf": null },
+        { "when": "Wed Sep 2, ~9:30 AM", "detail": "Scandic Copenhagen → CPH", "conf": null }
+      ],
+      "cost": "est. $41–57 pp — Round 2",
+      "phone": "+45 35 35 35 35",
+      "note": "REBOOKING IN PROGRESS. TAXA 4x35 minibus or Copenhagen Services. Update this entry when confirmed."
+    },
+    {
+      "cityKey": "amsterdam",
+      "label": "Amsterdam — Schiphol Travel Taxi BV",
+      "status": "paid",
+      "legs": [
+        {
+          "when": "Wed Sep 2, meets SK547 (lands 2:10 PM)",
+          "detail": "Schiphol → Radisson Blu · Business Bus · 3 pax + 5 bags",
+          "conf": "Order 8992296"
+        },
+        {
+          "when": "Sat Sep 5, 11:45 AM pickup",
+          "detail": "Radisson Blu → Schiphol · Business Bus · 3 pax + 5 bags",
+          "conf": "Order 8992297"
+        }
+      ],
+      "cost": "€90.75 each leg · €181.50 total · €60.50 pp — PAID IN FULL BY COOB Aug 6",
+      "phone": "+31 38 339 47 68",
+      "email": "sttintake@connexxion.nl",
+      "note": "Both legs confirmed and paid. Split evenly at $70.28 pp in Round 2."
+    },
+    {
+      "cityKey": "london",
+      "label": "London — JK Executive Chauffeurs",
+      "status": "inprogress",
+      "legs": [
+        {
+          "when": "Sat Sep 5, meets BA 435 (lands 2:45 PM)",
+          "detail": "LHR → The May Fair · Mercedes V-Class · 60 min free wait",
+          "conf": null
+        },
+        {
+          "when": "Tue Sep 8, 7:00 AM pickup",
+          "detail": "The May Fair → LHR Terminal 3 · Mercedes V-Class",
+          "conf": null
+        }
+      ],
+      "cost": "£370.80 inc VAT total · $165.62 pp — Round 2",
+      "phone": "+44 203 475 9906",
+      "email": "info@jkexecutivechauffeurs.com",
+      "contact": "Sam Magar",
+      "note": "BOOKING IN PROGRESS. Add the confirmation number here once paid."
+    }
+  ],
+
+  "venues": {
+    "so-vienna": {
+      "name": "SO/ Vienna",
+      "address": "Praterstraße 1, 1020 Wien",
+      "city": "Vienna",
+      "website": "https://www.so-hotels.com/en/vienna/",
+      "menu": "https://www.so-hotels.com/en/vienna/restaurants-and-bars/",
+      "instagram": "https://instagram.com/so.vienna",
+      "igHandle": "@so.vienna"
+    },
+    "cucina-itameshi": {
+      "name": "Cucina Itameshi",
+      "address": "Praterstraße 70, 1020 Wien",
+      "city": "Vienna",
+      "website": "https://cucina-itameshi.at",
+      "menu": "https://cucina-itameshi.at",
+      "instagram": "https://instagram.com/cucina_itameshi_vienna",
+      "igHandle": "@cucina_itameshi_vienna",
+      "note": "Italian-Japanese. Menu is a PDF on the site that rotates — homepage is the safe link."
+    },
+    "klyo": {
+      "name": "Klyo",
+      "address": "Uraniastraße 1, 1010 Wien",
+      "city": "Vienna",
+      "website": "https://klyo.at/en",
+      "menu": "https://klyo.at/en",
+      "instagram": "https://instagram.com/this.is.klyo",
+      "igHandle": "@this.is.klyo",
+      "note": "Riverfront canal bar on the Donaukanal."
+    },
+    "das-loft": {
+      "name": "Das Loft",
+      "address": "Praterstraße 1, 1020 Wien",
+      "city": "Vienna",
+      "website": "https://www.dasloftwien.at/en/",
+      "menu": "https://www.dasloftwien.at/en/das-loft-menus/",
+      "instagram": "https://instagram.com/dasloftwien",
+      "igHandle": "@dasloftwien",
+      "closed": true,
+      "note": "CLOSED for renovation until Sep 3, 2026. We are gone by Aug 30 — we do not get in."
+    },
+    "albertina": {
+      "name": "Albertina",
+      "address": "Albertinaplatz 1, 1010 Wien",
+      "city": "Vienna",
+      "website": "https://www.albertina.at/en/",
+      "menu": "https://www.albertina.at/en/visit/",
+      "instagram": "https://instagram.com/albertinamuseum",
+      "igHandle": "@albertinamuseum",
+      "note": "Monet-to-Picasso collection, Dürer drawings, Habsburg state rooms. ~90 min is plenty."
+    },
+    "zum-schwarzen-kameel": {
+      "name": "Zum Schwarzen Kameel — Wiener Brasserie",
+      "address": "Bognergasse 5, 1010 Wien",
+      "city": "Vienna",
+      "website": "https://kameel.at",
+      "menu": "https://kameel.at",
+      "instagram": "https://instagram.com/zumschwarzenkameel",
+      "igHandle": "@zumschwarzenkameel",
+      "note": "Ground floor brasserie. Kitchen until 10 PM. Vienna institution since 1618."
+    },
+    "verde": {
+      "name": "Verde",
+      "address": "Wallnerstraße 2, 1010 Wien",
+      "city": "Vienna",
+      "website": "https://verde.wien/en/",
+      "menu": "https://verde.wien/en/",
+      "instagram": "https://instagram.com/verde.vienna",
+      "igHandle": "@verde.vienna",
+      "note": "Pizza and spritzes. Menu PDFs rotate — site is the safe link."
+    },
+    "demel": {
+      "name": "Demel",
+      "address": "Kohlmarkt 14, 1010 Wien",
+      "city": "Vienna",
+      "website": "https://www.demel.com/en",
+      "menu": "https://www.demel.com/en/pages/cafe",
+      "instagram": "https://instagram.com/demel_wien",
+      "igHandle": "@demel_wien",
+      "note": "Imperial pastry house. Sachertorte stop."
+    },
+    "krypt": {
+      "name": "Krypt",
+      "address": "Wasagasse 17, 1090 Wien",
+      "city": "Vienna",
+      "website": "https://krypt.bar",
+      "menu": null,
+      "instagram": "https://instagram.com/krypt.bar",
+      "igHandle": "@krypt.bar",
+      "email": "drink@krypt.bar",
+      "note": "Falstaff 90 pts 2026. Historic vaulted cellar, 7-metre marble-and-walnut counter, elevator down. Fri until 2–3 AM."
+    },
+    "volksgarten": {
+      "name": "Volksgarten Club",
+      "address": "Burgring 1, 1010 Wien",
+      "city": "Vienna",
+      "website": "https://volksgarten.at/en/",
+      "menu": null,
+      "instagram": "https://instagram.com/volksgarten",
+      "igHandle": "@volksgarten",
+      "dressCode": "Smart. Collared shirt, real shoes. NO sneakers, NO shorts. Doors run on discretion.",
+      "note": "Thu–Sat 11 PM–6 AM. 21+."
+    },
+    "cafe-landtmann": {
+      "name": "Café Landtmann",
+      "address": "Universitätsring 4, 1010 Wien",
+      "city": "Vienna",
+      "website": "https://www.landtmann.at/en/cafe-landtmann.html",
+      "menu": "https://www.landtmann.at/en/karte/menu/",
+      "instagram": "https://instagram.com/cafelandtmann",
+      "igHandle": "@cafelandtmann",
+      "note": "Opened 1873. Sidewalk-level terrace on the Ring. Freud's café."
+    },
+    "lugeck": {
+      "name": "Lugeck",
+      "address": "Lugeck 4, 1010 Wien",
+      "city": "Vienna",
+      "website": "https://www.lugeck.com/en/",
+      "menu": "https://www.lugeck.com/en/menu/",
+      "instagram": "https://instagram.com/lugeck_figlmueller",
+      "igHandle": "@lugeck_figlmueller",
+      "note": "Figlmüller family. The schnitzel."
+    },
+    "figlmueller": {
+      "name": "Figlmüller Bäckerstraße",
+      "address": "Bäckerstraße 6, 1010 Wien",
+      "city": "Vienna",
+      "website": "https://www.figlmueller.at/en/baeckerstrasse/",
+      "menu": "https://www.figlmueller.at/en/baeckerstrasse/menu/",
+      "instagram": "https://instagram.com/figlmueller",
+      "igHandle": "@figlmueller",
+      "note": "Fallback for Lugeck — same schnitzel, same family."
+    },
+    "motto-am-fluss": {
+      "name": "Motto am Fluss",
+      "address": "Franz-Josefs-Kai 2, 1010 Wien",
+      "city": "Vienna",
+      "website": "https://www.mottoamfluss.at/en/",
+      "menu": "https://www.mottoamfluss.at/en/",
+      "instagram": "https://instagram.com/mottoamfluss",
+      "igHandle": "@mottoamfluss",
+      "note": "Canal deck at Schwedenplatz."
+    },
+    "riesenrad": {
+      "name": "Wiener Riesenrad",
+      "address": "Riesenradplatz 1, 1020 Wien",
+      "city": "Vienna",
+      "website": "https://www.wienerriesenrad.com/en/home/",
+      "menu": null,
+      "instagram": "https://instagram.com/wienerriesenrad",
+      "igHandle": "@wienerriesenrad",
+      "note": "Built 1897. 10 min from the hotel."
+    },
+    "rathausplatz-film-festival": {
+      "name": "Film Festival am Rathausplatz",
+      "address": "Rathausplatz, 1010 Wien",
+      "city": "Vienna",
+      "website": "https://filmfestival-rathausplatz.at/en/",
+      "menu": null,
+      "instagram": null,
+      "igHandle": null,
+      "note": "FREE. Jul 4 – Sep 6, 2026. 11 AM – midnight, food until 11 PM. 25+ food stalls, giant screen, concert films."
+    },
+    "guydeez": {
+      "name": "Guydeez Private Walking Tour",
+      "address": "Praterstraße 1, 1020 Wien",
+      "city": "Vienna",
+      "website": "https://www.getyourguide.com/vienna-l7/vienna-private-custom-tour-with-a-local-guide-t468801/",
+      "menu": null,
+      "instagram": null,
+      "igHandle": null,
+      "note": "Hotel pickup at SO/ Vienna."
+    },
+    "scandic-copenhagen": {
+      "name": "Scandic Copenhagen",
+      "address": "Vester Søgade 6, 1601 København V",
+      "city": "Copenhagen",
+      "website": "https://www.scandichotels.com/en/hotels/scandic-copenhagen",
+      "menu": "https://www.scandichotels.com/en/hotels/scandic-copenhagen",
+      "instagram": "https://instagram.com/scandiccopenhagen",
+      "igHandle": "@scandiccopenhagen"
+    },
+    "esmee": {
+      "name": "Esmée",
+      "address": "Kongens Nytorv 8, 1050 København K",
+      "city": "Copenhagen",
+      "website": "https://esmee.dk",
+      "menu": "https://esmee.dk/menu/",
+      "instagram": "https://instagram.com/esmee_cph",
+      "igHandle": "@esmee_cph",
+      "note": "Ask for the Orangerie room — that's the whole point. Order smart."
+    },
+    "groeften": {
+      "name": "Grøften",
+      "address": "Vesterbrogade 3 (in Tivoli), 1620 København V",
+      "city": "Copenhagen",
+      "website": "https://groeften.dk/en/",
+      "menu": "https://groeften.dk/en/menu/",
+      "instagram": "https://instagram.com/groeften",
+      "igHandle": "@groeften",
+      "phone": "+45 33 75 06 75",
+      "note": "Danish institution since 1874. Open until ~23:00. 8 min from the hotel."
+    },
+    "ps-bar-grill": {
+      "name": "PS Bar & Grill",
+      "address": "Pilestræde 12A, 1112 København K",
+      "city": "Copenhagen",
+      "website": "https://city.psbargrill.dk/en/front-page/",
+      "menu": "https://city.psbargrill.dk/en/the-menu/",
+      "instagram": "https://instagram.com/psbargrill",
+      "igHandle": "@psbargrill",
+      "note": "Closes 11 PM Sundays. One round and out."
+    },
+    "social-brew": {
+      "name": "Social Brew Vesterport",
+      "address": "Vester Farimagsgade 3, 1606 København V",
+      "city": "Copenhagen",
+      "website": "https://socialbrew.dk",
+      "menu": "https://socialbrew.dk/menu",
+      "instagram": "https://instagram.com/social_brew",
+      "igHandle": "@social_brew",
+      "note": "3 min walk from the Scandic."
+    },
+    "nyhavn-17": {
+      "name": "Nyhavn 17",
+      "address": "Nyhavn 17, 1051 København K",
+      "city": "Copenhagen",
+      "website": "https://nyhavn17.dk/en/",
+      "menu": "https://nyhavn17.dk/en/menu",
+      "instagram": "https://instagram.com/hosnyhavn17",
+      "igHandle": "@hosnyhavn17"
+    },
+    "sokkelund": {
+      "name": "Sokkelund",
+      "address": "Smallegade 36, 2000 Frederiksberg",
+      "city": "Copenhagen",
+      "website": "https://sokkelund.dk/en/",
+      "menu": "https://sokkelund.dk/en/menuer/",
+      "instagram": "https://instagram.com/sokkelund",
+      "igHandle": "@sokkelund",
+      "note": "Kitchen closes at 9 PM. Do not be late."
+    },
+    "madklubben": {
+      "name": "Madklubben Frederiksberg",
+      "address": "Solbjergvej 6, 2000 Frederiksberg",
+      "city": "Copenhagen",
+      "website": "https://madklubben.dk/en/restaurants/copenhagen/madklubben/frederiksberg",
+      "menu": "https://madklubben.dk/en/restaurants/copenhagen/madklubben/frederiksberg",
+      "instagram": "https://instagram.com/madklubben",
+      "igHandle": "@madklubben",
+      "phone": "+45 38 41 41 70",
+      "note": "Backup for Sokkelund. Same bistro energy. M3 metro straight to Citizen after."
+    },
+    "citizen": {
+      "name": "Citizen",
+      "address": "Valkendorfsgade 22, 1151 København K",
+      "city": "Copenhagen",
+      "website": "https://citizencph.dk",
+      "menu": "https://citizencph.dk/menu/",
+      "instagram": "https://instagram.com/citizencph",
+      "igHandle": "@citizencph",
+      "note": "Open Mondays. Cocktails & Comedy night. Ground level."
+    },
+    "ruby": {
+      "name": "Ruby",
+      "address": "Nybrogade 10, 1203 København K",
+      "city": "Copenhagen",
+      "website": "https://rby.dk",
+      "menu": null,
+      "instagram": "https://instagram.com/rubycph",
+      "igHandle": "@rubycph",
+      "note": "World's-top-50 cocktail bar. Mon 5 PM–1 AM. No sign on the door — look for the townhouse."
+    },
+    "reffen": {
+      "name": "Reffen — Copenhagen Street Food",
+      "address": "Refshalevej 167A, 1432 København K",
+      "city": "Copenhagen",
+      "website": "https://reffen.dk/en/",
+      "menu": "https://reffen.dk/en/food/",
+      "instagram": "https://instagram.com/reffen_copenhagenstreetfood",
+      "igHandle": "@reffen_copenhagenstreetfood",
+      "outdoor": true,
+      "note": "50+ container stalls. Hija de Sanchez tacos, Bronut smash burger, Korean BBQ Pop, Goodfellas pizza. Open-air — check the rain flag."
+    },
+    "broens": {
+      "name": "Broens Gadekøkken",
+      "address": "Strandgade 95, 1401 København K",
+      "city": "Copenhagen",
+      "website": "https://broensstreetfood.dk/en/",
+      "menu": "https://broensstreetfood.dk/madboder/",
+      "instagram": "https://instagram.com/broensstreetfood",
+      "igHandle": "@broensstreetfood",
+      "note": "RAIN FALLBACK for Reffen. Opens 11, sheltered. Gasoline Grill burgers."
+    },
+    "warpigs": {
+      "name": "Warpigs Brewpub",
+      "address": "Flæsketorvet 25-37, 1711 København V",
+      "city": "Copenhagen",
+      "website": "https://warpigs.dk",
+      "menu": "https://warpigs.dk/menu",
+      "instagram": "https://instagram.com/warpigs_brewpub_cph",
+      "igHandle": "@warpigs_brewpub_cph",
+      "note": "WALK-IN. Meat sells out — go earlier rather than later. Order at the counter. 23 Mikkeller taps."
+    },
+    "tivoli": {
+      "name": "Tivoli Gardens",
+      "address": "Vesterbrogade 3, 1620 København V",
+      "city": "Copenhagen",
+      "website": "https://www.tivoli.dk/en",
+      "menu": "https://www.tivoli.dk/en/food-and-drinks",
+      "instagram": "https://instagram.com/tivolicph",
+      "igHandle": "@tivolicph",
+      "outdoor": true,
+      "note": "Open until ~11 PM. Season runs through Sep 20."
+    },
+    "bucherer": {
+      "name": "Bucherer (ex-Klarlund) — Rolex",
+      "address": "Østergade 22, 1100 København K",
+      "city": "Copenhagen",
+      "website": "https://www.bucherer.com/dk/en/rolex/contact/denmark/kopenhagen-ostergade",
+      "menu": null,
+      "instagram": "https://instagram.com/bucherer",
+      "igHandle": "@bucherer",
+      "note": "THE APPOINTMENT. Confirm Østergade 22 vs temporary №15 before you walk over."
+    },
+    "politically-incorrect": {
+      "name": "Politically Incorrect Tours",
+      "address": "Gammel Strand Metro station, 1202 København K",
+      "city": "Copenhagen",
+      "website": "https://politicallyincorrectfreetours.com/copenhagen-highlights-tour/",
+      "menu": null,
+      "instagram": "https://instagram.com/politicallyincorrecttours",
+      "igHandle": "@politicallyincorrecttours",
+      "note": "Meet at Gammel Strand Metro — look for the ORANGE UMBRELLA. Arrive 10:45."
+    },
+    "harbour-bus": {
+      "name": "Harbour Bus 991/992",
+      "address": "Nyhavn, 1051 København K",
+      "city": "Copenhagen",
+      "website": "https://dinoffentligetransport.dk/en/how-to-travel/harbor-bus",
+      "menu": null,
+      "instagram": null,
+      "igHandle": null,
+      "note": "~40 DKK. Board at Nyhavn. The boat ride IS part of the fun."
+    },
+    "radisson-blu-ams": {
+      "name": "Radisson Blu City Centre",
+      "address": "Rusland 17, 1012 CK Amsterdam",
+      "city": "Amsterdam",
+      "website": "https://www.radissonhotels.com/en-us/hotels/radisson-blu-amsterdam",
+      "menu": "https://www.radissonhotels.com/en-us/hotels/radisson-blu-amsterdam",
+      "instagram": "https://instagram.com/radissonbluamsterdamcitycenter",
+      "igHandle": "@radissonbluamsterdamcitycenter",
+      "note": "Breakfast included."
+    },
+    "cafe-de-jaren": {
+      "name": "Café de Jaren",
+      "address": "Nieuwe Doelenstraat 20-22, 1012 CP Amsterdam",
+      "city": "Amsterdam",
+      "website": "https://cafedejaren.nl/en/",
+      "menu": "https://cafedejaren.nl/en/food/",
+      "instagram": "https://instagram.com/cafedejaren",
+      "igHandle": "@cafedejaren",
+      "outdoor": true,
+      "note": "100m from the hotel. Canal-side terrace — the reason to go."
+    },
+    "cannibale-royale": {
+      "name": "Cannibale Royale Handboogstraat",
+      "address": "Handboogstraat 17-19, 1012 XM Amsterdam",
+      "city": "Amsterdam",
+      "website": "https://cannibaleroyale.nl/locations/handboogstraat/",
+      "menu": "https://cannibaleroyale.nl/menus/",
+      "instagram": "https://instagram.com/cannibaleroyale",
+      "igHandle": "@cannibaleroyale",
+      "note": "Ribs and meat. Loud, dark, good."
+    },
+    "luminair": {
+      "name": "LuminAir Rooftop",
+      "address": "Oosterdoksstraat 4, 1011 DK Amsterdam",
+      "city": "Amsterdam",
+      "website": "https://luminairamsterdam.com",
+      "menu": "https://luminairamsterdam.com/menu",
+      "instagram": "https://instagram.com/luminair.amsterdam",
+      "igHandle": "@luminair.amsterdam",
+      "note": "DoubleTree 11th floor. Walk in, no booking. Until 1 AM (2 AM Thu). NOT DeDakkas — that's in Haarlem."
+    },
+    "greenwoods": {
+      "name": "Greenwoods Singel",
+      "address": "Singel 103, 1012 VG Amsterdam",
+      "city": "Amsterdam",
+      "website": "https://greenwoods.eu/restaurant/singel/",
+      "menu": "https://menu.menumal.com/greenwoodssingel",
+      "instagram": "https://instagram.com/greenwoods.amsterdam",
+      "igHandle": "@greenwoods.amsterdam",
+      "outdoor": true,
+      "note": "Walk-in. Grab a terrace table if the weather holds."
+    },
+    "restaurant-black": {
+      "name": "BLACK Amsterdam",
+      "address": "Prinsengracht 703, 1017 JV Amsterdam",
+      "city": "Amsterdam",
+      "website": "https://restaurantblack.nl/en/",
+      "menu": "https://restaurantblack.nl/en/menu/",
+      "instagram": "https://instagram.com/restaurantblackams",
+      "igHandle": "@restaurantblackams",
+      "note": "Steaks. The good ones."
+    },
+    "canvas-volkshotel": {
+      "name": "Canvas @ Volkshotel",
+      "address": "Wibautstraat 150, 1091 GR Amsterdam",
+      "city": "Amsterdam",
+      "website": "https://www.volkshotel.nl/en/canvas",
+      "menu": "https://www.volkshotel.nl/en/canvas/menu",
+      "instagram": "https://instagram.com/volkshotel",
+      "igHandle": "@volkshotel",
+      "note": "7th floor. Free DJ night on Thursdays. Wildcard second stop."
+    },
+    "hannekes-boom": {
+      "name": "Hannekes Boom",
+      "address": "Dijksgracht 4, 1019 BS Amsterdam",
+      "city": "Amsterdam",
+      "website": "https://hannekesboom.nl/en/",
+      "menu": "https://hannekesboom.nl/en/",
+      "instagram": "https://instagram.com/hannekesboom",
+      "igHandle": "@hannekesboom",
+      "phone": "+31 20 419 9820",
+      "outdoor": true,
+      "note": "Waterfront beer garden on a pier near Centraal. Canal-side beers if the group's up for it."
+    },
+    "foodhallen": {
+      "name": "Foodhallen",
+      "address": "Hannie Dankbaarpassage 16, 1053 RT Amsterdam",
+      "city": "Amsterdam",
+      "website": "https://www.foodhallen.nl/amsterdam?lang=en",
+      "menu": "https://www.foodhallen.nl/amsterdam?lang=en",
+      "instagram": "https://instagram.com/foodhallen",
+      "igHandle": "@foodhallen",
+      "note": "Converted tram depot, Oud-West. 19 stalls: The Butcher burgers, Holy Fried Chicken, ramen, tacos, pizza, 3 bars. €8–16 a plate. OPENS 12:00 SHARP, walk-in only — send one guy to claim a table immediately."
+    },
+    "van-gogh-museum": {
+      "name": "Van Gogh Museum",
+      "address": "Museumplein 6, 1071 DJ Amsterdam",
+      "city": "Amsterdam",
+      "website": "https://www.vangoghmuseum.nl/en",
+      "menu": null,
+      "instagram": "https://instagram.com/vangoghmuseum",
+      "igHandle": "@vangoghmuseum",
+      "note": "TIMED TICKETS — book ahead, they sell out. Largest Van Gogh collection in the world."
+    },
+    "blvd020": {
+      "name": "BLVD020",
+      "address": "Johan Cruijff Boulevard 139, 1101 EJ Amsterdam",
+      "city": "Amsterdam",
+      "website": "https://blvd020.nl/start.html",
+      "menu": "https://blvd020.nl/images/menukaart.pdf",
+      "instagram": null,
+      "igHandle": null,
+      "note": "Next to the venue. WALK-IN ONLY on event days, no reservations. Be there by 5 to beat the rush."
+    },
+    "afas-live": {
+      "name": "AFAS Live",
+      "address": "Johan Cruijff Boulevard 590, 1101 DS Amsterdam",
+      "city": "Amsterdam",
+      "website": "https://www.afaslive.nl/en/agenda/the-black-keys",
+      "menu": null,
+      "instagram": "https://instagram.com/afaslive",
+      "igHandle": "@afaslive",
+      "note": "Metro Line 54, Nieuwmarkt ↔ Bijlmer ArenA, ~15 min. TAP YOUR CARD AT THE GATE. Pre-book a taxi home."
+    },
+    "adam-lookout": {
+      "name": "A'DAM Lookout",
+      "address": "IJpromenade 4, 1031 KT Amsterdam",
+      "city": "Amsterdam",
+      "website": "https://www.adamlookout.com",
+      "menu": "https://www.adamlookout.com/what-to-expect/",
+      "instagram": "https://instagram.com/adamlookout",
+      "igHandle": "@adamlookout",
+      "note": "Free ferry behind Centraal. Europe's highest swing."
+    },
+    "amsterdamliebe": {
+      "name": "Amsterdamliebe Private Tour",
+      "address": "Dam Square, 1012 NP Amsterdam",
+      "city": "Amsterdam",
+      "website": "https://amsterdamliebe.de",
+      "menu": null,
+      "instagram": "https://instagram.com/amsterdamliebe",
+      "igHandle": "@amsterdamliebe",
+      "note": "Meet at the National Monument, by the LIONS. Guide wears a RED BADGE. Arrive 11:25. Ends at Spui."
+    },
+    "neni": {
+      "name": "NENI Amsterdam",
+      "address": "Nieuwezijds Voorburgwal 5, 1012 RC Amsterdam",
+      "city": "Amsterdam",
+      "website": "https://www.kimptondewitthotel.com/en/restaurant-neni-centrum/",
+      "menu": "https://neni-amsterdam.nl/menus",
+      "instagram": "https://instagram.com/neni.netherlands",
+      "igHandle": "@neni.netherlands",
+      "note": "Backup dinner option."
+    },
+    "may-fair-hotel": {
+      "name": "The May Fair Hotel",
+      "address": "Stratton Street, London W1J 8LT",
+      "city": "London",
+      "website": "https://www.themayfairhotel.co.uk",
+      "menu": "https://www.themayfairhotel.co.uk/restaurants-bars/the-may-fair-bar",
+      "instagram": "https://instagram.com/themayfairhotel",
+      "igHandle": "@themayfairhotel"
+    },
+    "may-fair-bar": {
+      "name": "May Fair Bar",
+      "address": "Stratton Street, London W1J 8LT",
+      "city": "London",
+      "website": "https://www.themayfairhotel.co.uk/restaurants-bars/the-may-fair-bar",
+      "menu": "https://docs.themayfairhotel.co.uk/the-may-fair-bar-day-menu",
+      "instagram": "https://instagram.com/themayfairhotel",
+      "igHandle": "@themayfairhotel",
+      "note": "CLOSED SUNDAYS. Saturday night is the night."
+    },
+    "dover-street-counter": {
+      "name": "Dover Street Counter",
+      "address": "31 Dover Street, London W1S 4ND",
+      "city": "London",
+      "website": "https://doverstreetcounter.com",
+      "menu": "https://doverstreetcounter.com/menu",
+      "instagram": "https://instagram.com/doverstreetcounter",
+      "igHandle": "@doverstreetcounter",
+      "note": "Mayfair diner. \"McDonald's for oligarchs.\" Booking window still pending."
+    },
+    "hawksmoor": {
+      "name": "Hawksmoor Seven Dials",
+      "address": "11 Langley Street, London WC2H 9JG",
+      "city": "London",
+      "website": "https://thehawksmoor.com/locations/seven-dials/",
+      "menu": "https://thehawksmoor.com/locations/seven-dials/food/menu/",
+      "instagram": "https://instagram.com/hawksmoorrestaurants",
+      "igHandle": "@hawksmoorrestaurants",
+      "note": "Fallback for Dover Street Counter. Steak."
+    },
+    "the-devonshire": {
+      "name": "The Devonshire",
+      "address": "17 Denman Street, London W1D 7HW",
+      "city": "London",
+      "website": "https://devonshiresoho.co.uk",
+      "menu": "https://devonshiresoho.co.uk/menus/",
+      "instagram": "https://instagram.com/devonshiresoho",
+      "igHandle": "@devonshiresoho",
+      "note": "WALK-IN ONLY. Expect a queue — it's a Premier League Saturday. Worth it."
+    },
+    "three-greyhounds": {
+      "name": "The Three Greyhounds",
+      "address": "25 Greek Street, London W1D 5DD",
+      "city": "London",
+      "website": "https://www.nicholsonspubs.co.uk/restaurants/london/thethreegreyhoundssoholondon",
+      "menu": "https://www.nicholsonspubs.co.uk/restaurants/london/thethreegreyhoundssoholondon/menus",
+      "instagram": null,
+      "igHandle": null,
+      "note": "Optional second stop. Best Guinness in Soho, mock-Tudor room from 1847."
+    },
+    "the-wolseley": {
+      "name": "The Wolseley",
+      "address": "160 Piccadilly, London W1J 9EB",
+      "city": "London",
+      "website": "https://www.thewolseleypiccadilly.com",
+      "menu": "https://www.thewolseleypiccadilly.com/menu/",
+      "instagram": "https://instagram.com/thewolseley",
+      "igHandle": "@thewolseley",
+      "note": "Built 1921 as a Wolseley Motors car showroom. Leave by 11:45 for the tour."
+    },
+    "the-audley": {
+      "name": "The Audley",
+      "address": "41-43 Mount Street, London W1K 2RX",
+      "city": "London",
+      "website": "https://theaudleypublichouse.com",
+      "menu": "https://theaudleypublichouse.com",
+      "instagram": "https://instagram.com/audleypublichouse",
+      "igHandle": "@audleypublichouse",
+      "note": "Walk-in. Victorian stunner — look up at the ceiling."
+    },
+    "ivy-asia": {
+      "name": "Ivy Asia St Paul's",
+      "address": "20 New Change, London EC4M 9AG",
+      "city": "London",
+      "website": "https://theivyasia.com/restaurants/the-ivy-asia-st-pauls/",
+      "menu": "https://theivyasia.com/menus/",
+      "instagram": "https://instagram.com/theivyasia",
+      "igHandle": "@theivyasia",
+      "note": "Green onyx floor, theatrical, fun. Views of St Paul's."
+    },
+    "sexy-fish": {
+      "name": "Sexy Fish",
+      "address": "Berkeley Square House, London W1J 6BR",
+      "city": "London",
+      "website": "https://sexyfish.com",
+      "menu": "https://sexyfish.com/menus/",
+      "instagram": "https://instagram.com/sexyfishlondon",
+      "igHandle": "@sexyfishlondon",
+      "dressCode": "NO sneakers, NO caps.",
+      "note": "Bar table reserved. Closes MIDNIGHT on Sundays. Damien Hirst art."
+    },
+    "park-chinois": {
+      "name": "Park Chinois",
+      "address": "17 Berkeley Street, London W1J 8EA",
+      "city": "London",
+      "website": "https://parkchinois.com",
+      "menu": "https://parkchinois.com/menus/",
+      "instagram": "https://instagram.com/parkchinois",
+      "igHandle": "@parkchinois",
+      "note": "Backup for Sexy Fish. Live music, 1930s Shanghai."
+    },
+    "breakfast-club": {
+      "name": "The Breakfast Club Old Compton St",
+      "address": "18 Old Compton Street, London W1D 4TN",
+      "city": "London",
+      "website": "https://thebreakfastclubcafes.com/soho-old-compton-street/",
+      "menu": "https://thebreakfastclubcafes.com/menu",
+      "instagram": "https://instagram.com/thebrekkyclub",
+      "igHandle": "@thebrekkyclub",
+      "note": "Moved earlier to 9:00 AM."
+    },
+    "harrods": {
+      "name": "Harrods",
+      "address": "87-135 Brompton Road, London SW1X 7XL",
+      "city": "London",
+      "website": "https://www.harrods.com/en-gb",
+      "menu": "https://www.harrods.com/en-gb/c/restaurants",
+      "instagram": "https://instagram.com/harrods",
+      "igHandle": "@harrods",
+      "note": "Food hall, watch windows. No dress code."
+    },
+    "va-museum": {
+      "name": "V&A Museum",
+      "address": "Cromwell Road, London SW7 2RL",
+      "city": "London",
+      "website": "https://www.vam.ac.uk/south-kensington/visit",
+      "menu": "https://www.vam.ac.uk/info/va-cafe/",
+      "instagram": "https://instagram.com/vamuseum",
+      "igHandle": "@vamuseum",
+      "note": "FREE. Open Mondays. 10 min from Harrods."
+    },
+    "dishoom-carnaby": {
+      "name": "Dishoom Carnaby",
+      "address": "22 Kingly Street, London W1B 5QP",
+      "city": "London",
+      "website": "https://www.dishoom.com/carnaby/",
+      "menu": "https://www.dishoom.com/menu/carnaby-all-day/",
+      "instagram": "https://instagram.com/dishoom",
+      "igHandle": "@dishoom",
+      "note": "Last bookable slot. They NEVER ask for card details by phone — if someone calls asking, it's a scam."
+    },
+    "connaught-bar": {
+      "name": "Connaught Bar",
+      "address": "Carlos Place, London W1K 2AL",
+      "city": "London",
+      "website": "https://www.maybourne.com/en/hotels/the-connaught/restaurants-bars/connaught-bar",
+      "menu": "https://www.maybourne.com/en/hotels/the-connaught/restaurants-bars/connaught-bar",
+      "instagram": "https://instagram.com/theconnaught",
+      "igHandle": "@theconnaught",
+      "note": "World's-best-bar list. Walk-in. GET THE MARTINI FROM THE TROLLEY — that's the move."
+    },
+    "seven-dials-market": {
+      "name": "Seven Dials Market",
+      "address": "Earlham Street, London WC2H 9LX",
+      "city": "London",
+      "website": "https://www.sevendialsmarket.com",
+      "menu": "https://www.sevendialsmarket.com/food-drink/",
+      "instagram": "https://instagram.com/sevendialsmkt",
+      "igHandle": "@sevendialsmkt",
+      "note": "Suggestion if you want a graze instead of the V&A."
+    },
+    "palaces-parliament": {
+      "name": "Palaces & Parliament Walking Tour",
+      "address": "The Ritz, 150 Piccadilly, London W1J 9BR",
+      "city": "London",
+      "website": "https://www.getyourguide.com/london-l57/london-westminster-guided-tour-and-buckingham-palace-t169228/",
+      "menu": null,
+      "instagram": null,
+      "igHandle": null,
+      "note": "Meet OUTSIDE The Ritz by the TWO RED PHONE BOXES. Arrive 11:50. 3 hours."
+    },
+    "dfw-terminal-d": {
+      "name": "DFW Terminal D",
+      "address": "2337 South International Parkway, DFW Airport, TX 75261",
+      "city": "Dallas",
+      "website": "https://www.dfwairport.com",
+      "menu": null,
+      "instagram": null,
+      "igHandle": null,
+      "note": "International terminal. Lounge access with Business."
+    }
+  },
+
+  "days": [
+    {
+      "date": "2026-08-26",
+      "dow": "Wednesday",
+      "cityKey": "dallas",
+      "title": "DALLAS — Wheels Up",
+      "subtitle": "It starts.",
+      "locked": true,
+      "blocks": [
+        {
+          "time": "17:00",
+          "type": "travel",
+          "title": "Leave for DFW",
+          "venue": "dfw-terminal-d",
+          "desc": "Terminal D. Do not cut this close — international check-in and security eat time.",
+          "leaveBy": true
+        },
+        {
+          "time": "17:45",
+          "type": "drinks",
+          "title": "Lounge",
+          "desc": "Business class gets you in. First drink of the trip is on the ground."
+        },
+        {
+          "time": "19:40",
+          "type": "flight",
+          "title": "BA 192 → London Heathrow",
+          "flightRef": "BA 192",
+          "desc": "Airbus A380, upper deck. Lands 10:55 AM tomorrow.",
+          "critical": true
+        },
+        {
+          "time": "21:30",
+          "type": "note",
+          "title": "SLEEP ON THE PLANE",
+          "desc": "Seriously. You land at 10:55 AM and go straight to a connection, then a driver, then dinner. The guy who watches four movies is the guy who dies on Friday."
+        }
+      ],
+      "questions": {
+        "trivia": [
+          { "q": "What aircraft is BA 192 tonight?", "a": "An Airbus A380 — the double-decker superjumbo. Business class is upstairs." },
+          { "q": "How many time zones do we cross between Dallas and London?", "a": "Six. Dallas is UTC−5, London is UTC+1 in summer." },
+          { "q": "We take off at 7:40 PM and land at 10:55 AM. How long is the flight actually?", "a": "About nine hours. The other six are the clock jumping ahead." }
+        ],
+        "discussion": [
+          "What are you most looking forward to over the next 14 days?",
+          "Over/under on how many drinks you have before we land?",
+          "What's the one thing you'd be most upset to lose on this trip?",
+          "Predict now: who's going to get destroyed by jet lag?",
+          "One sentence — what's your goal for this trip?"
+        ]
+      }
+    },
+    {
+      "date": "2026-08-27",
+      "dow": "Thursday",
+      "cityKey": "vienna",
+      "transitionFrom": "dallas",
+      "title": "VIENNA — Arrival",
+      "subtitle": "Land, drop bags, eat, easy night.",
+      "locked": true,
+      "blocks": [
+        {
+          "time": "10:55",
+          "type": "flight",
+          "title": "Land at Heathrow",
+          "desc": "Connect to BA 724. Same booking reference — bags should through-check.",
+          "tz": "Europe/London"
+        },
+        {
+          "time": "12:35",
+          "type": "flight",
+          "title": "BA 724 → Vienna",
+          "flightRef": "BA 724",
+          "desc": "Lands 3:55 PM Vienna time.",
+          "tz": "Europe/London"
+        },
+        {
+          "time": "15:55",
+          "type": "transfer",
+          "title": "Airport Driver → SO/ Vienna",
+          "desc": "Prepaid. Confirmation AVBO53170. Driver meets you in arrivals.",
+          "conf": "AVBO53170"
+        },
+        {
+          "time": "17:00",
+          "type": "hotel",
+          "title": "Check in · SO/ Vienna",
+          "venue": "so-vienna",
+          "desc": "Settle in, shower off the flight. Res QKJDDGMM, 2 rooms."
+        },
+        {
+          "time": "17:45",
+          "type": "drinks",
+          "title": "First drink of the trip — lobby bar",
+          "venue": "so-vienna",
+          "desc": "Das Loft upstairs is closed for renovation. The lobby bar is the move."
+        },
+        {
+          "time": "19:00",
+          "type": "meal",
+          "title": "Dinner · Cucina Itameshi",
+          "venue": "cucina-itameshi",
+          "desc": "Italian-Japanese. 5 min walk from the hotel.",
+          "res": {
+            "conf": "RMJLT3NV7US",
+            "party": 3,
+            "time": "19:00",
+            "note": "Shrimp allergy on file. €25pp no-show fee — do not ghost this one."
+          }
+        },
+        {
+          "time": "21:30",
+          "type": "drinks",
+          "title": "Nightcap · Klyo",
+          "venue": "klyo",
+          "desc": "Riverfront canal bar. One or two, then bed — tour in the morning."
+        }
+      ],
+      "questions": {
+        "trivia": [
+          { "q": "\"Itameshi\" is a real culinary term. What two cuisines does it combine?", "a": "Italian and Japanese — 'Ita' for Italian, 'meshi' being Japanese for a meal." },
+          { "q": "Klyo sits on the water. What water?", "a": "The Donaukanal — the Danube Canal, an arm of the Danube running right through central Vienna." },
+          { "q": "What do Austrians actually call Vienna?", "a": "Wien. Pronounced 'veen'." }
+        ],
+        "discussion": [
+          "First impression of Vienna in one word.",
+          "Who handled the flight the best? Who handled it the worst?",
+          "What's the first thing you noticed that's different from home?",
+          "Best thing you ate today.",
+          "Rate today 1–10 — and you can't say 'it was a travel day'."
+        ]
+      }
+    },
+    {
+      "date": "2026-08-28",
+      "dow": "Friday",
+      "cityKey": "vienna",
+      "title": "VIENNA — Tour, Art, and the Big Night",
+      "subtitle": "Pace yourself early. Tonight is the night.",
+      "locked": true,
+      "blocks": [
+        {
+          "time": "09:00",
+          "type": "meal",
+          "title": "Hotel breakfast",
+          "venue": "so-vienna",
+          "desc": "Eat properly. Ready in the lobby by 10:45."
+        },
+        {
+          "time": "11:00",
+          "endTime": "14:00",
+          "type": "tour",
+          "title": "Private walking tour · Guydeez",
+          "venue": "guydeez",
+          "desc": "Hotel pickup. Three hours, custom route.",
+          "res": { "conf": "GYG6H79QKBB4", "party": 3, "time": "11:00", "note": "Guide collects you at SO/ Vienna." }
+        },
+        {
+          "time": "14:00",
+          "endTime": "17:00",
+          "type": "activity",
+          "title": "Albertina",
+          "venue": "albertina",
+          "desc": "Monet to Picasso, Dürer drawings, Habsburg state rooms. ~90 min inside, then a drink at the museum café.",
+          "suggestions": [
+            { "title": "Bail early and nap", "desc": "Genuinely the smart play. You have a 2 AM night ahead. Nobody will judge you.", "venue": "so-vienna" }
+          ]
+        },
+        {
+          "time": "17:00",
+          "type": "hotel",
+          "title": "Back to the hotel — shower and change",
+          "venue": "so-vienna",
+          "desc": "This is the outfit change. Collared shirt, real shoes. Volksgarten later runs on discretion.",
+          "warn": "Lay out the smart outfit NOW, not at 11 PM."
+        },
+        {
+          "time": "19:30",
+          "type": "meal",
+          "title": "Dinner · Zum Schwarzen Kameel",
+          "venue": "zum-schwarzen-kameel",
+          "desc": "Ground floor Wiener Brasserie. In business since 1618.",
+          "res": { "conf": "CONFIRMED", "party": 3, "time": "19:30", "note": "Kitchen closes at 10 PM." }
+        },
+        {
+          "time": "22:00",
+          "type": "drinks",
+          "title": "Krypt",
+          "venue": "krypt",
+          "desc": "Falstaff 90 points. Vaulted cellar, 7-metre marble-and-walnut counter, you take an elevator DOWN to it. Open until 2–3 AM Fridays.",
+          "highlight": true
+        },
+        {
+          "time": "00:00",
+          "type": "club",
+          "title": "Volksgarten — if the group's rolling",
+          "venue": "volksgarten",
+          "desc": "Thu–Sat, 11 PM–6 AM, 21+. Dress smart — no sneakers, no shorts.",
+          "warn": "GO-OUT NIGHT. This is the one.",
+          "suggestions": [
+            { "title": "Fallback: Klyo", "desc": "Canal bar, lower stakes, still open late.", "venue": "klyo" },
+            { "title": "Fallback: hotel bar", "desc": "Zero shame in this. Tomorrow is a free day.", "venue": "so-vienna" }
+          ]
+        }
+      ],
+      "questions": {
+        "trivia": [
+          { "q": "The Albertina owns one of the most famous watercolours in art history — a small brown animal painted by Dürer in 1502. What is it?", "a": "The Young Hare (Feldhase). It's one of the most reproduced images in Western art." },
+          { "q": "Zum Schwarzen Kameel has been serving Vienna since what year?", "a": "1618. It's older than most countries you can name." },
+          { "q": "Volksgarten sits inside a public garden famous for one particular flower. Which?", "a": "Roses — the Volksgarten rose garden holds thousands of bushes." }
+        ],
+        "discussion": [
+          "Best single thing the tour guide told us today.",
+          "Most out-of-pocket thing anyone said before noon.",
+          "If you had to skip one thing we did today, what goes?",
+          "Who's making it to Volksgarten and who's tapping out? Say it now, on record.",
+          "Rate today 1–10."
+        ]
+      }
+    },
+    {
+      "date": "2026-08-29",
+      "dow": "Saturday",
+      "cityKey": "vienna",
+      "title": "VIENNA — Free Day",
+      "subtitle": "Zero agenda until lunch. Recover.",
+      "locked": true,
+      "blocks": [
+        {
+          "time": "09:00",
+          "type": "free",
+          "title": "Sleep in. No agenda.",
+          "desc": "The Lipizzaner horses got cut. Nothing is booked until 11:30. Use it."
+        },
+        {
+          "time": "11:30",
+          "type": "meal",
+          "title": "Lunch · Café Landtmann",
+          "venue": "cafe-landtmann",
+          "desc": "Sidewalk-level terrace on the Ring. Freud's café, opened 1873.",
+          "res": { "conf": "CONFIRMED", "party": 3, "time": "11:30", "note": "Ask for the terrace." },
+          "outdoor": true
+        },
+        {
+          "time": "13:30",
+          "endTime": "16:30",
+          "type": "activity",
+          "title": "The Loop — Stephansplatz → Graben → Kohlmarkt → Verde",
+          "desc": "Stephansplatz to start. Graben for the Juwelier Wagner Rolex windows. Kohlmarkt for a Demel Sachertorte stop. Then Verde around 3:30 for pizza and spritzes.",
+          "subStops": [
+            { "name": "Graben · Juwelier Wagner", "note": "Rolex windows. Window shopping only — the real appointment is Copenhagen." },
+            { "name": "Demel", "venue": "demel", "note": "Kohlmarkt 14. The Sachertorte stop." },
+            { "name": "Verde", "venue": "verde", "note": "~15:30. Pizza and spritzes." }
+          ],
+          "suggestions": [
+            { "title": "Prater + Riesenrad", "desc": "The 1897 ferris wheel, 10 min from the hotel. Good pre-dinner move.", "venue": "riesenrad" },
+            { "title": "Film Festival am Rathausplatz", "desc": "FREE. 25+ food stalls, giant screen, runs until Sep 6. Great low-effort evening.", "venue": "rathausplatz-film-festival" }
+          ]
+        },
+        {
+          "time": "17:00",
+          "type": "drinks",
+          "title": "Drinks — Klyo or the hotel bar",
+          "venue": "klyo",
+          "desc": "Das Loft was the plan. It is closed for renovation until Sep 3.",
+          "warn": "⚠️ Das Loft is CLOSED. Do not walk to the 18th floor. Klyo or the SO/ lobby bar instead."
+        },
+        {
+          "time": "19:00",
+          "type": "meal",
+          "title": "Dinner · Lugeck",
+          "venue": "lugeck",
+          "desc": "The schnitzel. Figlmüller family.",
+          "res": { "conf": "CONFIRMED", "party": 3, "time": "19:00" },
+          "suggestions": [
+            { "title": "Fallback: Figlmüller Bäckerstraße", "desc": "Sister restaurant, same schnitzel, 4 min away.", "venue": "figlmueller" }
+          ]
+        },
+        {
+          "time": "21:00",
+          "type": "drinks",
+          "title": "Nightcap · Motto am Fluss",
+          "venue": "motto-am-fluss",
+          "desc": "Canal deck at Schwedenplatz.",
+          "outdoor": true
+        },
+        {
+          "time": "22:30",
+          "type": "note",
+          "title": "PACK TONIGHT",
+          "desc": "7:00 AM pickup tomorrow. Pack before you go to bed, not at 6:40 AM.",
+          "warn": "7 AM pickup. Pack tonight."
+        }
+      ],
+      "questions": {
+        "trivia": [
+          { "q": "Café Landtmann opened in 1873 and was the regular café of which famous Viennese thinker?", "a": "Sigmund Freud. He had a usual table." },
+          { "q": "Demel and Hotel Sacher fought a legal battle lasting decades. Over what?", "a": "Who had the right to call their cake the 'Original Sachertorte'." },
+          { "q": "The Riesenrad ferris wheel in the Prater was built in what year?", "a": "1897 — for Emperor Franz Joseph I's golden jubilee. It's one of the oldest still operating." }
+        ],
+        "discussion": [
+          "Who's the most hungover right now? Be honest.",
+          "Best decision anyone made last night. Worst decision anyone made last night.",
+          "Favourite thing you saw on the walk today.",
+          "If we could add one more day to Vienna, what would we do with it?",
+          "Rate Vienna overall, 1–10, now that we're leaving."
+        ]
+      }
+    },
+    {
+      "date": "2026-08-30",
+      "dow": "Sunday",
+      "cityKey": "copenhagen",
+      "transitionFrom": "vienna",
+      "title": "VIENNA → COPENHAGEN",
+      "subtitle": "Early car. New country by lunch.",
+      "locked": false,
+      "blocks": [
+        {
+          "time": "07:00",
+          "type": "transfer",
+          "title": "Airport Driver → VIE",
+          "desc": "Prepaid. Confirmation AZBO50842. Be in the lobby at 6:50.",
+          "conf": "AZBO50842",
+          "leaveBy": true,
+          "critical": true
+        },
+        {
+          "time": "10:15",
+          "type": "flight",
+          "title": "SAS → Copenhagen",
+          "flightRef": "SAS",
+          "desc": "Lands 11:55 AM. Conf BLXH8G."
+        },
+        {
+          "time": "12:10",
+          "type": "transfer",
+          "title": "Transfer → Scandic Copenhagen",
+          "desc": "TAXA 4x35 minibus — REBOOKING IN PROGRESS. Check the Bookings tab for the current status.",
+          "warn": "🔴 Not yet confirmed. Coob is rebooking this."
+        },
+        {
+          "time": "15:00",
+          "type": "hotel",
+          "title": "Check in · Scandic Copenhagen",
+          "venue": "scandic-copenhagen",
+          "desc": "Res 1209031060 / 1209031059 (Grant). Paid in Round 1."
+        },
+        {
+          "time": "19:30",
+          "type": "meal",
+          "title": "Dinner · Esmée",
+          "venue": "esmee",
+          "desc": "Ask for the Orangerie room — go for the room, order smart.",
+          "res": { "conf": "7PX9HU44FXWP", "party": 3, "time": "19:30" },
+          "suggestions": [
+            { "title": "Backup: Grøften", "desc": "Danish institution since 1874, inside Tivoli, 8 min from the hotel. Open until 23:00.", "venue": "groeften" }
+          ]
+        },
+        {
+          "time": "21:30",
+          "type": "drinks",
+          "title": "Nightcap · PS Bar & Grill",
+          "venue": "ps-bar-grill",
+          "desc": "Closes 11 PM on Sundays. One round.",
+          "warn": "Sunday hours — 11 PM close. Don't dawdle."
+        }
+      ],
+      "questions": {
+        "trivia": [
+          { "q": "Denmark is in the EU but doesn't use the euro. What's the currency?", "a": "The Danish krone (DKK). And the country is effectively cashless — card everywhere, don't withdraw." },
+          { "q": "Tivoli Gardens opened in what year?", "a": "1843 — one of the oldest operating amusement parks on earth." },
+          { "q": "Esmée sits on Kongens Nytorv. What does that mean in English?", "a": "The King's New Square." }
+        ],
+        "discussion": [
+          "Vienna or Copenhagen — first impressions, and it's okay to be wrong this early.",
+          "What did we leave undone in Vienna?",
+          "Who packed the worst? Who forgot something already?",
+          "Best bite of the day.",
+          "What are you most looking forward to in Copenhagen?"
+        ]
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "dow": "Monday",
+      "cityKey": "copenhagen",
+      "title": "COPENHAGEN — Tour Day",
+      "subtitle": "Walk the city, then Frederiksberg for dinner.",
+      "locked": false,
+      "blocks": [
+        {
+          "time": "09:30",
+          "type": "meal",
+          "title": "Brunch · Social Brew Vesterport",
+          "venue": "social-brew",
+          "desc": "3 min from the hotel. Walk-in."
+        },
+        {
+          "time": "10:45",
+          "type": "note",
+          "title": "Head to Gammel Strand Metro",
+          "desc": "Meeting point for the tour. Look for the ORANGE UMBRELLA. Arrive 10:45 for an 11:00 start.",
+          "leaveBy": true
+        },
+        {
+          "time": "11:00",
+          "endTime": "13:00",
+          "type": "tour",
+          "title": "Walking tour · Politically Incorrect Tours",
+          "venue": "politically-incorrect",
+          "desc": "Copenhagen Highlights.",
+          "res": { "conf": "GYGRFQNKN35M", "party": 3, "time": "11:00", "note": "Gammel Strand Metro, orange umbrella." }
+        },
+        {
+          "time": "13:30",
+          "type": "activity",
+          "title": "Nyhavn",
+          "venue": "nyhavn-17",
+          "desc": "Enter from the Kongens Nytorv end — better approach, better photos.",
+          "outdoor": true
+        },
+        {
+          "time": "17:00",
+          "type": "drinks",
+          "title": "Drinks · Nyhavn 17",
+          "venue": "nyhavn-17",
+          "desc": "Canal-side. Touristy and completely worth it.",
+          "outdoor": true
+        },
+        {
+          "time": "19:00",
+          "type": "meal",
+          "title": "Dinner · Sokkelund",
+          "venue": "sokkelund",
+          "desc": "Frederiksberg. Neighbourhood bistro, locals' spot.",
+          "res": { "conf": "61704221", "party": 3, "time": "19:00", "note": "KITCHEN CLOSES AT 9 PM." },
+          "warn": "Kitchen closes 9 PM sharp.",
+          "suggestions": [
+            { "title": "Backup: Madklubben Frederiksberg", "desc": "Same bistro energy. M3 metro straight to Citizen after.", "venue": "madklubben" }
+          ]
+        },
+        {
+          "time": "21:30",
+          "type": "drinks",
+          "title": "Cocktails · Citizen",
+          "venue": "citizen",
+          "desc": "Open Mondays. Cocktails & Comedy night. Ground level.",
+          "suggestions": [
+            { "title": "Ruby", "desc": "World's-top-50 cocktail bar, Mon 5 PM–1 AM. No sign on the door — look for the townhouse at Nybrogade 10.", "venue": "ruby" }
+          ]
+        }
+      ],
+      "questions": {
+        "trivia": [
+          { "q": "Which fairy-tale author lived at three separate addresses on Nyhavn?", "a": "Hans Christian Andersen — numbers 20, 67 and 18." },
+          { "q": "Those colourful Nyhavn townhouses were originally what?", "a": "Merchants' houses and sailors' quarters, along a commercial harbour dug in the 1670s." },
+          { "q": "What's the Danish word for the cosy contentment the country is famous for?", "a": "Hygge." }
+        ],
+        "discussion": [
+          "Funniest moment of the day.",
+          "The tour guide is called 'Politically Incorrect.' Did they earn it?",
+          "Most overrated thing we've done so far this trip.",
+          "Who's most out of pocket today?",
+          "Rate today 1–10."
+        ]
+      }
+    },
+    {
+      "date": "2026-09-01",
+      "dow": "Tuesday",
+      "cityKey": "copenhagen",
+      "title": "COPENHAGEN — Boats, Street Food, Rolex",
+      "subtitle": "The best day in Copenhagen. Malmö got dropped for this.",
+      "locked": true,
+      "blocks": [
+        {
+          "time": "11:15",
+          "type": "travel",
+          "title": "To Nyhavn → harbour bus 991/992",
+          "venue": "harbour-bus",
+          "desc": "~40 DKK. Board at Nyhavn. The boat ride is part of the fun — don't take a taxi.",
+          "outdoor": true
+        },
+        {
+          "time": "12:00",
+          "type": "meal",
+          "title": "Lunch · Reffen",
+          "venue": "reffen",
+          "desc": "50+ container stalls on a former shipyard. Hija de Sanchez tacos, Bronut smash burger, Korean BBQ Pop, Goodfellas pizza. Everyone grabs what they want.",
+          "outdoor": true,
+          "rainCheck": true,
+          "suggestions": [
+            { "title": "RAIN FALLBACK: Broens Gadekøkken", "desc": "Opens 11, sheltered, Gasoline Grill burgers. Check the weather flag on this card before you commit.", "venue": "broens" }
+          ]
+        },
+        {
+          "time": "14:00",
+          "type": "travel",
+          "title": "Boat back",
+          "venue": "harbour-bus",
+          "desc": "Same harbour bus back toward the centre.",
+          "outdoor": true
+        },
+        {
+          "time": "14:30",
+          "endTime": "17:00",
+          "type": "activity",
+          "title": "Strøget + Bucherer — THE ROLEX APPOINTMENT",
+          "venue": "bucherer",
+          "desc": "Walk Strøget to Bucherer (ex-Klarlund). Confirm Østergade 22 vs the temporary №15 before walking over. Done by 5.",
+          "highlight": true,
+          "warn": "If you buy: you need the Customs desk at CPH Terminal 3 TOMORROW, before check-in."
+        },
+        {
+          "time": "17:30",
+          "type": "drinks",
+          "title": "Pre-dinner beers · Warpigs",
+          "venue": "warpigs",
+          "desc": "Kødbyen meatpacking district. WALK-IN, order at the counter, 23 Mikkeller taps. Meat sells out — this is beers AND food.",
+          "highlight": true
+        },
+        {
+          "time": "20:00",
+          "type": "activity",
+          "title": "Tivoli Gardens at dusk",
+          "venue": "tivoli",
+          "desc": "Open until ~11 PM. Season runs through Sep 20. Walk it at dusk when the lights come on.",
+          "outdoor": true
+        },
+        {
+          "time": "22:00",
+          "type": "drinks",
+          "title": "Vesterbro — if the night has legs",
+          "desc": "No booking. See where it goes."
+        },
+        {
+          "time": "23:30",
+          "type": "note",
+          "title": "PACK — 9:30 AM pickup",
+          "desc": "And if you bought the Rolex, put the paperwork somewhere you can reach it at the airport.",
+          "warn": "9:30 AM pickup tomorrow. Pack tonight."
+        }
+      ],
+      "questions": {
+        "trivia": [
+          { "q": "Reffen sits on Refshaleøen. What was that island before it was street food?", "a": "The Burmeister & Wain shipyard — one of the great shipbuilders of the world." },
+          { "q": "Warpigs is a collaboration between Danish brewery Mikkeller and which American brewery?", "a": "3 Floyds, out of Munster, Indiana." },
+          { "q": "Which American theme-park founder visited Tivoli and took inspiration from it?", "a": "Walt Disney. Tivoli is a direct ancestor of Disneyland." }
+        ],
+        "discussion": [
+          "Best single thing you ate at Reffen.",
+          "Did anyone buy a watch? Discuss.",
+          "Favourite city so far and why — first real verdict.",
+          "What would you redo about today?",
+          "Who's most out of pocket today?"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-02",
+      "dow": "Wednesday",
+      "cityKey": "amsterdam",
+      "transitionFrom": "copenhagen",
+      "title": "COPENHAGEN → AMSTERDAM",
+      "subtitle": "Customs first if you bought the watch.",
+      "locked": false,
+      "blocks": [
+        {
+          "time": "08:00",
+          "type": "note",
+          "title": "⚠️ IF ROLEX PURCHASED — Customs desk BEFORE check-in",
+          "desc": "CPH Terminal 3. Goods over 25,000 DKK must be physically shown to Customs, THEN the Global Blue desk for the VAT refund. Add 45–60 minutes to your airport time.",
+          "warn": "This only works before check-in. Miss it and you lose the refund.",
+          "critical": true
+        },
+        {
+          "time": "09:30",
+          "type": "transfer",
+          "title": "Transfer → CPH",
+          "desc": "TAXA 4x35 / Copenhagen Services — update when confirmed.",
+          "warn": "🔴 Not yet confirmed."
+        },
+        {
+          "time": "12:40",
+          "type": "flight",
+          "title": "SAS 547 → Amsterdam",
+          "flightRef": "SAS 547",
+          "desc": "Lands 2:10 PM. Conf BM22K4."
+        },
+        {
+          "time": "14:10",
+          "type": "transfer",
+          "title": "Schiphol Travel Taxi → Radisson Blu",
+          "desc": "Order 8992296. PAID IN FULL. Business Bus, 3 pax + 5 bags. The driver meets flight SK547.",
+          "conf": "8992296"
+        },
+        {
+          "time": "15:30",
+          "type": "hotel",
+          "title": "Check in · Radisson Blu City Centre",
+          "venue": "radisson-blu-ams",
+          "desc": "Res 1J1ZPDMW / 27T37G53. Breakfast included."
+        },
+        {
+          "time": "17:00",
+          "type": "drinks",
+          "title": "Drinks · Café de Jaren",
+          "venue": "cafe-de-jaren",
+          "desc": "100m from the hotel. Canal-side terrace — that's the whole point.",
+          "outdoor": true
+        },
+        {
+          "time": "18:30",
+          "type": "meal",
+          "title": "Dinner · Cannibale Royale",
+          "venue": "cannibale-royale",
+          "desc": "Ribs and meat. Handboogstraat location.",
+          "res": { "conf": "CONFIRMED", "party": 3, "time": "18:30" }
+        },
+        {
+          "time": "21:00",
+          "type": "drinks",
+          "title": "LuminAir rooftop",
+          "venue": "luminair",
+          "desc": "DoubleTree 11th floor. Open until 1 AM. Walk in.",
+          "warn": "NOT DeDakkas — that one's in Haarlem. Old itinerary error, ignore it."
+        }
+      ],
+      "questions": {
+        "trivia": [
+          { "q": "Amsterdam's canal ring became a UNESCO World Heritage Site in what year?", "a": "2010." },
+          { "q": "Roughly how many bridges are there in Amsterdam?", "a": "Over 1,500." },
+          { "q": "What does the name 'Amsterdam' literally mean?", "a": "A dam on the river Amstel." }
+        ],
+        "discussion": [
+          "Copenhagen — final rating out of 10, now that we're gone.",
+          "First impression of Amsterdam.",
+          "What's the single best meal of the trip so far?",
+          "Anyone running low on clean clothes? Be honest.",
+          "Most anticipated thing about Friday. (You know what Friday is.)"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-03",
+      "dow": "Thursday",
+      "cityKey": "amsterdam",
+      "title": "AMSTERDAM — Tour and a Long Night",
+      "subtitle": "Free afternoon. Rooftop until it closes.",
+      "locked": false,
+      "blocks": [
+        {
+          "time": "09:30",
+          "type": "meal",
+          "title": "Brunch · Greenwoods Singel",
+          "venue": "greenwoods",
+          "desc": "Walk-in. Terrace tables if it's dry.",
+          "outdoor": true
+        },
+        {
+          "time": "11:25",
+          "type": "note",
+          "title": "Get to Dam Square",
+          "desc": "National Monument, by the LIONS. Guide wears a RED BADGE. Arrive 11:25 for 11:30.",
+          "leaveBy": true
+        },
+        {
+          "time": "11:30",
+          "type": "tour",
+          "title": "Private tour · Amsterdamliebe",
+          "venue": "amsterdamliebe",
+          "desc": "Ends at Spui.",
+          "res": { "conf": "GYG48YQQ26AB", "party": 3, "time": "11:30", "note": "Dam Square, National Monument lions, red badge." }
+        },
+        {
+          "time": "14:00",
+          "type": "free",
+          "title": "Afternoon free — wander",
+          "desc": "No agenda. Walk the canals, find a brown café.",
+          "suggestions": [
+            { "title": "Hannekes Boom", "desc": "Waterfront beer garden on a pier near Centraal. Canal-side beers if the group's up for it.", "venue": "hannekes-boom" },
+            { "title": "A'DAM Lookout", "desc": "Free ferry behind Centraal. Europe's highest swing, 360° view.", "venue": "adam-lookout" }
+          ]
+        },
+        {
+          "time": "19:00",
+          "type": "meal",
+          "title": "Dinner · BLACK Amsterdam",
+          "venue": "restaurant-black",
+          "desc": "Steaks. Prinsengracht.",
+          "res": { "conf": "CONFIRMED", "party": 3, "time": "19:00" }
+        },
+        {
+          "time": "21:30",
+          "type": "drinks",
+          "title": "LuminAir rooftop — again",
+          "venue": "luminair",
+          "desc": "Walk in, no booking. Open until 2 AM on Thursdays. If the vibe's good we stay all night.",
+          "highlight": true,
+          "suggestions": [
+            { "title": "Wildcard: Canvas @ Volkshotel", "desc": "7th floor, free DJ night on Thursdays. Good second stop if LuminAir dies.", "venue": "canvas-volkshotel" }
+          ]
+        }
+      ],
+      "questions": {
+        "trivia": [
+          { "q": "The tour starts at the National Monument on Dam Square. What does it commemorate?", "a": "Dutch victims of the Second World War. Unveiled in 1956." },
+          { "q": "Restaurant BLACK is on the Prinsengracht. What does that canal name mean?", "a": "Prince's Canal — one of the three main rings, along with Herengracht and Keizersgracht." },
+          { "q": "What are those hooks sticking out of the top of Amsterdam's canal houses for?", "a": "Hoisting furniture up through the windows. The staircases are far too narrow." }
+        ],
+        "discussion": [
+          "Favourite thing you saw today.",
+          "Amsterdam vs Vienna vs Copenhagen — rank them right now.",
+          "What's the most touristy thing you've secretly enjoyed?",
+          "Who's got the best photo of the trip so far? Settle it.",
+          "Tomorrow is the Black Keys. What's your most anticipated song?"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-04",
+      "dow": "Friday",
+      "cityKey": "amsterdam",
+      "title": "🎸 BLACK KEYS DAY",
+      "subtitle": "The reason this trip has a date on it.",
+      "locked": true,
+      "blocks": [
+        {
+          "time": "12:00",
+          "type": "meal",
+          "title": "Lunch · Foodhallen",
+          "venue": "foodhallen",
+          "desc": "Converted tram depot in Oud-West. 19 stalls — The Butcher burgers, Holy Fried Chicken, ramen, tacos, pizza, three bars. €8–16 a plate.",
+          "warn": "OPENS 12:00 SHARP, walk-in only. Be there right at noon and send ONE guy to claim a table immediately."
+        },
+        {
+          "time": "13:45",
+          "type": "travel",
+          "title": "Out by 1:45 → tram 3 to the museum",
+          "desc": "Tram 3 from Bilderdijkstraat to Van Baerlestraat. ~15 min.",
+          "leaveBy": true
+        },
+        {
+          "time": "14:30",
+          "type": "activity",
+          "title": "Van Gogh Museum",
+          "venue": "van-gogh-museum",
+          "desc": "Timed entry.",
+          "warn": "TIMED TICKETS — book these ahead. They sell out.",
+          "critical": true
+        },
+        {
+          "time": "17:00",
+          "type": "meal",
+          "title": "Early dinner · BLVD020",
+          "venue": "blvd020",
+          "desc": "Right next to the venue.",
+          "warn": "WALK-IN ONLY on event days. No reservations. Be there by 5 to beat the rush."
+        },
+        {
+          "time": "18:30",
+          "type": "activity",
+          "title": "Doors · AFAS Live",
+          "venue": "afas-live",
+          "desc": "Doors 6:30. Robert Finley opens.",
+          "highlight": true
+        },
+        {
+          "time": "20:00",
+          "type": "activity",
+          "title": "🎸 THE BLACK KEYS",
+          "venue": "afas-live",
+          "desc": "Peaches 'n Kream tour. VIP Loge, Row 3, seats 13 / 14 / 15.",
+          "highlight": true,
+          "critical": true,
+          "res": { "conf": "VIP Loge Row 3, seats 13/14/15", "party": 3, "time": "20:00" }
+        },
+        {
+          "time": "23:00",
+          "type": "travel",
+          "title": "Getting home",
+          "desc": "Metro Line 54, Bijlmer ArenA → Nieuwmarkt, ~15 min. TAP YOUR CARD AT THE GATE (in and out).",
+          "warn": "Pre-book a taxi before the show if you don't want to fight the metro crowd."
+        }
+      ],
+      "questions": {
+        "trivia": [
+          { "q": "The Black Keys are a two-piece from which Ohio city?", "a": "Akron. Dan Auerbach and Patrick Carney, together since 2001." },
+          { "q": "The Van Gogh Museum holds the largest collection of his work anywhere. Roughly how many paintings?", "a": "About 200 paintings, plus around 500 drawings and 750 letters." },
+          { "q": "AFAS Live opened in 2001 under a different, beer-sponsored name. What was it?", "a": "The Heineken Music Hall." }
+        ],
+        "discussion": [
+          "Best song of the night — no consensus allowed, everyone answers.",
+          "Was the VIP loge worth it? Honest answers.",
+          "Rate Robert Finley's opening set.",
+          "Best moment of the entire trip so far. This is the halfway-plus mark.",
+          "Who's most out of pocket tonight?"
+        ]
+      }
+    },
+    {
+      "date": "2026-09-05",
+      "dow": "Saturday",
+      "cityKey": "london",
+      "transitionFrom": "amsterdam",
+      "title": "AMSTERDAM → LONDON",
+      "subtitle": "Last city. Mayfair. Soho on a Saturday.",
+      "locked": false,
+      "blocks": [
+        {
+          "time": "11:45",
+          "type": "transfer",
+          "title": "Schiphol Travel Taxi → Schiphol",
+          "desc": "Order 8992297. PAID IN FULL. Pickup 11:45 AM from the Radisson Blu.",
+          "conf": "8992297",
+          "leaveBy": true
+        },
+        {
+          "time": "14:20",
+          "type": "flight",
+          "title": "BA 435 → London Heathrow",
+          "flightRef": "BA 435",
+          "desc": "Lands 2:45 PM London time. Economy Plus. Conf BM4I53.",
+          "note": "The 25-minute flight time is a clock illusion — London is an hour behind."
+        },
+        {
+          "time": "14:45",
+          "type": "transfer",
+          "title": "JK Executive V-Class → The May Fair",
+          "desc": "Mercedes V-Class. Meets BA 435, 60 min free wait.",
+          "warn": "🟡 Booking in progress — confirmation number pending. Check Bookings tab."
+        },
+        {
+          "time": "15:45",
+          "type": "hotel",
+          "title": "Check in · The May Fair Hotel",
+          "venue": "may-fair-hotel",
+          "desc": "Stratton Street. Res 0RWQVWZF / 14WVV3HS (Grant)."
+        },
+        {
+          "time": "16:00",
+          "type": "drinks",
+          "title": "First London drink · May Fair Bar",
+          "venue": "may-fair-bar",
+          "desc": "In-hotel.",
+          "warn": "The bar is CLOSED SUNDAYS. Tonight is the only night it works."
+        },
+        {
+          "time": "19:00",
+          "type": "meal",
+          "title": "Dinner · Dover Street Counter",
+          "venue": "dover-street-counter",
+          "desc": "Mayfair diner. \"McDonald's for oligarchs.\"",
+          "warn": "🟡 Booking window still pending — not yet confirmed.",
+          "suggestions": [
+            { "title": "Fallback: Hawksmoor Seven Dials", "desc": "Steak. Never a bad night.", "venue": "hawksmoor" }
+          ]
+        },
+        {
+          "time": "21:30",
+          "type": "drinks",
+          "title": "Soho · The Devonshire",
+          "venue": "the-devonshire",
+          "desc": "Walk-in only. Expect a queue — it's a Premier League Saturday.",
+          "highlight": true,
+          "suggestions": [
+            { "title": "Second stop: Three Greyhounds", "desc": "25 Greek Street. Optional, 6 min walk. Great Guinness, 1847 pub.", "venue": "three-greyhounds" }
+          ]
+        }
+      ],
+      "questions": {
+        "trivia": [
+          { "q": "The May Fair Hotel was opened in 1927 by which British monarch?", "a": "King George V." },
+          { "q": "The Devonshire in Soho is famous for pouring one drink above all others. What?", "a": "Guinness. They go through thousands of pints a week." },
+          { "q": "Where does the name 'Mayfair' come from?", "a": "The May Fair — a fortnight-long fair held on the site every May from 1686." }
+        ],
+        "discussion": [
+          "Amsterdam — final rating out of 10.",
+          "Three cities down. Which one would you go back to first?",
+          "What's the funniest thing that's happened on this whole trip?",
+          "Anything you still want to do before we fly home?",
+          "Rate today 1–10."
+        ]
+      }
+    },
+    {
+      "date": "2026-09-06",
+      "dow": "Sunday",
+      "cityKey": "london",
+      "title": "LONDON — The Big Sunday",
+      "subtitle": "Breakfast institution, walking tour, then two showpiece rooms.",
+      "locked": false,
+      "blocks": [
+        {
+          "time": "10:30",
+          "type": "meal",
+          "title": "Breakfast · The Wolseley",
+          "venue": "the-wolseley",
+          "desc": "160 Piccadilly. Built as a car showroom in 1921. One of the great rooms in London.",
+          "res": { "conf": "D366UF338EGP", "party": 3, "time": "10:30", "note": "LEAVE BY 11:45 for the tour." },
+          "warn": "Leave by 11:45."
+        },
+        {
+          "time": "11:50",
+          "type": "note",
+          "title": "Meet outside The Ritz",
+          "desc": "By the TWO RED PHONE BOXES. Arrive 11:50 for a 12:00 start. It's a 3 min walk from the Wolseley.",
+          "leaveBy": true
+        },
+        {
+          "time": "12:00",
+          "endTime": "15:00",
+          "type": "tour",
+          "title": "Palaces & Parliament walking tour",
+          "venue": "palaces-parliament",
+          "desc": "Three hours on foot.",
+          "res": { "conf": "GYGG45M3MNXZ", "party": 3, "time": "12:00", "note": "Outside The Ritz, two red phone boxes." },
+          "outdoor": true
+        },
+        {
+          "time": "16:30",
+          "type": "drinks",
+          "title": "Pint · The Audley",
+          "venue": "the-audley",
+          "desc": "Mount Street. Walk-in. Victorian stunner — look up at the ceiling."
+        },
+        {
+          "time": "19:00",
+          "type": "meal",
+          "title": "Dinner · Ivy Asia St Paul's",
+          "venue": "ivy-asia",
+          "desc": "Green onyx floor, theatrical, genuinely fun. Views of St Paul's.",
+          "res": { "conf": "CONFIRMED", "party": 3, "time": "19:00" }
+        },
+        {
+          "time": "22:00",
+          "type": "drinks",
+          "title": "Sexy Fish",
+          "venue": "sexy-fish",
+          "desc": "Berkeley Square. Bar table reserved. Damien Hirst on the walls.",
+          "warn": "DRESS CODE: no sneakers, no caps. Closes MIDNIGHT on Sundays.",
+          "res": { "conf": "Bar table reserved", "party": 3, "time": "22:00" },
+          "suggestions": [
+            { "title": "Backup: Park Chinois", "desc": "17 Berkeley Street, 2 min away. Live music, 1930s Shanghai room.", "venue": "park-chinois" }
+          ]
+        }
+      ],
+      "questions": {
+        "trivia": [
+          { "q": "The Wolseley's dining room was built in 1921 for a completely different purpose. What?", "a": "A car showroom, for Wolseley Motors. The bank that took it over kept the interior." },
+          { "q": "Sexy Fish's dining room features work by which British artist, best known for a shark in formaldehyde?", "a": "Damien Hirst." },
+          { "q": "How many rooms does Buckingham Palace have?", "a": "775 — including 78 bathrooms." }
+        ],
+        "discussion": [
+          "Best room we've been inside on this entire trip.",
+          "Most underrated stop of the trip.",
+          "What's the one thing you'll tell people about first when you get home?",
+          "Who's aged the worst over 11 days? Look at each other.",
+          "Rate today 1–10."
+        ]
+      }
+    },
+    {
+      "date": "2026-09-07",
+      "dow": "Monday",
+      "cityKey": "london",
+      "title": "LONDON — Last Full Day",
+      "subtitle": "Make it count. Then pack.",
+      "locked": false,
+      "blocks": [
+        {
+          "time": "09:00",
+          "type": "meal",
+          "title": "Breakfast · The Breakfast Club Old Compton St",
+          "venue": "breakfast-club",
+          "desc": "Soho. Moved earlier to 9:00.",
+          "res": { "conf": "CONFIRMED", "party": 3, "time": "09:00" }
+        },
+        {
+          "time": "10:30",
+          "type": "free",
+          "title": "Free morning",
+          "desc": "Changing of the Guard was the old plan — it's OUT. It doesn't run on Mondays in September 2026 anyway (the schedule is Tue/Thu/Sat). Use the morning however you want.",
+          "suggestions": [
+            { "title": "Soho / Covent Garden wander", "desc": "You're already in Soho. Walk it off, get a coffee, do nothing." },
+            { "title": "Seven Dials Market", "desc": "8 min from breakfast. Graze, don't commit — Harrods food hall is at 12:30.", "venue": "seven-dials-market" }
+          ]
+        },
+        {
+          "time": "12:30",
+          "type": "activity",
+          "title": "Harrods",
+          "venue": "harrods",
+          "desc": "Knightsbridge. Food hall, watch windows. No dress code."
+        },
+        {
+          "time": "15:30",
+          "type": "activity",
+          "title": "V&A Museum",
+          "venue": "va-museum",
+          "desc": "FREE, open Mondays, 10 min from Harrods. Borough Market is CLOSED Mondays — that old idea is deleted.",
+          "suggestions": [
+            { "title": "Seven Dials Market instead", "desc": "If you'd rather graze than look at art.", "venue": "seven-dials-market" }
+          ]
+        },
+        {
+          "time": "17:30",
+          "type": "note",
+          "title": "Straight to dinner — do NOT route via the hotel",
+          "desc": "V&A to Dishoom Carnaby directly. Going back to the May Fair first will make you late.",
+          "warn": "Do not go back to the hotel first.",
+          "leaveBy": true
+        },
+        {
+          "time": "17:45",
+          "type": "meal",
+          "title": "Dinner · Dishoom Carnaby",
+          "venue": "dishoom-carnaby",
+          "desc": "22 Kingly Street. Last bookable slot of the night.",
+          "res": { "conf": "8TCB8HDE4MCB", "party": 3, "time": "17:45", "note": "They NEVER ask for card details by phone. If someone calls asking, it's a scam." }
+        },
+        {
+          "time": "20:30",
+          "type": "drinks",
+          "title": "Connaught Bar",
+          "venue": "connaught-bar",
+          "desc": "Carlos Place. World's-best-bar list. Walk-in.",
+          "highlight": true,
+          "warn": "GET THE MARTINI FROM THE TROLLEY. That's the whole point."
+        },
+        {
+          "time": "22:30",
+          "type": "drinks",
+          "title": "Then Soho",
+          "desc": "Last night. No plan. Go."
+        },
+        {
+          "time": "23:59",
+          "type": "note",
+          "title": "PACK AFTER DINNER",
+          "desc": "7:00 AM car to Heathrow. Pack before you go out, or you will regret it.",
+          "warn": "7 AM car. Pack BEFORE the last night out."
+        }
+      ],
+      "questions": {
+        "trivia": [
+          { "q": "Dishoom's restaurants are modelled on the Irani cafés of which Indian city?", "a": "Bombay — Mumbai. Those cafés were run by Zoroastrian immigrants from Iran." },
+          { "q": "The V&A is named for Queen Victoria and Prince Albert. What year was it founded?", "a": "1852, originally as the Museum of Manufactures." },
+          { "q": "The Connaught Bar wheels a trolley to your table. What does it make?", "a": "Martinis — mixed in front of you, tableside." }
+        ],
+        "discussion": [
+          "Last full night. Favourite day of the entire trip — pick ONE.",
+          "What's the single funniest thing that happened in 14 days?",
+          "Biggest regret — something we should have done and didn't.",
+          "Where are we going next year? Everyone pitches one city.",
+          "Final ranking: Vienna, Copenhagen, Amsterdam, London. Go."
+        ]
+      }
+    },
+    {
+      "date": "2026-09-08",
+      "dow": "Tuesday",
+      "cityKey": "london",
+      "transitionTo": "dallas",
+      "title": "HOME 🤠",
+      "subtitle": "Welcome home, boys.",
+      "locked": true,
+      "blocks": [
+        {
+          "time": "07:00",
+          "type": "transfer",
+          "title": "Car → Heathrow Terminal 3",
+          "desc": "JK Executive V-Class. Be in the lobby at 6:50.",
+          "leaveBy": true,
+          "critical": true
+        },
+        {
+          "time": "10:05",
+          "type": "flight",
+          "title": "BA 1590 → Dallas/Fort Worth",
+          "flightRef": "BA 1590",
+          "desc": "Operated by American. Business. Lands 2:10 PM Dallas time. Conf BLU9SX.",
+          "critical": true
+        },
+        {
+          "time": "14:10",
+          "type": "note",
+          "title": "US Customs — declare the Rolex",
+          "desc": "If it was bought, declare it. Global Entry / Mobile Passport makes this fast.",
+          "warn": "Declare it. Don't be the guy who doesn't."
+        },
+        {
+          "time": "15:00",
+          "type": "note",
+          "title": "That's the trip.",
+          "desc": "14 days, 4 cities, one Black Keys show. 🤠"
+        }
+      ],
+      "questions": {
+        "trivia": [
+          { "q": "We leave London at 10:05 AM and land in Dallas at 2:10 PM. How is that only four hours?", "a": "It isn't — it's about ten. Dallas is six hours behind London." },
+          { "q": "What terminal do we fly home from?", "a": "Heathrow Terminal 3." },
+          { "q": "What's the US duty-free allowance per person before you owe duty on goods brought home?", "a": "$800 per person. Above that you declare and pay — which matters if there's a watch in the bag." }
+        ],
+        "discussion": [
+          "One word for the whole trip.",
+          "Best meal, best bar, best moment. Three answers each.",
+          "What did you learn about the other two?",
+          "Final answer: who drank the most across all 14 days?",
+          "Same time next year — yes or no?"
+        ]
+      }
+    }
+  ],
+
+  "money": {
+    "summary": {
+      "round1": {
+        "label": "Round 1",
+        "status": "SETTLED",
+        "note": "Requested Aug 6, paid via Venmo. Done."
+      },
+      "round2": {
+        "label": "Round 2",
+        "status": "coming late August",
+        "note": "Estimates below. Final numbers once Copenhagen and London transfers are booked."
+      }
+    },
+    "voidNote": "The old Sixt rides line ($321.69pp) is VOID — the replacement bookings come in roughly $30–45pp CHEAPER.",
+    "footer": "Food & dinners are split as we go — not in these numbers.",
+    "people": {
+      "Coob": {
+        "role": "organizer",
+        "round1": { "requested": null, "paid": null, "credit": 0, "items": [], "note": "Coob fronted the bookings. Round 1 is what Jared and Grant owed him." },
+        "round2": {
+          "estimateLow": null,
+          "estimateHigh": null,
+          "items": [],
+          "note": "Coob's own share is folded into what he's already paid out. Use the 'see everyone' toggle for the full picture."
+        }
+      },
+      "Jared": {
+        "round1": {
+          "requested": 1920.68,
+          "paid": 1921.0,
+          "credit": 0.32,
+          "items": [
+            { "label": "Black Keys VIP", "amount": 289.09 },
+            { "label": "Vienna airport transfers ×2", "amount": 45.8 },
+            { "label": "Copenhagen — Scandic", "amount": 454.73 },
+            { "label": "Amsterdam — Radisson Blu", "amount": 452.0 },
+            { "label": "London — The May Fair", "amount": 679.06 }
+          ]
+        },
+        "round2": {
+          "estimateLow": 984,
+          "estimateHigh": 1000,
+          "items": [
+            { "label": "Vienna hotel balance", "amount": 424.51, "status": "pending" },
+            {
+              "label": "Tours ×4",
+              "amount": 282.51,
+              "status": "pending",
+              "breakdown": [
+                { "label": "Vienna — Guydeez", "amount": 79.65 },
+                { "label": "Copenhagen — Politically Incorrect", "amount": 43.24 },
+                { "label": "Amsterdam — Amsterdamliebe", "amount": 88.77 },
+                { "label": "London — Palaces & Parliament", "amount": 70.85 }
+              ]
+            },
+            { "label": "Amsterdam transfers ×2", "amount": 70.28, "status": "paid", "statusNote": "paid by Coob Aug 6" },
+            { "label": "London transfers ×2 (JK Executive V-Class)", "amount": 165.62, "status": "inprogress", "statusNote": "booking in progress" },
+            { "label": "Copenhagen transfers ×2 (TAXA 4x35)", "amountLow": 41, "amountHigh": 57, "status": "tobook", "statusNote": "not booked yet" },
+            { "label": "less Round 1 credit", "amount": -0.32, "status": "credit" }
+          ]
+        }
+      },
+      "Grant": {
+        "round1": {
+          "requested": 3143.5,
+          "paid": 3144.0,
+          "credit": 0.5,
+          "items": [
+            { "label": "Black Keys VIP", "amount": 289.09 },
+            { "label": "Vienna airport transfers ×2", "amount": 45.8 },
+            { "label": "Copenhagen — Scandic", "amount": 454.73 },
+            { "label": "Amsterdam — Radisson Blu", "amount": 904.0 },
+            { "label": "London — The May Fair", "amount": 1449.88 }
+          ]
+        },
+        "round2": {
+          "estimateLow": 1408,
+          "estimateHigh": 1424,
+          "items": [
+            { "label": "Vienna hotel balance", "amount": 849.01, "status": "pending" },
+            {
+              "label": "Tours ×4",
+              "amount": 282.51,
+              "status": "pending",
+              "breakdown": [
+                { "label": "Vienna — Guydeez", "amount": 79.65 },
+                { "label": "Copenhagen — Politically Incorrect", "amount": 43.24 },
+                { "label": "Amsterdam — Amsterdamliebe", "amount": 88.77 },
+                { "label": "London — Palaces & Parliament", "amount": 70.85 }
+              ]
+            },
+            { "label": "Amsterdam transfers ×2", "amount": 70.28, "status": "paid", "statusNote": "paid by Coob Aug 6" },
+            { "label": "London transfers ×2 (JK Executive V-Class)", "amount": 165.62, "status": "inprogress", "statusNote": "booking in progress" },
+            { "label": "Copenhagen transfers ×2 (TAXA 4x35)", "amountLow": 41, "amountHigh": 57, "status": "tobook", "statusNote": "not booked yet" },
+            { "label": "less Round 1 credit", "amount": -0.5, "status": "credit" }
+          ]
+        }
+      }
+    },
+    "stillToCome": [
+      { "label": "Amsterdam transfers (both legs)", "status": "paid", "detail": "€181.50 total — paid in full by Coob Aug 6" },
+      { "label": "London transfers (JK Executive V-Class, both legs)", "status": "inprogress", "detail": "£370.80 inc VAT — awaiting payment/confirmation" },
+      { "label": "Copenhagen transfers (TAXA 4x35, both legs)", "status": "tobook", "detail": "Rebooking after the Sixt cancellation" },
+      { "label": "Vienna hotel balance", "status": "inprogress", "detail": "Due at/before checkout" },
+      { "label": "Tours ×4", "status": "paid", "detail": "All four booked — reimbursed in Round 2" }
+    ]
+  },
+
+  "checklists": {
+    "documents": {
+      "title": "Documents & Admin",
+      "items": [
+        {
+          "id": "uk-eta",
+          "label": "UK ETA — apply NOW",
+          "mandatory": true,
+          "emoji": "🚨",
+          "desc": "All three of us need one to enter the UK. £20. Apply in the official \"UK ETA\" app or on gov.uk — avoid third-party sites that charge more. Approval usually within ~3 working days. Valid 2 years / multiple trips. ONE ETA covers both the Aug 26–27 Heathrow connection AND the Sep 5–8 London stay.",
+          "link": "https://www.gov.uk/guidance/apply-for-an-electronic-travel-authorisation-eta",
+          "linkLabel": "Apply on gov.uk",
+          "warn": "Do not leave this to the last week."
+        },
+        {
+          "id": "passport",
+          "label": "Passport check",
+          "mandatory": true,
+          "emoji": "🚨",
+          "desc": "Must be valid at least 3 months beyond Sep 8, 2026 — so through ~Dec 8, 2026. Six months is the safe standard. Must ALSO have been issued within the last 10 years."
+        },
+        {
+          "id": "card",
+          "label": "No-foreign-transaction-fee card + Apple Pay set up",
+          "mandatory": true,
+          "desc": "Europe is tap-to-pay everywhere. Denmark is effectively cashless."
+        },
+        {
+          "id": "bank",
+          "label": "Tell your bank you're traveling",
+          "mandatory": true,
+          "desc": "Four countries in 14 days will trip fraud detection otherwise."
+        },
+        {
+          "id": "passport-photo",
+          "label": "Photo/copy of passport saved to your phone",
+          "mandatory": true,
+          "desc": "Screenshot it. Also email it to yourself."
+        },
+        {
+          "id": "global-entry",
+          "label": "Global Entry / Mobile Passport for the DFW return",
+          "mandatory": false,
+          "desc": "Makes Sep 8 painless — especially if there's a watch to declare."
+        },
+        {
+          "id": "prescriptions",
+          "label": "Prescriptions in original bottles + enough for 14 days",
+          "mandatory": false,
+          "desc": "Original labelled bottles. Bring a few days extra in case of delays."
+        }
+      ]
+    },
+    "packing": {
+      "title": "Packing Essentials",
+      "items": [
+        {
+          "id": "smart-outfit",
+          "label": "One smart night-out outfit",
+          "mandatory": true,
+          "emoji": "👔",
+          "desc": "Volksgarten (Vienna, Fri Aug 28) is a proper club — collared and clean-shoed, not sneakers-and-shorts. Doors run on discretion. Sexy Fish (London, Sun Sep 6) also bans sneakers and caps. One good outfit covers both."
+        },
+        {
+          "id": "adapters",
+          "label": "TWO adapter types — C/F and G",
+          "mandatory": true,
+          "emoji": "🔌",
+          "desc": "Europe Type C/F for Vienna, Copenhagen and Amsterdam. Type G for London. A universal adapter covers both — bring one each."
+        },
+        {
+          "id": "battery",
+          "label": "Portable battery pack",
+          "mandatory": true,
+          "emoji": "🔋",
+          "desc": "This site + maps + photos will drain your phone by mid-afternoon every day."
+        },
+        {
+          "id": "layers",
+          "label": "Layers + a light rain jacket",
+          "mandatory": true,
+          "emoji": "🧥",
+          "desc": "Early September runs ~60–72°F. Copenhagen and Amsterdam get roughly one rainy day in three."
+        },
+        {
+          "id": "shoes",
+          "label": "Comfortable walking shoes",
+          "mandatory": true,
+          "emoji": "👟",
+          "desc": "Four walking tours and a lot of pavement. Your feet will decide how much you enjoy this."
+        },
+        {
+          "id": "nice-shirt",
+          "label": "A nice shirt for the Black Keys",
+          "mandatory": false,
+          "desc": "VIP loge. Photos will happen."
+        },
+        {
+          "id": "sunglasses",
+          "label": "Sunglasses",
+          "mandatory": false,
+          "desc": ""
+        },
+        {
+          "id": "toiletries",
+          "label": "Toiletries in a quart bag for carry-on",
+          "mandatory": false,
+          "desc": "100ml limit applies on every leg."
+        },
+        {
+          "id": "chargers",
+          "label": "Chargers",
+          "mandatory": false,
+          "desc": "Phone, watch, battery pack. Count them."
+        },
+        {
+          "id": "headphones",
+          "label": "Headphones for the flight",
+          "mandatory": false,
+          "desc": "Nine hours each way."
+        },
+        {
+          "id": "day-bag",
+          "label": "A small day bag",
+          "mandatory": false,
+          "desc": "For the walking tours and museum days."
+        }
+      ]
+    }
+  },
+
+  "reference": {
+    "currency": {
+      "title": "Currency cheat sheet",
+      "rows": [
+        { "place": "Austria · Netherlands", "detail": "Euro (€)" },
+        { "place": "Denmark", "detail": "Danish krone (DKK) — effectively cashless, don't withdraw" },
+        { "place": "UK", "detail": "Pound (£)" }
+      ],
+      "rules": [
+        "ALWAYS choose LOCAL currency on card terminals — never the dollar conversion. That's a ~5% fee.",
+        "Avoid Euronet ATMs entirely. Terrible rates, aggressive screens.",
+        "€100–150 cash for Vienna only. Everywhere else, card and Apple Pay are fine."
+      ]
+    },
+    "docsBanner": {
+      "title": "🚨 Before you fly",
+      "items": [
+        "UK ETA required for ALL THREE of us — £20, official UK ETA app or gov.uk, ~3 working days, valid 2 years.",
+        "Passports must be valid at least 3 months beyond Sep 8, 2026."
+      ]
+    }
+  }
+}
