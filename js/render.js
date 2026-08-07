@@ -335,7 +335,7 @@ const R = (() => {
     /* tonight's questions teaser */
     h += `<div class="card" data-go="questions" style="cursor:pointer;border-color:rgba(217,58,58,.4)">
       <div style="font-size:14px;font-weight:800">🍻 Tonight's questions</div>
-      <div class="blk-desc">3 trivia + 5 about today + the two house rules. Unlocks 8:00 PM ${esc(c.name)} time.</div>
+      <div class="blk-desc">${day.questions.trivia.length} trivia + ${day.questions.discussion.length} about today + the two house rules. Unlocks ${esc(T.fmt12(String(day.unlockHour ?? D.meta.questionsUnlockHour).padStart(2,'0') + ':00'))} ${esc(c.name)} time.</div>
     </div>`;
 
     return h;
@@ -659,7 +659,9 @@ const R = (() => {
   }
 
   /* ══════════════ QUESTIONS ══════════════ */
-  function questions(D, day, unlocked, mins, selDate) {
+  function questions(D, day, unlocked, mins, selDate, unlockHour) {
+    const uh = unlockHour ?? day.unlockHour ?? D.meta.questionsUnlockHour;
+    const uhLabel = T.fmt12(String(uh).padStart(2, '0') + ':00');
     const c = cityOf(D, day);
     let h = `<div class="q-daysel">`;
     D.days.forEach(d => {
@@ -672,11 +674,11 @@ const R = (() => {
       <div class="th-meta">${T.longDate(day.date)}</div></div>`;
 
     if (!unlocked) {
-      const left = 20*60 - mins;
+      const left = uh*60 - mins;
       const txt = left > 0 ? `${Math.floor(left/60)}h ${left%60}m` : 'any moment';
       h += `<div class="card locked">
         <div class="locked-i">🔒</div>
-        <div class="locked-t">Unlocks at 8:00 PM</div>
+        <div class="locked-t">Unlocks at ${esc(uhLabel)}</div>
         <div class="locked-d">${esc(c.name)} local time.<br>Everyone's phone buzzes. Then we play.</div>
         <div class="locked-cd">${esc(txt)}</div>
       </div>`;

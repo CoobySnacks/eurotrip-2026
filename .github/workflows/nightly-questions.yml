@@ -12,7 +12,13 @@ name: Nightly questions push
 #   Sep  2–4   Amsterdam   ┘
 #   Sep  5–7   London      →  19:00 UTC
 #
-# Aug 26 (mid-flight) and Sep 8 (flying home) are deliberately skipped.
+# Aug 26 is the exception: 8 PM Dallas time is 20 minutes after wheels-up,
+# and a push sent to a plane doesn't disappear — it queues and lands when
+# the first phone reconnects at Heathrow the next morning. So night one
+# fires at 6:00 PM CDT instead, while they're in the Terminal D lounge.
+#   6 PM CDT (UTC-5) = 23:00 UTC on Aug 26.
+#
+# Sep 8 (flying home) is skipped entirely.
 #
 # Note: GitHub's scheduler can run a few minutes late under load. The
 # site unlocks the questions on its own at 8 PM local regardless, so a
@@ -20,6 +26,7 @@ name: Nightly questions push
 
 on:
   schedule:
+    - cron: '0 23 26 8 *'      # Aug 26    → Dallas, 6 PM CDT, in the lounge
     - cron: '0 18 27-31 8 *'   # Aug 27–31 → Vienna + Copenhagen
     - cron: '0 18 1-4 9 *'     # Sep 1–4   → Copenhagen + Amsterdam
     - cron: '0 19 5-7 9 *'     # Sep 5–7   → London (BST)

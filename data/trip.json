@@ -12,7 +12,7 @@
       "Grant"
     ],
     "organizer": "Coob",
-    "dataVersion": "1.1.0",
+    "dataVersion": "1.2.0",
     "lastUpdated": "2026-08-06",
     "questionsUnlockHour": 20,
     "fixedQuestions": [
@@ -1057,12 +1057,13 @@
         ],
         "discussion": [
           "What are you most looking forward to over the next 14 days?",
-          "Over/under on how many drinks you have before we land?",
-          "What's the one thing you'd be most upset to lose on this trip?",
-          "Predict now: who's going to get destroyed by jet lag?",
-          "One sentence — what's your goal for this trip?"
+          "Over/under: how many drinks do you have before we land?",
+          "Vote now, settle it Friday — who's getting destroyed by jet lag?",
+          "You get one do-over on this trip, no questions asked. When do you think you'll burn it?",
+          "One sentence: what would make this a 10 out of 10?"
         ]
-      }
+      },
+      "unlockHour": 18
     },
     {
       "date": "2026-08-27",
@@ -1146,11 +1147,11 @@
           }
         ],
         "discussion": [
-          "First impression of Vienna in one word.",
-          "Who handled the flight the best? Who handled it the worst?",
-          "What's the first thing you noticed that's different from home?",
-          "Best thing you ate today.",
-          "Rate today 1–10 — and you can't say 'it was a travel day'."
+          "Vienna in one word. Go around, no repeats.",
+          "Who handled that flight the best? Who looked the worst getting off it?",
+          "What's the first thing today that felt genuinely foreign?",
+          "Best bite at Cucina Itameshi — and was Italian-Japanese the right call?",
+          "Nominate someone for 'most likely to fall asleep at this table.'"
         ]
       }
     },
@@ -1264,11 +1265,11 @@
           }
         ],
         "discussion": [
-          "Best single thing the tour guide told us today.",
-          "Most out-of-pocket thing anyone said before noon.",
-          "If you had to skip one thing we did today, what goes?",
-          "Who's making it to Volksgarten and who's tapping out? Say it now, on record.",
-          "Rate today 1–10."
+          "What's the one thing the guide told us that actually stuck?",
+          "Most out-of-pocket thing anyone said before noon. Quote it exactly.",
+          "Albertina — genuinely great, or were we just being cultured for an afternoon?",
+          "On the record right now: who makes it into Volksgarten and who taps out?",
+          "Whoever taps out first tonight buys the first round in Copenhagen. Who is it?"
         ]
       }
     },
@@ -1394,11 +1395,11 @@
           }
         ],
         "discussion": [
-          "Who's the most hungover right now? Be honest.",
-          "Best decision anyone made last night. Worst decision anyone made last night.",
-          "Favourite thing you saw on the walk today.",
-          "If we could add one more day to Vienna, what would we do with it?",
-          "Rate Vienna overall, 1–10, now that we're leaving."
+          "Score last night out of 10 — and you have to justify the number.",
+          "Who is the most hungover right now? We can all see you.",
+          "Best decision made last night. Worst decision made last night.",
+          "Lugeck's schnitzel vs everything else we've eaten. Where does it land?",
+          "One more day in Vienna, no budget. What are we doing with it?"
         ]
       }
     },
@@ -1485,11 +1486,11 @@
           }
         ],
         "discussion": [
-          "Vienna or Copenhagen — first impressions, and it's okay to be wrong this early.",
+          "Vienna, final score out of 10. Locked in — you can't revise it later.",
           "What did we leave undone in Vienna?",
-          "Who packed the worst? Who forgot something already?",
-          "Best bite of the day.",
-          "What are you most looking forward to in Copenhagen?"
+          "Who packed the worst? Who's already lost something?",
+          "The Orangerie room at Esmée — worth the hype, or just a nice room?",
+          "Copenhagen's on the clock. What are you most hyped for here?"
         ]
       }
     },
@@ -1597,11 +1598,11 @@
           }
         ],
         "discussion": [
-          "Funniest moment of the day.",
-          "The tour guide is called 'Politically Incorrect.' Did they earn it?",
-          "Most overrated thing we've done so far this trip.",
-          "Who's most out of pocket today?",
-          "Rate today 1–10."
+          "The tour is literally called Politically Incorrect. Did they earn the name?",
+          "Funniest thing that happened today.",
+          "Nyhavn: as good as the photos, or a tourist trap with excellent paint?",
+          "Most overrated thing we've done so far. Be brave.",
+          "Who's picking up the pace tonight, and who's quietly fading?"
         ]
       }
     },
@@ -1701,11 +1702,11 @@
           }
         ],
         "discussion": [
-          "Best single thing you ate at Reffen.",
-          "Did anyone buy a watch? Discuss.",
-          "Favourite city so far and why — first real verdict.",
-          "What would you redo about today?",
-          "Who's most out of pocket today?"
+          "Best single thing anyone ate at Reffen. Defend it.",
+          "Did anybody buy a watch? Full disclosure required.",
+          "Warpigs against every beer we've had so far — where does it rank?",
+          "Tivoli after dark: actually magic, or just a theme park with better lighting?",
+          "Favorite city so far. First real verdict and you're on the record."
         ]
       }
     },
@@ -1799,11 +1800,11 @@
           }
         ],
         "discussion": [
-          "Copenhagen — final rating out of 10, now that we're gone.",
-          "First impression of Amsterdam.",
-          "What's the single best meal of the trip so far?",
-          "Anyone running low on clean clothes? Be honest.",
-          "Most anticipated thing about Friday. (You know what Friday is.)"
+          "Copenhagen, final score. Locked.",
+          "First impression of Amsterdam in one sentence.",
+          "Best meal of the trip so far — everyone answers, no agreeing with each other.",
+          "Anyone out of clean clothes yet? Show of hands.",
+          "Two days out. What's the one song you need to hear on Friday?"
         ]
       }
     },
@@ -1905,11 +1906,11 @@
           }
         ],
         "discussion": [
-          "Favourite thing you saw today.",
-          "Amsterdam vs Vienna vs Copenhagen — rank them right now.",
-          "What's the most touristy thing you've secretly enjoyed?",
-          "Who's got the best photo of the trip so far? Settle it.",
-          "Tomorrow is the Black Keys. What's your most anticipated song?"
+          "Rank all three cities right now. Then argue about it.",
+          "Best thing you saw today that wasn't on the itinerary.",
+          "Does the steak at BLACK crack the top three meals of this trip?",
+          "Who's taken the best photo of the trip? Phones out, settle it.",
+          "Most touristy thing you've secretly loved so far."
         ]
       }
     },
@@ -1999,11 +2000,11 @@
           }
         ],
         "discussion": [
-          "Best song of the night — no consensus allowed, everyone answers.",
-          "Was the VIP loge worth it? Honest answers.",
+          "Best song of the night. Everyone answers, no repeats.",
+          "Was the VIP loge worth it? Honest answers only.",
           "Rate Robert Finley's opening set.",
-          "Best moment of the entire trip so far. This is the halfway-plus mark.",
-          "Who's most out of pocket tonight?"
+          "Van Gogh this afternoon, the Black Keys tonight. Which one actually hit harder?",
+          "Best moment of the whole trip so far — and we're past the halfway mark."
         ]
       }
     },
@@ -2101,11 +2102,11 @@
           }
         ],
         "discussion": [
-          "Amsterdam — final rating out of 10.",
-          "Three cities down. Which one would you go back to first?",
-          "What's the funniest thing that's happened on this whole trip?",
-          "Anything you still want to do before we fly home?",
-          "Rate today 1–10."
+          "Amsterdam, final score. Locked.",
+          "Three cities down. Which one are you going back to first?",
+          "The Devonshire queue — worth it, or a mistake we'll repeat anyway?",
+          "Funniest thing that's happened in eleven days.",
+          "Anything you still want to do before we fly home? Say it now or it doesn't happen."
         ]
       }
     },
@@ -2209,11 +2210,11 @@
           }
         ],
         "discussion": [
-          "Best room we've been inside on this entire trip.",
+          "Best room we have been inside on this entire trip.",
           "Most underrated stop of the trip.",
-          "What's the one thing you'll tell people about first when you get home?",
-          "Who's aged the worst over 11 days? Look at each other.",
-          "Rate today 1–10."
+          "Sexy Fish: incredible or ridiculous? You're allowed to say both.",
+          "Who has aged the worst over twelve days? Look at each other before answering.",
+          "First thing you'll tell people about when you get home?"
         ]
       }
     },
@@ -2335,10 +2336,10 @@
           }
         ],
         "discussion": [
-          "Last full night. Favourite day of the entire trip — pick ONE.",
-          "What's the single funniest thing that happened in 14 days?",
-          "Biggest regret — something we should have done and didn't.",
-          "Where are we going next year? Everyone pitches one city.",
+          "Last full night. Favorite day of the entire trip — pick ONE.",
+          "Biggest regret: something we should have done and didn't.",
+          "The Connaught martini trolley against every drink of this trip. Verdict?",
+          "Everyone pitches one city for next year. Best pitch wins.",
           "Final ranking: Vienna, Copenhagen, Amsterdam, London. Go."
         ]
       }
@@ -2399,9 +2400,9 @@
         ],
         "discussion": [
           "One word for the whole trip.",
-          "Best meal, best bar, best moment. Three answers each.",
-          "What did you learn about the other two?",
-          "Final answer: who drank the most across all 14 days?",
+          "Best meal, best bar, best moment. Three answers, no hedging.",
+          "What did you learn about the other two that you didn't know before?",
+          "Final verdict: who drank the most across all 14 days?",
           "Same time next year — yes or no?"
         ]
       }

@@ -97,9 +97,12 @@ const App = (() => {
         // past days are always unlocked; today unlocks at 8pm local
         const isPast = target.date < todayDate;
         const isToday = target.date === todayDate;
-        const unlocked = isPast || (isToday && mins >= D.meta.questionsUnlockHour * 60);
+        // A day can override the unlock hour — Aug 26 opens at 6 PM because the
+        // push fires from the DFW lounge before takeoff, not at 8 PM mid-flight.
+        const unlockHour = target.unlockHour ?? D.meta.questionsUnlockHour;
+        const unlocked = isPast || (isToday && mins >= unlockHour * 60);
         setAccent(target.cityKey);
-        view.innerHTML = R.questions(D, target, unlocked, mins, qDate);
+        view.innerHTML = R.questions(D, target, unlocked, mins, qDate, unlockHour);
         break;
       }
     }
