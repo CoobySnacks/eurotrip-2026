@@ -24,12 +24,23 @@ name: Nightly questions push
 # site unlocks the questions on its own at 8 PM local regardless, so a
 # late notification is cosmetic, not load-bearing.
 
+
+# ⚠️ SCHEDULE DISABLED — Cloudflare owns the timing now.
+#
+# GitHub Actions cron is best-effort. On this repo an every-10-minutes
+# schedule was measured running 202 minutes apart, which is fatal for
+# "leave in 15 minutes" alerts and unreliable for the 8 PM questions.
+#
+# The Worker (worker/worker.js) runs every 5 minutes on a Cloudflare cron
+# trigger and sends everything: the morning countdown, the per-block
+# itinerary alerts, the daily agenda and the nightly questions. It dedupes
+# in KV so nothing double-sends.
+#
+# This workflow is kept for MANUAL runs only (workflow_dispatch). Do not
+# re-enable the schedule without removing the Worker's cron, or every
+# notification goes out twice.
+
 on:
-  schedule:
-    - cron: '0 23 26 8 *'      # Aug 26    → Dallas, 6 PM CDT, in the lounge
-    - cron: '0 18 27-31 8 *'   # Aug 27–31 → Vienna + Copenhagen
-    - cron: '0 18 1-4 9 *'     # Sep 1–4   → Copenhagen + Amsterdam
-    - cron: '0 19 5-7 9 *'     # Sep 5–7   → London (BST)
   workflow_dispatch:
     inputs:
       date:
