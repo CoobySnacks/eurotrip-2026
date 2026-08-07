@@ -82,6 +82,26 @@ const T = (() => {
     return m === 0 ? `${h}${ap}` : `${h}:${String(m).padStart(2, '0')}${ap}`;
   }
 
+  /**
+   * The real UTC instant of `hour:00` on `dateStr` in `tz`.
+   *
+   * Needed because "8 PM on Sep 5 in London" is a different instant from
+   * "8 PM tonight in Vienna", and the questions countdown has to target the
+   * former. Iterates twice so a DST boundary between the guess and the answer
+   * still lands correctly.
+   */
+  function zonedInstant(dateStr, hour, tz) {
+    const [y, m, d] = dateStr.split('-').map(Number);
+    const naive = Date.UTC(y, m - 1, d, hour, 0, 0);
+    let utc = naive;
+    for (let i = 0; i < 2; i++) {
+      const p = partsIn(tz, new Date(utc));
+      const asUtc = Date.UTC(p.y, p.m - 1, p.d, p.h, p.mi, p.s);
+      utc = naive - (asUtc - utc);
+    }
+    return new Date(utc);
+  }
+
   /** Breakdown to departure (or any target ISO). */
   function countdown(targetISO, from = new Date()) {
     const diff = new Date(targetISO).getTime() - from.getTime();
@@ -121,9 +141,28 @@ const T = (() => {
     return ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][dt.getUTCDay()];
   };
 
+  /** "3d 15h" / "15h 54m" / "8m" — coarse-to-fine, never shows noise. */
+  function untilText(ms) {
+    if (ms <= 0) return 'any moment';
+    const mins = Math.floor(ms / 6e4);
+    const d = Math.floor(mins / 1440);
+    const h = Math.floor(mins / 60) % 24;
+    const m = mins % 60;
+    if (d > 0) return `${d}d ${h}h`;
+    if (h > 0) return `${h}h ${m}m`;
+    return `${m}m`;
+  }
+
+  /** "Sunday" — for "unlocks Sunday at 8 PM". */
+  function dowLong(ds) {
+    const [y, m, d] = ds.split('-').map(Number);
+    const dt = new Date(Date.UTC(y, m - 1, d));
+    return ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'][dt.getUTCDay()];
+  }
+
   return {
-    ROLLOVER_HOUR, partsIn, dateStrIn, shiftDateStr,
-    tripDateIn, tripMinutesIn, blockKey,
+    ROLLOVER_HOUR, partsIn, dateStrIn, shiftDateStr, zonedInstant,
+    tripDateIn, tripMinutesIn, blockKey, untilText, dowLong,
     fmt12, fmtShort, countdown, prettyDate, longDate, dayNum, dowShort
   };
 })();

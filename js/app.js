@@ -105,8 +105,12 @@ const App = (() => {
         // push fires from the DFW lounge before takeoff, not at 8 PM mid-flight.
         const unlockHour = target.unlockHour ?? D.meta.questionsUnlockHour;
         const unlocked = isPast || (isToday && mins >= unlockHour * 60);
+        /* Real instant of THIS day's 8 PM in ITS city — not 8 PM tonight.
+           Vienna, Copenhagen and Amsterdam all sit at UTC+2, so using the
+           current clock made every future day show an identical countdown. */
+        const unlockAt = T.zonedInstant(target.date, unlockHour, tz);
         setAccent(target.cityKey);
-        view.innerHTML = R.questions(D, target, unlocked, mins, qDate, unlockHour);
+        view.innerHTML = R.questions(D, target, unlocked, mins, qDate, unlockHour, unlockAt);
         break;
       }
     }

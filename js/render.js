@@ -689,7 +689,7 @@ const R = (() => {
   }
 
   /* ══════════════ QUESTIONS ══════════════ */
-  function questions(D, day, unlocked, mins, selDate, unlockHour) {
+  function questions(D, day, unlocked, mins, selDate, unlockHour, unlockAt) {
     const uh = unlockHour ?? day.unlockHour ?? D.meta.questionsUnlockHour;
     const uhLabel = T.fmt12(String(uh).padStart(2, '0') + ':00');
     const c = cityOf(D, day);
@@ -704,15 +704,19 @@ const R = (() => {
       <div class="th-meta">${T.longDate(day.date)}</div></div>`;
 
     if (!unlocked) {
-      const left = uh*60 - mins;
-      const txt = left > 0 ? `${Math.floor(left/60)}h ${left%60}m` : 'any moment';
+      /* Count down to THIS day's unlock instant, which for a future day is
+         days away — not to 8 PM tonight. */
+      const ms = unlockAt ? unlockAt.getTime() - Date.now() : (uh * 60 - mins) * 6e4;
+      const txt = T.untilText(ms);
+      const soon = ms < 864e5;                       // unlocks within 24h
+      const when = soon ? `at ${uhLabel}` : `${T.dowLong(day.date)} at ${uhLabel}`;
       h += `<div class="card locked">
         <div class="locked-i">🔒</div>
-        <div class="locked-t">Unlocks at ${esc(uhLabel)}</div>
+        <div class="locked-t">Unlocks ${esc(when)}</div>
         <div class="locked-d">${esc(c.name)} local time.<br>Everyone's phone buzzes. Then we play.</div>
         <div class="locked-cd">${esc(txt)}</div>
       </div>`;
-      h += `<div class="note-box">Want them now? Tap another day above — past days stay unlocked.</div>`;
+      h += `<div class="note-box">Want them now? Tap a past day above — those stay unlocked.</div>`;
       return h;
     }
 
