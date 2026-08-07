@@ -27,8 +27,9 @@ const Push = (() => {
   /* Public VAPID key — safe to ship. Private half lives in GitHub secrets. */
   const VAPID_PUBLIC = 'BJ-g1Z3kNV9xZjtF8-eIladmX40ZCkoxSCnCT3JQcVvRG5WhF0vLVmdLPtCkUe-G20A-yHHieDbbxxek5Hz7VLM';
 
-  /* Optional Cloudflare Worker. Empty = use the copy-the-code flow. */
-  const PUSH_API = '';
+  /* Cloudflare Worker + KV. With this set, enabling notifications is a single
+     tap — the subscription registers itself and the code step never appears. */
+  const PUSH_API = 'https://eurotrip-push.coobysnacks.workers.dev';
 
   let reg = null;
 

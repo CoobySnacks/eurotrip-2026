@@ -13,7 +13,7 @@ compatibility_date = "2026-08-01"
 # Replace id with the value returned by `wrangler kv namespace create SUBS`
 [[kv_namespaces]]
 binding = "SUBS"
-id = "REPLACE_WITH_KV_NAMESPACE_ID"
+id = "766974225fd84191a5dfb112d6392b93"
 
 # ADMIN_TOKEN is a secret, not a var — set it with:
 #   npx wrangler secret put ADMIN_TOKEN

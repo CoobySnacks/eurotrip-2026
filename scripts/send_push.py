@@ -104,12 +104,21 @@ def send_webpush(subs, title, body, url):
     return ok, dead
 
 
+# Cloudflare's edge 403s the default "python-requests/x.y" user-agent on
+# workers.dev. Send a normal browser UA or the nightly job silently fails.
+UA = "Mozilla/5.0 (compatible; EurotripBot/1.0; +https://github.com/CoobySnacks/eurotrip-2026)"
+
+
+def _headers(token):
+    return {"Authorization": f"Bearer {token}", "User-Agent": UA}
+
+
 def fetch_subs(api, token):
     import requests
 
     r = requests.get(
         f"{api.rstrip('/')}/subscriptions",
-        headers={"Authorization": f"Bearer {token}"},
+        headers=_headers(token),
         timeout=20,
     )
     r.raise_for_status()
@@ -124,7 +133,7 @@ def prune(api, token, ids):
     try:
         requests.post(
             f"{api.rstrip('/')}/prune",
-            headers={"Authorization": f"Bearer {token}"},
+            headers=_headers(token),
             json={"ids": ids},
             timeout=20,
         )

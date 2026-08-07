@@ -302,16 +302,30 @@ Actions → *Nightly questions push* → **Run workflow**, optionally with a
 
 ---
 
-## Deploying the Cloudflare Worker
+## The Cloudflare Worker — already deployed
 
+| | |
+|---|---|
+| URL | `https://eurotrip-push.coobysnacks.workers.dev` |
+| KV namespace | `eurotrip-subs` — id `766974225fd84191a5dfb112d6392b93` |
+| Account | `1d7d939d411cb67b705baec6e3a52f49` |
+| Secret binding | `ADMIN_TOKEN` (matches the `PUSH_ADMIN_TOKEN` repo secret) |
+
+Health check: `curl -A "Mozilla/5.0" https://eurotrip-push.coobysnacks.workers.dev/health`
+
+**⚠️ Send a browser User-Agent.** Cloudflare's edge 403s the default
+`python-requests/x.y` UA on `workers.dev`. `scripts/send_push.py` sets one; if you
+write any new client, do the same or you'll get a silent 403.
+
+### Redeploying it
+Only needed if `worker/worker.js` changes. With Node available:
 ```bash
-cd worker
-npx wrangler kv namespace create SUBS      # paste the id into wrangler.toml
-npx wrangler secret put ADMIN_TOKEN        # same value as PUSH_ADMIN_TOKEN
-npx wrangler deploy
+cd worker && npx wrangler deploy
 ```
-Then put the resulting `*.workers.dev` URL into **both** `js/push.js`
-(`PUSH_API`) and the `PUSH_API` repo secret.
+Without Node, PUT the script to
+`/client/v4/accounts/<acct>/workers/scripts/eurotrip-push` as multipart
+(`metadata` + `worker.js`), with the KV and secret bindings in the metadata —
+that is how it was deployed originally.
 
 ---
 
