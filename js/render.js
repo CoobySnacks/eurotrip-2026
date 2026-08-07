@@ -110,6 +110,16 @@ const R = (() => {
 
   const sortedBlocks = day => [...day.blocks].sort((a, b) => T.blockKey(a.time) - T.blockKey(b.time));
 
+  /** Big tap-through button pinned to the top of a day (e.g. Concert Night). */
+  function pinnedLink(day) {
+    const p = day.pinnedLink;
+    if (!p) return '';
+    return `<a class="pinned-link" data-go="${esc(p.tab)}">
+      <div class="pl-label">${esc(p.label)}</div>
+      ${p.sub ? `<div class="pl-sub">${esc(p.sub)}</div>` : ''}
+    </a>`;
+  }
+
   /* ---------- one-line day summary ---------- */
   function daySummary(day) {
     const meals = day.blocks
@@ -124,7 +134,7 @@ const R = (() => {
     const f = D.flights[0];
     return `
     <div class="crew">
-      <img src="assets/crew.jpg" alt="Coob, Grant and Jared" class="crew-img" width="1100" height="688" loading="eager" decoding="async">
+      <img src="assets/crew.jpg" alt="Coob, Grant and Jared" class="crew-img" width="1100" height="546" loading="eager" decoding="async">
       <div class="crew-cap"><span>Coob · Grant · Jared</span><span class="crew-tag">4 cities · 14 days</span></div>
     </div>
     <div class="hero">
@@ -223,7 +233,7 @@ const R = (() => {
           </div>
           <div class="dh-chev">▶</div>
         </div>
-        <div class="day-body">${sortedBlocks(day).map(b => blockHTML(D, b)).join('')}</div>
+        <div class="day-body">${pinnedLink(day)}${sortedBlocks(day).map(b => blockHTML(D, b)).join('')}</div>
       </div>`;
     });
     return h;
@@ -263,7 +273,8 @@ const R = (() => {
     const hrs = wxData ? WX.hoursFor(wxData, day.date) : [];
     const rainNote = hrs.length ? WX.rainFlag(hrs) : null;
 
-    let h = `<div class="today-hdr">
+    let h = pinnedLink(day);
+    h += `<div class="today-hdr">
       <div class="th-greet">${esc(greeting(mins))}${who ? ', ' + esc(who) : ''}</div>
       <div class="th-day">${esc(day.title)}</div>
       <div class="th-meta"><span class="th-city-dot"></span>${T.longDate(day.date)} · ${esc(c.name)} local time</div>
@@ -707,6 +718,92 @@ const R = (() => {
     return h;
   }
 
+  /* ══════════════ CONCERT NIGHT ══════════════
+     The one page that gets read at midnight, in a crowd, drunk, with no
+     signal. Everything is hardcoded in trip.json — no fetches. Big type,
+     one instruction per line, and the section they actually need (getting
+     home) is one tap away at all times. */
+  function concertNight(D) {
+    const C = D.concertNight;
+    if (!C) return `<div class="empty">No concert night data.</div>`;
+
+    const alertBox = a => `<div class="cn-alert">
+      <div class="cn-alert-t">⚠️ ${esc(a.title)}</div>
+      ${a.body.split('\n\n').map(p => `<p>${esc(p)}</p>`).join('')}
+    </div>`;
+
+    const lines = arr => arr.map(l => `<div class="cn-line">${esc(l)}</div>`).join('');
+
+    let h = `<a class="cn-jump" href="#getting-home">🌙 GETTING HOME →</a>`;
+
+    h += `<div class="cn-hero">
+      <div class="cn-kicker">🎸 ${esc(C.title)}</div>
+      <div class="cn-route">${esc(C.route)}</div>
+    </div>`;
+
+    h += alertBox(C.topAlert);
+
+    /* timeline */
+    h += `<div class="cn-h2">The timeline</div><div class="cn-card cn-timeline">`;
+    C.timeline.forEach(t => {
+      h += `<div class="cn-tl"><div class="cn-tl-t">${esc(t.time)}</div><div class="cn-tl-w">${esc(t.what)}</div></div>`;
+    });
+    h += `</div>`;
+
+    /* steps */
+    C.steps.forEach(s => {
+      h += `<div class="cn-h2"><span class="cn-num">${esc(s.n)}</span> ${esc(s.title)}</div>`;
+      if (s.meta) h += `<div class="cn-meta">${esc(s.meta)}</div>`;
+      h += `<div class="cn-card">`;
+      h += lines(s.lines);
+      if (s.alert) h += alertBox(s.alert);
+      if (s.linesAfter) h += lines(s.linesAfter);
+      if (s.venue) h += venueLinks(D, s.venue);
+      if (s.tip) h += `<div class="cn-tip">${esc(s.tip)}</div>`;
+      h += `</div>`;
+    });
+
+    /* getting home */
+    h += `<div class="cn-h2 cn-home-h" id="getting-home">🌙 ${esc(C.home.title)}</div>`;
+    h += `<div class="cn-card cn-home">`;
+    h += `<div class="cn-headline">${esc(C.home.headline)}</div>`;
+    h += `<div class="cn-sub">${esc(C.home.sub)}</div>`;
+    h += lines(C.home.lines);
+    h += alertBox(C.home.alert);
+    h += lines(C.home.linesAfter);
+    h += `<div class="cn-tip">${esc(C.home.tip)}</div>`;
+    h += `</div>`;
+
+    /* taxi */
+    h += `<div class="cn-h2">🚕 ${esc(C.taxi.title)}</div><div class="cn-card">`;
+    h += lines(C.taxi.lines);
+    h += `<div class="cn-show">Show the driver:<div class="cn-addr">${esc(C.taxi.showDriver)}</div></div>`;
+    h += `<div class="cn-alert"><div class="cn-alert-t">⚠️ ${esc(C.taxi.warn)}</div></div>`;
+    h += `</div>`;
+
+    /* pre-flight */
+    h += `<div class="cn-h2">${esc(C.preflight.title)}</div>`;
+    h += `<div class="cn-meta">${esc(C.preflight.meta)}</div><div class="cn-card">`;
+    C.preflight.items.forEach(i => h += `<div class="cn-check">☐ ${esc(i)}</div>`);
+    h += `</div>`;
+
+    /* separated */
+    h += `<div class="cn-h2">🆘 ${esc(C.separated.title)}</div><div class="cn-card cn-sos">`;
+    h += C.separated.body.split('\n\n').map(p => `<p class="cn-line">${esc(p)}</p>`).join('');
+    h += `</div>`;
+
+    /* phones */
+    h += `<div class="cn-phones">`;
+    C.phones.forEach(p => {
+      h += `<a class="cn-phone" href="tel:${esc(p.number.replace(/\s/g,''))}">
+        <span class="cn-phone-l">${esc(p.label)}</span>
+        <span class="cn-phone-n">${esc(p.number)}</span></a>`;
+    });
+    h += `</div>`;
+    return h;
+  }
+
   return { esc, home, today, city, fullTrip, bookings, money, checklists,
-           questions, dayList, blockHTML, venueLinks, mapsUrl, sortedBlocks, hero };
+           questions, concertNight, dayList, blockHTML, venueLinks, mapsUrl,
+           sortedBlocks, hero };
 })();

@@ -85,6 +85,10 @@ const App = (() => {
         ensureWx(next).then(w => { if (tab === next) view.innerHTML = R.city(D, next, w); });
         break;
       }
+      case 'concert':
+        setAccent('amsterdam');
+        view.innerHTML = R.concertNight(D);
+        break;
       case 'bookings':   view.innerHTML = R.bookings(D); break;
       case 'money':      view.innerHTML = R.money(D, who); break;
       case 'checklists': view.innerHTML = R.checklists(D); break;

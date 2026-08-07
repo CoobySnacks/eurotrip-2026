@@ -188,6 +188,46 @@ One entry per calendar day, in order.
 }
 ```
 
+### `concertNight` — the Sep 4 standalone page
+
+Its own top-level object, rendered by `R.concertNight()` on the `concert` tab.
+Written to be **read drunk, in a crowd, with no signal**: type one size up
+site-wide, one instruction per `cn-line`, everything hardcoded (no fetches).
+
+```jsonc
+"concertNight": {
+  "topAlert": { "title": "...", "body": "para\n\npara" },   // red alert box
+  "timeline": [ { "time": "4:45 PM", "what": "Leave the hotel" } ],
+  "steps": [ {
+    "n": "2", "title": "THE METRO OUT", "meta": "16 minutes",
+    "lines": [ "one instruction per string" ],
+    "alert": { "title": "...", "body": "..." },   // optional, renders mid-step
+    "linesAfter": [ "instructions that follow the alert" ],
+    "venue": "blvd020",                           // optional → link row
+    "tip": "Lost? ..."                            // grey side-note
+  } ],
+  "home": { ... },      // same shape; anchored at #getting-home
+  "taxi": { "lines": [], "showDriver": "...", "warn": "..." },
+  "preflight": { "items": [] },
+  "separated": { "body": "..." },
+  "phones": [ { "label": "Hotel", "number": "+31 20 623 1231" } ]
+}
+```
+
+`\n\n` inside an alert or `separated.body` becomes a paragraph break.
+`phones[].number` is rendered as a `tel:` link — keep it dialable.
+
+The sticky **GETTING HOME** button is `.cn-jump`, anchored to `#getting-home`.
+That is the section they will actually need at midnight; don't bury it.
+
+### `pinnedLink` — big button at the top of a day
+
+```jsonc
+"pinnedLink": { "tab": "concert", "label": "🎸 CONCERT NIGHT — ...", "sub": "..." }
+```
+Renders above everything in both the TODAY view and the expanded day row.
+`tab` is any nav tab id.
+
 ### `money`
 `people.Jared` / `people.Grant` each carry `round1` (settled) and `round2`
 (forecast). Per-person data is only shown to that person unless the
@@ -359,9 +399,11 @@ Checklist state is **per phone** — everyone tracks their own. That is intentio
 - `assets/logo.png` (1200×1200) is the master. Regenerate icons from it with
   Pillow: 180/192/512 straight resizes, plus a maskable 512 padded to 78% on the
   badge's navy `rgb(19,29,56)`.
-- `assets/crew.jpg` is **pre-cropped to 16:10**, so the CSS uses plain
-  `object-position:center`. If you swap in a different photo, either re-crop to
-  16:10 or put the framing back into `object-position`.
+- `assets/crew.jpg` is **pre-cropped to 2:1**, so the CSS uses plain
+  `object-position:center`. If you swap in a different photo, re-crop it to 2:1
+  rather than fighting it with `object-position`. Keep an untouched original
+  somewhere — the first version of this file was optimised in place and the
+  full-frame original was lost, which limited a later re-crop.
 - **Changing the icon after people have installed does nothing.** iOS snapshots
   the home-screen icon at install time. A new icon means deleting and re-adding
   the app, so get it right before the link goes out.

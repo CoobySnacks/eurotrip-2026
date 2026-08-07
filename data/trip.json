@@ -12,7 +12,7 @@
       "Grant"
     ],
     "organizer": "Coob",
-    "dataVersion": "1.2.0",
+    "dataVersion": "1.5.0",
     "lastUpdated": "2026-08-06",
     "questionsUnlockHour": 20,
     "fixedQuestions": [
@@ -342,17 +342,6 @@
       "igHandle": "@this.is.klyo",
       "note": "Riverfront canal bar on the Donaukanal."
     },
-    "das-loft": {
-      "name": "Das Loft",
-      "address": "Praterstraße 1, 1020 Wien",
-      "city": "Vienna",
-      "website": "https://www.dasloftwien.at/en/",
-      "menu": "https://www.dasloftwien.at/en/das-loft-menus/",
-      "instagram": "https://instagram.com/dasloftwien",
-      "igHandle": "@dasloftwien",
-      "closed": true,
-      "note": "CLOSED for renovation until Sep 3, 2026. We are gone by Aug 30 — we do not get in."
-    },
     "albertina": {
       "name": "Albertina",
       "address": "Albertinaplatz 1, 1010 Wien",
@@ -402,7 +391,7 @@
       "instagram": "https://instagram.com/krypt.bar",
       "igHandle": "@krypt.bar",
       "email": "drink@krypt.bar",
-      "note": "Falstaff 90 pts 2026. Historic vaulted cellar, 7-metre marble-and-walnut counter, elevator down. Fri until 2–3 AM."
+      "note": "Falstaff 90 pts 2026. Historic vaulted cellar, 23-foot marble-and-walnut counter, elevator down. Fri until 2–3 AM."
     },
     "volksgarten": {
       "name": "Volksgarten Club",
@@ -412,7 +401,7 @@
       "menu": null,
       "instagram": "https://instagram.com/volksgarten",
       "igHandle": "@volksgarten",
-      "dressCode": "Smart. Collared shirt, real shoes. NO sneakers, NO shorts. Doors run on discretion.",
+      "dressCode": "It's a club — no gym gear. Jeans and a decent shirt are fine.",
       "note": "Thu–Sat 11 PM–6 AM. 21+."
     },
     "cafe-landtmann": {
@@ -635,7 +624,7 @@
       "menu": null,
       "instagram": "https://instagram.com/bucherer",
       "igHandle": "@bucherer",
-      "note": "THE APPOINTMENT. Confirm Østergade 22 vs temporary №15 before you walk over."
+      "note": "Walk-in, no appointment. Østergade 22 — may be trading from a temporary shop at No. 15 during the rebuild; the CPO boutique is also at No. 15."
     },
     "politically-incorrect": {
       "name": "Politically Incorrect Tours",
@@ -676,7 +665,7 @@
       "instagram": "https://instagram.com/cafedejaren",
       "igHandle": "@cafedejaren",
       "outdoor": true,
-      "note": "100m from the hotel. Canal-side terrace — the reason to go."
+      "note": "a hundred yards from the hotel. Canal-side terrace — the reason to go."
     },
     "cannibale-royale": {
       "name": "Cannibale Royale Handboogstraat",
@@ -908,7 +897,6 @@
       "menu": "https://sexyfish.com/menus/",
       "instagram": "https://instagram.com/sexyfishlondon",
       "igHandle": "@sexyfishlondon",
-      "dressCode": "NO sneakers, NO caps.",
       "note": "Bar table reserved. Closes MIDNIGHT on Sundays. Damien Hirst art."
     },
     "park-chinois": {
@@ -940,16 +928,6 @@
       "instagram": "https://instagram.com/harrods",
       "igHandle": "@harrods",
       "note": "Food hall, watch windows. No dress code."
-    },
-    "va-museum": {
-      "name": "V&A Museum",
-      "address": "Cromwell Road, London SW7 2RL",
-      "city": "London",
-      "website": "https://www.vam.ac.uk/south-kensington/visit",
-      "menu": "https://www.vam.ac.uk/info/va-cafe/",
-      "instagram": "https://instagram.com/vamuseum",
-      "igHandle": "@vamuseum",
-      "note": "FREE. Open Mondays. 10 min from Harrods."
     },
     "dishoom-carnaby": {
       "name": "Dishoom Carnaby",
@@ -1000,6 +978,146 @@
       "instagram": null,
       "igHandle": null,
       "note": "International terminal. Lounge access with Business."
+    },
+    "atmosphere-rooftop": {
+      "name": "Atmosphere Rooftop Bar",
+      "address": "Schubertring 5–7, 1010 Wien",
+      "city": "Vienna",
+      "website": "https://www.ritzcarlton.com/en/hotels/vievi-the-ritz-carlton-vienna/dining/",
+      "menu": null,
+      "instagram": "https://instagram.com/ritzcarltonvienna",
+      "igHandle": "@ritzcarltonvienna",
+      "note": "Rooftop of The Ritz-Carlton. Falstaff 92 pts (2026). Sat 5pm–1am. Walk-in."
+    },
+    "mesteren-laerlingen": {
+      "name": "Mesteren & Lærlingen",
+      "address": "Flæsketorvet 86, 1711 København V",
+      "city": "Copenhagen",
+      "website": "https://mesterenoglaerlingen.dk",
+      "menu": null,
+      "instagram": "https://instagram.com/mesterenoglaerlingen",
+      "igHandle": "@mesterenoglaerlingen",
+      "note": "The old butcher's bodega. Cheap, loud, ground floor, open til 01:00. Indoor smoking is permitted."
+    },
+    "curfew": {
+      "name": "Curfew",
+      "address": "Vesterbrogade 20, 1620 København V",
+      "city": "Copenhagen",
+      "website": "https://curfew.dk",
+      "menu": null,
+      "instagram": "https://instagram.com/curfewcph",
+      "igHandle": "@curfewcph",
+      "note": "Speakeasy behind a former bookstore's shelves. Serious cocktails, open til 01:00 Tuesdays. Small room — book a table."
+    },
+    "cafe-hoppe": {
+      "name": "Café Hoppe",
+      "address": "Spui 18-20, 1012 XA Amsterdam",
+      "city": "Amsterdam",
+      "website": "https://cafehoppe.com",
+      "menu": null,
+      "instagram": "https://instagram.com/cafehoppe",
+      "igHandle": "@cafehoppe",
+      "note": "Brown café since 1670. Always packed, spills onto the street. Open til 01:00. Walk in."
+    },
+    "westminster-abbey": {
+      "name": "Westminster Abbey",
+      "address": "20 Deans Yard, London SW1P 3PA",
+      "city": "London",
+      "website": "https://www.westminster-abbey.org/visit-us",
+      "menu": null,
+      "instagram": "https://instagram.com/wabbey",
+      "igHandle": "@wabbey",
+      "note": "£31 each, timed entry, book online. Closes 3:30 PM. Verger-guided tours bookable at the desk."
+    },
+    "churchill-war-rooms": {
+      "name": "Churchill War Rooms",
+      "address": "Clive Steps, King Charles Street, London SW1A 2AQ",
+      "city": "London",
+      "website": "https://www.iwm.org.uk/visits/churchill-war-rooms",
+      "menu": null,
+      "instagram": "https://instagram.com/i_w_m",
+      "igHandle": "@i_w_m",
+      "note": "£29.75pp. 9:30am–6pm, last entry 5pm. Book ahead. 5 min from Westminster Abbey."
+    },
+    "red-lion-westminster": {
+      "name": "The Red Lion",
+      "address": "48 Parliament Street, London SW1A 2NH",
+      "city": "London",
+      "website": "https://www.redlionwestminster.co.uk",
+      "menu": null,
+      "instagram": "https://instagram.com/theredlionwestminster",
+      "igHandle": "@theredlionwestminster",
+      "note": "Mon 11:00–23:00. Grade II listed, working division bell that summons MPs back to the House. Downing Street is a hundred yards away."
+    },
+    "the-chandos": {
+      "name": "The Chandos",
+      "address": "29 St Martin's Lane, London WC2N 4ER",
+      "city": "London",
+      "website": null,
+      "menu": null,
+      "instagram": null,
+      "igHandle": null,
+      "note": "Mon 12:00–23:00. Sam Smith's — no website or Instagram, that's normal, not a closure. Cheapest proper pint in the West End. Go upstairs to the panelled Opera Room. Own-brewery beers only (no Guinness) and a house no-phones policy."
+    },
+    "the-harp": {
+      "name": "The Harp",
+      "address": "47 Chandos Place, London WC2N 4HS",
+      "city": "London",
+      "website": "https://www.harpcoventgarden.com",
+      "menu": null,
+      "instagram": "https://instagram.com/theharpcoventgarden",
+      "igHandle": "@theharpcoventgarden",
+      "note": "Mon 11:00–23:00. CAMRA National Pub of the Year. 8 cask lines, walls of oil portraits, no TV, no music. No kitchen — won't ruin dinner."
+    },
+    "old-coffee-house": {
+      "name": "The Old Coffee House",
+      "address": "49 Beak Street, Soho, London W1F 9SF",
+      "city": "London",
+      "website": null,
+      "menu": null,
+      "instagram": "https://instagram.com/theoldcoffeehouse",
+      "igHandle": "@theoldcoffeehouse",
+      "note": "Mon 11:00–23:00. Licensed since 1772. Brass floor to ceiling, taxidermy, music-hall memorabilia. Kitchen shuts 3 PM — drinks only."
+    },
+    "the-clachan": {
+      "name": "The Clachan",
+      "address": "34 Kingly Street, London W1B 5QH",
+      "city": "London",
+      "website": null,
+      "menu": null,
+      "instagram": null,
+      "igHandle": null,
+      "note": "Backup pub, 60 seconds from Dishoom."
+    },
+    "nimb-bar": {
+      "name": "Nimb American Bar",
+      "address": "Bernstorffsgade 5, 1577 København V",
+      "city": "Copenhagen",
+      "website": "https://www.nimb.dk/en/nimb-bar/",
+      "menu": null,
+      "instagram": "https://instagram.com/nimbcph",
+      "igHandle": "@nimbcph",
+      "note": "Inside Tivoli. Closes 23:00."
+    },
+    "sky-garden": {
+      "name": "Sky Garden",
+      "address": "1 Sky Garden Walk, London EC3M 8AF",
+      "city": "London",
+      "website": "https://skygarden.london",
+      "menu": null,
+      "instagram": "https://instagram.com/skygardenlondon",
+      "igHandle": "@skygardenlondon",
+      "note": "Free, but you must book a timed slot ahead."
+    },
+    "tower-of-london": {
+      "name": "Tower of London",
+      "address": "London EC3N 4AB",
+      "city": "London",
+      "website": "https://www.hrp.org.uk/tower-of-london/",
+      "menu": null,
+      "instagram": "https://instagram.com/toweroflondon",
+      "igHandle": "@toweroflondon",
+      "note": "Book ahead."
     }
   },
   "days": [
@@ -1058,8 +1176,8 @@
         "discussion": [
           "What are you most looking forward to over the next 14 days?",
           "Over/under: how many drinks do you have before we land?",
-          "Vote now, settle it Friday — who's getting destroyed by jet lag?",
-          "You get one do-over on this trip, no questions asked. When do you think you'll burn it?",
+          "Vote now, settle it Friday — who's getting absolutely wrecked by jet lag?",
+          "You get one do-over on this trip, no questions asked. When do you burn it?",
           "One sentence: what would make this a 10 out of 10?"
         ]
       },
@@ -1148,7 +1266,7 @@
         ],
         "discussion": [
           "Vienna in one word. Go around, no repeats.",
-          "Who handled that flight the best? Who looked the worst getting off it?",
+          "Who handled that flight the best? Who looked like absolute shit getting off it?",
           "What's the first thing today that felt genuinely foreign?",
           "Best bite at Cucina Itameshi — and was Italian-Japanese the right call?",
           "Nominate someone for 'most likely to fall asleep at this table.'"
@@ -1225,7 +1343,7 @@
           "type": "drinks",
           "title": "Krypt",
           "venue": "krypt",
-          "desc": "Falstaff 90 points. Vaulted cellar, 7-metre marble-and-walnut counter, you take an elevator DOWN to it. Open until 2–3 AM Fridays.",
+          "desc": "Falstaff 90 points. Vaulted cellar, 23-foot marble-and-walnut counter, you take an elevator DOWN to it. Open until 2–3 AM Fridays.",
           "highlight": true
         },
         {
@@ -1267,9 +1385,9 @@
         "discussion": [
           "What's the one thing the guide told us that actually stuck?",
           "Most out-of-pocket thing anyone said before noon. Quote it exactly.",
-          "Albertina — genuinely great, or were we just being cultured for an afternoon?",
-          "On the record right now: who makes it into Volksgarten and who taps out?",
-          "Whoever taps out first tonight buys the first round in Copenhagen. Who is it?"
+          "Albertina — genuinely great, or were we just pretending to be cultured for an afternoon?",
+          "On the record right now: who makes it into Volksgarten and who taps out like a bitch?",
+          "Whoever taps out first tonight buys the first round in Copenhagen. Name him."
         ]
       }
     },
@@ -1339,10 +1457,19 @@
         {
           "time": "17:00",
           "type": "drinks",
-          "title": "Drinks — Klyo or the hotel bar",
-          "venue": "klyo",
-          "desc": "Das Loft was the plan. It is closed for renovation until Sep 3.",
-          "warn": "⚠️ Das Loft is CLOSED. Do not walk to the 18th floor. Klyo or the SO/ lobby bar instead."
+          "title": "Sunset drinks · Atmosphere Rooftop",
+          "venue": "atmosphere-rooftop",
+          "desc": "Rooftop of The Ritz-Carlton, looking over the Ring. Falstaff 92 pts. Walk in — open til 1am Saturdays.",
+          "note": "Replaces Das Loft, which is shut for renovation until Sep 3.",
+          "outdoor": true,
+          "suggestions": [
+            {
+              "title": "Or just Klyo",
+              "desc": "Canal bar, 5 min from the hotel, zero effort.",
+              "venue": "klyo"
+            }
+          ],
+          "rainCheck": true
         },
         {
           "time": "19:00",
@@ -1396,10 +1523,10 @@
         ],
         "discussion": [
           "Score last night out of 10 — and you have to justify the number.",
-          "Who is the most hungover right now? We can all see you.",
+          "Who is the most hungover right now? Don't lie, we can all see you.",
           "Best decision made last night. Worst decision made last night.",
           "Lugeck's schnitzel vs everything else we've eaten. Where does it land?",
-          "One more day in Vienna, no budget. What are we doing with it?"
+          "One more day in Vienna, no budget, no rules. What are we doing?"
         ]
       }
     },
@@ -1486,9 +1613,9 @@
           }
         ],
         "discussion": [
-          "Vienna, final score out of 10. Locked in — you can't revise it later.",
+          "Vienna, final score out of 10. Locked in — no revising it later.",
           "What did we leave undone in Vienna?",
-          "Who packed the worst? Who's already lost something?",
+          "Who packed the worst? Who's already lost something stupid?",
           "The Orangerie room at Esmée — worth the hype, or just a nice room?",
           "Copenhagen's on the clock. What are you most hyped for here?"
         ]
@@ -1536,7 +1663,8 @@
           "title": "Nyhavn",
           "venue": "nyhavn-17",
           "desc": "Enter from the Kongens Nytorv end — better approach, better photos.",
-          "outdoor": true
+          "outdoor": true,
+          "rainCheck": true
         },
         {
           "time": "17:00",
@@ -1544,7 +1672,8 @@
           "title": "Drinks · Nyhavn 17",
           "venue": "nyhavn-17",
           "desc": "Canal-side. Touristy and completely worth it.",
-          "outdoor": true
+          "outdoor": true,
+          "rainCheck": true
         },
         {
           "time": "19:00",
@@ -1598,7 +1727,7 @@
           }
         ],
         "discussion": [
-          "The tour is literally called Politically Incorrect. Did they earn the name?",
+          "The tour is literally called Politically Incorrect. Did they earn it?",
           "Funniest thing that happened today.",
           "Nyhavn: as good as the photos, or a tourist trap with excellent paint?",
           "Most overrated thing we've done so far. Be brave.",
@@ -1648,13 +1777,11 @@
         },
         {
           "time": "14:30",
-          "endTime": "17:00",
           "type": "activity",
-          "title": "Strøget + Bucherer — THE ROLEX APPOINTMENT",
+          "title": "Strøget + Bucherer — walk-in, no appointment",
           "venue": "bucherer",
-          "desc": "Walk Strøget to Bucherer (ex-Klarlund). Confirm Østergade 22 vs the temporary №15 before walking over. Done by 5.",
-          "highlight": true,
-          "warn": "If you buy: you need the Customs desk at CPH Terminal 3 TOMORROW, before check-in."
+          "desc": "Seeing whether Jared or Grant can buy whatever's actually available. No appointment booked. Østergade 22 — they may be trading from a temporary shop at No. 15 during the rebuild; the CPO boutique is at No. 15 too. Done by 5.",
+          "warn": "If anyone buys: ask for Global Blue paperwork at the counter, and take the refund to a CREDIT CARD, not cash."
         },
         {
           "time": "17:30",
@@ -1665,18 +1792,20 @@
           "highlight": true
         },
         {
-          "time": "20:00",
+          "time": "20:20",
           "type": "activity",
-          "title": "Tivoli Gardens at dusk",
+          "title": "Tivoli at blue hour",
           "venue": "tivoli",
-          "desc": "Open until ~11 PM. Season runs through Sep 20. Walk it at dusk when the lights come on.",
-          "outdoor": true
-        },
-        {
-          "time": "22:00",
-          "type": "drinks",
-          "title": "Vesterbro — if the night has legs",
-          "desc": "No booking. See where it goes."
+          "desc": "Sunset is ~20:05, so this lands right. ~17 min walk from Kødbyen. Season runs through Sep 20.",
+          "outdoor": true,
+          "rainCheck": true,
+          "suggestions": [
+            {
+              "title": "Cocktail at Nimb American Bar",
+              "desc": "Inside Tivoli. Closes 23:00.",
+              "venue": "nimb-bar"
+            }
+          ]
         },
         {
           "time": "23:30",
@@ -1684,6 +1813,22 @@
           "title": "PACK — 9:30 AM pickup",
           "desc": "And if you bought the Rolex, put the paperwork somewhere you can reach it at the airport.",
           "warn": "9:30 AM pickup tomorrow. Pack tonight."
+        },
+        {
+          "time": "20:00",
+          "type": "drinks",
+          "title": "Quick beer · Mesteren & Lærlingen",
+          "venue": "mesteren-laerlingen",
+          "desc": "Two minutes from Warpigs. The old butcher's bodega — cheap, loud, ground floor, open til 01:00.",
+          "note": "Indoor smoking is permitted in here. Fair warning."
+        },
+        {
+          "time": "22:30",
+          "type": "drinks",
+          "title": "Last night in Copenhagen · Curfew",
+          "venue": "curfew",
+          "desc": "Speakeasy behind a former bookstore's shelves. Open til 01:00 on Tuesdays. 4 min from Tivoli's gate, 6 min from the hotel.",
+          "warn": "Small room — book a table. Jolene, Brass Monkey and Baggen are all CLOSED Tuesdays, so don't plan on them."
         }
       ],
       "questions": {
@@ -1703,7 +1848,7 @@
         ],
         "discussion": [
           "Best single thing anyone ate at Reffen. Defend it.",
-          "Did anybody buy a watch? Full disclosure required.",
+          "Did anybody actually buy a watch? Full disclosure, no lying.",
           "Warpigs against every beer we've had so far — where does it rank?",
           "Tivoli after dark: actually magic, or just a theme park with better lighting?",
           "Favorite city so far. First real verdict and you're on the record."
@@ -1760,7 +1905,7 @@
           "type": "drinks",
           "title": "Drinks · Café de Jaren",
           "venue": "cafe-de-jaren",
-          "desc": "100m from the hotel. Canal-side terrace — that's the whole point.",
+          "desc": "a hundred yards from the hotel. Canal-side terrace — that's the whole point.",
           "outdoor": true
         },
         {
@@ -1778,10 +1923,10 @@
         {
           "time": "21:00",
           "type": "drinks",
-          "title": "LuminAir rooftop",
-          "venue": "luminair",
-          "desc": "DoubleTree 11th floor. Open until 1 AM. Walk in.",
-          "warn": "NOT DeDakkas — that one's in Haarlem. Old itinerary error, ignore it."
+          "title": "Café Hoppe",
+          "venue": "cafe-hoppe",
+          "desc": "Brown café since 1670. Always packed, spills out onto the street. 4 min from dinner, 6 min from the hotel. Open til 01:00, walk in.",
+          "note": "LuminAir moves to Thursday — it was double-booked across two nights."
         }
       ],
       "questions": {
@@ -1802,8 +1947,8 @@
         "discussion": [
           "Copenhagen, final score. Locked.",
           "First impression of Amsterdam in one sentence.",
-          "Best meal of the trip so far — everyone answers, no agreeing with each other.",
-          "Anyone out of clean clothes yet? Show of hands.",
+          "Best meal of the trip so far — everyone answers, nobody's allowed to just agree.",
+          "Anyone completely out of clean underwear yet? Be honest.",
           "Two days out. What's the one song you need to hear on Friday?"
         ]
       }
@@ -1847,18 +1992,14 @@
         {
           "time": "14:00",
           "type": "free",
-          "title": "Afternoon free — wander",
-          "desc": "No agenda. Walk the canals, find a brown café.",
+          "title": "Free afternoon",
+          "venue": null,
+          "desc": "Nothing booked, keep it loose. Wander the canals, or beers at Hannekes Boom if everyone's up for it.",
           "suggestions": [
             {
               "title": "Hannekes Boom",
-              "desc": "Waterfront beer garden on a pier near Centraal. Canal-side beers if the group's up for it.",
+              "desc": "Waterfront beer garden on a pier near Centraal. Casual, outdoor.",
               "venue": "hannekes-boom"
-            },
-            {
-              "title": "A'DAM Lookout",
-              "desc": "Free ferry behind Centraal. Europe's highest swing, 360° view.",
-              "venue": "adam-lookout"
             }
           ]
         },
@@ -1877,17 +2018,18 @@
         {
           "time": "21:30",
           "type": "drinks",
-          "title": "LuminAir rooftop — again",
+          "title": "LuminAir rooftop — the whole night",
           "venue": "luminair",
-          "desc": "Walk in, no booking. Open until 2 AM on Thursdays. If the vibe's good we stay all night.",
-          "highlight": true,
+          "desc": "DoubleTree 11th floor. Walk in, no booking, open til 2am. If the vibe's good we stay all night.",
           "suggestions": [
             {
-              "title": "Wildcard: Canvas @ Volkshotel",
-              "desc": "7th floor, free DJ night on Thursdays. Good second stop if LuminAir dies.",
+              "title": "Optional second stop: Canvas",
+              "desc": "Volkshotel 7th floor. Free Thursday DJ night.",
               "venue": "canvas-volkshotel"
             }
-          ]
+          ],
+          "outdoor": true,
+          "rainCheck": true
         }
       ],
       "questions": {
@@ -1910,7 +2052,7 @@
           "Best thing you saw today that wasn't on the itinerary.",
           "Does the steak at BLACK crack the top three meals of this trip?",
           "Who's taken the best photo of the trip? Phones out, settle it.",
-          "Most touristy thing you've secretly loved so far."
+          "Most touristy shit you've secretly loved so far."
         ]
       }
     },
@@ -1928,7 +2070,9 @@
           "title": "Lunch · Foodhallen",
           "venue": "foodhallen",
           "desc": "Converted tram depot in Oud-West. 19 stalls — The Butcher burgers, Holy Fried Chicken, ramen, tacos, pizza, three bars. €8–16 a plate.",
-          "warn": "OPENS 12:00 SHARP, walk-in only. Be there right at noon and send ONE guy to claim a table immediately."
+          "warn": "OPENS 12:00 SHARP, walk-in only. Be there right at noon and send ONE guy to claim a table immediately.",
+          "outdoor": true,
+          "rainCheck": true
         },
         {
           "time": "13:45",
@@ -2004,8 +2148,13 @@
           "Was the VIP loge worth it? Honest answers only.",
           "Rate Robert Finley's opening set.",
           "Van Gogh this afternoon, the Black Keys tonight. Which one actually hit harder?",
-          "Best moment of the whole trip so far — and we're past the halfway mark."
+          "Best moment of the whole damn trip so far — and we're past halfway."
         ]
+      },
+      "pinnedLink": {
+        "tab": "concert",
+        "label": "🎸 CONCERT NIGHT — how to get there and back",
+        "sub": "Metro, dinner, the venue, and the way home. Built to be read drunk."
       }
     },
     {
@@ -2102,11 +2251,11 @@
           }
         ],
         "discussion": [
+          "Did Jared sleep with his shoes on last night? The room will decide.",
           "Amsterdam, final score. Locked.",
           "Three cities down. Which one are you going back to first?",
-          "The Devonshire queue — worth it, or a mistake we'll repeat anyway?",
-          "Funniest thing that's happened in eleven days.",
-          "Anything you still want to do before we fly home? Say it now or it doesn't happen."
+          "The Devonshire queue — worth it, or a mistake we'll happily make again?",
+          "Funniest thing that's happened in eleven days."
         ]
       }
     },
@@ -2176,19 +2325,14 @@
         {
           "time": "22:00",
           "type": "drinks",
-          "title": "Sexy Fish",
+          "title": "Nightcap · Sexy Fish",
           "venue": "sexy-fish",
-          "desc": "Berkeley Square. Bar table reserved. Damien Hirst on the walls.",
-          "warn": "DRESS CODE: no sneakers, no caps. Closes MIDNIGHT on Sundays.",
-          "res": {
-            "conf": "Bar table reserved",
-            "party": 3,
-            "time": "22:00"
-          },
+          "desc": "Walk in at the bar. Closes midnight on Sundays. Berkeley Square, Damien Hirst on the walls.",
+          "note": "Nightcap option, not a headline event. Skip it if the day's run long.",
           "suggestions": [
             {
               "title": "Backup: Park Chinois",
-              "desc": "17 Berkeley Street, 2 min away. Live music, 1930s Shanghai room.",
+              "desc": "2 min away, open Sun 6pm–midnight.",
               "venue": "park-chinois"
             }
           ]
@@ -2213,7 +2357,7 @@
           "Best room we have been inside on this entire trip.",
           "Most underrated stop of the trip.",
           "Sexy Fish: incredible or ridiculous? You're allowed to say both.",
-          "Who has aged the worst over twelve days? Look at each other before answering.",
+          "Who has aged the worst over twelve days? Look at each other before you answer.",
           "First thing you'll tell people about when you get home?"
         ]
       }
@@ -2227,62 +2371,90 @@
       "locked": false,
       "blocks": [
         {
-          "time": "09:00",
+          "time": "10:30",
           "type": "meal",
           "title": "Breakfast · The Breakfast Club Old Compton St",
           "venue": "breakfast-club",
-          "desc": "Soho. Moved earlier to 9:00.",
+          "desc": "18 Old Compton Street, Soho.",
           "res": {
-            "conf": "CONFIRMED",
+            "conf": "36XMMM3FU4LS",
             "party": 3,
-            "time": "09:00"
-          }
+            "time": "10:30",
+            "note": "Wheelchair noted on the booking."
+          },
+          "note": "They never ask for card details by phone — if someone calls asking, it's a scam."
         },
         {
-          "time": "10:30",
-          "type": "free",
-          "title": "Free morning",
-          "desc": "Changing of the Guard was the old plan — it's OUT. It doesn't run on Mondays in September 2026 anyway (the schedule is Tue/Thu/Sat). Use the morning however you want.",
+          "time": "12:00",
+          "type": "activity",
+          "title": "Westminster Abbey",
+          "venue": "westminster-abbey",
+          "desc": "Straight from breakfast — about a 15-minute cab from Soho. Allow 90 minutes, out by ~1:30.",
+          "critical": true,
+          "warn": "🔴 ALL THREE OF US NEED A TICKET — £31 each, £93 total. Timed entry, book online in advance. Closes 3:30 PM.",
+          "highlight": true,
           "suggestions": [
             {
-              "title": "Soho / Covent Garden wander",
-              "desc": "You're already in Soho. Walk it off, get a coffee, do nothing."
-            },
-            {
-              "title": "Seven Dials Market",
-              "desc": "8 min from breakfast. Graze, don't commit — Harrods food hall is at 12:30.",
-              "venue": "seven-dials-market"
+              "title": "Verger-guided tour",
+              "desc": "Bookable at the desk on the day. Worth it if there's a slot.",
+              "venue": "westminster-abbey"
             }
           ]
         },
         {
-          "time": "12:30",
-          "type": "activity",
-          "title": "Harrods",
-          "venue": "harrods",
-          "desc": "Knightsbridge. Food hall, watch windows. No dress code."
-        },
-        {
-          "time": "15:30",
-          "type": "activity",
-          "title": "V&A Museum",
-          "venue": "va-museum",
-          "desc": "FREE, open Mondays, 10 min from Harrods. Borough Market is CLOSED Mondays — that old idea is deleted.",
+          "time": "13:45",
+          "type": "drinks",
+          "title": "🍺 Soho pub crawl — four stops, ends at dinner",
+          "venue": null,
+          "desc": "Walking crawl from Westminster up to Soho. All four verified open and trading as of Aug 2026. Ends 3 minutes from Dishoom.",
+          "highlight": true,
+          "subStops": [
+            {
+              "name": "① The Red Lion — ~1:45 PM",
+              "venue": "red-lion-westminster",
+              "note": "5 min from the Abbey. Working division bell that summons MPs back to the House. Downing Street is a hundred yards away."
+            },
+            {
+              "name": "② The Chandos",
+              "venue": "the-chandos",
+              "note": "13 min up Whitehall past Horse Guards and across Trafalgar Square. Cheapest proper pint in the West End — go upstairs to the panelled Opera Room. Own-brewery beers only, and a house no-phones policy."
+            },
+            {
+              "name": "③ The Harp",
+              "venue": "the-harp",
+              "note": "2 min around the corner. CAMRA National Pub of the Year, 8 cask lines, no TV, no music. No kitchen, so it won't ruin dinner."
+            },
+            {
+              "name": "④ The Old Coffee House",
+              "venue": "old-coffee-house",
+              "note": "14 min through Chinatown. Licensed since 1772, brass floor to ceiling, taxidermy everywhere. Kitchen shuts at 3 so it's drinks only. Then 3 min to Dishoom."
+            }
+          ],
+          "warn": "The Shaston Arms on Ganton Street is PERMANENTLY CLOSED (June 2025) — it still shows up in older Soho crawl guides. Don't route to it.",
           "suggestions": [
             {
-              "title": "Seven Dials Market instead",
-              "desc": "If you'd rather graze than look at art.",
-              "venue": "seven-dials-market"
+              "title": "Backup 60 seconds from Dishoom",
+              "desc": "The Clachan, 34 Kingly Street.",
+              "venue": "the-clachan"
+            },
+            {
+              "title": "Instead of the crawl: Churchill War Rooms",
+              "desc": "£29.75pp, 5-min walk from the Abbey, book ahead. Last entry 5 PM.",
+              "venue": "churchill-war-rooms"
+            },
+            {
+              "title": "Instead of the crawl: Harrods",
+              "desc": "Food hall and the watch windows. No dress code.",
+              "venue": "harrods"
             }
           ]
         },
         {
           "time": "17:30",
           "type": "note",
-          "title": "Straight to dinner — do NOT route via the hotel",
-          "desc": "V&A to Dishoom Carnaby directly. Going back to the May Fair first will make you late.",
-          "warn": "Do not go back to the hotel first.",
-          "leaveBy": true
+          "title": "Go straight to dinner",
+          "venue": null,
+          "desc": "Straight from Westminster or Harrods — do NOT route via the hotel. You will not leave again."
         },
         {
           "time": "17:45",
@@ -2293,31 +2465,30 @@
           "res": {
             "conf": "8TCB8HDE4MCB",
             "party": 3,
-            "time": "17:45",
-            "note": "They NEVER ask for card details by phone. If someone calls asking, it's a scam."
-          }
+            "time": "17:45"
+          },
+          "note": "They never ask for card details by phone."
         },
         {
           "time": "20:30",
           "type": "drinks",
           "title": "Connaught Bar",
           "venue": "connaught-bar",
-          "desc": "Carlos Place. World's-best-bar list. Walk-in.",
-          "highlight": true,
-          "warn": "GET THE MARTINI FROM THE TROLLEY. That's the whole point."
+          "desc": "Carlos Place. World's-best-bar lists, martini trolley comes to the table. Walk in."
         },
         {
           "time": "22:30",
           "type": "drinks",
           "title": "Then Soho",
-          "desc": "Last night. No plan. Go."
+          "venue": null,
+          "desc": "Last night. You know what to do."
         },
         {
           "time": "23:59",
           "type": "note",
           "title": "PACK AFTER DINNER",
-          "desc": "7:00 AM car to Heathrow. Pack before you go out, or you will regret it.",
-          "warn": "7 AM car. Pack BEFORE the last night out."
+          "venue": null,
+          "desc": "7 AM car to Heathrow Terminal 3. Do it tonight, not at 6 AM."
         }
       ],
       "questions": {
@@ -2658,6 +2829,24 @@
           "warn": "Do not leave this to the last week."
         },
         {
+          "id": "book-westminster",
+          "emoji": "🎟",
+          "mandatory": true,
+          "label": "Book Westminster Abbey — all 3 tickets",
+          "desc": "£31 each, £93 total. Timed entry, sells out. Mon Sep 7 at noon, and the Abbey closes at 3:30 PM.",
+          "link": "https://www.westminster-abbey.org/visit-us",
+          "linkLabel": "Book tickets"
+        },
+        {
+          "id": "book-vangogh",
+          "emoji": "🎟",
+          "mandatory": true,
+          "label": "Book Van Gogh Museum — all 3 tickets",
+          "desc": "Timed entry and they genuinely sell out. Fri Sep 4 at 2:30 PM, before the Black Keys.",
+          "link": "https://www.vangoghmuseum.nl/en",
+          "linkLabel": "Book tickets"
+        },
+        {
           "id": "passport",
           "label": "Passport check",
           "mandatory": true,
@@ -2700,11 +2889,11 @@
       "title": "Packing Essentials",
       "items": [
         {
-          "id": "smart-outfit",
-          "label": "One smart night-out outfit",
-          "mandatory": true,
+          "id": "night-shirt",
           "emoji": "👔",
-          "desc": "Volksgarten (Vienna, Fri Aug 28) is a proper club — collared and clean-shoed, not sneakers-and-shorts. Doors run on discretion. Sexy Fish (London, Sun Sep 6) also bans sneakers and caps. One good outfit covers both."
+          "mandatory": true,
+          "label": "One decent night-out shirt",
+          "desc": "Covers Volksgarten, the Black Keys and dinners. No gym gear — jeans and a decent shirt are fine everywhere we're going."
         },
         {
           "id": "adapters",
@@ -2733,12 +2922,6 @@
           "mandatory": true,
           "emoji": "👟",
           "desc": "Four walking tours and a lot of pavement. Your feet will decide how much you enjoy this."
-        },
-        {
-          "id": "nice-shirt",
-          "label": "A nice shirt for the Black Keys",
-          "mandatory": false,
-          "desc": "VIP loge. Photos will happen."
         },
         {
           "id": "sunglasses",
@@ -2802,6 +2985,201 @@
         "UK ETA required for ALL THREE of us — £20, official UK ETA app or gov.uk, ~3 working days, valid 2 years.",
         "Passports must be valid at least 3 months beyond Sep 8, 2026."
       ]
+    },
+    "londonIdeas": {
+      "title": "London ideas if a gap opens",
+      "note": "Borough Market is CLOSED Mondays — don't route there on Sep 7.",
+      "items": [
+        {
+          "label": "Churchill War Rooms",
+          "venue": "churchill-war-rooms",
+          "detail": "£29.75pp, book ahead, last entry 5 PM"
+        },
+        {
+          "label": "Seven Dials Market",
+          "venue": "seven-dials-market",
+          "detail": "Graze-and-go food hall, walk in"
+        },
+        {
+          "label": "Tower of London",
+          "venue": "tower-of-london",
+          "detail": "Book ahead"
+        },
+        {
+          "label": "Sky Garden",
+          "venue": "sky-garden",
+          "detail": "Free, but you must book a timed slot"
+        }
+      ]
     }
+  },
+  "concertNight": {
+    "date": "2026-09-04",
+    "title": "FRIDAY SEP 4 — CONCERT NIGHT",
+    "route": "Radisson Blu → BLVD020 → The Black Keys @ AFAS Live → home",
+    "topAlert": {
+      "title": "THE THING THAT WILL COST YOU MONEY",
+      "body": "Amsterdam metro makes you TAP TWICE — once going in, once going out. Same card both times. Forget to tap out and you're charged a €4 penalty instead of about €2.\n\nUse the same physical card, or the same phone, for every single tap. Pick one at 5 PM and don't switch.\n\nFour taps total tonight."
+    },
+    "timeline": [
+      {
+        "time": "4:45 PM",
+        "what": "Leave the hotel"
+      },
+      {
+        "time": "5:00 PM",
+        "what": "Metro from Nieuwmarkt"
+      },
+      {
+        "time": "5:20 PM",
+        "what": "Arrive Bijlmer ArenA"
+      },
+      {
+        "time": "5:25 PM",
+        "what": "Dinner at BLVD020"
+      },
+      {
+        "time": "6:30 PM",
+        "what": "Doors — 2 min walk to the venue"
+      },
+      {
+        "time": "8:00 PM",
+        "what": "The Black Keys"
+      },
+      {
+        "time": "~10:45 PM",
+        "what": "Show ends"
+      },
+      {
+        "time": "~11:15 PM",
+        "what": "Metro home"
+      },
+      {
+        "time": "~11:40 PM",
+        "what": "Back at Nieuwmarkt"
+      }
+    ],
+    "steps": [
+      {
+        "n": "1",
+        "title": "HOTEL TO THE METRO",
+        "meta": "6 minutes on foot",
+        "lines": [
+          "Out the front door of the Radisson Blu, Rusland 17. Turn onto Kloveniersburgwal — the canal street beside the hotel.",
+          "Walk NORTH along the canal, water on your LEFT. North = away from the opera house end, toward the busy Chinatown end.",
+          "Straight on for about a quarter mile, roughly 5 minutes. Over a couple of small bridges. Do not turn.",
+          "The canal opens into a big square with a castle-looking tower in the middle — that's Nieuwmarkt, and the tower is the Waag.",
+          "Metro entrance is on the square: white M on a blue sign, stairs and escalator down."
+        ],
+        "tip": "Lost? Ask anyone for \"Nieuwmarkt.\" Everyone speaks English."
+      },
+      {
+        "n": "2",
+        "title": "THE METRO OUT",
+        "meta": "16 minutes",
+        "lines": [
+          "TAP IN at the gate. (Tap #1)",
+          "Take METRO 54, direction GEIN. Platform signs read \"54 → Gein.\""
+        ],
+        "alert": {
+          "title": "WRONG TRAINS",
+          "body": "Nieuwmarkt is also served by line 51 and line 53. Neither goes to the concert.\n\nIf the front of the train doesn't say 54 Gein, don't get on. Another comes in a few minutes."
+        },
+        "linesAfter": [
+          "Ride 9 stops: Waterlooplein · Weesperplein · Wibautstraat · Amstel · Spaklerweg · Van der Madeweg · Duivendrecht · Strandvliet · BIJLMER ARENA.",
+          "Get off at BIJLMER ARENA. Big bright busy station, everyone in band shirts gets off here, stadium visible out the window.",
+          "TAP OUT at the gate. (Tap #2)"
+        ],
+        "tip": "Gone too far? The next stop is Bullewijk — small and quiet. Cross the platform and come back one stop."
+      },
+      {
+        "n": "3",
+        "title": "DINNER · BLVD020",
+        "meta": "Johan Cruijff Boulevard 139 · 2 min",
+        "venue": "blvd020",
+        "lines": [
+          "Exit the station following signs for ArenAPoort / Johan Cruijff Boulevard.",
+          "You come out on a wide flat pedestrian boulevard — stadium on one side, restaurants on the other. Impossible to get lost.",
+          "BLVD020 is on that strip, number 139."
+        ],
+        "alert": {
+          "title": "NO RESERVATIONS ON EVENT NIGHTS",
+          "body": "Walk-in only. That's why you're there at 5:25 — by 6:00 it's full of the concert crowd.\n\nBurgers, casual food, beers. About €20–30 each. If it's rammed, the same boulevard has a row of other restaurants.\n\nEat something — the venue only sells snacks."
+        }
+      },
+      {
+        "n": "4",
+        "title": "THE VENUE · AFAS Live",
+        "meta": "Johan Cruijff Boulevard 590 · 2 min",
+        "venue": "afas-live",
+        "lines": [
+          "Same boulevard, keep walking, big lit-up sign. Doors 6:30.",
+          "You're in the VIP LOGE — Row 3, Seats 13/14/15.",
+          "Tell staff at the main entrance you're VIP Loge and they'll direct you. Row 3 sits on a small raised platform with space beside it; their team assists on the night.",
+          "8:00 PM — Robert Finley opens, then The Black Keys."
+        ]
+      }
+    ],
+    "home": {
+      "title": "GETTING HOME",
+      "headline": "Metro 54, direction CENTRAAL STATION. Last train ~00:30.",
+      "sub": "Show ends ~10:45 PM — you have well over an hour of slack.",
+      "lines": [
+        "Wait 20–30 minutes after the show before walking to the station, or you're in a crush of 15,000 people. Have one more drink. No rush.",
+        "Walk back down the boulevard to Bijlmer ArenA station (2 min, same way you came).",
+        "TAP IN. (Tap #3)",
+        "Platform for METRO 54, direction CENTRAAL STATION."
+      ],
+      "alert": {
+        "title": "WRONG DIRECTION, WRONG LINE",
+        "body": "Must say CENTRAAL, not Gein. Gein takes you deeper into the suburbs.\n\nLine 50 also runs from this station — do not take it. It goes west and leaves you nowhere near the hotel."
+      },
+      "linesAfter": [
+        "Ride 9 stops: Strandvliet · Duivendrecht · Van der Madeweg · Spaklerweg · Amstel · Wibautstraat · Weesperplein · Waterlooplein · NIEUWMARKT.",
+        "Get off at NIEUWMARKT. TAP OUT. (Tap #4)",
+        "Up to the square. Put the Waag tower behind you and walk SOUTH down Kloveniersburgwal, water on your RIGHT. A quarter mile, 5 minutes. Rusland is on your right. Home."
+      ],
+      "tip": "Missed the stop / fell asleep? Next stop is Centraal Station — end of the line, everyone gets off, staff are there. From Centraal it's a €12–15 taxi or a 15-minute walk home. Not a disaster."
+    },
+    "taxi": {
+      "title": "TAXI — if the metro's shut or it all goes wrong",
+      "lines": [
+        "Taxi rank is directly outside Bijlmer ArenA station.",
+        "€45–55, about 20 minutes.",
+        "Uber is often cheaper (€35–45) — order it from the boulevard, not inside the venue where there's no signal."
+      ],
+      "showDriver": "Radisson Blu Hotel, Rusland 17, 1012 CK Amsterdam",
+      "warn": "Never take a ride from anyone who approaches you. Official rank or an app, nothing else."
+    },
+    "preflight": {
+      "title": "BEFORE YOU LEAVE THE HOTEL",
+      "meta": "60-second check",
+      "items": [
+        "Phone at 100% + battery pack",
+        "Decide your tap card — one card or one phone, all four taps",
+        "Tickets loaded and screenshotted (venue wifi is useless)",
+        "Hotel address saved: Radisson Blu, Rusland 17",
+        "A jacket — September, out till midnight",
+        "Agree the meeting point out loud: the taxi rank outside Bijlmer ArenA station"
+      ]
+    },
+    "separated": {
+      "title": "IF YOU GET SEPARATED",
+      "body": "Don't wander the venue — 15,000 people, no signal inside.\n\nGo to the taxi rank outside Bijlmer ArenA station. Wait 15 minutes.\n\nIf nobody shows, take the metro or a taxi home alone and text the group. Everyone knows the address. Everyone can get home alone. Nobody stays out looking for anybody."
+    },
+    "phones": [
+      {
+        "label": "Hotel",
+        "number": "+31 20 623 1231"
+      },
+      {
+        "label": "AFAS Live",
+        "number": "+31 20 811 1211"
+      },
+      {
+        "label": "Emergency (Netherlands)",
+        "number": "112"
+      }
+    ]
   }
 }
