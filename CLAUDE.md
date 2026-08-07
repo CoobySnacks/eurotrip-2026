@@ -199,8 +199,18 @@ One entry per calendar day, in order.
 ```
 
 `orderCard` renders as a native `<details>` — no JS, so it still expands with a
-dead battery's worth of signal. `must: true` gives an item the gold left border
-(used for Dishoom's House Black Daal). Add one to any `meal` block.
+dead battery's worth of signal. `must: true` gives an item the gold left border.
+
+**Put it on the VENUE, not the block.** `venues[key].orderCard` renders anywhere
+that venue appears — the itinerary row, a `suggestions[]` backup, or a
+`subStops[]` entry. Verde and Demel exist only as sub-stops of Saturday's Loop,
+so a block-level card would never have shown for them. A block-level
+`orderCard` still wins if present, but there is rarely a reason to use one.
+
+Optional fields beyond `sections`: `intro`, `suggested` (green box),
+`skip` (grey box), `warn` (red), and `allergy` (red, prawn icon —
+**Coob is allergic to shrimp**, so the Vienna cards carry explicit avoid-lists
+with prices; do not drop these).
 
 ### `concertNight` — the Sep 4 standalone page
 

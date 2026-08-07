@@ -12,7 +12,7 @@
       "Grant"
     ],
     "organizer": "Coob",
-    "dataVersion": "1.7.0",
+    "dataVersion": "1.8.0",
     "lastUpdated": "2026-08-06",
     "questionsUnlockHour": 20,
     "fixedQuestions": [
@@ -331,7 +331,67 @@
       "menu": "https://cucina-itameshi.at",
       "instagram": "https://instagram.com/cucina_itameshi_vienna",
       "igHandle": "@cucina_itameshi_vienna",
-      "note": "Italian-Japanese. Menu is a PDF on the site that rotates — homepage is the safe link."
+      "note": "Italian-Japanese. Menu is a PDF on the site that rotates — homepage is the safe link.",
+      "orderCard": {
+        "title": "🍽 What to order",
+        "intro": "Falstaff 92/100. The menu says it outright: dishes are meant for sharing, 4–6 for two people. So 6–9 plates for three.",
+        "sections": [
+          {
+            "label": "The one they build the menu around",
+            "items": [
+              {
+                "name": "COSTATA — dry-aged rib eye, n'duja butter, negi",
+                "price": "€59",
+                "desc": "The kitchen flags it as a two-person sharing centrepiece.",
+                "must": true
+              }
+            ]
+          },
+          {
+            "label": "The rest of the order",
+            "items": [
+              {
+                "name": "Udon Cacio e Pepe",
+                "price": "€21.50",
+                "desc": "Handmade udon, pecorino, egg yolk, pepper. The dish that goes viral for this place."
+              },
+              {
+                "name": "XO Beef Carpaccio",
+                "price": "€24.90",
+                "desc": "Wasabi, parmesan, onion tsukemono."
+              },
+              {
+                "name": "Kushiyaki di Pollo",
+                "price": "€25.50",
+                "desc": "Chicken thigh skewers, house sriracha."
+              },
+              {
+                "name": "Lasagne Poruchini",
+                "price": "€20.50",
+                "desc": "Tan tan bolognese, porcini béchamel."
+              },
+              {
+                "name": "Iberico Chashu",
+                "price": "€9.80",
+                "desc": "Flambéed pork neck, tare, hazelnuts."
+              }
+            ]
+          },
+          {
+            "label": "Drink",
+            "items": [
+              {
+                "name": "Brauton × Mochi 'Umami Beer' witbier 0.44l",
+                "price": "€8.50"
+              }
+            ]
+          }
+        ],
+        "suggested": "Italo Kimchi + Iberico Chashu → XO Carpaccio, Udon Cacio e Pepe, Lasagne, Kushiyaki → Costata → Tiramisu",
+        "skip": "The pizza. Plates arrive as they're ready, not in courses — order in two waves. The €6.50pp Gedeck (bread, miso butter, water) is effectively compulsory.",
+        "allergy": "The current menu has NO shrimp. Only shellfish is Pasta Fredda (cockles — mollusc). The menu rotates every few weeks, so flag the allergy when confirming.",
+        "footer": "~€90–100pp all-in."
+      }
     },
     "klyo": {
       "name": "Klyo",
@@ -361,7 +421,53 @@
       "menu": "https://kameel.at",
       "instagram": "https://instagram.com/zumschwarzenkameel",
       "igHandle": "@zumschwarzenkameel",
-      "note": "Ground floor brasserie. Kitchen until 10 PM. Vienna institution since 1618."
+      "note": "Ground floor brasserie. Kitchen until 10 PM. Vienna institution since 1618.",
+      "orderCard": {
+        "title": "🍽 What to order",
+        "intro": "Do the standing bar out front FIRST — see the note at the bottom. It's the best 30 minutes in Vienna.",
+        "sections": [
+          {
+            "label": "The 400-year calling card",
+            "items": [
+              {
+                "name": "Der legendäre Beinschinken",
+                "price": "€19.50",
+                "desc": "Hand-carved bone-in ham, fresh horseradish, house bread. One plate, three forks, as a table starter.",
+                "must": true
+              }
+            ]
+          },
+          {
+            "label": "Mains",
+            "items": [
+              {
+                "name": "Original Wiener Schnitzel (veal)",
+                "price": "€20.50",
+                "desc": "One piece is already a full portion. Two pieces €26.50."
+              },
+              {
+                "name": "Original Tafelspitz vom Rind",
+                "price": "€29.50",
+                "desc": "Root veg, Rösterdäpfel, apple-horseradish."
+              },
+              {
+                "name": "Beef Tartar",
+                "price": "€22.90",
+                "desc": "Hand-cut, avocado, buttered toast."
+              },
+              {
+                "name": "Eierschwammerl à la crème mit Gnocchi",
+                "price": "€27.00",
+                "desc": "Chanterelle season is peak right now — this is the seasonal play."
+              }
+            ]
+          }
+        ],
+        "suggested": "Brötchen standing up out front first, then Beinschinken for the table, then a schnitzel, a Tafelspitz and the Eierschwammerl",
+        "skip": "Nothing — but don't sit down before doing the Feinkost counter. The famous Brötchen (open sandwiches) are NOT on the brasserie menu. They're at the counter out front, ordered by pointing, ~€2.50–4.50 each. Beinschinken with horseradish, roastbeef with artichoke, curry-egg with chives. 3–4 each with a glass of Grüner ≈ €20–25pp.",
+        "allergy": "THIS IS THE RISKY ONE. Avoid: Shrimpscocktail €21.90, Rosa Garnelen €23.90, Gebratene Garnelen €22.50, Garnelenspieße €22.50, Caesar mit Garnele €22.00, Fischplatte €37.50, and Hors-d'œuvre 'Kameel' €33 (plated off the same cold station). Austrian menus mark crustaceans allergen B. Everything recommended above is clean.",
+        "footer": "~€70–80pp for dinner and drinks, plus €20–25 at the counter."
+      }
     },
     "verde": {
       "name": "Verde",
@@ -371,7 +477,51 @@
       "menu": "https://verde.wien/en/",
       "instagram": "https://instagram.com/verde.vienna",
       "igHandle": "@verde.vienna",
-      "note": "Pizza and spritzes. Menu PDFs rotate — site is the safe link."
+      "note": "Pizza and spritzes. Menu PDFs rotate — site is the safe link.",
+      "orderCard": {
+        "title": "🍽 What to order",
+        "intro": "An afternoon graze, not a meal. Two pizzas cut and shared between three.",
+        "sections": [
+          {
+            "label": "The pizza to get",
+            "items": [
+              {
+                "name": "Dominiks Lieblingspizza",
+                "price": "€21.50",
+                "desc": "Tomato, warm buffalo mozzarella, basil, pine nuts, truffle oil, datterini.",
+                "must": true
+              }
+            ]
+          },
+          {
+            "label": "And",
+            "items": [
+              {
+                "name": "Pizza San Daniele",
+                "price": "€19.50",
+                "desc": "Prosciutto di San Daniele, rocket, Grana."
+              },
+              {
+                "name": "Pizza Diavolo",
+                "price": "€17.50",
+                "desc": "Spicy salami, peperoncino, garlic."
+              },
+              {
+                "name": "Antipasti Misto piccolo",
+                "price": "€14.50"
+              },
+              {
+                "name": "Stiegl Hell vom Fass 0.33l",
+                "price": "€5.80"
+              }
+            ]
+          }
+        ],
+        "suggested": "Antipasti piccolo + two pizzas cut and shared + beers",
+        "skip": "The €29–34 truffle pizzas. And arrive after 3pm — breakfast service runs till 15:00 Saturdays.",
+        "allergy": "Avoid: Linguine ai Gamberi €32.50, Risotto ai Gamberi €32.50, Linguine Frutti di Mare €24.50, Pizza Frutti di Mare €21.50 — all marked allergen B.",
+        "footer": "≈ €24pp."
+      }
     },
     "demel": {
       "name": "Demel",
@@ -381,7 +531,45 @@
       "menu": "https://www.demel.com/en/pages/cafe",
       "instagram": "https://instagram.com/demel_wien",
       "igHandle": "@demel_wien",
-      "note": "Imperial pastry house. Sachertorte stop."
+      "note": "Imperial pastry house. Sachertorte stop.",
+      "orderCard": {
+        "title": "🍽 What to order",
+        "intro": "The whole reason to stop is the street window, not the café.",
+        "sections": [
+          {
+            "label": "From the window",
+            "items": [
+              {
+                "name": "Kaiserschmarrn",
+                "price": "~€10",
+                "desc": "Cooked fresh in a copper pan in the Kohlmarkt-facing window while you watch. No queue, no €35 sit-down bill. Splits three ways as a taste.",
+                "must": true
+              }
+            ]
+          },
+          {
+            "label": "If you sit down instead",
+            "items": [
+              {
+                "name": "Demels Sachertorte mit Schlag",
+                "price": "~€8.50",
+                "desc": "Apricot jam only under the glaze, no middle layer — the contested rival to Hotel Sacher's."
+              },
+              {
+                "name": "Annatorte",
+                "price": "~€8",
+                "desc": "What Viennese regulars actually order."
+              },
+              {
+                "name": "Dobostorte / Esterházytorte",
+                "price": "~€8"
+              }
+            ]
+          }
+        ],
+        "skip": "No reservations, ever. Queues build 12:00–16:00 — the window bypasses all of it.",
+        "footer": "Window ≈ €5pp · seated ≈ €16–20pp."
+      }
     },
     "krypt": {
       "name": "Krypt",
@@ -413,7 +601,54 @@
       "menu": "https://www.landtmann.at/en/karte/menu/",
       "instagram": "https://instagram.com/cafelandtmann",
       "igHandle": "@cafelandtmann",
-      "note": "Opened 1873. Sidewalk-level terrace on the Ring. Freud's café."
+      "note": "Opened 1873. Sidewalk-level terrace on the Ring. Freud's café.",
+      "orderCard": {
+        "title": "🍽 What to order",
+        "sections": [
+          {
+            "label": "Get the upgraded one",
+            "items": [
+              {
+                "name": "'Die Legende' — Wiener Schnitzel vom Kalb",
+                "price": "€38.50",
+                "desc": "Parsley potatoes, salad, cranberries. The plain €29 version is the same schnitzel with just a lemon — the upgrade buys the whole classic plate. Worth it once.",
+                "must": true
+              }
+            ]
+          },
+          {
+            "label": "The rest",
+            "items": [
+              {
+                "name": "Rindsgulasch",
+                "price": "€25.90",
+                "desc": "Serviettenknödel, gulasch crunch, pickle."
+              },
+              {
+                "name": "Getrüffelte Eiernockerl",
+                "price": "€21.50",
+                "desc": "Shaved truffle, baked organic egg, crispy onion. The sleeper — genuinely Viennese, and Americans never order it."
+              },
+              {
+                "name": "Kaiserschmarrn mit Zwetschkenröster",
+                "price": "€15.70",
+                "desc": "Order it WITH the mains — takes 20 minutes and one feeds three."
+              },
+              {
+                "name": "Rindsuppe mit Frittaten",
+                "price": "€8.90"
+              },
+              {
+                "name": "Wiener Melange",
+                "price": "€6.90"
+              }
+            ]
+          }
+        ],
+        "skip": "Saturday means no lunch menu — the €16.90 soup+main deal is Mon–Fri only. If you're hitting Demel later, skip cake here.",
+        "allergy": "Only crustacean is a '+ grilled prawns €9' add-on. Just don't add it.",
+        "footer": "~€49pp."
+      }
     },
     "lugeck": {
       "name": "Lugeck",
@@ -423,7 +658,56 @@
       "menu": "https://www.lugeck.com/en/menu/",
       "instagram": "https://instagram.com/lugeck_figlmueller",
       "igHandle": "@lugeck_figlmueller",
-      "note": "Figlmüller family. The schnitzel."
+      "note": "Figlmüller family. The schnitzel.",
+      "orderCard": {
+        "title": "🍽 What to order",
+        "sections": [
+          {
+            "label": "The reason you're here",
+            "items": [
+              {
+                "name": "Wiener Schnitzel vom Kalb",
+                "price": "€34.50",
+                "desc": "Lugeck serves VEAL — legally the only thing that can be called Wiener Schnitzel. The famous plate-overhanging Figlmüller schnitzel round the corner is pork ('Schnitzel Wiener Art'). This is the grown-up version, in a far less touristy room.",
+                "must": true
+              }
+            ]
+          },
+          {
+            "label": "Around it",
+            "items": [
+              {
+                "name": "Beef Tatar, große Portion",
+                "price": "€24.50",
+                "desc": "Avocado, toast, butter."
+              },
+              {
+                "name": "Ribeye Dry Aged Höllerschmid 400g",
+                "price": "€59.00",
+                "desc": "Or Zwiebelrostbraten €27.90 and save €31."
+              },
+              {
+                "name": "Getrüffelte Erdäpfelsuppe",
+                "price": "€9.50",
+                "desc": "One, three spoons."
+              },
+              {
+                "name": "Kaiserschmarrn",
+                "price": "€13.90",
+                "desc": "Order with the mains."
+              },
+              {
+                "name": "Lugeck Spezial vom Fass 0.5l",
+                "price": "€6.90",
+                "desc": "Their own house draft."
+              }
+            ]
+          }
+        ],
+        "skip": "The €49.90 truffle schnitzel and the €31.90 wagyu burger. You're here for schnitzel.",
+        "allergy": "No crustaceans on the menu at all. (The octopus on the specials card is a mollusc.)",
+        "footer": "~€67–78pp."
+      }
     },
     "figlmueller": {
       "name": "Figlmüller Bäckerstraße",
@@ -492,7 +776,68 @@
       "menu": "https://esmee.dk/menu/",
       "instagram": "https://instagram.com/esmee_cph",
       "igHandle": "@esmee_cph",
-      "note": "Ask for the Orangerie room — that's the whole point. Order smart."
+      "note": "Ask for the Orangerie room — that's the whole point. Order smart.",
+      "orderCard": {
+        "title": "🍽 What to order",
+        "intro": "Reviews are genuinely split. The charcuterie, shellfish and rôtisserie are excellent; the vegetable plates are where the money disappears.",
+        "sections": [
+          {
+            "label": "Everyone who liked this place liked this dish",
+            "items": [
+              {
+                "name": "Esmée toast",
+                "price": "145 DKK (~$23)",
+                "desc": "Gruyère, truffle duxelles, jamón ibérico, 4 pcs. Order two rounds — 4 pieces doesn't split three ways.",
+                "must": true
+              }
+            ]
+          },
+          {
+            "label": "The big plates",
+            "items": [
+              {
+                "name": "Grilled topside of turbot on the bone",
+                "price": "895 DKK",
+                "desc": "Serves 2–4, carved at the table."
+              },
+              {
+                "name": "Steak au poivre",
+                "price": "545 DKK",
+                "desc": "Flambéed tableside."
+              },
+              {
+                "name": "Gougères",
+                "price": "145 DKK",
+                "desc": "Comté and black truffle."
+              },
+              {
+                "name": "Spicy fried chicken",
+                "price": "145 DKK",
+                "desc": "Smoked paprika and ranch."
+              }
+            ]
+          },
+          {
+            "label": "Sides and dessert",
+            "items": [
+              {
+                "name": "Pommes purée",
+                "price": "85 DKK"
+              },
+              {
+                "name": "Haricots verts",
+                "price": "95 DKK"
+              },
+              {
+                "name": "Burnt basque cheesecake",
+                "price": "145 DKK"
+              }
+            ]
+          }
+        ],
+        "skip": "Green salad 180, tomato carpaccio 185, French asparagus 355 — that's $28–55 for a side, and it's the section people complain about. Ask the price of the Prime Cuts Selection before ordering; it's listed at market price with no number. Water is 50 DKK a head, not free.",
+        "footer": "~850 DKK ($134) pp food; 1,100–1,400 DKK with drinks."
+      }
     },
     "groeften": {
       "name": "Grøften",
@@ -503,7 +848,64 @@
       "instagram": "https://instagram.com/groeften",
       "igHandle": "@groeften",
       "phone": "+45 33 75 06 75",
-      "note": "Danish institution since 1874. Open until ~23:00. 8 min from the hotel."
+      "note": "Danish institution since 1874, inside Tivoli. Open til ~23:00. ⚠️ Smørrebrød is served 12:00–15:30 ONLY — as a dinner replacement the open sandwiches are not available.",
+      "orderCard": {
+        "title": "🍽 What to order",
+        "sections": [
+          {
+            "label": "The move",
+            "items": [
+              {
+                "name": "Grøftens Snapsemenu",
+                "price": "289 DKK (~$45)",
+                "desc": "Curry herring, a glass of aquavit, and UNLIMITED skipperlabskovs — the salt-beef-and-potato mash Danish sailors ate. Most authentically Danish thing in the city at that price, and ad libitum means three hungry Americans get their money's worth.",
+                "must": true
+              }
+            ]
+          },
+          {
+            "label": "Otherwise",
+            "items": [
+              {
+                "name": "Grøftens Stjerneskud",
+                "price": "249 DKK"
+              },
+              {
+                "name": "Teaterplatte",
+                "price": "275 DKK pp"
+              },
+              {
+                "name": "Wienerschnitzel",
+                "price": "279 DKK"
+              },
+              {
+                "name": "Gammeldaws æblekage",
+                "price": "119 DKK"
+              }
+            ]
+          },
+          {
+            "label": "Smørrebrød — LUNCH ONLY, 12:00–15:30",
+            "items": [
+              {
+                "name": "Pariserbøf",
+                "price": "179 DKK"
+              },
+              {
+                "name": "Sol over Gudhjem",
+                "price": "129 DKK"
+              },
+              {
+                "name": "Røget ål",
+                "price": "199 DKK"
+              }
+            ]
+          }
+        ],
+        "warn": "Smørrebrød is served 12:00–15:30 ONLY. If you use this as the dinner backup, the open sandwiches are not available.",
+        "skip": "Nothing — each smørrebrød has a recommended aquavit printed next to it. Lean into that, it's the point of the place.",
+        "footer": "~430 DKK ($67) pp, VAT and service included."
+      }
     },
     "ps-bar-grill": {
       "name": "PS Bar & Grill",
@@ -523,7 +925,57 @@
       "menu": "https://socialbrew.dk/menu",
       "instagram": "https://instagram.com/social_brew",
       "igHandle": "@social_brew",
-      "note": "3 min walk from the Scandic."
+      "note": "3 min walk from the Scandic.",
+      "orderCard": {
+        "title": "🍽 What to order",
+        "sections": [
+          {
+            "label": "The set beats à la carte",
+            "items": [
+              {
+                "name": "Build Your Own Brunch",
+                "price": "180 DKK (~$28)",
+                "desc": "À la carte the four sections cost 205, so the set is a real discount. Build it: sourdough + yoghurt with blueberry and coconut granola + scrambled eggs with tomato and chive + homemade spicy Danish beef merguez. The merguez is the reason to be here.",
+                "must": true
+              }
+            ]
+          },
+          {
+            "label": "Or à la carte",
+            "items": [
+              {
+                "name": "Breakfast Plate",
+                "price": "135 DKK",
+                "desc": "Fried egg, spicy merguez, broccolini, baked cherry tomatoes, avocado, sourdough."
+              },
+              {
+                "name": "Avocado Toast",
+                "price": "125 DKK"
+              },
+              {
+                "name": "Mushroom Toast",
+                "price": "125 DKK"
+              },
+              {
+                "name": "American pancakes add-on",
+                "price": "+65 DKK"
+              }
+            ]
+          },
+          {
+            "label": "Coffee — this is the point",
+            "items": [
+              {
+                "name": "Hand-brew filter",
+                "price": "50 DKK",
+                "desc": "Home of the 2026 Danish Barista Champion. Get one as filter to taste what he actually does."
+              }
+            ]
+          }
+        ],
+        "skip": "Nothing. Add havarti and marmalade to your bread for +15 — cheap upgrade. Brunch runs Mon–Fri until 14:00.",
+        "footer": "~247 DKK ($39) pp."
+      }
     },
     "nyhavn-17": {
       "name": "Nyhavn 17",
@@ -542,7 +994,59 @@
       "menu": "https://sokkelund.dk/en/menuer/",
       "instagram": "https://instagram.com/sokkelund",
       "igHandle": "@sokkelund",
-      "note": "Kitchen closes at 9 PM. Do not be late."
+      "note": "Kitchen closes at 9 PM. Do not be late.",
+      "orderCard": {
+        "title": "🍽 What to order",
+        "sections": [
+          {
+            "label": "The house dish",
+            "items": [
+              {
+                "name": "Steak Frites",
+                "price": "465 DKK (~$73)",
+                "desc": "400g ribeye, fried padrón peppers, red wine sauce, fries with béarnaise. Their fries are fried in peanut oil and tossed in umami salt.",
+                "must": true
+              }
+            ]
+          },
+          {
+            "label": "The rest",
+            "items": [
+              {
+                "name": "Bacon & Cheese Burger 340g",
+                "price": "285 DKK",
+                "desc": "The 340 is the double — don't accidentally order the 170g single at 249."
+              },
+              {
+                "name": "Moules Frites",
+                "price": "279 DKK",
+                "desc": "600g blue mussels."
+              },
+              {
+                "name": "Tatar starter",
+                "price": "169 DKK",
+                "desc": "Hand-cut top round, cornichons, toasted sourdough."
+              },
+              {
+                "name": "Gillardeau oysters combo, 3 pcs",
+                "price": "207 DKK",
+                "desc": "Natural + fried + nam jim."
+              },
+              {
+                "name": "Trøffel frites",
+                "price": "105 DKK",
+                "desc": "Parmesan, truffle oil."
+              },
+              {
+                "name": "Crème brûlée",
+                "price": "139 DKK"
+              }
+            ]
+          }
+        ],
+        "skip": "Nothing — but burgers come medium by default. Say something if you want otherwise.",
+        "footer": "~600 DKK ($93) pp food."
+      }
     },
     "madklubben": {
       "name": "Madklubben Frederiksberg",
@@ -553,7 +1057,47 @@
       "instagram": "https://instagram.com/madklubben",
       "igHandle": "@madklubben",
       "phone": "+45 38 41 41 70",
-      "note": "Backup for Sokkelund. Same bistro energy. M3 metro straight to Citizen after."
+      "note": "Backup for Sokkelund. Same bistro energy. M3 metro straight to Citizen after.",
+      "orderCard": {
+        "title": "🍽 What to order (if you switch here)",
+        "sections": [
+          {
+            "label": "Best value on the entire trip",
+            "items": [
+              {
+                "name": "Frederiksberg Menuen",
+                "price": "475 DKK (~$74)",
+                "desc": "Four courses: bread, olives and truffle almonds → cold-smoked salmon → whole-roasted beef cuvette with red wine sauce and fries → rødgrød with vanilla ice cream.",
+                "must": true
+              }
+            ]
+          },
+          {
+            "label": "Add",
+            "items": [
+              {
+                "name": "Gillardeau oysters, 9 pcs",
+                "price": "280 DKK",
+                "desc": "That's $4.85 an oyster. Absurd."
+              },
+              {
+                "name": "Svinekroketter",
+                "price": "75 DKK",
+                "desc": "Pork croquettes, pepper mayo."
+              },
+              {
+                "name": "Rørt oksetatar",
+                "price": "100 DKK"
+              },
+              {
+                "name": "Wine pairing, 4 glasses",
+                "price": "+295 DKK"
+              }
+            ]
+          }
+        ],
+        "footer": "~593 DKK ($93) pp."
+      }
     },
     "citizen": {
       "name": "Citizen",
@@ -584,7 +1128,56 @@
       "instagram": "https://instagram.com/reffen_copenhagenstreetfood",
       "igHandle": "@reffen_copenhagenstreetfood",
       "outdoor": true,
-      "note": "50+ container stalls. Hija de Sanchez tacos, Bronut smash burger, Korean BBQ Pop, Goodfellas pizza. Open-air — check the rain flag."
+      "note": "31 stalls. Open-air, industrial waterfront on Refshaleøen. Arrive at 11:30 opening on a Tuesday and you'll have it to yourselves.",
+      "orderCard": {
+        "title": "🍽 What to order",
+        "intro": "31 stalls, each its own queue. Mains 100–180 DKK, platters 200–260, beers 60–75.",
+        "sections": [
+          {
+            "label": "Land here first",
+            "items": [
+              {
+                "name": "Fuego — Plato de Carne",
+                "price": "~200–260 DKK",
+                "desc": "Argentine open-fire grill: Black Angus and house chorizo over live coals, a rustic mixed-grill platter built for sharing. Also grab one Pepito — grilled Angus sandwich with fresh chimichurri.",
+                "must": true
+              }
+            ]
+          },
+          {
+            "label": "Then split up",
+            "items": [
+              {
+                "name": "GOSHT — Lammeshish",
+                "price": "~120–150 DKK",
+                "desc": "Kurdish charcoal kebab. Lamb shish on naan, grilled tomato, sliced onion, yoghurt sauce. Reffen's own description calls it strongly addictive. Best-value protein on the island."
+              },
+              {
+                "name": "HYGGE — Flæskestegssandwich",
+                "price": "~110–130 DKK",
+                "desc": "Under the flagpole, the Danish one. Roast pork with crackling, mayo, pickled cucumber, red cabbage. Don't leave Denmark without it."
+              },
+              {
+                "name": "SMASHBURGER BY NICEBUNS — Brie & Onion Bliss",
+                "price": "~120–150 DKK",
+                "desc": "Two smashed patties, caramelized and crispy onions, melted brie, honey mustard. Poutine and loaded fries on the side."
+              }
+            ]
+          },
+          {
+            "label": "Still hungry",
+            "items": [
+              {
+                "name": "Empanada House (Criolla) · Piola (Argentine lomito) · Manila Street BBQ n Bao · Zen Dim Sum",
+                "price": ""
+              }
+            ]
+          }
+        ],
+        "suggested": "Land at Fuego, order the Plato de Carne, grab a table. One guy peels off to Gosht, one to Hygge. Reconvene and cut everything into thirds.",
+        "skip": "Never all stand in the same line. Three guys, three queues, one table. Arrive at 11:30 opening on a Tuesday and you'll have the place to yourselves.",
+        "footer": "~250–350 DKK ($39–55) pp."
+      }
     },
     "broens": {
       "name": "Broens Gadekøkken",
@@ -604,7 +1197,88 @@
       "menu": "https://warpigs.dk/menu",
       "instagram": "https://instagram.com/warpigs_brewpub_cph",
       "igHandle": "@warpigs_brewpub_cph",
-      "note": "WALK-IN. Meat sells out — go earlier rather than later. Order at the counter. 23 Mikkeller taps."
+      "note": "WALK-IN. Meat sells out — go earlier rather than later. Order at the counter. 23 Mikkeller taps.",
+      "orderCard": {
+        "title": "🍽 What to order — three Texans judging Danish barbecue",
+        "intro": "Queue at the counter and order meat by weight off the board (1/4 lb = 113g). Carved to order onto a tray, sides separate. Four house sauces free on every table: Alabama, Texas (made with their own lambic and cranberries), Kansas City, Carolina. Pitmaster Adrian Claudiu Lazar; the crew did a research tour across Texas; 12–14 hour smokes on two of the largest smokers in Europe.",
+        "sections": [
+          {
+            "label": "The only dish that answers the question you came to answer",
+            "items": [
+              {
+                "name": "Half-pound of brisket",
+                "price": "190 DKK (~$30)",
+                "desc": "Ask the carver for the fatty point end — that's where reviews split hardest, and the difference is which end you get. Order brisket FIRST; it's the item that runs out.",
+                "must": true
+              }
+            ]
+          },
+          {
+            "label": "Option A — easiest",
+            "items": [
+              {
+                "name": "Sharing Tray",
+                "price": "1,050 DKK",
+                "desc": "1 lb spareribs and sausages, ½ lb brisket and pork neck, whole chicken, 2 of every side. Sized for 3–4. Add an extra ½ lb brisket (190) so you get enough of the thing you're judging. About 413 DKK ($65) pp."
+              }
+            ]
+          },
+          {
+            "label": "Option B — à la carte",
+            "items": [
+              {
+                "name": "2× ½ lb brisket",
+                "price": "380 DKK"
+              },
+              {
+                "name": "½ lb spareribs",
+                "price": "120 DKK"
+              },
+              {
+                "name": "½ lb Special Link",
+                "price": "115 DKK"
+              },
+              {
+                "name": "½ lb pulled pork",
+                "price": "110 DKK"
+              },
+              {
+                "name": "Burnt End Baked Beans / coleslaw / dill pickles",
+                "price": "65 / 40 / 30 DKK",
+                "desc": "About 333 DKK ($52) pp for roughly 1 kg of meat."
+              }
+            ]
+          },
+          {
+            "label": "Beers — 23 rotating taps, brewed on site (~65–95 DKK per 0.4L)",
+            "items": [
+              {
+                "name": "Frank The Tank",
+                "price": "",
+                "desc": "Hazy pale ale 5.3%, the flagship. Start here."
+              },
+              {
+                "name": "Lazurite",
+                "price": "",
+                "desc": "American IPA 7.4%, resin and pine. The pick against fatty brisket."
+              },
+              {
+                "name": "Elite Human NEIPA 6.5% · Big Drunk Baby West Coast DIPA 9%",
+                "price": "",
+                "desc": "One of the DIPA, not three."
+              },
+              {
+                "name": "Smoldering Holes",
+                "price": "",
+                "desc": "Imperial stout 10.4%, espresso and fudge. This is your dessert — order it instead of key lime pie."
+              }
+            ]
+          }
+        ],
+        "suggested": "Flight order: Frank The Tank → Lazurite → Smoldering Holes. Portion math: about ½ lb (225g) of meat per person minimum.",
+        "skip": "The plain Mac and Cheese (50) — the most criticized item, described as watery, like packet mix. If you want mac, pay up for The General's (130); Burnt End Baked Beans is the better side anyway. Ribs and smoked chicken draw the most dry complaints — order ½ lb of ribs to judge, don't build the meal on them. Texas Smørrebrød at 450 is a novelty priced like a main for two.",
+        "footer": "~$52–65 pp. The 1/4 lb portions are small — portion-to-price is the number one complaint."
+      }
     },
     "tivoli": {
       "name": "Tivoli Gardens",
@@ -676,7 +1350,68 @@
       "menu": "https://cannibaleroyale.nl/menus/",
       "instagram": "https://instagram.com/cannibaleroyale",
       "igHandle": "@cannibaleroyale",
-      "note": "Ribs and meat. Loud, dark, good."
+      "note": "Ribs and meat. Loud, dark, good.",
+      "orderCard": {
+        "title": "🍽 What to order",
+        "sections": [
+          {
+            "label": "Boxed on their own menu as the house item",
+            "items": [
+              {
+                "name": "Cannibale Royale's Favourite Ribs",
+                "price": "€24.50",
+                "desc": "Slow-roasted organic pork ribs, sweet sticky glaze.",
+                "must": true
+              }
+            ]
+          },
+          {
+            "label": "The rest",
+            "items": [
+              {
+                "name": "Short Rib",
+                "price": "€33.50",
+                "desc": "About 350g organic beef rib, house rub, chimichurri."
+              },
+              {
+                "name": "Le Modeste 250g",
+                "price": "€29.50",
+                "desc": "Chef's-choice flat iron, Uruguay. Add Sauce Royale €4 — rum-infused green pepper, that's the move."
+              },
+              {
+                "name": "Pork Belly 'n Pickle",
+                "price": "€15.50",
+                "desc": "Smoked belly strips with a Kesbeke pickle collab, 200g."
+              },
+              {
+                "name": "Cannibale's Bitterbal, 9 pcs",
+                "price": "€11.80",
+                "desc": "Beef, Dijon."
+              }
+            ]
+          },
+          {
+            "label": "Sides",
+            "items": [
+              {
+                "name": "Mac 'n cheese",
+                "price": "€6.50"
+              },
+              {
+                "name": "Mashed potatoes",
+                "price": "€6.90"
+              },
+              {
+                "name": "Fries",
+                "price": "€4.90"
+              }
+            ]
+          }
+        ],
+        "suggested": "Cheaper structure: Plateau de Cannibale for Two (€55) + one Ribs (€24.50) + fries feeds three for about €30pp",
+        "skip": "Chicken nachos €15.50, Le Wagyu €99 (needs 24h notice), Le Tomahawk €88.50 (you're paying for the bone). The menu prints a beer pairing per dish — follow it.",
+        "footer": "~€60–70pp with beers."
+      }
     },
     "luminair": {
       "name": "LuminAir Rooftop",
@@ -697,7 +1432,52 @@
       "instagram": "https://instagram.com/greenwoods.amsterdam",
       "igHandle": "@greenwoods.amsterdam",
       "outdoor": true,
-      "note": "Walk-in. Grab a terrace table if the weather holds."
+      "note": "Signature is the New Amsterdam Benedict. (Menu re-checked Aug 2026 — worth a glance on arrival, this one was harder to verify than the others.)",
+      "orderCard": {
+        "title": "🍽 What to order",
+        "sections": [
+          {
+            "label": "The dish that separates this from every other Benedict in town",
+            "items": [
+              {
+                "name": "New Amsterdam Benedict",
+                "price": "€18.75",
+                "desc": "NY pastrami, two poached eggs, Old Amsterdam cheese, pickles, sauerkraut, smoky hollandaise on sourdough.",
+                "must": true
+              }
+            ]
+          },
+          {
+            "label": "The rest",
+            "items": [
+              {
+                "name": "Full English Breakfast",
+                "price": "€19.25"
+              },
+              {
+                "name": "Sunny Side Stack",
+                "price": "€18.50",
+                "desc": "Fried egg, hash brown, bacon, sausage, aged cheese in a toasted muffin, cheesy beans."
+              },
+              {
+                "name": "Eggs Royale",
+                "price": "€19.25"
+              },
+              {
+                "name": "Classic Eggs Benedict",
+                "price": "€16.95"
+              },
+              {
+                "name": "Stroopwaffel Pancake Stack",
+                "price": "€16.95",
+                "desc": "One, split three ways, for the Dutch box-tick."
+              }
+            ]
+          }
+        ],
+        "skip": "Nothing — but it's walk-in only, small and canal-side. Before 11:00 or expect a queue. Coffee-and-juice place, no beer programme; save the drinking for later.",
+        "footer": "~€28–32pp."
+      }
     },
     "restaurant-black": {
       "name": "BLACK Amsterdam",
@@ -707,7 +1487,55 @@
       "menu": "https://restaurantblack.nl/en/menu/",
       "instagram": "https://instagram.com/restaurantblackams",
       "igHandle": "@restaurantblackams",
-      "note": "Steaks. The good ones."
+      "note": "Steaks. The good ones.",
+      "orderCard": {
+        "title": "🍽 What to order",
+        "sections": [
+          {
+            "label": "Best steak-per-euro in central Amsterdam",
+            "items": [
+              {
+                "name": "Rib-Eye Angus 600g",
+                "price": "€62",
+                "desc": "Explicitly listed for two. At €31 a head this is why it sits at 9.0 on TheFork.",
+                "must": true
+              }
+            ]
+          },
+          {
+            "label": "Or smaller",
+            "items": [
+              {
+                "name": "Tournedos Black Angus 250g",
+                "price": "€29.00",
+                "desc": "160g version €22.50."
+              },
+              {
+                "name": "Butcher Steak 200g",
+                "price": "€23.50",
+                "desc": "The value play."
+              },
+              {
+                "name": "Steak Tartaar",
+                "price": "€11.50",
+                "desc": "100% Black Angus, mustard mayo, quail egg."
+              },
+              {
+                "name": "Rundercarpaccio",
+                "price": "€10.95",
+                "desc": "Parmesan, rocket, pine nuts, truffle mayo."
+              },
+              {
+                "name": "Zeeuwse oysters",
+                "price": "€3.00 each"
+              }
+            ]
+          }
+        ],
+        "warn": "Sauces (€1.95) and sides (€4.95) are NOT included — steaks come plain. Budget €10–12pp on top. This is where the low headline prices catch people out.",
+        "suggested": "The 600g ribeye for two plus a Butcher Steak, one béarnaise and one pepper sauce, and two sides",
+        "footer": "~€49pp food, €70–80pp with drinks."
+      }
     },
     "canvas-volkshotel": {
       "name": "Canvas @ Volkshotel",
@@ -739,7 +1567,52 @@
       "menu": "https://www.foodhallen.nl/amsterdam?lang=en",
       "instagram": "https://instagram.com/foodhallen",
       "igHandle": "@foodhallen",
-      "note": "Converted tram depot, Oud-West. 19 stalls: The Butcher burgers, Holy Fried Chicken, ramen, tacos, pizza, 3 bars. €8–16 a plate. OPENS 12:00 SHARP, walk-in only — send one guy to claim a table immediately."
+      "note": "Converted tram depot, Oud-West. 19 stalls: The Butcher burgers, Holy Fried Chicken, ramen, tacos, pizza, 3 bars. €8–16 a plate. OPENS 12:00 SHARP, walk-in only — send one guy to claim a table immediately.",
+      "orderCard": {
+        "title": "🍽 What to order",
+        "intro": "19 stalls, each with its own till and menu — there is no central bill. Three separate bars; the Beer Bar has 60+ taps including two house brews. Walk-in only.",
+        "sections": [
+          {
+            "label": "Send someone to this queue first",
+            "items": [
+              {
+                "name": "The Butcher — 'The Daddy'",
+                "price": "€15.00",
+                "desc": "230g Aberdeen Angus, melted Edam, lettuce, tomato, bacon, BBQ sauce, grilled onions. Hits 20 minutes at peak.",
+                "must": true
+              }
+            ]
+          },
+          {
+            "label": "Split the other queues",
+            "items": [
+              {
+                "name": "SMOKEY GOODNESS",
+                "price": "€12–17",
+                "desc": "Dutch pitmaster Jord Althuizen's stall: brisket, pulled pork, burnt ends. The most on-brand stall for you three."
+              },
+              {
+                "name": "VIETVIEW",
+                "price": "€8–12",
+                "desc": "Caramelised pork belly bánh mì and bao. The palate-cleanser that stops this becoming three brown meals."
+              },
+              {
+                "name": "TAQUERIA LIMA",
+                "price": "€10–14",
+                "desc": "Cochinita pibil tacos, 3 for about €10–14. Shares cleanly."
+              },
+              {
+                "name": "Also good",
+                "price": "",
+                "desc": "Renato's (antipasti and pizza), Toko Bumbu (Indonesian satay and babi pangang), Mr Temaki, Santiago."
+              }
+            ]
+          }
+        ],
+        "suggested": "One man grabs a table immediately — the raised platform at the back is best — while the other two split up and queue different stalls",
+        "skip": "Don't all order burgers. One burger, one BBQ plate, one bánh mì, one taco order is the right density for three. Order small from several stalls rather than one big meal each.",
+        "footer": "~€20–30pp food plus €6–7 a beer."
+      }
     },
     "van-gogh-museum": {
       "name": "Van Gogh Museum",
@@ -759,7 +1632,51 @@
       "menu": "https://blvd020.nl/images/menukaart.pdf",
       "instagram": null,
       "igHandle": null,
-      "note": "Next to the venue. WALK-IN ONLY on event days, no reservations. Be there by 5 to beat the rush."
+      "note": "Next to the venue. WALK-IN ONLY on event days, no reservations. Be there by 5 to beat the rush.",
+      "orderCard": {
+        "title": "🍽 What to order",
+        "intro": "From 17:00 on event days the kitchen serves the Evenementenkaart ONLY — the full dinner menu is off. This short events menu IS your menu.",
+        "sections": [
+          {
+            "label": "Fastest ticket, and what the kitchen is built to fire at volume",
+            "items": [
+              {
+                "name": "Beef Burger",
+                "price": "€23.50",
+                "desc": "Bacon, onion, tomato, cheese, house sauce. Fries included.",
+                "must": true
+              }
+            ]
+          },
+          {
+            "label": "The rest of the events menu",
+            "items": [
+              {
+                "name": "Pizza — Shoarma / Tandoori Chicken / Salami",
+                "price": "€19.50",
+                "desc": "The fastest thing on the menu."
+              },
+              {
+                "name": "Kipsaté",
+                "price": "€26.00",
+                "desc": "Chicken skewers, peanut sauce, atjar, fries."
+              },
+              {
+                "name": "Fish & Chips",
+                "price": "€26.50"
+              },
+              {
+                "name": "Crispy Wings (5)",
+                "price": "€11.50"
+              }
+            ]
+          }
+        ],
+        "suggested": "Arrive right at 17:00, skip starters, order all three mains at once — 2× Beef Burger + 1× Pizza Shoarma",
+        "skip": "The Ossenhaas Steak (€38.50) — slowest ticket in the kitchen, steakhouse money in a stadium forecourt, and you had a far better steak at BLACK the night before. Same for the carpaccio; it eats clock. Tell the server you have a show — they run this every event night and will fire the table together.",
+        "warn": "The room fills in 20 minutes after 17:00. Walk-in only on event days.",
+        "footer": "~€30–36pp with a beer."
+      }
     },
     "afas-live": {
       "name": "AFAS Live",
@@ -828,7 +1745,78 @@
       "menu": "https://doverstreetcounter.com/menu",
       "instagram": "https://instagram.com/doverstreetcounter",
       "igHandle": "@doverstreetcounter",
-      "note": "Mayfair diner. \"McDonald's for oligarchs.\" Booking window still pending."
+      "note": "Mayfair diner. \"McDonald's for oligarchs.\" Booking window still pending.",
+      "orderCard": {
+        "title": "🍽 What to order",
+        "sections": [
+          {
+            "label": "The whole thesis of the place",
+            "items": [
+              {
+                "name": "The Cheeseburger",
+                "price": "£16",
+                "desc": "The Infatuation singles it out — a triumphant, tall burger, rare patty, perfect ratios. At £16 in Mayfair that's the point.",
+                "must": true
+              }
+            ]
+          },
+          {
+            "label": "The rest",
+            "items": [
+              {
+                "name": "DSC French Dip",
+                "price": "£20",
+                "desc": "Sliced roast beef, beef ragù, taleggio, pickles, jus. A multiple-napkin affair."
+              },
+              {
+                "name": "Grilled Half Lobster",
+                "price": "£38",
+                "desc": "Herbed garlic butter, lemon, chives."
+              },
+              {
+                "name": "Beef Ribeye Tagliata 300g",
+                "price": "£39",
+                "desc": "Black pepper, ginger, chilli, coriander."
+              },
+              {
+                "name": "Disco Fries",
+                "price": "£11",
+                "desc": "Pickled chilli and ginger, mayo, disco jus."
+              },
+              {
+                "name": "Wedge & Walnuts",
+                "price": "£19",
+                "desc": "Chilled iceberg, candied walnuts, ranch."
+              },
+              {
+                "name": "New York Cheesecake",
+                "price": "£15",
+                "desc": "Flambé banana, spiced rum caramel."
+              }
+            ]
+          },
+          {
+            "label": "Drinks",
+            "items": [
+              {
+                "name": "All margaritas",
+                "price": "£15"
+              },
+              {
+                "name": "Martini / Old Fashioned",
+                "price": "£18"
+              },
+              {
+                "name": "Wine from £37",
+                "price": "",
+                "desc": "Malbec Reserve Mendoza £58."
+              }
+            ]
+          }
+        ],
+        "suggested": "Sit at the counter, not a table. Every review says the same — the counter is where the energy is.",
+        "footer": "~£85–100pp including 15% service."
+      }
     },
     "hawksmoor": {
       "name": "Hawksmoor Seven Dials",
@@ -838,7 +1826,70 @@
       "menu": "https://thehawksmoor.com/locations/seven-dials/food/menu/",
       "instagram": "https://instagram.com/hawksmoorrestaurants",
       "igHandle": "@hawksmoorrestaurants",
-      "note": "Fallback for Dover Street Counter. Steak."
+      "note": "Fallback for Dover Street Counter. Steak.",
+      "orderCard": {
+        "title": "🍽 What to order (the fallback)",
+        "sections": [
+          {
+            "label": "Share one big bone",
+            "items": [
+              {
+                "name": "Porterhouse",
+                "price": "£14/100g",
+                "desc": "Order about 1.2kg (roughly £168) and split three ways — fillet and sirloin on one bone, over charcoal. Beats three separate steaks on value and drama.",
+                "must": true
+              }
+            ]
+          },
+          {
+            "label": "Non-negotiable opener",
+            "items": [
+              {
+                "name": "Shaky Pete's Ginger Brew",
+                "price": "£14",
+                "desc": "Tanqueray, lemon, ginger, London Pride, in a frosted tankard. Hawksmoor's most famous drink."
+              }
+            ]
+          },
+          {
+            "label": "Starters and sides — steaks come with nothing, get three",
+            "items": [
+              {
+                "name": "Bone marrow",
+                "price": "£12"
+              },
+              {
+                "name": "Old Spot belly ribs",
+                "price": "£16"
+              },
+              {
+                "name": "Beef dripping chips",
+                "price": "£7"
+              },
+              {
+                "name": "Macaroni cheese",
+                "price": "£8"
+              },
+              {
+                "name": "Creamed spinach",
+                "price": "£7.50",
+                "desc": "Ask for bone marrow gravy and anchovy hollandaise."
+              }
+            ]
+          },
+          {
+            "label": "Dessert",
+            "items": [
+              {
+                "name": "Sticky Toffee Pudding",
+                "price": "£10",
+                "desc": "The dish they're famous for. Worth it even when full."
+              }
+            ]
+          }
+        ],
+        "footer": "~£130–160pp including 13.5% service."
+      }
     },
     "the-devonshire": {
       "name": "The Devonshire",
@@ -868,7 +1919,47 @@
       "menu": "https://www.thewolseleypiccadilly.com/menu/",
       "instagram": "https://instagram.com/thewolseley",
       "igHandle": "@thewolseley",
-      "note": "Built 1921 as a Wolseley Motors car showroom. Leave by 11:45 for the tour."
+      "note": "Built 1921 as a Wolseley Motors car showroom. Leave by 11:45 for the tour.",
+      "orderCard": {
+        "title": "🍽 What to order",
+        "intro": "Breakfast last orders are 11:30 — you're booked at 10:30, so don't dawdle.",
+        "sections": [
+          {
+            "label": "The one genuinely distinctive dish here",
+            "items": [
+              {
+                "name": "Smoked Haddock Kedgeree with poached egg",
+                "price": "£25.50",
+                "desc": "Everything else is a hotel fry-up at Mayfair prices. This isn't.",
+                "must": true
+              }
+            ]
+          },
+          {
+            "label": "The other two to get, no overlap",
+            "items": [
+              {
+                "name": "Bubble & Squeak",
+                "price": "£16.95",
+                "desc": "Wild mushrooms, fried duck egg."
+              },
+              {
+                "name": "Fried Haggis and Duck Eggs",
+                "price": "£19.50",
+                "desc": "With whisky sauce."
+              },
+              {
+                "name": "Croissant au Beurre",
+                "price": "£5.95",
+                "desc": "Arrives warm. The correct Wolseley ritual."
+              }
+            ]
+          }
+        ],
+        "suggested": "One of each of the three above — all British-specific things you can't get at home",
+        "skip": "The English (£24.50) — reviewed as unremarkable for the price, and you'll get a better fry-up at Breakfast Club on Monday for £16.50. Also skip the pain au chocolat (dry). Ask for a table in the main room under the vaulted ceiling — the room is 80% of what you're paying for.",
+        "footer": "~£45–55pp."
+      }
     },
     "the-audley": {
       "name": "The Audley",
@@ -888,7 +1979,85 @@
       "menu": "https://theivyasia.com/menus/",
       "instagram": "https://instagram.com/theivyasia",
       "igHandle": "@theivyasia",
-      "note": "Green onyx floor, theatrical, fun. Views of St Paul's."
+      "note": "Green onyx floor, theatrical, fun. Views of St Paul's.",
+      "orderCard": {
+        "title": "🍽 What to order",
+        "intro": "You come for the glowing green onyx floor and the St Paul's view — but the small plates and robata are where the kitchen actually delivers.",
+        "sections": [
+          {
+            "label": "Survives the style-over-substance test",
+            "items": [
+              {
+                "name": "Char Siu Pork Belly",
+                "price": "£29.50",
+                "desc": "The dish reviewers consistently flag as both delicious and the best value here.",
+                "must": true
+              }
+            ]
+          },
+          {
+            "label": "Small plates — get four or five",
+            "items": [
+              {
+                "name": "Popcorn Shrimp",
+                "price": "£14.25",
+                "desc": "Hot Dinners: excellent."
+              },
+              {
+                "name": "Pork & Kimchi Gyoza",
+                "price": "£12.95"
+              },
+              {
+                "name": "Aromatic Duck Spring Rolls",
+                "price": "£11.95"
+              },
+              {
+                "name": "Gochujang Chicken & Caviar",
+                "price": "£15.75"
+              },
+              {
+                "name": "Seared Wagyu Beef Roll",
+                "price": "£19.95",
+                "desc": "One roll for the theatre. Better value than the £55 Silver Shell, which is pure Instagram."
+              }
+            ]
+          },
+          {
+            "label": "Second large plate",
+            "items": [
+              {
+                "name": "Hunan Beef Fillet",
+                "price": "£36.75"
+              },
+              {
+                "name": "'Black Cod' Miso",
+                "price": "£39.00"
+              }
+            ]
+          },
+          {
+            "label": "Sides and drinks",
+            "items": [
+              {
+                "name": "Nasi Goreng",
+                "price": "£10"
+              },
+              {
+                "name": "Wok Fried Greens",
+                "price": "£7"
+              },
+              {
+                "name": "Orient N.12 Up Fashioned",
+                "price": "£13.75",
+                "desc": "The cocktail programme is legitimately solid."
+              }
+            ]
+          }
+        ],
+        "suggested": "Order like a sharing restaurant — 2 large plates plus 4–5 small plates for three, not one main each",
+        "skip": "Desserts are the weak link. Skip the £39.95 Golden Dragon; if you want one, the Ube Doughnuts £10.25. Better plan: skip dessert, go drink. Ask for a window table with the St Paul's view when booking and again on arrival.",
+        "footer": "~£95–115pp."
+      }
     },
     "sexy-fish": {
       "name": "Sexy Fish",
@@ -918,7 +2087,50 @@
       "menu": "https://thebreakfastclubcafes.com/menu",
       "instagram": "https://instagram.com/thebrekkyclub",
       "igHandle": "@thebrekkyclub",
-      "note": "Moved earlier to 9:00 AM."
+      "note": "Moved earlier to 9:00 AM.",
+      "orderCard": {
+        "title": "🍽 What to order",
+        "sections": [
+          {
+            "label": "Their own menu calls it the dish that made us famous",
+            "items": [
+              {
+                "name": "The All American",
+                "price": "£16.50",
+                "desc": "Pancakes, bacon, British sausage, homestyle potatoes, sunny-side eggs, maple syrup. (D-list celebrity famous, per the menu.)",
+                "must": true
+              }
+            ]
+          },
+          {
+            "label": "Spread it out",
+            "items": [
+              {
+                "name": "The Full Monty",
+                "price": "~£16.50",
+                "desc": "So one of you gets black pudding and the proper British version."
+              },
+              {
+                "name": "Fried Chicken, Bacon & Waffles",
+                "price": "£15.50",
+                "desc": "Waffle, fried chicken breast, crispy bacon, sunny-side egg and gravy. The sleeper."
+              },
+              {
+                "name": "Pancakes with Marmite Maple Butter",
+                "price": "~£8",
+                "desc": "For the table. Sounds insane, it's their legendary item, three Americans should try it once."
+              },
+              {
+                "name": "Six hash browns with dips",
+                "price": "£7",
+                "desc": "Add an egg £2, add black pudding or mushrooms £1."
+              }
+            ]
+          }
+        ],
+        "skip": "Nothing. No bookings at Old Compton St and the queue is famous — 10:30 on a Monday is the smart slot, you'll walk straight in.",
+        "footer": "~£30–35pp including 12.5% service."
+      }
     },
     "harrods": {
       "name": "Harrods",
@@ -938,7 +2150,91 @@
       "menu": "https://www.dishoom.com/menu/carnaby-all-day/",
       "instagram": "https://instagram.com/dishoom",
       "igHandle": "@dishoom",
-      "note": "Last bookable slot. They NEVER ask for card details by phone — if someone calls asking, it's a scam."
+      "note": "Last bookable slot. They NEVER ask for card details by phone — if someone calls asking, it's a scam.",
+      "orderCard": {
+        "title": "🍛 What to order",
+        "intro": "All prices from the current Carnaby all-day menu.",
+        "sections": [
+          {
+            "label": "The one non-negotiable",
+            "items": [
+              {
+                "name": "House Black Daal",
+                "price": "£11.70",
+                "must": true,
+                "desc": "Dishoom's signature. Black lentils cooked over 24 hours — dark, rich, almost buttery. One for the table minimum; regulars order two. This is the dish the restaurant is famous for."
+              }
+            ]
+          },
+          {
+            "label": "The centrepiece — pick one to share",
+            "items": [
+              {
+                "name": "Lamb Raan",
+                "price": "£26.90",
+                "desc": "Fall-apart leg of lamb with saffron rice, caramelised onions and warming spices. The showstopper, and it feeds a table. No pre-order needed at Carnaby."
+              },
+              {
+                "name": "Chicken Berry Britannia",
+                "price": "£18.90",
+                "desc": "Their biryani, sealed under pastry, with barberries. The other big shared plate."
+              }
+            ]
+          },
+          {
+            "label": "Grills — two or three between the three of you",
+            "items": [
+              {
+                "name": "Charred Lamb Chops",
+                "price": "£19.90",
+                "desc": "Marinated overnight in papaya and yoghurt, grilled, finished with Kashmiri chilli sauce. Widely called the best thing on the menu."
+              },
+              {
+                "name": "Dishoom Chicken Tikka",
+                "price": "£14.90",
+                "desc": "Family recipe using sweet vinegar instead of yoghurt — not like any tikka you've had."
+              },
+              {
+                "name": "Sheekh Kabab",
+                "price": "£14.90",
+                "desc": "Minced lamb, coriander, cumin."
+              }
+            ]
+          },
+          {
+            "label": "Sides — get both",
+            "items": [
+              {
+                "name": "Gunpowder Potatoes",
+                "price": "£10.50",
+                "desc": "New potatoes grilled and tossed in butter, aromatic seeds and herbs. Cult favourite."
+              },
+              {
+                "name": "Roomali Roti",
+                "price": "",
+                "desc": "For mopping up the daal."
+              }
+            ]
+          },
+          {
+            "label": "Drinks",
+            "items": [
+              {
+                "name": "Permit Room cocktails",
+                "price": "",
+                "desc": "Genuinely good list. The Bombay Colada and the East India Gimlet are the two people talk about."
+              },
+              {
+                "name": "House chai",
+                "price": "",
+                "desc": "Worth one round even mid-meal."
+              }
+            ]
+          }
+        ],
+        "suggested": "House Black Daal ×2 · Lamb Raan · Charred Lamb Chops · Dishoom Chicken Tikka · Gunpowder Potatoes · Roomali Roti",
+        "footer": "Roughly £35–40 a head with a drink."
+      }
     },
     "connaught-bar": {
       "name": "Connaught Bar",
@@ -948,7 +2244,69 @@
       "menu": "https://www.maybourne.com/en/hotels/the-connaught/restaurants-bars/connaught-bar",
       "instagram": "https://instagram.com/theconnaught",
       "igHandle": "@theconnaught",
-      "note": "Repeatedly voted one of the world's best bars. The tableside martini trolley is the bucket-list drink — they wheel it over and build it in front of you. Walk-in only, no reservations; Monday is the easiest night of the week. Smart casual."
+      "note": "Repeatedly voted one of the world's best bars. The tableside martini trolley is the bucket-list drink — they wheel it over and build it in front of you. Walk-in only, no reservations; Monday is the easiest night of the week. Smart casual.",
+      "orderCard": {
+        "title": "🍸 What to order",
+        "intro": "How the trolley works: the black lacquer trolley is wheeled to your table and the drink is built in front of you. A hand-etched Connaught crystal glass is chilled with slow-frozen ice. You choose your bitters from the handmade house range — Tonka bean, Lavender, Cardamom, Coriander seed, or Dr Ago (Agostino Perrone's own bergamot-and-ginseng blend). Two dashes go in. Base is Tanqueray No.10 with a proprietary dry vermouth blend, always stirred, poured from height, spritzed with lemon oil, finished with a citrus spiral.",
+        "sections": [
+          {
+            "label": "All three of you, from the trolley",
+            "items": [
+              {
+                "name": "The Connaught Martini",
+                "price": "£30",
+                "desc": "Order three with three different bitters — Dr Ago, Tonka, Lavender — so you can taste across.",
+                "must": true
+              }
+            ]
+          },
+          {
+            "label": "Round two, diverge",
+            "items": [
+              {
+                "name": "Number 11",
+                "price": "£29",
+                "desc": "Eleven years in development."
+              },
+              {
+                "name": "Vieux Connaught",
+                "price": "£29",
+                "desc": "Zacapa 23, Johnnie Walker Blue, saffron smoke."
+              },
+              {
+                "name": "Magnetum",
+                "price": "£28"
+              }
+            ]
+          },
+          {
+            "label": "The clever play",
+            "items": [
+              {
+                "name": "Seventy One Martini pairing",
+                "price": "£75",
+                "desc": "Barrel-aged, served with 10g of Royal Siberian caviar on the house."
+              }
+            ]
+          },
+          {
+            "label": "Snacks if wanted",
+            "items": [
+              {
+                "name": "Crispy Beef Tataki Sushi",
+                "price": "£25"
+              },
+              {
+                "name": "Gillardeau oysters, 3 pc",
+                "price": "£26"
+              }
+            ]
+          }
+        ],
+        "suggested": "Go after 9:30pm — the room quiets and the bartenders have time to talk you through it. Monday is the best night of the week.",
+        "skip": "Don't order off-menu classics; the house list is the point. Dress smart — no trainers, no sportswear. They do turn people away.",
+        "footer": "~£75–95pp for two cocktails."
+      }
     },
     "seven-dials-market": {
       "name": "Seven Dials Market",
@@ -1018,7 +2376,63 @@
       "menu": null,
       "instagram": "https://instagram.com/cafehoppe",
       "igHandle": "@cafehoppe",
-      "note": "Brown café since 1670. Always packed, spills onto the street. Open til 01:00. Walk in."
+      "note": "Brown café since 1670. Always packed, spills onto the street. Open til 01:00. Walk in.",
+      "orderCard": {
+        "title": "🍽 What to order",
+        "sections": [
+          {
+            "label": "The most Amsterdam thing three Americans can do",
+            "items": [
+              {
+                "name": "A kopstootje",
+                "price": "€7.80",
+                "desc": "Amstel vaas €3.80 + Jonge Hoppe jenever €4.00. The little head-butt: a tulip glass of jenever filled to the brim beside a beer. You bend down and sip the first mouthful without hands, then chase with the beer. Hoppe has been a jenever house since 1670. Do a round of three.",
+                "must": true
+              }
+            ]
+          },
+          {
+            "label": "Then step up",
+            "items": [
+              {
+                "name": "Oude Corenwijn",
+                "price": "€5.00",
+                "desc": "Aged, malty, whisky-adjacent."
+              },
+              {
+                "name": "IJwit, Brouwerij 't IJ, 30cl",
+                "price": "€6.00",
+                "desc": "The local pick."
+              }
+            ]
+          },
+          {
+            "label": "Snacks — order early, the kitchen closes well before the bar",
+            "items": [
+              {
+                "name": "Gemengd garnituur warm, 16 pcs",
+                "price": "€17.00"
+              },
+              {
+                "name": "Amsterdamse ossenworst",
+                "price": "€9.50",
+                "desc": "Raw beef sausage."
+              },
+              {
+                "name": "Bitterballen (8)",
+                "price": "€8.50"
+              },
+              {
+                "name": "Vlammetjes (8)",
+                "price": "€9.00"
+              }
+            ]
+          }
+        ],
+        "skip": "The nachos — wrong venue.",
+        "suggested": "Two rooms: the left-hand old tasting room has a sand and sawdust floor, is standing-only with no table service, and you order at the bar. That's the one you came for.",
+        "footer": "~€30–35pp with three rounds."
+      }
     },
     "westminster-abbey": {
       "name": "Westminster Abbey",
@@ -1129,6 +2543,16 @@
       "instagram": "https://instagram.com/normanscoachsoho",
       "igHandle": "@normanscoachsoho",
       "note": "Jeffrey Bernard's old pub. Intact 1930s interior, wet-led with bar snacks only. Their old domain is dead and redirects — the pub is still trading."
+    },
+    "hija-de-sanchez": {
+      "name": "Hija de Sanchez",
+      "address": "Slagterboderne 8, 1716 København V",
+      "city": "Copenhagen",
+      "website": "https://hijadesanchez.dk",
+      "menu": null,
+      "instagram": "https://instagram.com/hijadesanchez",
+      "igHandle": "@hijadesanchez",
+      "note": "Ex-Noma pastry chef's taqueria. 3 min walk from Warpigs, in Kødbyen. NOT at Reffen — older guides get this wrong."
     }
   },
   "days": [
@@ -1594,7 +3018,7 @@
           "suggestions": [
             {
               "title": "Backup: Grøften",
-              "desc": "Danish institution since 1874, inside Tivoli, 8 min from the hotel. Open until 23:00.",
+              "desc": "Danish institution since 1874, 8 min from the hotel, open til ~23:00. ⚠️ Smørrebrød is LUNCH ONLY (12:00–15:30) — at dinner the open sandwiches are off.",
               "venue": "groeften"
             }
           ]
@@ -1767,7 +3191,7 @@
           "type": "meal",
           "title": "Lunch · Reffen",
           "venue": "reffen",
-          "desc": "50+ container stalls on a former shipyard. Hija de Sanchez tacos, Bronut smash burger, Korean BBQ Pop, Goodfellas pizza. Everyone grabs what they want.",
+          "desc": "31 container stalls on the old B&W shipyard, reached by boat. Fuego (Argentine open fire), Gosht (Kurdish charcoal kebab), Hygge (Danish), Smashburger by NiceBuns. Stalls open 11:30.",
           "outdoor": true,
           "rainCheck": true,
           "suggestions": [
@@ -1800,7 +3224,14 @@
           "title": "Pre-dinner beers · Warpigs",
           "venue": "warpigs",
           "desc": "Kødbyen meatpacking district. WALK-IN, order at the counter, 23 Mikkeller taps. Meat sells out — this is beers AND food.",
-          "highlight": true
+          "highlight": true,
+          "suggestions": [
+            {
+              "title": "Optional first stop: Hija de Sanchez tacos",
+              "desc": "Slagterboderne 8 — 3 minutes from Warpigs. Ex-Noma pastry chef's taqueria. Worth a couple of tacos before the meat.",
+              "venue": "hija-de-sanchez"
+            }
+          ]
         },
         {
           "time": "20:20",
@@ -1977,7 +3408,7 @@
           "type": "meal",
           "title": "Brunch · Greenwoods Singel",
           "venue": "greenwoods",
-          "desc": "Walk-in. Terrace tables if it's dry.",
+          "desc": "Walk-in only, small and canal-side. Terrace tables if it's dry. Before 11:00 or expect a queue.",
           "outdoor": true
         },
         {
@@ -2449,91 +3880,7 @@
             "time": "17:45"
           },
           "note": "Dishoom never asks for card details by phone. Ignore any call that does.",
-          "highlight": true,
-          "orderCard": {
-            "title": "🍛 What to order",
-            "intro": "All prices from the current Carnaby all-day menu.",
-            "sections": [
-              {
-                "label": "The one non-negotiable",
-                "items": [
-                  {
-                    "name": "House Black Daal",
-                    "price": "£11.70",
-                    "must": true,
-                    "desc": "Dishoom's signature. Black lentils cooked over 24 hours — dark, rich, almost buttery. One for the table minimum; regulars order two. This is the dish the restaurant is famous for."
-                  }
-                ]
-              },
-              {
-                "label": "The centrepiece — pick one to share",
-                "items": [
-                  {
-                    "name": "Lamb Raan",
-                    "price": "£26.90",
-                    "desc": "Fall-apart leg of lamb with saffron rice, caramelised onions and warming spices. The showstopper, and it feeds a table. No pre-order needed at Carnaby."
-                  },
-                  {
-                    "name": "Chicken Berry Britannia",
-                    "price": "£18.90",
-                    "desc": "Their biryani, sealed under pastry, with barberries. The other big shared plate."
-                  }
-                ]
-              },
-              {
-                "label": "Grills — two or three between the three of you",
-                "items": [
-                  {
-                    "name": "Charred Lamb Chops",
-                    "price": "£19.90",
-                    "desc": "Marinated overnight in papaya and yoghurt, grilled, finished with Kashmiri chilli sauce. Widely called the best thing on the menu."
-                  },
-                  {
-                    "name": "Dishoom Chicken Tikka",
-                    "price": "£14.90",
-                    "desc": "Family recipe using sweet vinegar instead of yoghurt — not like any tikka you've had."
-                  },
-                  {
-                    "name": "Sheekh Kabab",
-                    "price": "£14.90",
-                    "desc": "Minced lamb, coriander, cumin."
-                  }
-                ]
-              },
-              {
-                "label": "Sides — get both",
-                "items": [
-                  {
-                    "name": "Gunpowder Potatoes",
-                    "price": "£10.50",
-                    "desc": "New potatoes grilled and tossed in butter, aromatic seeds and herbs. Cult favourite."
-                  },
-                  {
-                    "name": "Roomali Roti",
-                    "price": "",
-                    "desc": "For mopping up the daal."
-                  }
-                ]
-              },
-              {
-                "label": "Drinks",
-                "items": [
-                  {
-                    "name": "Permit Room cocktails",
-                    "price": "",
-                    "desc": "Genuinely good list. The Bombay Colada and the East India Gimlet are the two people talk about."
-                  },
-                  {
-                    "name": "House chai",
-                    "price": "",
-                    "desc": "Worth one round even mid-meal."
-                  }
-                ]
-              }
-            ],
-            "suggested": "House Black Daal ×2 · Lamb Raan · Charred Lamb Chops · Dishoom Chicken Tikka · Gunpowder Potatoes · Roomali Roti",
-            "footer": "Roughly £35–40 a head with a drink."
-          }
+          "highlight": true
         },
         {
           "time": "19:30",
@@ -3101,6 +4448,128 @@
           "label": "Sky Garden",
           "venue": "sky-garden",
           "detail": "Free, but you must book a timed slot"
+        }
+      ]
+    },
+    "budget": {
+      "title": "What the food actually costs",
+      "note": "Per person, food and service. Drinks on top unless stated. Split as we go — none of this is in the Settle Up numbers.",
+      "rows": [
+        {
+          "city": "Vienna",
+          "venue": "Cucina Itameshi",
+          "pp": "€90–100"
+        },
+        {
+          "city": "Vienna",
+          "venue": "Zum Schwarzen Kameel",
+          "pp": "€70–80",
+          "extra": "+€20–25 Brötchen"
+        },
+        {
+          "city": "Vienna",
+          "venue": "Café Landtmann",
+          "pp": "€49"
+        },
+        {
+          "city": "Vienna",
+          "venue": "Verde",
+          "pp": "€24"
+        },
+        {
+          "city": "Vienna",
+          "venue": "Demel",
+          "pp": "€5 window / €18 seated"
+        },
+        {
+          "city": "Vienna",
+          "venue": "Lugeck",
+          "pp": "€67–78"
+        },
+        {
+          "city": "Copenhagen",
+          "venue": "Esmée",
+          "pp": "$170–220"
+        },
+        {
+          "city": "Copenhagen",
+          "venue": "Social Brew",
+          "pp": "$39"
+        },
+        {
+          "city": "Copenhagen",
+          "venue": "Sokkelund",
+          "pp": "$125–140"
+        },
+        {
+          "city": "Copenhagen",
+          "venue": "Reffen",
+          "pp": "$39–55"
+        },
+        {
+          "city": "Copenhagen",
+          "venue": "Warpigs",
+          "pp": "$52–65"
+        },
+        {
+          "city": "Amsterdam",
+          "venue": "Cannibale Royale",
+          "pp": "€60–70"
+        },
+        {
+          "city": "Amsterdam",
+          "venue": "Café Hoppe",
+          "pp": "€30–35"
+        },
+        {
+          "city": "Amsterdam",
+          "venue": "Greenwoods",
+          "pp": "€28–32"
+        },
+        {
+          "city": "Amsterdam",
+          "venue": "BLACK",
+          "pp": "€70–80"
+        },
+        {
+          "city": "Amsterdam",
+          "venue": "Foodhallen",
+          "pp": "€30–40"
+        },
+        {
+          "city": "Amsterdam",
+          "venue": "BLVD020",
+          "pp": "€30–36"
+        },
+        {
+          "city": "London",
+          "venue": "Dover Street Counter",
+          "pp": "£85–100"
+        },
+        {
+          "city": "London",
+          "venue": "The Wolseley",
+          "pp": "£45–55"
+        },
+        {
+          "city": "London",
+          "venue": "Ivy Asia",
+          "pp": "£95–115"
+        },
+        {
+          "city": "London",
+          "venue": "Breakfast Club",
+          "pp": "£30–35"
+        },
+        {
+          "city": "London",
+          "venue": "Dishoom",
+          "pp": "£35–40"
+        },
+        {
+          "city": "London",
+          "venue": "Connaught Bar",
+          "pp": "£75–95"
         }
       ]
     }

@@ -59,6 +59,10 @@ const R = (() => {
         h += `<div style="font-size:13px;font-weight:700">${esc(s.name)}</div>`;
         if (s.note) h += `<div class="blk-desc" style="margin-top:2px">${esc(s.note)}</div>`;
         if (s.venue) h += venueLinks(D, s.venue);
+        /* Verde and Demel only exist as sub-stops of Saturday's Loop, so
+           without this their order cards — and Verde's shrimp warning —
+           would never render anywhere. */
+        if (s.venue) h += orderCardHTML(D.venues[s.venue]?.orderCard);
         h += `</div>`;
       });
       h += `</div>`;
@@ -92,24 +96,9 @@ const R = (() => {
 
     if (b.venue) h += venueLinks(D, b.venue);
 
-    /* "what to order" — native <details> so it costs no JS and works offline */
-    if (b.orderCard) {
-      const o = b.orderCard;
-      h += `<details class="order-card"><summary class="oc-sum">${esc(o.title)}</summary>`;
-      if (o.intro) h += `<div class="oc-intro">${esc(o.intro)}</div>`;
-      o.sections.forEach(s => {
-        h += `<div class="oc-sec">${esc(s.label)}</div>`;
-        s.items.forEach(i => {
-          h += `<div class="oc-item${i.must ? ' must' : ''}">
-            <div class="oc-head"><span class="oc-name">${esc(i.name)}</span>${i.price ? `<span class="oc-price">${esc(i.price)}</span>` : ''}</div>
-            ${i.desc ? `<div class="oc-desc">${esc(i.desc)}</div>` : ''}
-          </div>`;
-        });
-      });
-      if (o.suggested) h += `<div class="oc-sugg"><div class="oc-sugg-l">A sensible order for three</div>${esc(o.suggested)}</div>`;
-      if (o.footer) h += `<div class="oc-foot">${esc(o.footer)}</div>`;
-      h += `</details>`;
-    }
+    /* "what to order" — block-level wins, else fall back to the venue's own
+       card so backups and suggestions get one too */
+    h += orderCardHTML(b.orderCard || (b.venue && D.venues[b.venue]?.orderCard));
 
     /* suggestions */
     if (b.suggestions?.length) {
@@ -118,6 +107,8 @@ const R = (() => {
         h += `<div class="sug-item"><div class="sug-t">${esc(s.title)}</div>`;
         if (s.desc) h += `<div class="sug-d">${esc(s.desc)}</div>`;
         if (s.venue) h += venueLinks(D, s.venue);
+        /* backups deserve an order card too — Grøften and Madklubben have one */
+        if (s.venue) h += orderCardHTML(D.venues[s.venue]?.orderCard);
         h += `</div>`;
       });
       h += `</div>`;
@@ -137,6 +128,32 @@ const R = (() => {
       <div class="pl-label">${esc(p.label)}</div>
       ${p.sub ? `<div class="pl-sub">${esc(p.sub)}</div>` : ''}
     </a>`;
+  }
+
+  /**
+   * Collapsible "what to order". Native <details> — no JS, works offline,
+   * which matters because this gets read at a table with bad signal.
+   */
+  function orderCardHTML(o) {
+    if (!o) return '';
+    let h = `<details class="order-card"><summary class="oc-sum">${esc(o.title || '🍽 What to order')}</summary>`;
+    if (o.intro) h += `<div class="oc-intro">${esc(o.intro)}</div>`;
+    (o.sections || []).forEach(s => {
+      h += `<div class="oc-sec">${esc(s.label)}</div>`;
+      s.items.forEach(i => {
+        h += `<div class="oc-item${i.must ? ' must' : ''}">
+          <div class="oc-head"><span class="oc-name">${esc(i.name)}</span>${i.price ? `<span class="oc-price">${esc(i.price)}</span>` : ''}</div>
+          ${i.desc ? `<div class="oc-desc">${esc(i.desc)}</div>` : ''}
+        </div>`;
+      });
+    });
+    if (o.suggested) h += `<div class="oc-sugg"><div class="oc-sugg-l">A sensible order for three</div>${esc(o.suggested)}</div>`;
+    if (o.skip) h += `<div class="oc-skip"><b>Skip:</b> ${esc(o.skip)}</div>`;
+    /* allergy warnings are load-bearing — Coob's shrimp allergy */
+    if (o.allergy) h += `<div class="oc-allergy">🦐 <span>${esc(o.allergy)}</span></div>`;
+    if (o.warn) h += `<div class="warn red" style="margin:9px 13px"><span>⚠️</span><span>${esc(o.warn)}</span></div>`;
+    if (o.footer) h += `<div class="oc-foot">${esc(o.footer)}</div>`;
+    return h + `</details>`;
   }
 
   /* ---------- one-line day summary ---------- */
@@ -663,6 +680,23 @@ const R = (() => {
       h += `<div class="li"><div class="li-l">${esc(s.label)} <span class="${c}">${t}</span><div class="li-sub">${esc(s.detail)}</div></div></div>`;
     });
     h += `</div>`;
+
+    /* what the food actually costs — separate from the settle-up ledger */
+    const B = D.reference.budget;
+    if (B) {
+      h += `<div class="sec-title">🍽 ${esc(B.title)}</div>`;
+      h += `<details class="order-card"><summary class="oc-sum">Per-person estimates for all 23 meals</summary>`;
+      h += `<div class="oc-intro">${esc(B.note)}</div>`;
+      let city = null;
+      B.rows.forEach(r => {
+        if (r.city !== city) { city = r.city; h += `<div class="oc-sec">${esc(city)}</div>`; }
+        h += `<div class="oc-item"><div class="oc-head">
+          <span class="oc-name">${esc(r.venue)}</span>
+          <span class="oc-price">${esc(r.pp)}</span></div>
+          ${r.extra ? `<div class="oc-desc">${esc(r.extra)}</div>` : ''}</div>`;
+      });
+      h += `</details>`;
+    }
 
     h += `<div class="note-box" style="margin-top:14px">🍽 ${esc(M.footer)}</div>`;
     h += `<div class="note-box" style="font-size:11.5px;color:var(--tx-3)">Reference only — no payments happen here. Settle in Venmo like always.</div>`;
