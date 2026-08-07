@@ -150,6 +150,28 @@ def _headers(token):
     return {"Authorization": f"Bearer {token}", "User-Agent": UA}
 
 
+def dedupe_by_person(subs):
+    """
+    One device per person — keep the newest subscription for each name.
+
+    Re-installing the PWA, or enabling from Safari and again from the
+    installed app, registers a second endpoint under the same name. Both
+    are valid, so every push would arrive twice. Three people, three
+    phones: newest-wins is the right rule here.
+
+    Returns (kept, stale_ids).
+    """
+    newest = {}
+    for s in subs:
+        who = s.get("who", "unknown")
+        if who not in newest or s.get("updated", 0) > newest[who].get("updated", 0):
+            newest[who] = s
+    kept = list(newest.values())
+    kept_ids = {s.get("id") for s in kept}
+    stale = [s.get("id") for s in subs if s.get("id") not in kept_ids]
+    return kept, stale
+
+
 def fetch_subs(api, token):
     import requests
 
@@ -255,7 +277,13 @@ def main():
                 print(f"  ⚠️  Worker fetch failed: {e}")
 
         if subs:
-            print(f"\n🔔 Web Push — {len(subs)} subscription(s) from {source}")
+            subs, stale = dedupe_by_person(subs)
+            if stale:
+                print(f"  🧹 {len(stale)} duplicate subscription(s) — pruning, keeping newest per person")
+                if api and token:
+                    prune(api, token, stale)
+            print(f"\n🔔 Web Push — {len(subs)} device(s) from {source}: "
+                  f"{', '.join(sorted(s.get('who','?') for s in subs))}")
             ok, dead = send_webpush(
                 subs, title, body, site,
                 tag="countdown" if mode == "countdown" else "nightly-questions")
