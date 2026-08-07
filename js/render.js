@@ -92,6 +92,25 @@ const R = (() => {
 
     if (b.venue) h += venueLinks(D, b.venue);
 
+    /* "what to order" — native <details> so it costs no JS and works offline */
+    if (b.orderCard) {
+      const o = b.orderCard;
+      h += `<details class="order-card"><summary class="oc-sum">${esc(o.title)}</summary>`;
+      if (o.intro) h += `<div class="oc-intro">${esc(o.intro)}</div>`;
+      o.sections.forEach(s => {
+        h += `<div class="oc-sec">${esc(s.label)}</div>`;
+        s.items.forEach(i => {
+          h += `<div class="oc-item${i.must ? ' must' : ''}">
+            <div class="oc-head"><span class="oc-name">${esc(i.name)}</span>${i.price ? `<span class="oc-price">${esc(i.price)}</span>` : ''}</div>
+            ${i.desc ? `<div class="oc-desc">${esc(i.desc)}</div>` : ''}
+          </div>`;
+        });
+      });
+      if (o.suggested) h += `<div class="oc-sugg"><div class="oc-sugg-l">A sensible order for three</div>${esc(o.suggested)}</div>`;
+      if (o.footer) h += `<div class="oc-foot">${esc(o.footer)}</div>`;
+      h += `</details>`;
+    }
+
     /* suggestions */
     if (b.suggestions?.length) {
       h += `<div class="sug"><div class="sug-l">💡 Options & backups</div>`;

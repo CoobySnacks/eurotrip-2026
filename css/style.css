@@ -291,6 +291,40 @@ b,strong{font-weight:650}
 .lnk-web{}
 .lnk-tel{border-color:rgba(53,199,127,.36);color:#7BE0AC}
 
+/* ─────────── "WHAT TO ORDER" CARD ─────────── */
+.order-card{
+  margin-top:9px;border:1px solid rgba(242,193,78,.36);border-radius:11px;
+  background:rgba(242,193,78,.05);overflow:hidden;
+}
+.oc-sum{
+  padding:12px 13px;cursor:pointer;list-style:none;
+  font-size:13.5px;font-weight:800;color:var(--accent);
+  display:flex;align-items:center;justify-content:space-between;gap:8px;
+}
+.oc-sum::-webkit-details-marker{display:none}
+.oc-sum::after{content:"▾";font-size:12px;transition:transform .2s}
+.order-card[open] .oc-sum::after{transform:rotate(180deg)}
+.order-card[open] .oc-sum{border-bottom:1px solid rgba(242,193,78,.22)}
+.oc-intro{padding:10px 13px 0;font-size:11.5px;color:var(--tx-3)}
+.oc-sec{
+  padding:13px 13px 5px;font-size:10px;font-weight:850;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--tx-3);
+}
+.oc-item{padding:8px 13px;border-bottom:1px solid var(--line)}
+.oc-item:last-of-type{border-bottom:none}
+.oc-item.must{background:rgba(242,193,78,.09);border-left:3px solid var(--accent)}
+.oc-head{display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+.oc-name{font-size:13.5px;font-weight:750}
+.oc-price{font-size:13px;font-weight:800;color:var(--accent);white-space:nowrap;font-variant-numeric:tabular-nums}
+.oc-desc{font-size:12px;color:var(--tx-2);line-height:1.5;margin-top:3px}
+.oc-sugg{
+  margin:11px 13px;padding:11px;border-radius:9px;
+  background:rgba(53,199,127,.09);border:1px solid rgba(53,199,127,.3);
+  font-size:12.5px;line-height:1.55;color:#9FE9C2;
+}
+.oc-sugg-l{font-size:9.5px;font-weight:850;letter-spacing:.12em;text-transform:uppercase;color:var(--green);margin-bottom:5px}
+.oc-foot{padding:0 13px 13px;font-size:12px;color:var(--tx-2);font-weight:650}
+
 /* ─────────── SUGGESTIONS ─────────── */
 .sug{
   margin-top:9px;padding:10px 11px;border-radius:10px;

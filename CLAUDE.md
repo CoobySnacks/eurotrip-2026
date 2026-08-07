@@ -185,9 +185,22 @@ One entry per calendar day, in order.
   ],
   "subStops": [                // for multi-stop blocks like Vienna's "The Loop"
     { "name": "Demel", "venue": "demel", "note": "Sachertorte stop" }
-  ]
+  ],
+  "orderCard": {               // collapsible "what to order" (see below)
+    "title": "🍛 What to order",
+    "intro": "optional line under the summary",
+    "sections": [ { "label": "Grills", "items": [
+      { "name": "Charred Lamb Chops", "price": "£19.90", "desc": "...", "must": true }
+    ] } ],
+    "suggested": "one-line order for the table",
+    "footer": "Roughly £35–40 a head with a drink."
+  }
 }
 ```
+
+`orderCard` renders as a native `<details>` — no JS, so it still expands with a
+dead battery's worth of signal. `must: true` gives an item the gold left border
+(used for Dishoom's House Black Daal). Add one to any `meal` block.
 
 ### `concertNight` — the Sep 4 standalone page
 

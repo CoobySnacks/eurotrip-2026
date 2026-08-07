@@ -12,7 +12,7 @@
       "Grant"
     ],
     "organizer": "Coob",
-    "dataVersion": "1.5.0",
+    "dataVersion": "1.6.0",
     "lastUpdated": "2026-08-06",
     "questionsUnlockHour": 20,
     "fixedQuestions": [
@@ -947,7 +947,7 @@
       "menu": "https://www.maybourne.com/en/hotels/the-connaught/restaurants-bars/connaught-bar",
       "instagram": "https://instagram.com/theconnaught",
       "igHandle": "@theconnaught",
-      "note": "World's-best-bar list. Walk-in. GET THE MARTINI FROM THE TROLLEY — that's the move."
+      "note": "Repeatedly voted one of the world's best bars. The tableside martini trolley is the bucket-list drink — they wheel it over and build it in front of you. Walk-in only, no reservations; Monday is the easiest night of the week. Smart casual."
     },
     "seven-dials-market": {
       "name": "Seven Dials Market",
@@ -1047,7 +1047,7 @@
       "menu": null,
       "instagram": "https://instagram.com/theredlionwestminster",
       "igHandle": "@theredlionwestminster",
-      "note": "Mon 11:00–23:00. Grade II listed, working division bell that summons MPs back to the House. Downing Street is a hundred yards away."
+      "note": "Mon 11:00–23:00. Grade II listed — 1890s mahogany bar-back and etched glass, and a working division bell that rings to summon MPs back to the House. Downing Street is a hundred yards away. Three handpumps, London Pride. Drinks only — don't eat here."
     },
     "the-chandos": {
       "name": "The Chandos",
@@ -1067,7 +1067,7 @@
       "menu": null,
       "instagram": "https://instagram.com/theharpcoventgarden",
       "igHandle": "@theharpcoventgarden",
-      "note": "Mon 11:00–23:00. CAMRA National Pub of the Year. 8 cask lines, walls of oil portraits, no TV, no music. No kitchen — won't ruin dinner."
+      "note": "Mon 11:00–23:00. CAMRA National Pub of the Year — the only central London pub ever to win it. Narrow room, walls of oil portraits, stained glass, no TV, no music. 3 regular + 5 rotating cask ales. No kitchen at all, so it's structurally impossible to ruin your appetite here."
     },
     "old-coffee-house": {
       "name": "The Old Coffee House",
@@ -1077,7 +1077,7 @@
       "menu": null,
       "instagram": "https://instagram.com/theoldcoffeehouse",
       "igHandle": "@theoldcoffeehouse",
-      "note": "Mon 11:00–23:00. Licensed since 1772. Brass floor to ceiling, taxidermy, music-hall memorabilia. Kitchen shuts 3 PM — drinks only."
+      "note": "Mon 11:00–23:00. First licensed 1772, rebuilt 1894 — genuinely independent in a Soho full of chains. Ceiling-to-floor brass, taxidermy, oil paintings, music-hall memorabilia. Kitchen shuts at 3 PM, so by evening it's a pure drinking room."
     },
     "the-clachan": {
       "name": "The Clachan",
@@ -1087,7 +1087,7 @@
       "menu": null,
       "instagram": null,
       "igHandle": null,
-      "note": "Backup pub, 60 seconds from Dishoom."
+      "note": "Grade II listed, built as a Liberty draper's shop — spectacular carved ceiling. 60 seconds from Dishoom. The guaranteed fallback."
     },
     "nimb-bar": {
       "name": "Nimb American Bar",
@@ -1118,6 +1118,16 @@
       "instagram": "https://instagram.com/toweroflondon",
       "igHandle": "@toweroflondon",
       "note": "Book ahead."
+    },
+    "coach-and-horses": {
+      "name": "Coach & Horses",
+      "address": "29 Greek Street, Soho, London W1D 5DH",
+      "city": "London",
+      "website": null,
+      "menu": null,
+      "instagram": "https://instagram.com/normanscoachsoho",
+      "igHandle": "@normanscoachsoho",
+      "note": "Jeffrey Bernard's old pub. Intact 1930s interior, wet-led with bar snacks only. Their old domain is dead and redirects — the pub is still trading."
     }
   },
   "days": [
@@ -2404,57 +2414,27 @@
         {
           "time": "13:45",
           "type": "drinks",
-          "title": "🍺 Soho pub crawl — four stops, ends at dinner",
-          "venue": null,
-          "desc": "Walking crawl from Westminster up to Soho. All four verified open and trading as of Aug 2026. Ends 3 minutes from Dishoom.",
-          "highlight": true,
-          "subStops": [
-            {
-              "name": "① The Red Lion — ~1:45 PM",
-              "venue": "red-lion-westminster",
-              "note": "5 min from the Abbey. Working division bell that summons MPs back to the House. Downing Street is a hundred yards away."
-            },
-            {
-              "name": "② The Chandos",
-              "venue": "the-chandos",
-              "note": "13 min up Whitehall past Horse Guards and across Trafalgar Square. Cheapest proper pint in the West End — go upstairs to the panelled Opera Room. Own-brewery beers only, and a house no-phones policy."
-            },
-            {
-              "name": "③ The Harp",
-              "venue": "the-harp",
-              "note": "2 min around the corner. CAMRA National Pub of the Year, 8 cask lines, no TV, no music. No kitchen, so it won't ruin dinner."
-            },
-            {
-              "name": "④ The Old Coffee House",
-              "venue": "old-coffee-house",
-              "note": "14 min through Chinatown. Licensed since 1772, brass floor to ceiling, taxidermy everywhere. Kitchen shuts at 3 so it's drinks only. Then 3 min to Dishoom."
-            }
-          ],
-          "warn": "The Shaston Arms on Ganton Street is PERMANENTLY CLOSED (June 2025) — it still shows up in older Soho crawl guides. Don't route to it.",
-          "suggestions": [
-            {
-              "title": "Backup 60 seconds from Dishoom",
-              "desc": "The Clachan, 34 Kingly Street.",
-              "venue": "the-clachan"
-            },
-            {
-              "title": "Instead of the crawl: Churchill War Rooms",
-              "desc": "£29.75pp, 5-min walk from the Abbey, book ahead. Last entry 5 PM.",
-              "venue": "churchill-war-rooms"
-            },
-            {
-              "title": "Instead of the crawl: Harrods",
-              "desc": "Food hall and the watch windows. No dress code.",
-              "venue": "harrods"
-            }
-          ]
+          "title": "① The Red Lion, Westminster",
+          "venue": "red-lion-westminster",
+          "desc": "5 min walk from the Abbey. Drinks only — don't eat here, dinner is the point of today.",
+          "highlight": true
         },
         {
-          "time": "17:30",
-          "type": "note",
-          "title": "Go straight to dinner",
+          "time": "15:00",
+          "type": "drinks",
+          "title": "② The Harp, Covent Garden",
+          "venue": "the-harp",
+          "desc": "15 min up Whitehall, past Horse Guards, across Trafalgar Square. No kitchen — safe.",
+          "highlight": true
+        },
+        {
+          "time": "16:15",
+          "type": "free",
+          "title": "🚶 THE RESET — walk it off",
           "venue": null,
-          "desc": "Straight from Westminster or Harrods — do NOT route via the hotel. You will not leave again."
+          "desc": "Covent Garden → Seven Dials → Soho, about 20 minutes. Browse, get a coffee, let it wear off. Arrive at Dishoom clear-headed.",
+          "warn": "This gap is deliberate. Do NOT add a third pub here — this is the best dinner of the trip. Also: do not route via the hotel, you will not leave again.",
+          "critical": true
         },
         {
           "time": "17:45",
@@ -2467,28 +2447,139 @@
             "party": 3,
             "time": "17:45"
           },
-          "note": "They never ask for card details by phone."
+          "note": "Dishoom never asks for card details by phone. Ignore any call that does.",
+          "highlight": true,
+          "orderCard": {
+            "title": "🍛 What to order",
+            "intro": "All prices from the current Carnaby all-day menu.",
+            "sections": [
+              {
+                "label": "The one non-negotiable",
+                "items": [
+                  {
+                    "name": "House Black Daal",
+                    "price": "£11.70",
+                    "must": true,
+                    "desc": "Dishoom's signature. Black lentils cooked over 24 hours — dark, rich, almost buttery. One for the table minimum; regulars order two. This is the dish the restaurant is famous for."
+                  }
+                ]
+              },
+              {
+                "label": "The centrepiece — pick one to share",
+                "items": [
+                  {
+                    "name": "Lamb Raan",
+                    "price": "£26.90",
+                    "desc": "Fall-apart leg of lamb with saffron rice, caramelised onions and warming spices. The showstopper, and it feeds a table. No pre-order needed at Carnaby."
+                  },
+                  {
+                    "name": "Chicken Berry Britannia",
+                    "price": "£18.90",
+                    "desc": "Their biryani, sealed under pastry, with barberries. The other big shared plate."
+                  }
+                ]
+              },
+              {
+                "label": "Grills — two or three between the three of you",
+                "items": [
+                  {
+                    "name": "Charred Lamb Chops",
+                    "price": "£19.90",
+                    "desc": "Marinated overnight in papaya and yoghurt, grilled, finished with Kashmiri chilli sauce. Widely called the best thing on the menu."
+                  },
+                  {
+                    "name": "Dishoom Chicken Tikka",
+                    "price": "£14.90",
+                    "desc": "Family recipe using sweet vinegar instead of yoghurt — not like any tikka you've had."
+                  },
+                  {
+                    "name": "Sheekh Kabab",
+                    "price": "£14.90",
+                    "desc": "Minced lamb, coriander, cumin."
+                  }
+                ]
+              },
+              {
+                "label": "Sides — get both",
+                "items": [
+                  {
+                    "name": "Gunpowder Potatoes",
+                    "price": "£10.50",
+                    "desc": "New potatoes grilled and tossed in butter, aromatic seeds and herbs. Cult favourite."
+                  },
+                  {
+                    "name": "Roomali Roti",
+                    "price": "",
+                    "desc": "For mopping up the daal."
+                  }
+                ]
+              },
+              {
+                "label": "Drinks",
+                "items": [
+                  {
+                    "name": "Permit Room cocktails",
+                    "price": "",
+                    "desc": "Genuinely good list. The Bombay Colada and the East India Gimlet are the two people talk about."
+                  },
+                  {
+                    "name": "House chai",
+                    "price": "",
+                    "desc": "Worth one round even mid-meal."
+                  }
+                ]
+              }
+            ],
+            "suggested": "House Black Daal ×2 · Lamb Raan · Charred Lamb Chops · Dishoom Chicken Tikka · Gunpowder Potatoes · Roomali Roti",
+            "footer": "Roughly £35–40 a head with a drink."
+          }
+        },
+        {
+          "time": "19:30",
+          "type": "drinks",
+          "title": "③ The Old Coffee House, Beak Street",
+          "venue": "old-coffee-house",
+          "desc": "3 min walk from Dishoom. Kitchen shut since 3 — pure drinking room.",
+          "highlight": true
         },
         {
           "time": "20:30",
           "type": "drinks",
-          "title": "Connaught Bar",
+          "title": "④ The Connaught Bar — the martini trolley",
           "venue": "connaught-bar",
-          "desc": "Carlos Place. World's-best-bar lists, martini trolley comes to the table. Walk in."
+          "desc": "12 min walk from Beak Street. Walk-in only, and Monday is the easiest night of the week to get in. Smart casual.",
+          "highlight": true,
+          "suggestions": [
+            {
+              "title": "Alternate: The Chandos",
+              "desc": "Sam Smith's, cheapest proper pint in the West End. Upstairs to the panelled Opera Room. Own-brewery beers only, house no-phones policy.",
+              "venue": "the-chandos"
+            },
+            {
+              "title": "Alternate: The Clachan",
+              "desc": "60 seconds from Dishoom. The guaranteed fallback if anywhere's rammed.",
+              "venue": "the-clachan"
+            },
+            {
+              "title": "Alternate: Coach & Horses",
+              "desc": "Jeffrey Bernard's old pub, intact 1930s interior.",
+              "venue": "coach-and-horses"
+            }
+          ]
+        },
+        {
+          "time": "22:00",
+          "type": "drinks",
+          "title": "Then Soho, if the legs hold",
+          "venue": null,
+          "warn": "The Shaston Arms on Ganton Street is PERMANENTLY CLOSED (June 2025). It's the pub nearest Dishoom and still shows up in older Soho guides. Do not route to it."
         },
         {
           "time": "22:30",
-          "type": "drinks",
-          "title": "Then Soho",
-          "venue": null,
-          "desc": "Last night. You know what to do."
-        },
-        {
-          "time": "23:59",
           "type": "note",
-          "title": "PACK AFTER DINNER",
+          "title": "PACK AFTER DINNER — not after Soho",
           "venue": null,
-          "desc": "7 AM car to Heathrow Terminal 3. Do it tonight, not at 6 AM."
+          "desc": "The car comes at 7 AM for Heathrow Terminal 3. Past-you will not do this at 6 AM."
         }
       ],
       "questions": {
