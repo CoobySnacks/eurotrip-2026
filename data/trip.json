@@ -12,7 +12,7 @@
       "Grant"
     ],
     "organizer": "Coob",
-    "dataVersion": "2.0.0",
+    "dataVersion": "2.1.0",
     "lastUpdated": "2026-08-06",
     "questionsUnlockHour": 20,
     "fixedQuestions": [
@@ -232,72 +232,75 @@
   "transfers": [
     {
       "cityKey": "vienna",
-      "label": "Vienna — Airport Driver (prepaid)",
-      "status": "confirmed",
+      "label": "Vienna — Airport Driver",
+      "status": "paid",
+      "cost": "€59 per leg · €118 total · PREPAID",
       "legs": [
         {
-          "when": "Thu Aug 27, 3:55 PM",
-          "detail": "VIE arrivals → SO/ Vienna",
+          "when": "Thu Aug 27, 3:55 PM pickup",
+          "detail": "VIE arrivals → Praterstraße 1",
           "conf": "AVBO53170"
         },
         {
-          "when": "Sun Aug 30, 7:00 AM",
+          "when": "Sun Aug 30, 7:00 AM pickup",
           "detail": "SO/ Vienna → VIE",
           "conf": "AZBO50842"
         }
       ],
-      "cost": "$45.80 pp — paid in Round 1",
-      "phone": null
+      "email": "office@airportdriver.at",
+      "contact": "Adeline Sharma",
+      "note": "✅ Confirmed Aug 6: a VAN has been booked to accommodate the non-folding wheelchair."
     },
     {
       "cityKey": "copenhagen",
-      "label": "Copenhagen — TAXA 4x35 minibus",
+      "label": "Copenhagen — NOT YET BOOKED",
       "status": "tobook",
+      "cost": "est. 400–550 DKK per leg",
       "legs": [
         {
-          "when": "Sun Aug 30, ~12:10 PM",
-          "detail": "CPH → Scandic Copenhagen",
+          "when": "Sun Aug 30, on arrival",
+          "detail": "CPH → Vester Søgade 6",
           "conf": null
         },
         {
-          "when": "Wed Sep 2, ~9:30 AM",
-          "detail": "Scandic Copenhagen → CPH",
+          "when": "Wed Sep 2, 9:30 AM",
+          "detail": "Scandic → CPH Terminal 3",
           "conf": null
         }
       ],
-      "cost": "est. $41–57 pp — Round 2",
       "phone": "+45 35 35 35 35",
-      "note": "REBOOKING IN PROGRESS. TAXA 4x35 minibus or Copenhagen Services. Update this entry when confirmed."
+      "note": "🔴 BOOK THIS. Call TAXA 4x35 (24/7) and ask for a ramp minibus — say \"kørestolstaxa, the wheelchair does NOT fold.\" Alternative: Copenhagen Services EQV at €150–165 fixed. ⚠️ If the Rolex is bought, the Sep 2 leg needs the Customs desk in Terminal 3 BEFORE check-in — build in 45–60 minutes."
     },
     {
       "cityKey": "amsterdam",
       "label": "Amsterdam — Schiphol Travel Taxi BV",
       "status": "paid",
+      "cost": "€90.75 per leg · €181.50 total · €60.50 pp — PAID IN FULL BY COOB",
       "legs": [
         {
-          "when": "Wed Sep 2, meets SK547 (lands 2:10 PM)",
-          "detail": "Schiphol → Radisson Blu · Business Bus · 3 pax + 5 bags",
+          "when": "Wed Sep 2, meets SK547 (requested 14:10)",
+          "detail": "Schiphol → Radisson Blu · Business Bus · 3 pax + 5 check-in bags",
           "conf": "Order 8992296"
         },
         {
           "when": "Sat Sep 5, 11:45 AM pickup",
-          "detail": "Radisson Blu → Schiphol · Business Bus · 3 pax + 5 bags",
+          "detail": "Radisson Blu → Schiphol · BA435 on file · same spec",
           "conf": "Order 8992297"
         }
       ],
-      "cost": "€90.75 each leg · €181.50 total · €60.50 pp — PAID IN FULL BY COOB Aug 6",
       "phone": "+31 38 339 47 68",
       "email": "sttintake@connexxion.nl",
-      "note": "Both legs confirmed and paid. Split evenly at $70.28 pp in Round 2."
+      "note": "✅ \"Wheelchair: 1\" is an explicit field on both confirmations — not just a driver remark — and the company confirmed the round trip in writing on Aug 7. Rigid non-folding chair + 5 bags are also in the driver remarks. Cancellation service: YES on both."
     },
     {
       "cityKey": "london",
       "label": "London — JK Executive Chauffeurs",
       "status": "inprogress",
+      "cost": "£154.50 + VAT = £185.40 per leg · £370.80 round trip",
       "legs": [
         {
           "when": "Sat Sep 5, meets BA 435 (lands 2:45 PM)",
-          "detail": "LHR → The May Fair · Mercedes V-Class · 60 min free wait",
+          "detail": "LHR → The May Fair · Mercedes V-Class · 60 min free wait from landing",
           "conf": null
         },
         {
@@ -306,11 +309,10 @@
           "conf": null
         }
       ],
-      "cost": "£370.80 inc VAT total · $165.62 pp — Round 2",
       "phone": "+44 203 475 9906",
       "email": "info@jkexecutivechauffeurs.com",
       "contact": "Sam Magar",
-      "note": "BOOKING IN PROGRESS. Add the confirmation number here once paid."
+      "note": "🟡 Booking in progress. ⚠️ Get the rigid non-folding wheelchair + 5 bags written into the confirmation BEFORE paying. Add the confirmation number here once booked."
     }
   ],
   "venues": {
@@ -1615,7 +1617,7 @@
           }
         ],
         "suggested": "Arrive right at 17:00, skip starters, order all three mains at once — 2× Beef Burger + 1× Pizza Shoarma",
-        "skip": "The Ossenhaas Steak (€38.50) — slowest ticket in the kitchen, steakhouse money in a stadium forecourt, and you had a far better steak at BLACK the night before. Same for the carpaccio; it eats clock. Tell the server you have a show — they run this every event night and will fire the table together.",
+        "skip": "The Ossenhaas Steak (€38.50) — slowest ticket in the kitchen, steakhouse money in a stadium forecourt, and you had a far better steak at Loetje the night before. Same for the carpaccio; it eats clock. Tell the server you have a show — they run this every event night and will fire the table together.",
         "warn": "The room fills in 20 minutes after 17:00. Walk-in only on event days.",
         "footer": "~€30–36pp with a beer."
       }
@@ -2496,62 +2498,6 @@
       "igHandle": "@hijadesanchez",
       "note": "Ex-Noma pastry chef's taqueria. 3 min walk from Warpigs, in Kødbyen. NOT at Reffen — older guides get this wrong."
     },
-    "cafe-restaurant-amsterdam": {
-      "name": "Café-Restaurant Amsterdam",
-      "address": "Watertorenplein 6, 1051 PA Amsterdam",
-      "city": "Amsterdam",
-      "website": "https://cradam.nl",
-      "menu": "https://cradam.nl",
-      "instagram": "https://instagram.com/caferestaurantamsterdam",
-      "igHandle": "@caferestaurantamsterdam",
-      "phone": "+31 20 682 2666",
-      "note": "The 1897 municipal water-pumping station in Westerpark — 30-foot ceilings, original pump machinery, giant lamps salvaged from Schiphol's runway. Converted in 1996. An Amsterdam-West institution, essentially unknown to tourists. Thu 10:00–24:00, kitchen 17:00–22:00.",
-      "orderCard": {
-        "title": "🍽 What to order",
-        "sections": [
-          {
-            "label": "Steak is the reason to come",
-            "items": [
-              {
-                "name": "Ribeye béarnaise",
-                "price": "€25",
-                "must": true
-              },
-              {
-                "name": "Black Angus steak met pepersaus",
-                "price": "€25.75"
-              },
-              {
-                "name": "Steak frites",
-                "price": "€18.50 / €21.50"
-              },
-              {
-                "name": "Steak tartare",
-                "price": "€22.50"
-              }
-            ]
-          },
-          {
-            "label": "The rest",
-            "items": [
-              {
-                "name": "Lamskoteletten (lamb chops)",
-                "price": "€22 / €27.75"
-              },
-              {
-                "name": "Gebakken kalfszwezerik (veal sweetbreads)",
-                "price": "€32.50"
-              },
-              {
-                "name": "Coq au vin blanc",
-                "price": "€21.50"
-              }
-            ]
-          }
-        ],
-        "footer": "About €40–55pp. Roughly 2 miles from the hotel — a €15–18 taxi, about 12 minutes."
-      }
-    },
     "door-74": {
       "name": "Door 74",
       "address": "Reguliersdwarsstraat 74, 1017 BN Amsterdam",
@@ -2570,7 +2516,7 @@
       "menu": null,
       "instagram": "https://instagram.com/deplantage",
       "igHandle": "@deplantage",
-      "note": "Local crowd, glasshouse room, open til midnight. Use the Artisplein side entrance — the main door has 3 steps."
+      "note": "Glass orangery beside Artis zoo. Local crowd, open til midnight. Use the Artisplein side entrance — the main door has 3 steps."
     },
     "de-balie": {
       "name": "De Balie",
@@ -2591,6 +2537,79 @@
       "instagram": "https://instagram.com/bierfabriekamsterdam",
       "igHandle": "@bierfabriekamsterdam",
       "note": "3 min from the hotel. Own-brewed beer, self-pour tap tables at the table, free peanuts. Open til midnight."
+    },
+    "loetje-centraal": {
+      "name": "Loetje Centraal",
+      "address": "Stationsplein 10, 1012 AB Amsterdam",
+      "city": "Amsterdam",
+      "website": "https://loetje.nl/en/locations/amsterdam-centraal",
+      "menu": "https://loetje.nl/en/locations/amsterdam-centraal",
+      "instagram": "https://instagram.com/loetje_restaurant",
+      "igHandle": "@loetje_restaurant",
+      "note": "The Amsterdam steak institution, est. 1926. Loud, casual, full of locals rather than tourists. Daily 10:00–22:30. 6 min from LuminAir — the best geography of any option. About a mile from the hotel.",
+      "orderCard": {
+        "title": "🍽 What to order",
+        "intro": "One dish is the reason this place has existed since 1926.",
+        "sections": [
+          {
+            "label": "The dish",
+            "items": [
+              {
+                "name": "Biefstuk van de haas (ossenhaas)",
+                "price": "€23.50 / €26.50 / €36.50",
+                "desc": "150g / 195g / 300g. Medium-rare, swimming in its own jus, with white bread to mop it up. That's it. That's the order.",
+                "must": true
+              }
+            ]
+          },
+          {
+            "label": "Variations on it",
+            "items": [
+              {
+                "name": "Ossenhaas 'Bali' with sambal",
+                "price": "€25.50–39.50"
+              },
+              {
+                "name": "'De Roode Waard'",
+                "price": "€28.50–41.50"
+              },
+              {
+                "name": "Kalfslever",
+                "price": "€21"
+              }
+            ]
+          },
+          {
+            "label": "If someone doesn't want steak",
+            "items": [
+              {
+                "name": "Loetje's hamburger",
+                "price": "€19.50"
+              },
+              {
+                "name": "Kipsaté",
+                "price": "€20"
+              },
+              {
+                "name": "Bitterballen",
+                "price": "",
+                "desc": "To start."
+              }
+            ]
+          }
+        ],
+        "footer": "About €35–50pp."
+      }
+    },
+    "cafe-eik-en-linde": {
+      "name": "Café Eik en Linde",
+      "address": "Plantage Middenlaan 22A, 1018 DE Amsterdam",
+      "city": "Amsterdam",
+      "website": "https://eikenlinde.nl",
+      "menu": null,
+      "instagram": "https://instagram.com/eikenlinde",
+      "igHandle": "@eikenlinde",
+      "note": "A genuine unreconstructed brown café — billiards, regulars, no concessions to tourism. Thu til 01:00. 300 yards from de Plantage, so pair them."
     }
   },
   "days": [
@@ -3487,49 +3506,54 @@
         {
           "time": "19:00",
           "type": "meal",
-          "title": "Dinner · Café-Restaurant Amsterdam",
-          "venue": "cafe-restaurant-amsterdam",
-          "desc": "The 1897 water-pumping station in Westerpark. Original pump machinery, 30-foot ceilings, runway lamps off Schiphol. Locals only — tourists don't find this one.",
-          "warn": "Replaces Restaurant BLACK, which emailed on Aug 7: the restaurant is accessible but the toilet is upstairs and is not. Loetje Centraal was the interim pick but wouldn't take a reservation for three.",
-          "note": "About 2 miles out — €15–18 taxi, roughly 12 minutes. Book online for three AND call ahead so staff have the entrance platform lift ready: +31 20 682 2666.",
+          "title": "Dinner · Loetje Centraal",
+          "venue": "loetje-centraal",
+          "desc": "The Amsterdam steak institution since 1926 — loud, casual, locals not tourists. 6 minutes from LuminAir, so the night flows straight on from dinner.",
+          "warn": "Their online system won't take a booking. Loetje takes walk-ins and only *recommends* reserving — turn up at 7, or phone the day before.",
+          "note": "Replaces Restaurant BLACK, which emailed Aug 7: the restaurant is accessible but the toilet is upstairs and is not.",
           "highlight": true
         },
         {
           "time": "21:30",
           "type": "drinks",
           "title": "🍸 Open bar night — nothing booked",
-          "desc": "No reservations, no fixed schedule. Six that are worth it, roughly in order of effort.",
+          "desc": "No bookings, no fixed schedule. Seven that are worth it, local spots first.",
           "highlight": true,
           "suggestions": [
             {
-              "title": "① LuminAir",
-              "desc": "11th-floor rooftop, lift straight from the DoubleTree lobby. Open til 2am, walk in.",
-              "venue": "luminair"
+              "title": "① Bierfabriek",
+              "desc": "3 min from the hotel. Own-brewed Dutch beer, self-pour tap tables, free peanuts. Til midnight.",
+              "venue": "bierfabriek"
             },
             {
-              "title": "② Door 74",
-              "desc": "The original Amsterdam speakeasy behind an unmarked door. World's 50 Best alum, cocktails €14–17. Closes midnight Thursdays — book via WhatsApp +31 6 34045122.",
-              "venue": "door-74"
-            },
-            {
-              "title": "③ Canvas @ Volkshotel",
-              "desc": "7th floor, free Thursday DJ night, lift access.",
-              "venue": "canvas-volkshotel"
-            },
-            {
-              "title": "④ Café-Restaurant de Plantage",
-              "desc": "Local crowd, open til midnight. Use the Artisplein side entrance — the main door has 3 steps.",
+              "title": "② Café-Restaurant de Plantage",
+              "desc": "Glass orangery beside Artis zoo, local crowd, til midnight. Use the Artisplein side entrance — the main door has 3 steps.",
               "venue": "cafe-de-plantage"
             },
             {
-              "title": "⑤ De Balie",
+              "title": "③ De Balie",
               "desc": "Leidseplein's debate-and-film house. Journalists and students, not tourists.",
               "venue": "de-balie"
             },
             {
-              "title": "⑥ Bierfabriek",
-              "desc": "3 min from the hotel. Own-brewed beer, self-pour taps at the table, free peanuts. Til midnight.",
-              "venue": "bierfabriek"
+              "title": "④ Café Eik en Linde",
+              "desc": "A genuine unreconstructed brown café — billiards, regulars. Thu til 01:00. 300 yards from de Plantage, so pair them.",
+              "venue": "cafe-eik-en-linde"
+            },
+            {
+              "title": "⑤ Canvas @ Volkshotel",
+              "desc": "7th floor, free Thursday DJ night, lift access.",
+              "venue": "canvas-volkshotel"
+            },
+            {
+              "title": "⑥ Door 74",
+              "desc": "The original Amsterdam speakeasy behind an unmarked door. World's 50 Best alum, cocktails €14–17. Closes midnight Thursdays — WhatsApp +31 6 34045122.",
+              "venue": "door-74"
+            },
+            {
+              "title": "⑦ LuminAir",
+              "desc": "11th-floor rooftop, lift from the DoubleTree lobby, open til 2am. The late-night backstop.",
+              "venue": "luminair"
             }
           ]
         }
@@ -3541,8 +3565,8 @@
             "a": "Dutch victims of the Second World War. Unveiled in 1956."
           },
           {
-            "q": "Restaurant BLACK is on the Prinsengracht. What does that canal name mean?",
-            "a": "Prince's Canal — one of the three main rings, along with Herengracht and Keizersgracht."
+            "q": "Loetje has been serving essentially the same steak since what year?",
+            "a": "1926. One dish, a hundred years, and they still won't take your booking online."
           },
           {
             "q": "What are those hooks sticking out of the top of Amsterdam's canal houses for?",
@@ -3552,7 +3576,7 @@
         "discussion": [
           "Rank all three cities right now. Then argue about it.",
           "Best thing you saw today that wasn't on the itinerary.",
-          "Does the steak at BLACK crack the top three meals of this trip?",
+          "Does the steak at Loetje crack the top three meals of this trip?",
           "Who's taken the best photo of the trip? Phones out, settle it.",
           "Most touristy shit you've secretly loved so far."
         ]
@@ -4346,6 +4370,13 @@
           "linkLabel": "Book tickets"
         },
         {
+          "id": "cancel-sixt",
+          "emoji": "🚗",
+          "mandatory": true,
+          "label": "Cancel all six Sixt rides",
+          "desc": "18088159 · 18088219 · 18099979 · 18100007 · 18100031 · 18100055. Sixt refused the rigid non-folding wheelchair, so every leg is replaced. They bill after completion — cancel cleanly rather than no-showing."
+        },
+        {
           "id": "passport",
           "label": "Passport check",
           "mandatory": true,
@@ -4588,8 +4619,8 @@
         },
         {
           "city": "Amsterdam",
-          "venue": "BLACK",
-          "pp": "€70–80"
+          "venue": "Loetje Centraal",
+          "pp": "€35–50"
         },
         {
           "city": "Amsterdam",
@@ -4631,6 +4662,18 @@
           "venue": "Connaught Bar",
           "pp": "£75–95"
         }
+      ]
+    },
+    "sixtCancellations": {
+      "title": "🚨 Cancel the six Sixt rides",
+      "why": "All six are cancelled — Sixt refused to carry a rigid non-folding wheelchair. They bill after completion, so cancel cleanly rather than no-showing.",
+      "orders": [
+        "18088159",
+        "18088219",
+        "18099979",
+        "18100007",
+        "18100031",
+        "18100055"
       ]
     }
   },

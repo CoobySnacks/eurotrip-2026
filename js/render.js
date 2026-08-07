@@ -614,6 +614,18 @@ const R = (() => {
     });
 
     /* currency */
+    /* the Sixt cancellations are an outstanding action, not trivia — put them
+       right under the transfers they replaced */
+    const sx = D.reference.sixtCancellations;
+    if (sx) {
+      h += `<div class="card" style="border-color:var(--red);background:rgba(255,77,77,.07)">
+        <div class="bk-t" style="color:#FF8A8A">${esc(sx.title)}</div>
+        <div class="blk-desc" style="margin-top:6px">${esc(sx.why)}</div>
+        <div class="links" style="margin-top:10px">${
+          sx.orders.map(o => `<span class="lnk" style="border-color:rgba(255,77,77,.4);color:#FFC2C2">${esc(o)}</span>`).join('')
+        }</div></div>`;
+    }
+
     const cur = D.reference.currency;
     h += `<div class="sec-title">💱 ${esc(cur.title)}</div><div class="card">`;
     cur.rows.forEach(r => h += `<div class="bk-row"><span class="bk-k">${esc(r.place)}</span><span class="bk-v">${esc(r.detail)}</span></div>`);
