@@ -44,8 +44,28 @@ def local_today(offset_hours: int) -> str:
     return (datetime.now(timezone.utc) + timedelta(hours=offset_hours)).strftime("%Y-%m-%d")
 
 
-def pick_day(trip):
-    """Which trip day is 'tonight'? Honour an override, else match local dates."""
+def unlock_instant(trip, day) -> datetime:
+    """The UTC moment this day's questions unlock."""
+    off = CITY_OFFSET.get(day["cityKey"], 2)
+    hour = day.get("unlockHour", trip["meta"]["questionsUnlockHour"])
+    y, m, d = (int(x) for x in day["date"].split("-"))
+    local_midnight = datetime(y, m, d, tzinfo=timezone.utc)
+    return local_midnight + timedelta(hours=hour - off)
+
+
+def pick_day(trip, now=None):
+    """
+    Which trip day is 'tonight'?
+
+    Matching on local date alone is ambiguous: the Aug 26 push fires at
+    23:00 UTC, which is 6 PM in Dallas but already 1 AM on Aug 27 in
+    Vienna — two different trip days match the same instant, and the old
+    code just took whichever came first in the list.
+
+    Instead, pick the day whose unlock moment is nearest to now. That is
+    unambiguous, survives a late-running scheduler, and needs no special
+    cases for travel days.
+    """
     override = os.environ.get("OVERRIDE_DATE", "").strip()
     if override:
         for d in trip["days"]:
@@ -53,10 +73,17 @@ def pick_day(trip):
                 return d
         sys.exit(f"❌ No trip day matches override date {override}")
 
+    now = now or datetime.now(timezone.utc)
+    best, best_gap = None, None
     for d in trip["days"]:
-        off = CITY_OFFSET.get(d["cityKey"], 2)
-        if local_today(off) == d["date"]:
-            return d
+        gap = abs((unlock_instant(trip, d) - now).total_seconds())
+        if best_gap is None or gap < best_gap:
+            best, best_gap = d, gap
+
+    # Only send if we're actually near that day's unlock (guards manual runs
+    # and any stray schedule outside the trip).
+    if best_gap is not None and best_gap <= 6 * 3600:
+        return best
     return None
 
 

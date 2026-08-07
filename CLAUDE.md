@@ -144,6 +144,11 @@ One entry per calendar day, in order.
   "title": "VIENNA — Tour, Art, and the Big Night",
   "subtitle": "Pace yourself early.",
   "locked": true,              // cosmetic only
+  "unlockHour": 18,            // optional — overrides meta.questionsUnlockHour (20)
+                               // Aug 26 uses 18 because the push fires from the
+                               // DFW lounge before takeoff. If you change this,
+                               // change the matching cron too or the notification
+                               // arrives while the tab is still locked.
   "blocks": [ ... ],
   "questions": { "trivia": [...], "discussion": [...] }
 }
@@ -278,9 +283,17 @@ GitHub Actions cron is **always UTC**. Summer 2026:
 |---|---|---|
 | Vienna · Copenhagen · Amsterdam | CEST, UTC+2 | **18:00 UTC** |
 | London | BST, UTC+1 | **19:00 UTC** |
+| Dallas (Aug 26, **6 PM**) | CDT, UTC−5 | **23:00 UTC** |
 
-That's why `nightly-questions.yml` has three separate cron lines. Aug 26
-(mid-flight) and Sep 8 (flying home) are skipped on purpose.
+That's why `nightly-questions.yml` has four cron lines. Aug 26 fires at 6 PM
+from the DFW lounge — 8 PM Dallas time is 20 minutes after wheels-up, and a
+push sent to a plane queues rather than vanishing, so it would have arrived at
+Heathrow the next morning. Sep 8 (flying home) is skipped entirely.
+
+`pick_day()` chooses the trip day whose **unlock moment is nearest to now**,
+not the day matching the local date. Date matching is ambiguous: 23:00 UTC on
+Aug 26 is 6 PM in Dallas *and* 1 AM on Aug 27 in Vienna. It also ignores any
+run more than 6 hours from an unlock, so manual runs can't misfire.
 
 GitHub's scheduler can fire several minutes late under load — cosmetic only,
 since the site unlocks on time regardless.
