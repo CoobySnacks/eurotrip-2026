@@ -6,9 +6,13 @@
     "returnISO": "2026-09-08T14:10:00-05:00",
     "startDate": "2026-08-26",
     "endDate": "2026-09-08",
-    "travelers": ["Coob", "Jared", "Grant"],
+    "travelers": [
+      "Coob",
+      "Jared",
+      "Grant"
+    ],
     "organizer": "Coob",
-    "dataVersion": "1.0.0",
+    "dataVersion": "1.1.0",
     "lastUpdated": "2026-08-06",
     "questionsUnlockHour": 20,
     "fixedQuestions": [
@@ -16,7 +20,6 @@
       "Who's drinking the most tonight? (you gotta up those numbers pussies)"
     ]
   },
-
   "cities": {
     "dallas": {
       "key": "dallas",
@@ -84,7 +87,6 @@
       "seasonal": "Early Sept average: high 70°F / low 55°F, ~1 rainy day in 3."
     }
   },
-
   "flights": [
     {
       "date": "2026-08-26",
@@ -180,7 +182,6 @@
       "note": "7:00 AM car. Terminal 3. Declare the Rolex at US customs."
     }
   ],
-
   "hotels": [
     {
       "cityKey": "vienna",
@@ -227,15 +228,22 @@
       "note": "Paid in Round 1. May Fair Bar is closed Sundays — Saturday night is the night."
     }
   ],
-
   "transfers": [
     {
       "cityKey": "vienna",
       "label": "Vienna — Airport Driver (prepaid)",
       "status": "confirmed",
       "legs": [
-        { "when": "Thu Aug 27, 3:55 PM", "detail": "VIE arrivals → SO/ Vienna", "conf": "AVBO53170" },
-        { "when": "Sun Aug 30, 7:00 AM", "detail": "SO/ Vienna → VIE", "conf": "AZBO50842" }
+        {
+          "when": "Thu Aug 27, 3:55 PM",
+          "detail": "VIE arrivals → SO/ Vienna",
+          "conf": "AVBO53170"
+        },
+        {
+          "when": "Sun Aug 30, 7:00 AM",
+          "detail": "SO/ Vienna → VIE",
+          "conf": "AZBO50842"
+        }
       ],
       "cost": "$45.80 pp — paid in Round 1",
       "phone": null
@@ -245,8 +253,16 @@
       "label": "Copenhagen — TAXA 4x35 minibus",
       "status": "tobook",
       "legs": [
-        { "when": "Sun Aug 30, ~12:10 PM", "detail": "CPH → Scandic Copenhagen", "conf": null },
-        { "when": "Wed Sep 2, ~9:30 AM", "detail": "Scandic Copenhagen → CPH", "conf": null }
+        {
+          "when": "Sun Aug 30, ~12:10 PM",
+          "detail": "CPH → Scandic Copenhagen",
+          "conf": null
+        },
+        {
+          "when": "Wed Sep 2, ~9:30 AM",
+          "detail": "Scandic Copenhagen → CPH",
+          "conf": null
+        }
       ],
       "cost": "est. $41–57 pp — Round 2",
       "phone": "+45 35 35 35 35",
@@ -296,7 +312,6 @@
       "note": "BOOKING IN PROGRESS. Add the confirmation number here once paid."
     }
   ],
-
   "venues": {
     "so-vienna": {
       "name": "SO/ Vienna",
@@ -987,7 +1002,6 @@
       "note": "International terminal. Lounge access with Business."
     }
   },
-
   "days": [
     {
       "date": "2026-08-26",
@@ -1028,9 +1042,18 @@
       ],
       "questions": {
         "trivia": [
-          { "q": "What aircraft is BA 192 tonight?", "a": "An Airbus A380 — the double-decker superjumbo. Business class is upstairs." },
-          { "q": "How many time zones do we cross between Dallas and London?", "a": "Six. Dallas is UTC−5, London is UTC+1 in summer." },
-          { "q": "We take off at 7:40 PM and land at 10:55 AM. How long is the flight actually?", "a": "About nine hours. The other six are the clock jumping ahead." }
+          {
+            "q": "What aircraft is BA 192 tonight?",
+            "a": "An Airbus A380 — the double-decker superjumbo. Business class is upstairs."
+          },
+          {
+            "q": "How many time zones do we cross between Dallas and London?",
+            "a": "Six. Dallas is UTC−5, London is UTC+1 in summer."
+          },
+          {
+            "q": "We take off at 7:40 PM and land at 10:55 AM. How long is the flight actually?",
+            "a": "About nine hours. The other six are the clock jumping ahead."
+          }
         ],
         "discussion": [
           "What are you most looking forward to over the next 14 days?",
@@ -1109,9 +1132,18 @@
       ],
       "questions": {
         "trivia": [
-          { "q": "\"Itameshi\" is a real culinary term. What two cuisines does it combine?", "a": "Italian and Japanese — 'Ita' for Italian, 'meshi' being Japanese for a meal." },
-          { "q": "Klyo sits on the water. What water?", "a": "The Donaukanal — the Danube Canal, an arm of the Danube running right through central Vienna." },
-          { "q": "What do Austrians actually call Vienna?", "a": "Wien. Pronounced 'veen'." }
+          {
+            "q": "\"Itameshi\" is a real culinary term. What two cuisines does it combine?",
+            "a": "Italian and Japanese — 'Ita' for Italian, 'meshi' being Japanese for a meal."
+          },
+          {
+            "q": "Klyo sits on the water. What water?",
+            "a": "The Donaukanal — the Danube Canal, an arm of the Danube running right through central Vienna."
+          },
+          {
+            "q": "What do Austrians actually call Vienna?",
+            "a": "Wien. Pronounced 'veen'."
+          }
         ],
         "discussion": [
           "First impression of Vienna in one word.",
@@ -1144,7 +1176,12 @@
           "title": "Private walking tour · Guydeez",
           "venue": "guydeez",
           "desc": "Hotel pickup. Three hours, custom route.",
-          "res": { "conf": "GYG6H79QKBB4", "party": 3, "time": "11:00", "note": "Guide collects you at SO/ Vienna." }
+          "res": {
+            "conf": "GYG6H79QKBB4",
+            "party": 3,
+            "time": "11:00",
+            "note": "Guide collects you at SO/ Vienna."
+          }
         },
         {
           "time": "14:00",
@@ -1154,7 +1191,11 @@
           "venue": "albertina",
           "desc": "Monet to Picasso, Dürer drawings, Habsburg state rooms. ~90 min inside, then a drink at the museum café.",
           "suggestions": [
-            { "title": "Bail early and nap", "desc": "Genuinely the smart play. You have a 2 AM night ahead. Nobody will judge you.", "venue": "so-vienna" }
+            {
+              "title": "Bail early and nap",
+              "desc": "Genuinely the smart play. You have a 2 AM night ahead. Nobody will judge you.",
+              "venue": "so-vienna"
+            }
           ]
         },
         {
@@ -1171,7 +1212,12 @@
           "title": "Dinner · Zum Schwarzen Kameel",
           "venue": "zum-schwarzen-kameel",
           "desc": "Ground floor Wiener Brasserie. In business since 1618.",
-          "res": { "conf": "CONFIRMED", "party": 3, "time": "19:30", "note": "Kitchen closes at 10 PM." }
+          "res": {
+            "conf": "CONFIRMED",
+            "party": 3,
+            "time": "19:30",
+            "note": "Kitchen closes at 10 PM."
+          }
         },
         {
           "time": "22:00",
@@ -1189,16 +1235,33 @@
           "desc": "Thu–Sat, 11 PM–6 AM, 21+. Dress smart — no sneakers, no shorts.",
           "warn": "GO-OUT NIGHT. This is the one.",
           "suggestions": [
-            { "title": "Fallback: Klyo", "desc": "Canal bar, lower stakes, still open late.", "venue": "klyo" },
-            { "title": "Fallback: hotel bar", "desc": "Zero shame in this. Tomorrow is a free day.", "venue": "so-vienna" }
+            {
+              "title": "Fallback: Klyo",
+              "desc": "Canal bar, lower stakes, still open late.",
+              "venue": "klyo"
+            },
+            {
+              "title": "Fallback: hotel bar",
+              "desc": "Zero shame in this. Tomorrow is a free day.",
+              "venue": "so-vienna"
+            }
           ]
         }
       ],
       "questions": {
         "trivia": [
-          { "q": "The Albertina owns one of the most famous watercolours in art history — a small brown animal painted by Dürer in 1502. What is it?", "a": "The Young Hare (Feldhase). It's one of the most reproduced images in Western art." },
-          { "q": "Zum Schwarzen Kameel has been serving Vienna since what year?", "a": "1618. It's older than most countries you can name." },
-          { "q": "Volksgarten sits inside a public garden famous for one particular flower. Which?", "a": "Roses — the Volksgarten rose garden holds thousands of bushes." }
+          {
+            "q": "The Albertina owns one of the most famous watercolours in art history — a small brown animal painted by Dürer in 1502. What is it?",
+            "a": "The Young Hare (Feldhase). It's one of the most reproduced images in Western art."
+          },
+          {
+            "q": "Zum Schwarzen Kameel has been serving Vienna since what year?",
+            "a": "1618. It's older than most countries you can name."
+          },
+          {
+            "q": "Volksgarten sits inside a public garden famous for one particular flower. Which?",
+            "a": "Roses — the Volksgarten rose garden holds thousands of bushes."
+          }
         ],
         "discussion": [
           "Best single thing the tour guide told us today.",
@@ -1229,7 +1292,12 @@
           "title": "Lunch · Café Landtmann",
           "venue": "cafe-landtmann",
           "desc": "Sidewalk-level terrace on the Ring. Freud's café, opened 1873.",
-          "res": { "conf": "CONFIRMED", "party": 3, "time": "11:30", "note": "Ask for the terrace." },
+          "res": {
+            "conf": "CONFIRMED",
+            "party": 3,
+            "time": "11:30",
+            "note": "Ask for the terrace."
+          },
           "outdoor": true
         },
         {
@@ -1239,13 +1307,32 @@
           "title": "The Loop — Stephansplatz → Graben → Kohlmarkt → Verde",
           "desc": "Stephansplatz to start. Graben for the Juwelier Wagner Rolex windows. Kohlmarkt for a Demel Sachertorte stop. Then Verde around 3:30 for pizza and spritzes.",
           "subStops": [
-            { "name": "Graben · Juwelier Wagner", "note": "Rolex windows. Window shopping only — the real appointment is Copenhagen." },
-            { "name": "Demel", "venue": "demel", "note": "Kohlmarkt 14. The Sachertorte stop." },
-            { "name": "Verde", "venue": "verde", "note": "~15:30. Pizza and spritzes." }
+            {
+              "name": "Graben · Juwelier Wagner",
+              "note": "Rolex windows. Window shopping only — the real appointment is Copenhagen."
+            },
+            {
+              "name": "Demel",
+              "venue": "demel",
+              "note": "Kohlmarkt 14. The Sachertorte stop."
+            },
+            {
+              "name": "Verde",
+              "venue": "verde",
+              "note": "~15:30. Pizza and spritzes."
+            }
           ],
           "suggestions": [
-            { "title": "Prater + Riesenrad", "desc": "The 1897 ferris wheel, 10 min from the hotel. Good pre-dinner move.", "venue": "riesenrad" },
-            { "title": "Film Festival am Rathausplatz", "desc": "FREE. 25+ food stalls, giant screen, runs until Sep 6. Great low-effort evening.", "venue": "rathausplatz-film-festival" }
+            {
+              "title": "Prater + Riesenrad",
+              "desc": "The 1897 ferris wheel, 10 min from the hotel. Good pre-dinner move.",
+              "venue": "riesenrad"
+            },
+            {
+              "title": "Film Festival am Rathausplatz",
+              "desc": "FREE. 25+ food stalls, giant screen, runs until Sep 6. Great low-effort evening.",
+              "venue": "rathausplatz-film-festival"
+            }
           ]
         },
         {
@@ -1262,9 +1349,17 @@
           "title": "Dinner · Lugeck",
           "venue": "lugeck",
           "desc": "The schnitzel. Figlmüller family.",
-          "res": { "conf": "CONFIRMED", "party": 3, "time": "19:00" },
+          "res": {
+            "conf": "CONFIRMED",
+            "party": 3,
+            "time": "19:00"
+          },
           "suggestions": [
-            { "title": "Fallback: Figlmüller Bäckerstraße", "desc": "Sister restaurant, same schnitzel, 4 min away.", "venue": "figlmueller" }
+            {
+              "title": "Fallback: Figlmüller Bäckerstraße",
+              "desc": "Sister restaurant, same schnitzel, 4 min away.",
+              "venue": "figlmueller"
+            }
           ]
         },
         {
@@ -1285,9 +1380,18 @@
       ],
       "questions": {
         "trivia": [
-          { "q": "Café Landtmann opened in 1873 and was the regular café of which famous Viennese thinker?", "a": "Sigmund Freud. He had a usual table." },
-          { "q": "Demel and Hotel Sacher fought a legal battle lasting decades. Over what?", "a": "Who had the right to call their cake the 'Original Sachertorte'." },
-          { "q": "The Riesenrad ferris wheel in the Prater was built in what year?", "a": "1897 — for Emperor Franz Joseph I's golden jubilee. It's one of the oldest still operating." }
+          {
+            "q": "Café Landtmann opened in 1873 and was the regular café of which famous Viennese thinker?",
+            "a": "Sigmund Freud. He had a usual table."
+          },
+          {
+            "q": "Demel and Hotel Sacher fought a legal battle lasting decades. Over what?",
+            "a": "Who had the right to call their cake the 'Original Sachertorte'."
+          },
+          {
+            "q": "The Riesenrad ferris wheel in the Prater was built in what year?",
+            "a": "1897 — for Emperor Franz Joseph I's golden jubilee. It's one of the oldest still operating."
+          }
         ],
         "discussion": [
           "Who's the most hungover right now? Be honest.",
@@ -1343,9 +1447,17 @@
           "title": "Dinner · Esmée",
           "venue": "esmee",
           "desc": "Ask for the Orangerie room — go for the room, order smart.",
-          "res": { "conf": "7PX9HU44FXWP", "party": 3, "time": "19:30" },
+          "res": {
+            "conf": "7PX9HU44FXWP",
+            "party": 3,
+            "time": "19:30"
+          },
           "suggestions": [
-            { "title": "Backup: Grøften", "desc": "Danish institution since 1874, inside Tivoli, 8 min from the hotel. Open until 23:00.", "venue": "groeften" }
+            {
+              "title": "Backup: Grøften",
+              "desc": "Danish institution since 1874, inside Tivoli, 8 min from the hotel. Open until 23:00.",
+              "venue": "groeften"
+            }
           ]
         },
         {
@@ -1359,9 +1471,18 @@
       ],
       "questions": {
         "trivia": [
-          { "q": "Denmark is in the EU but doesn't use the euro. What's the currency?", "a": "The Danish krone (DKK). And the country is effectively cashless — card everywhere, don't withdraw." },
-          { "q": "Tivoli Gardens opened in what year?", "a": "1843 — one of the oldest operating amusement parks on earth." },
-          { "q": "Esmée sits on Kongens Nytorv. What does that mean in English?", "a": "The King's New Square." }
+          {
+            "q": "Denmark is in the EU but doesn't use the euro. What's the currency?",
+            "a": "The Danish krone (DKK). And the country is effectively cashless — card everywhere, don't withdraw."
+          },
+          {
+            "q": "Tivoli Gardens opened in what year?",
+            "a": "1843 — one of the oldest operating amusement parks on earth."
+          },
+          {
+            "q": "Esmée sits on Kongens Nytorv. What does that mean in English?",
+            "a": "The King's New Square."
+          }
         ],
         "discussion": [
           "Vienna or Copenhagen — first impressions, and it's okay to be wrong this early.",
@@ -1401,7 +1522,12 @@
           "title": "Walking tour · Politically Incorrect Tours",
           "venue": "politically-incorrect",
           "desc": "Copenhagen Highlights.",
-          "res": { "conf": "GYGRFQNKN35M", "party": 3, "time": "11:00", "note": "Gammel Strand Metro, orange umbrella." }
+          "res": {
+            "conf": "GYGRFQNKN35M",
+            "party": 3,
+            "time": "11:00",
+            "note": "Gammel Strand Metro, orange umbrella."
+          }
         },
         {
           "time": "13:30",
@@ -1425,10 +1551,19 @@
           "title": "Dinner · Sokkelund",
           "venue": "sokkelund",
           "desc": "Frederiksberg. Neighbourhood bistro, locals' spot.",
-          "res": { "conf": "61704221", "party": 3, "time": "19:00", "note": "KITCHEN CLOSES AT 9 PM." },
+          "res": {
+            "conf": "61704221",
+            "party": 3,
+            "time": "19:00",
+            "note": "KITCHEN CLOSES AT 9 PM."
+          },
           "warn": "Kitchen closes 9 PM sharp.",
           "suggestions": [
-            { "title": "Backup: Madklubben Frederiksberg", "desc": "Same bistro energy. M3 metro straight to Citizen after.", "venue": "madklubben" }
+            {
+              "title": "Backup: Madklubben Frederiksberg",
+              "desc": "Same bistro energy. M3 metro straight to Citizen after.",
+              "venue": "madklubben"
+            }
           ]
         },
         {
@@ -1438,15 +1573,28 @@
           "venue": "citizen",
           "desc": "Open Mondays. Cocktails & Comedy night. Ground level.",
           "suggestions": [
-            { "title": "Ruby", "desc": "World's-top-50 cocktail bar, Mon 5 PM–1 AM. No sign on the door — look for the townhouse at Nybrogade 10.", "venue": "ruby" }
+            {
+              "title": "Ruby",
+              "desc": "World's-top-50 cocktail bar, Mon 5 PM–1 AM. No sign on the door — look for the townhouse at Nybrogade 10.",
+              "venue": "ruby"
+            }
           ]
         }
       ],
       "questions": {
         "trivia": [
-          { "q": "Which fairy-tale author lived at three separate addresses on Nyhavn?", "a": "Hans Christian Andersen — numbers 20, 67 and 18." },
-          { "q": "Those colourful Nyhavn townhouses were originally what?", "a": "Merchants' houses and sailors' quarters, along a commercial harbour dug in the 1670s." },
-          { "q": "What's the Danish word for the cosy contentment the country is famous for?", "a": "Hygge." }
+          {
+            "q": "Which fairy-tale author lived at three separate addresses on Nyhavn?",
+            "a": "Hans Christian Andersen — numbers 20, 67 and 18."
+          },
+          {
+            "q": "Those colourful Nyhavn townhouses were originally what?",
+            "a": "Merchants' houses and sailors' quarters, along a commercial harbour dug in the 1670s."
+          },
+          {
+            "q": "What's the Danish word for the cosy contentment the country is famous for?",
+            "a": "Hygge."
+          }
         ],
         "discussion": [
           "Funniest moment of the day.",
@@ -1482,7 +1630,11 @@
           "outdoor": true,
           "rainCheck": true,
           "suggestions": [
-            { "title": "RAIN FALLBACK: Broens Gadekøkken", "desc": "Opens 11, sheltered, Gasoline Grill burgers. Check the weather flag on this card before you commit.", "venue": "broens" }
+            {
+              "title": "RAIN FALLBACK: Broens Gadekøkken",
+              "desc": "Opens 11, sheltered, Gasoline Grill burgers. Check the weather flag on this card before you commit.",
+              "venue": "broens"
+            }
           ]
         },
         {
@@ -1535,9 +1687,18 @@
       ],
       "questions": {
         "trivia": [
-          { "q": "Reffen sits on Refshaleøen. What was that island before it was street food?", "a": "The Burmeister & Wain shipyard — one of the great shipbuilders of the world." },
-          { "q": "Warpigs is a collaboration between Danish brewery Mikkeller and which American brewery?", "a": "3 Floyds, out of Munster, Indiana." },
-          { "q": "Which American theme-park founder visited Tivoli and took inspiration from it?", "a": "Walt Disney. Tivoli is a direct ancestor of Disneyland." }
+          {
+            "q": "Reffen sits on Refshaleøen. What was that island before it was street food?",
+            "a": "The Burmeister & Wain shipyard — one of the great shipbuilders of the world."
+          },
+          {
+            "q": "Warpigs is a collaboration between Danish brewery Mikkeller and which American brewery?",
+            "a": "3 Floyds, out of Munster, Indiana."
+          },
+          {
+            "q": "Which American theme-park founder visited Tivoli and took inspiration from it?",
+            "a": "Walt Disney. Tivoli is a direct ancestor of Disneyland."
+          }
         ],
         "discussion": [
           "Best single thing you ate at Reffen.",
@@ -1607,7 +1768,11 @@
           "title": "Dinner · Cannibale Royale",
           "venue": "cannibale-royale",
           "desc": "Ribs and meat. Handboogstraat location.",
-          "res": { "conf": "CONFIRMED", "party": 3, "time": "18:30" }
+          "res": {
+            "conf": "CONFIRMED",
+            "party": 3,
+            "time": "18:30"
+          }
         },
         {
           "time": "21:00",
@@ -1620,9 +1785,18 @@
       ],
       "questions": {
         "trivia": [
-          { "q": "Amsterdam's canal ring became a UNESCO World Heritage Site in what year?", "a": "2010." },
-          { "q": "Roughly how many bridges are there in Amsterdam?", "a": "Over 1,500." },
-          { "q": "What does the name 'Amsterdam' literally mean?", "a": "A dam on the river Amstel." }
+          {
+            "q": "Amsterdam's canal ring became a UNESCO World Heritage Site in what year?",
+            "a": "2010."
+          },
+          {
+            "q": "Roughly how many bridges are there in Amsterdam?",
+            "a": "Over 1,500."
+          },
+          {
+            "q": "What does the name 'Amsterdam' literally mean?",
+            "a": "A dam on the river Amstel."
+          }
         ],
         "discussion": [
           "Copenhagen — final rating out of 10, now that we're gone.",
@@ -1662,7 +1836,12 @@
           "title": "Private tour · Amsterdamliebe",
           "venue": "amsterdamliebe",
           "desc": "Ends at Spui.",
-          "res": { "conf": "GYG48YQQ26AB", "party": 3, "time": "11:30", "note": "Dam Square, National Monument lions, red badge." }
+          "res": {
+            "conf": "GYG48YQQ26AB",
+            "party": 3,
+            "time": "11:30",
+            "note": "Dam Square, National Monument lions, red badge."
+          }
         },
         {
           "time": "14:00",
@@ -1670,8 +1849,16 @@
           "title": "Afternoon free — wander",
           "desc": "No agenda. Walk the canals, find a brown café.",
           "suggestions": [
-            { "title": "Hannekes Boom", "desc": "Waterfront beer garden on a pier near Centraal. Canal-side beers if the group's up for it.", "venue": "hannekes-boom" },
-            { "title": "A'DAM Lookout", "desc": "Free ferry behind Centraal. Europe's highest swing, 360° view.", "venue": "adam-lookout" }
+            {
+              "title": "Hannekes Boom",
+              "desc": "Waterfront beer garden on a pier near Centraal. Canal-side beers if the group's up for it.",
+              "venue": "hannekes-boom"
+            },
+            {
+              "title": "A'DAM Lookout",
+              "desc": "Free ferry behind Centraal. Europe's highest swing, 360° view.",
+              "venue": "adam-lookout"
+            }
           ]
         },
         {
@@ -1680,7 +1867,11 @@
           "title": "Dinner · BLACK Amsterdam",
           "venue": "restaurant-black",
           "desc": "Steaks. Prinsengracht.",
-          "res": { "conf": "CONFIRMED", "party": 3, "time": "19:00" }
+          "res": {
+            "conf": "CONFIRMED",
+            "party": 3,
+            "time": "19:00"
+          }
         },
         {
           "time": "21:30",
@@ -1690,15 +1881,28 @@
           "desc": "Walk in, no booking. Open until 2 AM on Thursdays. If the vibe's good we stay all night.",
           "highlight": true,
           "suggestions": [
-            { "title": "Wildcard: Canvas @ Volkshotel", "desc": "7th floor, free DJ night on Thursdays. Good second stop if LuminAir dies.", "venue": "canvas-volkshotel" }
+            {
+              "title": "Wildcard: Canvas @ Volkshotel",
+              "desc": "7th floor, free DJ night on Thursdays. Good second stop if LuminAir dies.",
+              "venue": "canvas-volkshotel"
+            }
           ]
         }
       ],
       "questions": {
         "trivia": [
-          { "q": "The tour starts at the National Monument on Dam Square. What does it commemorate?", "a": "Dutch victims of the Second World War. Unveiled in 1956." },
-          { "q": "Restaurant BLACK is on the Prinsengracht. What does that canal name mean?", "a": "Prince's Canal — one of the three main rings, along with Herengracht and Keizersgracht." },
-          { "q": "What are those hooks sticking out of the top of Amsterdam's canal houses for?", "a": "Hoisting furniture up through the windows. The staircases are far too narrow." }
+          {
+            "q": "The tour starts at the National Monument on Dam Square. What does it commemorate?",
+            "a": "Dutch victims of the Second World War. Unveiled in 1956."
+          },
+          {
+            "q": "Restaurant BLACK is on the Prinsengracht. What does that canal name mean?",
+            "a": "Prince's Canal — one of the three main rings, along with Herengracht and Keizersgracht."
+          },
+          {
+            "q": "What are those hooks sticking out of the top of Amsterdam's canal houses for?",
+            "a": "Hoisting furniture up through the windows. The staircases are far too narrow."
+          }
         ],
         "discussion": [
           "Favourite thing you saw today.",
@@ -1765,7 +1969,11 @@
           "desc": "Peaches 'n Kream tour. VIP Loge, Row 3, seats 13 / 14 / 15.",
           "highlight": true,
           "critical": true,
-          "res": { "conf": "VIP Loge Row 3, seats 13/14/15", "party": 3, "time": "20:00" }
+          "res": {
+            "conf": "VIP Loge Row 3, seats 13/14/15",
+            "party": 3,
+            "time": "20:00"
+          }
         },
         {
           "time": "23:00",
@@ -1777,9 +1985,18 @@
       ],
       "questions": {
         "trivia": [
-          { "q": "The Black Keys are a two-piece from which Ohio city?", "a": "Akron. Dan Auerbach and Patrick Carney, together since 2001." },
-          { "q": "The Van Gogh Museum holds the largest collection of his work anywhere. Roughly how many paintings?", "a": "About 200 paintings, plus around 500 drawings and 750 letters." },
-          { "q": "AFAS Live opened in 2001 under a different, beer-sponsored name. What was it?", "a": "The Heineken Music Hall." }
+          {
+            "q": "The Black Keys are a two-piece from which Ohio city?",
+            "a": "Akron. Dan Auerbach and Patrick Carney, together since 2001."
+          },
+          {
+            "q": "The Van Gogh Museum holds the largest collection of his work anywhere. Roughly how many paintings?",
+            "a": "About 200 paintings, plus around 500 drawings and 750 letters."
+          },
+          {
+            "q": "AFAS Live opened in 2001 under a different, beer-sponsored name. What was it?",
+            "a": "The Heineken Music Hall."
+          }
         ],
         "discussion": [
           "Best song of the night — no consensus allowed, everyone answers.",
@@ -1845,7 +2062,11 @@
           "desc": "Mayfair diner. \"McDonald's for oligarchs.\"",
           "warn": "🟡 Booking window still pending — not yet confirmed.",
           "suggestions": [
-            { "title": "Fallback: Hawksmoor Seven Dials", "desc": "Steak. Never a bad night.", "venue": "hawksmoor" }
+            {
+              "title": "Fallback: Hawksmoor Seven Dials",
+              "desc": "Steak. Never a bad night.",
+              "venue": "hawksmoor"
+            }
           ]
         },
         {
@@ -1856,15 +2077,28 @@
           "desc": "Walk-in only. Expect a queue — it's a Premier League Saturday.",
           "highlight": true,
           "suggestions": [
-            { "title": "Second stop: Three Greyhounds", "desc": "25 Greek Street. Optional, 6 min walk. Great Guinness, 1847 pub.", "venue": "three-greyhounds" }
+            {
+              "title": "Second stop: Three Greyhounds",
+              "desc": "25 Greek Street. Optional, 6 min walk. Great Guinness, 1847 pub.",
+              "venue": "three-greyhounds"
+            }
           ]
         }
       ],
       "questions": {
         "trivia": [
-          { "q": "The May Fair Hotel was opened in 1927 by which British monarch?", "a": "King George V." },
-          { "q": "The Devonshire in Soho is famous for pouring one drink above all others. What?", "a": "Guinness. They go through thousands of pints a week." },
-          { "q": "Where does the name 'Mayfair' come from?", "a": "The May Fair — a fortnight-long fair held on the site every May from 1686." }
+          {
+            "q": "The May Fair Hotel was opened in 1927 by which British monarch?",
+            "a": "King George V."
+          },
+          {
+            "q": "The Devonshire in Soho is famous for pouring one drink above all others. What?",
+            "a": "Guinness. They go through thousands of pints a week."
+          },
+          {
+            "q": "Where does the name 'Mayfair' come from?",
+            "a": "The May Fair — a fortnight-long fair held on the site every May from 1686."
+          }
         ],
         "discussion": [
           "Amsterdam — final rating out of 10.",
@@ -1889,7 +2123,12 @@
           "title": "Breakfast · The Wolseley",
           "venue": "the-wolseley",
           "desc": "160 Piccadilly. Built as a car showroom in 1921. One of the great rooms in London.",
-          "res": { "conf": "D366UF338EGP", "party": 3, "time": "10:30", "note": "LEAVE BY 11:45 for the tour." },
+          "res": {
+            "conf": "D366UF338EGP",
+            "party": 3,
+            "time": "10:30",
+            "note": "LEAVE BY 11:45 for the tour."
+          },
           "warn": "Leave by 11:45."
         },
         {
@@ -1906,7 +2145,12 @@
           "title": "Palaces & Parliament walking tour",
           "venue": "palaces-parliament",
           "desc": "Three hours on foot.",
-          "res": { "conf": "GYGG45M3MNXZ", "party": 3, "time": "12:00", "note": "Outside The Ritz, two red phone boxes." },
+          "res": {
+            "conf": "GYGG45M3MNXZ",
+            "party": 3,
+            "time": "12:00",
+            "note": "Outside The Ritz, two red phone boxes."
+          },
           "outdoor": true
         },
         {
@@ -1922,7 +2166,11 @@
           "title": "Dinner · Ivy Asia St Paul's",
           "venue": "ivy-asia",
           "desc": "Green onyx floor, theatrical, genuinely fun. Views of St Paul's.",
-          "res": { "conf": "CONFIRMED", "party": 3, "time": "19:00" }
+          "res": {
+            "conf": "CONFIRMED",
+            "party": 3,
+            "time": "19:00"
+          }
         },
         {
           "time": "22:00",
@@ -1931,17 +2179,34 @@
           "venue": "sexy-fish",
           "desc": "Berkeley Square. Bar table reserved. Damien Hirst on the walls.",
           "warn": "DRESS CODE: no sneakers, no caps. Closes MIDNIGHT on Sundays.",
-          "res": { "conf": "Bar table reserved", "party": 3, "time": "22:00" },
+          "res": {
+            "conf": "Bar table reserved",
+            "party": 3,
+            "time": "22:00"
+          },
           "suggestions": [
-            { "title": "Backup: Park Chinois", "desc": "17 Berkeley Street, 2 min away. Live music, 1930s Shanghai room.", "venue": "park-chinois" }
+            {
+              "title": "Backup: Park Chinois",
+              "desc": "17 Berkeley Street, 2 min away. Live music, 1930s Shanghai room.",
+              "venue": "park-chinois"
+            }
           ]
         }
       ],
       "questions": {
         "trivia": [
-          { "q": "The Wolseley's dining room was built in 1921 for a completely different purpose. What?", "a": "A car showroom, for Wolseley Motors. The bank that took it over kept the interior." },
-          { "q": "Sexy Fish's dining room features work by which British artist, best known for a shark in formaldehyde?", "a": "Damien Hirst." },
-          { "q": "How many rooms does Buckingham Palace have?", "a": "775 — including 78 bathrooms." }
+          {
+            "q": "The Wolseley's dining room was built in 1921 for a completely different purpose. What?",
+            "a": "A car showroom, for Wolseley Motors. The bank that took it over kept the interior."
+          },
+          {
+            "q": "Sexy Fish's dining room features work by which British artist, best known for a shark in formaldehyde?",
+            "a": "Damien Hirst."
+          },
+          {
+            "q": "How many rooms does Buckingham Palace have?",
+            "a": "775 — including 78 bathrooms."
+          }
         ],
         "discussion": [
           "Best room we've been inside on this entire trip.",
@@ -1966,7 +2231,11 @@
           "title": "Breakfast · The Breakfast Club Old Compton St",
           "venue": "breakfast-club",
           "desc": "Soho. Moved earlier to 9:00.",
-          "res": { "conf": "CONFIRMED", "party": 3, "time": "09:00" }
+          "res": {
+            "conf": "CONFIRMED",
+            "party": 3,
+            "time": "09:00"
+          }
         },
         {
           "time": "10:30",
@@ -1974,8 +2243,15 @@
           "title": "Free morning",
           "desc": "Changing of the Guard was the old plan — it's OUT. It doesn't run on Mondays in September 2026 anyway (the schedule is Tue/Thu/Sat). Use the morning however you want.",
           "suggestions": [
-            { "title": "Soho / Covent Garden wander", "desc": "You're already in Soho. Walk it off, get a coffee, do nothing." },
-            { "title": "Seven Dials Market", "desc": "8 min from breakfast. Graze, don't commit — Harrods food hall is at 12:30.", "venue": "seven-dials-market" }
+            {
+              "title": "Soho / Covent Garden wander",
+              "desc": "You're already in Soho. Walk it off, get a coffee, do nothing."
+            },
+            {
+              "title": "Seven Dials Market",
+              "desc": "8 min from breakfast. Graze, don't commit — Harrods food hall is at 12:30.",
+              "venue": "seven-dials-market"
+            }
           ]
         },
         {
@@ -1992,7 +2268,11 @@
           "venue": "va-museum",
           "desc": "FREE, open Mondays, 10 min from Harrods. Borough Market is CLOSED Mondays — that old idea is deleted.",
           "suggestions": [
-            { "title": "Seven Dials Market instead", "desc": "If you'd rather graze than look at art.", "venue": "seven-dials-market" }
+            {
+              "title": "Seven Dials Market instead",
+              "desc": "If you'd rather graze than look at art.",
+              "venue": "seven-dials-market"
+            }
           ]
         },
         {
@@ -2009,7 +2289,12 @@
           "title": "Dinner · Dishoom Carnaby",
           "venue": "dishoom-carnaby",
           "desc": "22 Kingly Street. Last bookable slot of the night.",
-          "res": { "conf": "8TCB8HDE4MCB", "party": 3, "time": "17:45", "note": "They NEVER ask for card details by phone. If someone calls asking, it's a scam." }
+          "res": {
+            "conf": "8TCB8HDE4MCB",
+            "party": 3,
+            "time": "17:45",
+            "note": "They NEVER ask for card details by phone. If someone calls asking, it's a scam."
+          }
         },
         {
           "time": "20:30",
@@ -2036,9 +2321,18 @@
       ],
       "questions": {
         "trivia": [
-          { "q": "Dishoom's restaurants are modelled on the Irani cafés of which Indian city?", "a": "Bombay — Mumbai. Those cafés were run by Zoroastrian immigrants from Iran." },
-          { "q": "The V&A is named for Queen Victoria and Prince Albert. What year was it founded?", "a": "1852, originally as the Museum of Manufactures." },
-          { "q": "The Connaught Bar wheels a trolley to your table. What does it make?", "a": "Martinis — mixed in front of you, tableside." }
+          {
+            "q": "Dishoom's restaurants are modelled on the Irani cafés of which Indian city?",
+            "a": "Bombay — Mumbai. Those cafés were run by Zoroastrian immigrants from Iran."
+          },
+          {
+            "q": "The V&A is named for Queen Victoria and Prince Albert. What year was it founded?",
+            "a": "1852, originally as the Museum of Manufactures."
+          },
+          {
+            "q": "The Connaught Bar wheels a trolley to your table. What does it make?",
+            "a": "Martinis — mixed in front of you, tableside."
+          }
         ],
         "discussion": [
           "Last full night. Favourite day of the entire trip — pick ONE.",
@@ -2090,9 +2384,18 @@
       ],
       "questions": {
         "trivia": [
-          { "q": "We leave London at 10:05 AM and land in Dallas at 2:10 PM. How is that only four hours?", "a": "It isn't — it's about ten. Dallas is six hours behind London." },
-          { "q": "What terminal do we fly home from?", "a": "Heathrow Terminal 3." },
-          { "q": "What's the US duty-free allowance per person before you owe duty on goods brought home?", "a": "$800 per person. Above that you declare and pay — which matters if there's a watch in the bag." }
+          {
+            "q": "We leave London at 10:05 AM and land in Dallas at 2:10 PM. How is that only four hours?",
+            "a": "It isn't — it's about ten. Dallas is six hours behind London."
+          },
+          {
+            "q": "What terminal do we fly home from?",
+            "a": "Heathrow Terminal 3."
+          },
+          {
+            "q": "What's the US duty-free allowance per person before you owe duty on goods brought home?",
+            "a": "$800 per person. Above that you declare and pay — which matters if there's a watch in the bag."
+          }
         ],
         "discussion": [
           "One word for the whole trip.",
@@ -2104,7 +2407,6 @@
       }
     }
   ],
-
   "money": {
     "summary": {
       "round1": {
@@ -2123,7 +2425,13 @@
     "people": {
       "Coob": {
         "role": "organizer",
-        "round1": { "requested": null, "paid": null, "credit": 0, "items": [], "note": "Coob fronted the bookings. Round 1 is what Jared and Grant owed him." },
+        "round1": {
+          "requested": null,
+          "paid": null,
+          "credit": 0,
+          "items": [],
+          "note": "Coob fronted the bookings. Round 1 is what Jared and Grant owed him."
+        },
         "round2": {
           "estimateLow": null,
           "estimateHigh": null,
@@ -2137,33 +2445,84 @@
           "paid": 1921.0,
           "credit": 0.32,
           "items": [
-            { "label": "Black Keys VIP", "amount": 289.09 },
-            { "label": "Vienna airport transfers ×2", "amount": 45.8 },
-            { "label": "Copenhagen — Scandic", "amount": 454.73 },
-            { "label": "Amsterdam — Radisson Blu", "amount": 452.0 },
-            { "label": "London — The May Fair", "amount": 679.06 }
+            {
+              "label": "Black Keys VIP",
+              "amount": 289.09
+            },
+            {
+              "label": "Vienna airport transfers ×2",
+              "amount": 45.8
+            },
+            {
+              "label": "Copenhagen — Scandic",
+              "amount": 454.73
+            },
+            {
+              "label": "Amsterdam — Radisson Blu",
+              "amount": 452.0
+            },
+            {
+              "label": "London — The May Fair",
+              "amount": 679.06
+            }
           ]
         },
         "round2": {
           "estimateLow": 984,
           "estimateHigh": 1000,
           "items": [
-            { "label": "Vienna hotel balance", "amount": 424.51, "status": "pending" },
+            {
+              "label": "Vienna hotel balance",
+              "amount": 424.51,
+              "status": "pending"
+            },
             {
               "label": "Tours ×4",
               "amount": 282.51,
               "status": "pending",
               "breakdown": [
-                { "label": "Vienna — Guydeez", "amount": 79.65 },
-                { "label": "Copenhagen — Politically Incorrect", "amount": 43.24 },
-                { "label": "Amsterdam — Amsterdamliebe", "amount": 88.77 },
-                { "label": "London — Palaces & Parliament", "amount": 70.85 }
+                {
+                  "label": "Vienna — Guydeez",
+                  "amount": 79.65
+                },
+                {
+                  "label": "Copenhagen — Politically Incorrect",
+                  "amount": 43.24
+                },
+                {
+                  "label": "Amsterdam — Amsterdamliebe",
+                  "amount": 88.77
+                },
+                {
+                  "label": "London — Palaces & Parliament",
+                  "amount": 70.85
+                }
               ]
             },
-            { "label": "Amsterdam transfers ×2", "amount": 70.28, "status": "paid", "statusNote": "paid by Coob Aug 6" },
-            { "label": "London transfers ×2 (JK Executive V-Class)", "amount": 165.62, "status": "inprogress", "statusNote": "booking in progress" },
-            { "label": "Copenhagen transfers ×2 (TAXA 4x35)", "amountLow": 41, "amountHigh": 57, "status": "tobook", "statusNote": "not booked yet" },
-            { "label": "less Round 1 credit", "amount": -0.32, "status": "credit" }
+            {
+              "label": "Amsterdam transfers ×2",
+              "amount": 70.28,
+              "status": "paid",
+              "statusNote": "paid by Coob Aug 6"
+            },
+            {
+              "label": "London transfers ×2 (JK Executive V-Class)",
+              "amount": 165.62,
+              "status": "inprogress",
+              "statusNote": "booking in progress"
+            },
+            {
+              "label": "Copenhagen transfers ×2 (TAXA 4x35)",
+              "amountLow": 41,
+              "amountHigh": 57,
+              "status": "tobook",
+              "statusNote": "not booked yet"
+            },
+            {
+              "label": "less Round 1 credit",
+              "amount": -0.32,
+              "status": "credit"
+            }
           ]
         }
       },
@@ -2173,46 +2532,116 @@
           "paid": 3144.0,
           "credit": 0.5,
           "items": [
-            { "label": "Black Keys VIP", "amount": 289.09 },
-            { "label": "Vienna airport transfers ×2", "amount": 45.8 },
-            { "label": "Copenhagen — Scandic", "amount": 454.73 },
-            { "label": "Amsterdam — Radisson Blu", "amount": 904.0 },
-            { "label": "London — The May Fair", "amount": 1449.88 }
+            {
+              "label": "Black Keys VIP",
+              "amount": 289.09
+            },
+            {
+              "label": "Vienna airport transfers ×2",
+              "amount": 45.8
+            },
+            {
+              "label": "Copenhagen — Scandic",
+              "amount": 454.73
+            },
+            {
+              "label": "Amsterdam — Radisson Blu",
+              "amount": 904.0
+            },
+            {
+              "label": "London — The May Fair",
+              "amount": 1449.88
+            }
           ]
         },
         "round2": {
           "estimateLow": 1408,
           "estimateHigh": 1424,
           "items": [
-            { "label": "Vienna hotel balance", "amount": 849.01, "status": "pending" },
+            {
+              "label": "Vienna hotel balance",
+              "amount": 849.01,
+              "status": "pending"
+            },
             {
               "label": "Tours ×4",
               "amount": 282.51,
               "status": "pending",
               "breakdown": [
-                { "label": "Vienna — Guydeez", "amount": 79.65 },
-                { "label": "Copenhagen — Politically Incorrect", "amount": 43.24 },
-                { "label": "Amsterdam — Amsterdamliebe", "amount": 88.77 },
-                { "label": "London — Palaces & Parliament", "amount": 70.85 }
+                {
+                  "label": "Vienna — Guydeez",
+                  "amount": 79.65
+                },
+                {
+                  "label": "Copenhagen — Politically Incorrect",
+                  "amount": 43.24
+                },
+                {
+                  "label": "Amsterdam — Amsterdamliebe",
+                  "amount": 88.77
+                },
+                {
+                  "label": "London — Palaces & Parliament",
+                  "amount": 70.85
+                }
               ]
             },
-            { "label": "Amsterdam transfers ×2", "amount": 70.28, "status": "paid", "statusNote": "paid by Coob Aug 6" },
-            { "label": "London transfers ×2 (JK Executive V-Class)", "amount": 165.62, "status": "inprogress", "statusNote": "booking in progress" },
-            { "label": "Copenhagen transfers ×2 (TAXA 4x35)", "amountLow": 41, "amountHigh": 57, "status": "tobook", "statusNote": "not booked yet" },
-            { "label": "less Round 1 credit", "amount": -0.5, "status": "credit" }
+            {
+              "label": "Amsterdam transfers ×2",
+              "amount": 70.28,
+              "status": "paid",
+              "statusNote": "paid by Coob Aug 6"
+            },
+            {
+              "label": "London transfers ×2 (JK Executive V-Class)",
+              "amount": 165.62,
+              "status": "inprogress",
+              "statusNote": "booking in progress"
+            },
+            {
+              "label": "Copenhagen transfers ×2 (TAXA 4x35)",
+              "amountLow": 41,
+              "amountHigh": 57,
+              "status": "tobook",
+              "statusNote": "not booked yet"
+            },
+            {
+              "label": "less Round 1 credit",
+              "amount": -0.5,
+              "status": "credit"
+            }
           ]
         }
       }
     },
     "stillToCome": [
-      { "label": "Amsterdam transfers (both legs)", "status": "paid", "detail": "€181.50 total — paid in full by Coob Aug 6" },
-      { "label": "London transfers (JK Executive V-Class, both legs)", "status": "inprogress", "detail": "£370.80 inc VAT — awaiting payment/confirmation" },
-      { "label": "Copenhagen transfers (TAXA 4x35, both legs)", "status": "tobook", "detail": "Rebooking after the Sixt cancellation" },
-      { "label": "Vienna hotel balance", "status": "inprogress", "detail": "Due at/before checkout" },
-      { "label": "Tours ×4", "status": "paid", "detail": "All four booked — reimbursed in Round 2" }
+      {
+        "label": "Amsterdam transfers (both legs)",
+        "status": "paid",
+        "detail": "€181.50 total — paid in full by Coob Aug 6"
+      },
+      {
+        "label": "London transfers (JK Executive V-Class, both legs)",
+        "status": "inprogress",
+        "detail": "£370.80 inc VAT — awaiting payment/confirmation"
+      },
+      {
+        "label": "Copenhagen transfers (TAXA 4x35, both legs)",
+        "status": "tobook",
+        "detail": "Rebooking after the Sixt cancellation"
+      },
+      {
+        "label": "Vienna hotel balance",
+        "status": "inprogress",
+        "detail": "Due at/before checkout"
+      },
+      {
+        "label": "Tours ×4",
+        "status": "paid",
+        "detail": "All four booked — reimbursed in Round 2"
+      }
     ]
   },
-
   "checklists": {
     "documents": {
       "title": "Documents & Admin",
@@ -2343,14 +2772,22 @@
       ]
     }
   },
-
   "reference": {
     "currency": {
       "title": "Currency cheat sheet",
       "rows": [
-        { "place": "Austria · Netherlands", "detail": "Euro (€)" },
-        { "place": "Denmark", "detail": "Danish krone (DKK) — effectively cashless, don't withdraw" },
-        { "place": "UK", "detail": "Pound (£)" }
+        {
+          "place": "Austria · Netherlands",
+          "detail": "Euro (€)"
+        },
+        {
+          "place": "Denmark",
+          "detail": "Danish krone (DKK) — effectively cashless, don't withdraw"
+        },
+        {
+          "place": "UK",
+          "detail": "Pound (£)"
+        }
       ],
       "rules": [
         "ALWAYS choose LOCAL currency on card terminals — never the dollar conversion. That's a ~5% fee.",
