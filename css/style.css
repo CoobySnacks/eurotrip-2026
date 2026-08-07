@@ -104,11 +104,13 @@ b,strong{font-weight:650}
 .crew{
   position:relative;border-radius:18px;overflow:hidden;margin-bottom:11px;
   border:1px solid var(--line-2);background:var(--card);
-  aspect-ratio:2/1;
+  aspect-ratio:6/5;
 }
-/* The file is pre-cropped to 2:1 with the framing already baked in, so plain
-   center/cover is correct — don't re-offset it. If you swap the photo, re-crop
-   to 2:1 rather than fighting it with object-position. */
+/* Pre-cropped to 6:5 with the framing baked in, so plain center/cover is right.
+   6:5 is deliberate and not a design whim: it is the widest ratio that still
+   fits all three of them head-to-boots out of a portrait original. Anything
+   wider starts cutting Grant off. Re-crop from assets/crew-original.jpg
+   rather than fighting this with object-position. */
 .crew-img{
   display:block;width:100%;height:100%;
   object-fit:cover;object-position:center;
@@ -121,6 +123,14 @@ b,strong{font-weight:650}
   font-size:12.5px;font-weight:750;letter-spacing:.02em;
 }
 .crew-tag{color:var(--accent);font-size:11px;font-weight:700;white-space:nowrap}
+/* On a short screen (iPhone SE / 8) a 6:5 photo pushes the status strip 89px
+   below the fold, and that strip is the whole accountability nudge — it has to
+   be reachable without scrolling. So short viewports get a tighter crop biased
+   toward faces. Big phones still see everyone head-to-boots. */
+@media (max-height:740px){
+  .crew{aspect-ratio:auto;height:185px}
+  .crew-img{object-position:center 26%}
+}
 
 /* ─────────── COUNTDOWN HERO ─────────── */
 .hero{

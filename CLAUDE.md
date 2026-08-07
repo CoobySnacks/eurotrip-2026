@@ -49,7 +49,8 @@ sw.js                   service worker: offline shell + push handler
 manifest.json           PWA manifest
 icons/                  app icons, generated from assets/logo.png
 assets/logo.png         group-chat badge — gate screen + source for every icon
-assets/crew.jpg         the three of them, pre-cropped to 16:10 (countdown hero only)
+assets/crew.jpg         the three of them, pre-cropped to 6:5 (countdown hero, pre-trip only)
+assets/crew-original.jpg full-frame master - KEEP IT, re-crop from this, never overwrite
 scripts/send_push.py    nightly 8 PM notification sender
 worker/worker.js        Cloudflare Worker — stores push subscriptions in KV
 .github/workflows/      deploy.yml (Pages) · nightly-questions.yml (8 PM push)
