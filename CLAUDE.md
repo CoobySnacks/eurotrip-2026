@@ -47,7 +47,9 @@ js/push.js              service worker registration + push subscription
 js/app.js               boot, routing, countdown ticker, event delegation
 sw.js                   service worker: offline shell + push handler
 manifest.json           PWA manifest
-icons/                  generated app icons
+icons/                  app icons, generated from assets/logo.png
+assets/logo.png         group-chat badge — gate screen + source for every icon
+assets/crew.jpg         the three of them, pre-cropped to 16:10 (countdown hero only)
 scripts/send_push.py    nightly 8 PM notification sender
 worker/worker.js        Cloudflare Worker — stores push subscriptions in KV
 .github/workflows/      deploy.yml (Pages) · nightly-questions.yml (8 PM push)
@@ -338,6 +340,21 @@ checklist state, and the greeting. Change it via **switch** in the footer.
 Checklist state is **per phone** — everyone tracks their own. That is intentional.
 
 ---
+
+## Images
+
+- `assets/logo.png` (1200×1200) is the master. Regenerate icons from it with
+  Pillow: 180/192/512 straight resizes, plus a maskable 512 padded to 78% on the
+  badge's navy `rgb(19,29,56)`.
+- `assets/crew.jpg` is **pre-cropped to 16:10**, so the CSS uses plain
+  `object-position:center`. If you swap in a different photo, either re-crop to
+  16:10 or put the framing back into `object-position`.
+- **Changing the icon after people have installed does nothing.** iOS snapshots
+  the home-screen icon at install time. A new icon means deleting and re-adding
+  the app, so get it right before the link goes out.
+- The photo renders only in `R.hero()`, which only runs in `pre` phase. It
+  deliberately disappears once the trip starts — screen space goes to the
+  TODAY view.
 
 ## Gotchas
 

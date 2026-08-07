@@ -123,6 +123,10 @@ const R = (() => {
     const c = T.countdown(D.meta.departureISO);
     const f = D.flights[0];
     return `
+    <div class="crew">
+      <img src="assets/crew.jpg" alt="Coob, Grant and Jared" class="crew-img" width="1100" height="688" loading="eager" decoding="async">
+      <div class="crew-cap"><span>Coob · Grant · Jared</span><span class="crew-tag">4 cities · 14 days</span></div>
+    </div>
     <div class="hero">
       <div class="hero-kicker">Wheels up in</div>
       <div class="cd" id="cd">

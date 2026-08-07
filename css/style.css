@@ -100,6 +100,27 @@ b,strong{font-weight:650}
 }
 .card-tight{padding:13px}
 
+/* ─────────── CREW PHOTO (pre-trip only) ─────────── */
+.crew{
+  position:relative;border-radius:18px;overflow:hidden;margin-bottom:11px;
+  border:1px solid var(--line-2);background:var(--card);
+  aspect-ratio:16/10;
+}
+/* The file is pre-cropped to 16:10 with the framing already baked in,
+   so plain center/cover is correct here — don't re-offset it. */
+.crew-img{
+  display:block;width:100%;height:100%;
+  object-fit:cover;object-position:center;
+}
+.crew-cap{
+  position:absolute;left:0;right:0;bottom:0;
+  display:flex;justify-content:space-between;align-items:baseline;gap:10px;
+  padding:22px 14px 11px;
+  background:linear-gradient(to top,rgba(8,10,14,.92),rgba(8,10,14,.55) 55%,transparent);
+  font-size:12.5px;font-weight:750;letter-spacing:.02em;
+}
+.crew-tag{color:var(--accent);font-size:11px;font-weight:700;white-space:nowrap}
+
 /* ─────────── COUNTDOWN HERO ─────────── */
 .hero{
   position:relative;overflow:hidden;
@@ -499,6 +520,11 @@ b,strong{font-weight:650}
 }
 .gate-inner{max-width:340px;width:100%;text-align:center}
 .gate-kicker{font-size:11px;font-weight:850;letter-spacing:.28em;color:var(--accent);margin-bottom:16px}
+.gate-logo{
+  width:150px;height:150px;border-radius:50%;
+  margin:0 auto 20px;display:block;
+  box-shadow:0 8px 34px rgba(0,0,0,.55);
+}
 .gate-title{font-size:31px;font-weight:850;margin:0 0 9px;letter-spacing:-.02em}
 .gate-sub{font-size:13.5px;color:var(--tx-2);margin:0 0 28px;line-height:1.5}
 .gate-people{display:flex;flex-direction:column;gap:11px}

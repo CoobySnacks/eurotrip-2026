@@ -6,12 +6,13 @@
    · receives push and opens the Questions tab
    ══════════════════════════════════════════════════════════ */
 
-const CACHE = 'eurotrip-v1';
+const CACHE = 'eurotrip-v2';
 const SHELL = [
   './', './index.html', './css/style.css',
   './js/store.js', './js/time.js', './js/weather.js',
   './js/render.js', './js/push.js', './js/app.js',
-  './manifest.json', './icons/icon-192.png', './icons/icon-512.png'
+  './manifest.json', './icons/icon-192.png', './icons/icon-512.png',
+  './assets/logo.png', './assets/crew.jpg'
 ];
 
 self.addEventListener('install', e => {
@@ -37,8 +38,8 @@ self.addEventListener('fetch', e => {
   /* never cache the weather API */
   if (url.hostname.includes('open-meteo.com')) return;
 
-  /* Icons never change — cache-first is fine and saves bytes. */
-  if (url.pathname.includes('/icons/')) {
+  /* Icons and photos never change — cache-first is fine and saves bytes. */
+  if (url.pathname.includes('/icons/') || url.pathname.includes('/assets/')) {
     e.respondWith(caches.match(e.request).then(hit => hit || fetch(e.request)));
     return;
   }
