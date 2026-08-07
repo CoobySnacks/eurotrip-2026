@@ -1,0 +1,66 @@
+name: Welcome push (fires once, when all three are in)
+
+# Polls every 30 minutes until Coob, Jared and Grant are all registered,
+# sends the "we're all here" push, then commits `.welcome-sent` so it can
+# never fire twice.
+#
+# The marker lives in the repo rather than KV on purpose: it survives a
+# revoked Cloudflare token, and it's visible in git history.
+#
+# Stops polling after the trip starts — the guard is in the cron month/day
+# range, so this quietly retires itself.
+
+on:
+  schedule:
+    - cron: '*/30 * 6-26 8 *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Check who is registered, send nothing'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # cheap early exit so the scheduled runs cost almost nothing
+      - id: check
+        run: |
+          if [ -f .welcome-sent ]; then
+            echo "done=true" >> "$GITHUB_OUTPUT"
+            echo "Already sent — skipping."
+          else
+            echo "done=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - if: steps.check.outputs.done == 'false'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - if: steps.check.outputs.done == 'false'
+        run: pip install --quiet pywebpush requests
+
+      - if: steps.check.outputs.done == 'false'
+        id: send
+        env:
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          VAPID_SUBJECT:     ${{ secrets.VAPID_SUBJECT }}
+          PUSH_API:          ${{ secrets.PUSH_API }}
+          PUSH_ADMIN_TOKEN:  ${{ secrets.PUSH_ADMIN_TOKEN }}
+          DRY_RUN:           ${{ inputs.dry_run }}
+        run: python scripts/send_welcome.py
+
+      - if: steps.send.outputs.SENT == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .welcome-sent
+          git commit -m "Welcome push sent — all three registered"
+          git push
