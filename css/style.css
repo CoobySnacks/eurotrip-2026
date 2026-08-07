@@ -170,6 +170,22 @@ b,strong{font-weight:650}
 .hf-code{font-weight:800;color:#fff;letter-spacing:.05em}
 .hf-arrow{color:var(--accent)}
 
+/* ─────────── MORNING COUNTDOWN NOTE ─────────── */
+.cd-note{
+  background:linear-gradient(135deg,rgba(242,193,78,.12),rgba(242,193,78,.04));
+  border:1px solid rgba(242,193,78,.4);border-radius:14px;
+  padding:14px 15px;margin-bottom:14px;
+}
+.cd-note-t{font-size:15px;font-weight:850;line-height:1.35;color:var(--accent)}
+.cd-note-b{font-size:12.5px;color:var(--tx-2);line-height:1.55;margin-top:6px}
+/* departure morning gets the shout treatment */
+.cd-note.shout{
+  background:linear-gradient(140deg,rgba(255,77,77,.18),rgba(242,193,78,.1));
+  border:2px solid var(--red);text-align:center;padding:18px 15px;
+}
+.cd-note.shout .cd-note-t{font-size:22px;color:#fff;letter-spacing:.02em}
+.cd-note.shout .cd-note-b{font-size:13.5px;color:#FFD5D5;font-weight:750;line-height:1.75;margin-top:10px}
+
 /* ─────────── STATUS STRIP ─────────── */
 .status-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:14px}
 .ss-item{

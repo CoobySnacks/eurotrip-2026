@@ -87,6 +87,16 @@ def pick_day(trip, now=None):
     return None
 
 
+def pick_countdown(trip, today_dallas=None):
+    """The morning hype push. One entry per date from Aug 7 to departure."""
+    override = os.environ.get("OVERRIDE_DATE", "").strip()
+    today = override or today_dallas or local_today(CITY_OFFSET["dallas"])
+    for m in trip.get("countdownPushes", []):
+        if m["date"] == today:
+            return m
+    return None
+
+
 def build_message(trip, day):
     city = trip["cities"][day["cityKey"]]
     trivia = day["questions"]["trivia"]
@@ -101,14 +111,14 @@ def build_message(trip, day):
     return title, body
 
 
-def send_webpush(subs, title, body, url):
+def send_webpush(subs, title, body, url, tag="nightly-questions"):
     from pywebpush import webpush, WebPushException
 
     priv = os.environ["VAPID_PRIVATE_KEY"]
     subject = os.environ.get("VAPID_SUBJECT", "mailto:eurotrip@example.com")
-    payload = json.dumps(
-        {"title": title, "body": body, "url": url, "tag": "nightly-questions"}
-    )
+    # Distinct tags per kind, or a morning countdown would silently replace
+    # the previous night's questions notification in the tray.
+    payload = json.dumps({"title": title, "body": body, "url": url, "tag": tag})
 
     ok, dead = 0, []
     for rec in subs:
@@ -189,16 +199,25 @@ def send_ntfy(topic, title, body, url):
 
 def main():
     trip = json.loads(TRIP.read_text(encoding="utf-8"))
-    day = pick_day(trip)
+    mode = os.environ.get("MODE", "questions").strip().lower()
 
-    if not day:
-        print("No trip day matches today — nothing to send. Exiting cleanly.")
-        return
+    if mode == "countdown":
+        m = pick_countdown(trip)
+        if not m:
+            print("No countdown message for today — nothing to send. Exiting cleanly.")
+            return
+        title, body = m["title"], m["body"]
+        site = "https://coobysnacks.github.io/eurotrip-2026/"
+        print(f"📅 {m['date']} — D-{m['days']}")
+    else:
+        day = pick_day(trip)
+        if not day:
+            print("No trip day matches today — nothing to send. Exiting cleanly.")
+            return
+        title, body = build_message(trip, day)
+        site = "https://coobysnacks.github.io/eurotrip-2026/index.html?tab=questions"
+        print(f"📅 {day['date']} — {day['title']}")
 
-    title, body = build_message(trip, day)
-    site = "https://coobysnacks.github.io/eurotrip-2026/index.html?tab=questions"
-
-    print(f"📅 {day['date']} — {day['title']}")
     print(f"   {title}")
     print(f"   {body}")
 
@@ -237,7 +256,9 @@ def main():
 
         if subs:
             print(f"\n🔔 Web Push — {len(subs)} subscription(s) from {source}")
-            ok, dead = send_webpush(subs, title, body, site)
+            ok, dead = send_webpush(
+                subs, title, body, site,
+                tag="countdown" if mode == "countdown" else "nightly-questions")
             if api and token:
                 prune(api, token, dead)
             sent_any = sent_any or ok > 0

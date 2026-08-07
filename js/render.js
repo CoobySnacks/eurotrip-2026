@@ -261,12 +261,32 @@ const R = (() => {
   /* ══════════════ HOME (pre-trip) ══════════════ */
   function home(D, who) {
     let h = hero(D);
+    /* Status strip goes BEFORE the countdown note. The note is fun; the strip
+       is the accountability nudge that has to be reachable without scrolling,
+       and the note is tall enough (115px, 269px on departure morning) to push
+       it under the fold if it goes first. */
     h += statusStrip(D, who, false);
+    h += countdownNote(D);
     h += glance(D);
     h += `<div class="sec-title">The whole trip — tap any day</div>`;
     h += dayList(D, D.days, null);
     h += docsBanner(D);
     return h;
+  }
+
+  /**
+   * Today's morning-countdown line, shown on the home screen so the hype
+   * still lands for anyone who never turned notifications on.
+   */
+  function countdownNote(D) {
+    const today = T.tripDateIn(D.cities.dallas.tz);
+    const m = (D.countdownPushes || []).find(x => x.date === today);
+    if (!m) return '';
+    const big = m.days === 0;
+    return `<div class="cd-note${big ? ' shout' : ''}">
+      <div class="cd-note-t">${esc(m.title)}</div>
+      <div class="cd-note-b">${m.body.split('\n\n').map(p => esc(p)).join('<br>')}</div>
+    </div>`;
   }
 
   function docsBanner(D) {

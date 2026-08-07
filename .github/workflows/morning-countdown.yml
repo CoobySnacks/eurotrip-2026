@@ -1,0 +1,51 @@
+name: Morning countdown push
+
+# ── 7:30 AM CENTRAL, every morning until wheels-up ──
+#
+# All three of them are in Dallas until Aug 26, so this one is simple:
+# CDT is UTC−5, so 7:30 AM local = 12:30 UTC.
+#
+# Runs Aug 7 → Aug 26. The Aug 26 message is the departure-day one; the
+# separate nightly-questions workflow also fires that evening at 6 PM from
+# the DFW lounge, which is intended — hype at 7:30 AM, game at the gate that evening.
+#
+# Messages live in data/trip.json under `countdownPushes`, one per date.
+# Editing the words is a JSON edit, not a workflow edit.
+
+on:
+  schedule:
+    - cron: '30 12 7-26 8 *'
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Override date (YYYY-MM-DD) — blank for today'
+        required: false
+      dry_run:
+        description: 'Print what would be sent, send nothing'
+        type: boolean
+        default: false
+
+jobs:
+  countdown:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install push libraries
+        run: pip install --quiet pywebpush requests
+
+      - name: Send the morning countdown
+        env:
+          MODE:              countdown
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          VAPID_SUBJECT:     ${{ secrets.VAPID_SUBJECT }}
+          PUSH_API:          ${{ secrets.PUSH_API }}
+          PUSH_ADMIN_TOKEN:  ${{ secrets.PUSH_ADMIN_TOKEN }}
+          NTFY_TOPIC:        ${{ secrets.NTFY_TOPIC }}
+          OVERRIDE_DATE:     ${{ inputs.date }}
+          DRY_RUN:           ${{ inputs.dry_run }}
+        run: python scripts/send_push.py

@@ -12,13 +12,14 @@
       "Grant"
     ],
     "organizer": "Coob",
-    "dataVersion": "1.6.0",
+    "dataVersion": "1.7.0",
     "lastUpdated": "2026-08-06",
     "questionsUnlockHour": 20,
     "fixedQuestions": [
       "Who drank the most alcohol last night?",
       "Who's drinking the most tonight? (you gotta up those numbers pussies)"
-    ]
+    ],
+    "groupChat": "European On My Face"
   },
   "cities": {
     "dallas": {
@@ -3272,5 +3273,127 @@
         "number": "112"
       }
     ]
-  }
+  },
+  "countdownPushes": [
+    {
+      "date": "2026-08-07",
+      "days": 19,
+      "title": "🇪🇺 19 days till European On My Face comes to life",
+      "body": "Three idiots, four countries, fourteen days. It's actually happening."
+    },
+    {
+      "date": "2026-08-08",
+      "days": 18,
+      "title": "🍺 18 days until you're drinking beer in Vienna",
+      "body": "First one's at the SO/Vienna lobby bar, about an hour after we land. Earn it on the plane."
+    },
+    {
+      "date": "2026-08-09",
+      "days": 17,
+      "title": "🎸 17 days until blackout at the Black Keys",
+      "body": "VIP Loge, Row 3, seats 13/14/15. Robert Finley opens. AFAS Live, Amsterdam."
+    },
+    {
+      "date": "2026-08-10",
+      "days": 16,
+      "title": "🇬🇧 16 days — and some of you still haven't done the UK ETA",
+      "body": "£20, official app, takes about 3 working days. They will not let you into the country without it. Do it on the toilet right now."
+    },
+    {
+      "date": "2026-08-11",
+      "days": 15,
+      "title": "🥩 15 days until schnitzel bigger than your damn head",
+      "body": "Lugeck, Friday the 29th. It hangs off the plate. That's the point."
+    },
+    {
+      "date": "2026-08-12",
+      "days": 14,
+      "title": "🕺 Two weeks until Volksgarten at 2 AM",
+      "body": "On the record now: who taps out first? Loser buys the first round in Copenhagen."
+    },
+    {
+      "date": "2026-08-13",
+      "days": 13,
+      "title": "🎨 13 days until we pretend to like art",
+      "body": "Albertina on the 28th, Van Gogh on the 4th. Book the Van Gogh tickets — they actually sell out."
+    },
+    {
+      "date": "2026-08-14",
+      "days": 12,
+      "title": "🌈 12 days until Nyhavn",
+      "body": "The postcard one. Colored houses, boats, beers by the water. Copenhagen on the 30th."
+    },
+    {
+      "date": "2026-08-15",
+      "days": 11,
+      "title": "🌭 11 days until Reffen",
+      "body": "Fifty-plus food stalls on an old shipyard, reached by boat. Tacos, smash burgers, Korean BBQ. Come hungry."
+    },
+    {
+      "date": "2026-08-16",
+      "days": 10,
+      "title": "🔟 10 days. Double digits for the last time.",
+      "body": "Ten days from now you're on a plane with a drink in your hand."
+    },
+    {
+      "date": "2026-08-17",
+      "days": 9,
+      "title": "🍖 9 days until Warpigs",
+      "body": "Texas barbecue in Copenhagen, 23 Mikkeller taps, meat sells out. Walk-in only, so we go early."
+    },
+    {
+      "date": "2026-08-18",
+      "days": 8,
+      "title": "🍸 8 days until the Connaught martini trolley",
+      "body": "They wheel it to the table and build it in front of you. One of the best bars on earth. Last Monday of the trip."
+    },
+    {
+      "date": "2026-08-19",
+      "days": 7,
+      "title": "7️⃣ One week. Seven days.",
+      "body": "A week from tonight you're somewhere over the Atlantic in a lie-flat seat."
+    },
+    {
+      "date": "2026-08-20",
+      "days": 6,
+      "title": "🍛 6 days until Dishoom black daal",
+      "body": "Lentils cooked 24 hours. We're ordering two. Non-negotiable."
+    },
+    {
+      "date": "2026-08-21",
+      "days": 5,
+      "title": "🎡 5 days until the Riesenrad",
+      "body": "Same ferris wheel since 1897. Ten minutes from the hotel. Vienna, day two."
+    },
+    {
+      "date": "2026-08-22",
+      "days": 4,
+      "title": "🧳 4 days. Start actually packing.",
+      "body": "Two adapter types — C/F for Europe, G for London. Battery pack. One decent shirt. Walking shoes you've already broken in."
+    },
+    {
+      "date": "2026-08-23",
+      "days": 3,
+      "title": "🛂 3 days. Passport, ETA, tickets.",
+      "body": "Check all three tonight. Passport valid through December, ETA approved, Westminster and Van Gogh booked. No surprises Wednesday."
+    },
+    {
+      "date": "2026-08-24",
+      "days": 2,
+      "title": "✌️ 2 days",
+      "body": "Two more sleeps in Texas."
+    },
+    {
+      "date": "2026-08-25",
+      "days": 1,
+      "title": "🚨 TOMORROW. IT'S TOMORROW.",
+      "body": "BA 192 out of DFW, 7:40 PM. Leave for the airport by 5, Terminal D.\n\nPACK TONIGHT. Not tomorrow. Tomorrow-you will be useless."
+    },
+    {
+      "date": "2026-08-26",
+      "days": 0,
+      "title": "✈️ THE TIME IS NOW",
+      "body": "WHEELS UP 7:40 PM. CAR LEAVES AT 5. TERMINAL D.\n\nPASSPORT. ETA. BATTERY PACK. ONE DECENT SHIRT.\n\nFOUR COUNTRIES. FOURTEEN DAYS. THREE IDIOTS.\n\nEUROPEAN ON MY FACE IS LIVE. LET'S GO BOYS. 🤠"
+    }
+  ]
 }

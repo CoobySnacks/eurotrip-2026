@@ -53,7 +53,7 @@ assets/crew.jpg         the three of them, pre-cropped to 6:5 (countdown hero, p
 assets/crew-original.jpg full-frame master - KEEP IT, re-crop from this, never overwrite
 scripts/send_push.py    nightly 8 PM notification sender
 worker/worker.js        Cloudflare Worker — stores push subscriptions in KV
-.github/workflows/      deploy.yml (Pages) · nightly-questions.yml (8 PM push)
+.github/workflows/      deploy.yml (Pages) · nightly-questions.yml (8 PM) · morning-countdown.yml (7:30 AM)
 ```
 
 ---
