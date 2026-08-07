@@ -12,7 +12,7 @@
       "Grant"
     ],
     "organizer": "Coob",
-    "dataVersion": "1.8.0",
+    "dataVersion": "2.0.0",
     "lastUpdated": "2026-08-06",
     "questionsUnlockHour": 20,
     "fixedQuestions": [
@@ -1183,11 +1183,11 @@
       "name": "Broens Gadekøkken",
       "address": "Strandgade 95, 1401 København K",
       "city": "Copenhagen",
-      "website": "https://broensstreetfood.dk/en/",
+      "website": "https://broensstreetfood.dk",
       "menu": "https://broensstreetfood.dk/madboder/",
       "instagram": "https://instagram.com/broensstreetfood",
       "igHandle": "@broensstreetfood",
-      "note": "RAIN FALLBACK for Reffen. Opens 11, sheltered. Gasoline Grill burgers."
+      "note": "Sheltered — the rain fallback for Reffen. Opens 11:00. Gasoline Grill burgers. Note: broensgadekoekken.dk now redirects here."
     },
     "warpigs": {
       "name": "Warpigs Brewpub",
@@ -1477,64 +1477,6 @@
         ],
         "skip": "Nothing — but it's walk-in only, small and canal-side. Before 11:00 or expect a queue. Coffee-and-juice place, no beer programme; save the drinking for later.",
         "footer": "~€28–32pp."
-      }
-    },
-    "restaurant-black": {
-      "name": "BLACK Amsterdam",
-      "address": "Prinsengracht 703, 1017 JV Amsterdam",
-      "city": "Amsterdam",
-      "website": "https://restaurantblack.nl/en/",
-      "menu": "https://restaurantblack.nl/en/menu/",
-      "instagram": "https://instagram.com/restaurantblackams",
-      "igHandle": "@restaurantblackams",
-      "note": "Steaks. The good ones.",
-      "orderCard": {
-        "title": "🍽 What to order",
-        "sections": [
-          {
-            "label": "Best steak-per-euro in central Amsterdam",
-            "items": [
-              {
-                "name": "Rib-Eye Angus 600g",
-                "price": "€62",
-                "desc": "Explicitly listed for two. At €31 a head this is why it sits at 9.0 on TheFork.",
-                "must": true
-              }
-            ]
-          },
-          {
-            "label": "Or smaller",
-            "items": [
-              {
-                "name": "Tournedos Black Angus 250g",
-                "price": "€29.00",
-                "desc": "160g version €22.50."
-              },
-              {
-                "name": "Butcher Steak 200g",
-                "price": "€23.50",
-                "desc": "The value play."
-              },
-              {
-                "name": "Steak Tartaar",
-                "price": "€11.50",
-                "desc": "100% Black Angus, mustard mayo, quail egg."
-              },
-              {
-                "name": "Rundercarpaccio",
-                "price": "€10.95",
-                "desc": "Parmesan, rocket, pine nuts, truffle mayo."
-              },
-              {
-                "name": "Zeeuwse oysters",
-                "price": "€3.00 each"
-              }
-            ]
-          }
-        ],
-        "warn": "Sauces (€1.95) and sides (€4.95) are NOT included — steaks come plain. Budget €10–12pp on top. This is where the low headline prices catch people out.",
-        "suggested": "The 600g ribeye for two plus a Butcher Steak, one béarnaise and one pepper sauce, and two sides",
-        "footer": "~€49pp food, €70–80pp with drinks."
       }
     },
     "canvas-volkshotel": {
@@ -2452,7 +2394,7 @@
       "menu": null,
       "instagram": "https://instagram.com/i_w_m",
       "igHandle": "@i_w_m",
-      "note": "£29.75pp. 9:30am–6pm, last entry 5pm. Book ahead. 5 min from Westminster Abbey."
+      "note": "£29.75pp. 9:30am–6pm, last entry 5pm. Book ahead. 5 min from Westminster Abbey. ⚠️ Underground, no step-free access."
     },
     "red-lion-westminster": {
       "name": "The Red Lion",
@@ -2553,6 +2495,102 @@
       "instagram": "https://instagram.com/hijadesanchez",
       "igHandle": "@hijadesanchez",
       "note": "Ex-Noma pastry chef's taqueria. 3 min walk from Warpigs, in Kødbyen. NOT at Reffen — older guides get this wrong."
+    },
+    "cafe-restaurant-amsterdam": {
+      "name": "Café-Restaurant Amsterdam",
+      "address": "Watertorenplein 6, 1051 PA Amsterdam",
+      "city": "Amsterdam",
+      "website": "https://cradam.nl",
+      "menu": "https://cradam.nl",
+      "instagram": "https://instagram.com/caferestaurantamsterdam",
+      "igHandle": "@caferestaurantamsterdam",
+      "phone": "+31 20 682 2666",
+      "note": "The 1897 municipal water-pumping station in Westerpark — 30-foot ceilings, original pump machinery, giant lamps salvaged from Schiphol's runway. Converted in 1996. An Amsterdam-West institution, essentially unknown to tourists. Thu 10:00–24:00, kitchen 17:00–22:00.",
+      "orderCard": {
+        "title": "🍽 What to order",
+        "sections": [
+          {
+            "label": "Steak is the reason to come",
+            "items": [
+              {
+                "name": "Ribeye béarnaise",
+                "price": "€25",
+                "must": true
+              },
+              {
+                "name": "Black Angus steak met pepersaus",
+                "price": "€25.75"
+              },
+              {
+                "name": "Steak frites",
+                "price": "€18.50 / €21.50"
+              },
+              {
+                "name": "Steak tartare",
+                "price": "€22.50"
+              }
+            ]
+          },
+          {
+            "label": "The rest",
+            "items": [
+              {
+                "name": "Lamskoteletten (lamb chops)",
+                "price": "€22 / €27.75"
+              },
+              {
+                "name": "Gebakken kalfszwezerik (veal sweetbreads)",
+                "price": "€32.50"
+              },
+              {
+                "name": "Coq au vin blanc",
+                "price": "€21.50"
+              }
+            ]
+          }
+        ],
+        "footer": "About €40–55pp. Roughly 2 miles from the hotel — a €15–18 taxi, about 12 minutes."
+      }
+    },
+    "door-74": {
+      "name": "Door 74",
+      "address": "Reguliersdwarsstraat 74, 1017 BN Amsterdam",
+      "city": "Amsterdam",
+      "website": "https://door-74.com",
+      "menu": null,
+      "instagram": "https://instagram.com/door_74",
+      "igHandle": "@door_74",
+      "note": "The original Amsterdam speakeasy, behind an unmarked door. World's 50 Best Bars alum. Cocktails €14–17. Closes midnight Thursdays. Book via WhatsApp +31 6 34045122."
+    },
+    "cafe-de-plantage": {
+      "name": "Café-Restaurant de Plantage",
+      "address": "Plantage Kerklaan 36, 1018 CZ Amsterdam",
+      "city": "Amsterdam",
+      "website": "https://caferestaurantdeplantage.nl",
+      "menu": null,
+      "instagram": "https://instagram.com/deplantage",
+      "igHandle": "@deplantage",
+      "note": "Local crowd, glasshouse room, open til midnight. Use the Artisplein side entrance — the main door has 3 steps."
+    },
+    "de-balie": {
+      "name": "De Balie",
+      "address": "Kleine-Gartmanplantsoen 10, 1017 RR Amsterdam",
+      "city": "Amsterdam",
+      "website": "https://debalie.nl",
+      "menu": null,
+      "instagram": "https://instagram.com/debalie",
+      "igHandle": "@debalie",
+      "note": "Leidseplein's debate-and-film house. Journalists and students, not tourists."
+    },
+    "bierfabriek": {
+      "name": "Bierfabriek",
+      "address": "Nes 67, 1012 KD Amsterdam",
+      "city": "Amsterdam",
+      "website": "https://bierfabriek.com",
+      "menu": null,
+      "instagram": "https://instagram.com/bierfabriekamsterdam",
+      "igHandle": "@bierfabriekamsterdam",
+      "note": "3 min from the hotel. Own-brewed beer, self-pour tap tables at the table, free peanuts. Open til midnight."
     }
   },
   "days": [
@@ -2673,7 +2711,7 @@
             "conf": "RMJLT3NV7US",
             "party": 3,
             "time": "19:00",
-            "note": "Shrimp allergy on file. €25pp no-show fee — do not ghost this one."
+            "note": "19:00–22:30, party of 3. Shrimp allergy noted on the booking. €25pp no-show fee."
           }
         },
         {
@@ -3084,13 +3122,14 @@
           "type": "tour",
           "title": "Walking tour · Politically Incorrect Tours",
           "venue": "politically-incorrect",
-          "desc": "Copenhagen Highlights.",
+          "desc": "Politically Incorrect Tours — Copenhagen Highlights. Meet at Gammel Strand Metro station, look for the orange umbrella. Arrive 10:45.",
           "res": {
             "conf": "GYGRFQNKN35M",
             "party": 3,
             "time": "11:00",
             "note": "Gammel Strand Metro, orange umbrella."
-          }
+          },
+          "warn": "Meeting point is Gammel Strand, NOT Højbro Plads — older listings still say Højbro."
         },
         {
           "time": "13:30",
@@ -3448,30 +3487,51 @@
         {
           "time": "19:00",
           "type": "meal",
-          "title": "Dinner · BLACK Amsterdam",
-          "venue": "restaurant-black",
-          "desc": "Steaks. Prinsengracht.",
-          "res": {
-            "conf": "CONFIRMED",
-            "party": 3,
-            "time": "19:00"
-          }
+          "title": "Dinner · Café-Restaurant Amsterdam",
+          "venue": "cafe-restaurant-amsterdam",
+          "desc": "The 1897 water-pumping station in Westerpark. Original pump machinery, 30-foot ceilings, runway lamps off Schiphol. Locals only — tourists don't find this one.",
+          "warn": "Replaces Restaurant BLACK, which emailed on Aug 7: the restaurant is accessible but the toilet is upstairs and is not. Loetje Centraal was the interim pick but wouldn't take a reservation for three.",
+          "note": "About 2 miles out — €15–18 taxi, roughly 12 minutes. Book online for three AND call ahead so staff have the entrance platform lift ready: +31 20 682 2666.",
+          "highlight": true
         },
         {
           "time": "21:30",
           "type": "drinks",
-          "title": "LuminAir rooftop — the whole night",
-          "venue": "luminair",
-          "desc": "DoubleTree 11th floor. Walk in, no booking, open til 2am. If the vibe's good we stay all night.",
+          "title": "🍸 Open bar night — nothing booked",
+          "desc": "No reservations, no fixed schedule. Six that are worth it, roughly in order of effort.",
+          "highlight": true,
           "suggestions": [
             {
-              "title": "Optional second stop: Canvas",
-              "desc": "Volkshotel 7th floor. Free Thursday DJ night.",
+              "title": "① LuminAir",
+              "desc": "11th-floor rooftop, lift straight from the DoubleTree lobby. Open til 2am, walk in.",
+              "venue": "luminair"
+            },
+            {
+              "title": "② Door 74",
+              "desc": "The original Amsterdam speakeasy behind an unmarked door. World's 50 Best alum, cocktails €14–17. Closes midnight Thursdays — book via WhatsApp +31 6 34045122.",
+              "venue": "door-74"
+            },
+            {
+              "title": "③ Canvas @ Volkshotel",
+              "desc": "7th floor, free Thursday DJ night, lift access.",
               "venue": "canvas-volkshotel"
+            },
+            {
+              "title": "④ Café-Restaurant de Plantage",
+              "desc": "Local crowd, open til midnight. Use the Artisplein side entrance — the main door has 3 steps.",
+              "venue": "cafe-de-plantage"
+            },
+            {
+              "title": "⑤ De Balie",
+              "desc": "Leidseplein's debate-and-film house. Journalists and students, not tourists.",
+              "venue": "de-balie"
+            },
+            {
+              "title": "⑥ Bierfabriek",
+              "desc": "3 min from the hotel. Own-brewed beer, self-pour taps at the table, free peanuts. Til midnight.",
+              "venue": "bierfabriek"
             }
-          ],
-          "outdoor": true,
-          "rainCheck": true
+          ]
         }
       ],
       "questions": {
@@ -3865,7 +3925,7 @@
           "title": "🚶 THE RESET — walk it off",
           "venue": null,
           "desc": "Covent Garden → Seven Dials → Soho, about 20 minutes. Browse, get a coffee, let it wear off. Arrive at Dishoom clear-headed.",
-          "warn": "This gap is deliberate. Do NOT add a third pub here — this is the best dinner of the trip. Also: do not route via the hotel, you will not leave again.",
+          "warn": "This gap is deliberate. Do NOT add a third pub here — this is the best dinner of the trip. And go straight from the pubs to Dishoom: do NOT route via the hotel, you will not leave again.",
           "critical": true
         },
         {
@@ -4332,7 +4392,7 @@
           "emoji": "👔",
           "mandatory": true,
           "label": "One decent night-out shirt",
-          "desc": "Covers Volksgarten, the Black Keys and dinners. No gym gear — jeans and a decent shirt are fine everywhere we're going."
+          "desc": "Volksgarten (Vienna) is a club and Sexy Fish (London) is Mayfair. Neither publishes a strict code — just don't turn up in gym gear or flip-flops. Jeans are fine."
         },
         {
           "id": "adapters",
