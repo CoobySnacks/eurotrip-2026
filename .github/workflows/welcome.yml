@@ -7,12 +7,21 @@ name: Welcome push (fires once, when all three are in)
 # The marker lives in the repo rather than KV on purpose: it survives a
 # revoked Cloudflare token, and it's visible in git history.
 #
-# Stops polling after the trip starts — the guard is in the cron month/day
-# range, so this quietly retires itself.
+# Cadence: every 10 minutes tonight while Grant is likely to sign up, then
+# every 30 minutes from tomorrow lunchtime onward. Times are UTC — CDT is
+# UTC−5, so 00:00–16:59 UTC on Aug 7 is 7 PM Aug 6 → 11:59 AM Aug 7 Central.
+#
+# GitHub's scheduler is best-effort: */10 frequently lands 15–20 minutes
+# apart under load, and runs can be dropped entirely. Fine here — the send
+# is idempotent, so a late or repeated check costs nothing.
+#
+# Stops polling after the trip starts — the cron day range retires it.
 
 on:
   schedule:
-    - cron: '*/30 * 6-26 8 *'
+    - cron: '*/10 0-16 7 8 *'    # tonight → tomorrow noon Central, every 10 min
+    - cron: '*/30 17-23 7 8 *'   # rest of Aug 7, every 30 min
+    - cron: '*/30 * 8-26 8 *'    # Aug 8 onward, every 30 min
   workflow_dispatch:
     inputs:
       dry_run:
