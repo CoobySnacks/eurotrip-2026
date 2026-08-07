@@ -12,7 +12,7 @@
       "Grant"
     ],
     "organizer": "Coob",
-    "dataVersion": "2.1.0",
+    "dataVersion": "2.2.0",
     "lastUpdated": "2026-08-06",
     "questionsUnlockHour": 20,
     "fixedQuestions": [
@@ -3050,9 +3050,9 @@
         {
           "time": "12:10",
           "type": "transfer",
-          "title": "Transfer → Scandic Copenhagen",
-          "desc": "TAXA 4x35 minibus — REBOOKING IN PROGRESS. Check the Bookings tab for the current status.",
-          "warn": "🔴 Not yet confirmed. Coob is rebooking this."
+          "title": "Airport transfer → Scandic Copenhagen",
+          "desc": "TAXA 4x35 ramp minibus — arrive ~12:52.",
+          "warn": "🔴 NOT YET BOOKED. Call +45 35 35 35 35 and say \"kørestolstaxa, the wheelchair does NOT fold.\""
         },
         {
           "time": "15:00",
@@ -4163,8 +4163,8 @@
           ]
         },
         "round2": {
-          "estimateLow": 984,
-          "estimateHigh": 1000,
+          "estimateLow": 1026,
+          "estimateHigh": 1042,
           "items": [
             {
               "label": "Vienna hotel balance",
@@ -4195,7 +4195,7 @@
               ]
             },
             {
-              "label": "Amsterdam transfers ×2",
+              "label": "Amsterdam transfers ×2 (€60.50 pp)",
               "amount": 70.28,
               "status": "paid",
               "statusNote": "paid by Coob Aug 6"
@@ -4208,10 +4208,16 @@
             },
             {
               "label": "Copenhagen transfers ×2 (TAXA 4x35)",
-              "amountLow": 41,
-              "amountHigh": 57,
+              "amountLow": 42,
+              "amountHigh": 58,
               "status": "tobook",
               "statusNote": "not booked yet"
+            },
+            {
+              "label": "Westminster Abbey ticket",
+              "amount": 41.54,
+              "status": "tobook",
+              "statusNote": "£31 · to book"
             },
             {
               "label": "less Round 1 credit",
@@ -4250,8 +4256,8 @@
           ]
         },
         "round2": {
-          "estimateLow": 1408,
-          "estimateHigh": 1424,
+          "estimateLow": 1450,
+          "estimateHigh": 1466,
           "items": [
             {
               "label": "Vienna hotel balance",
@@ -4282,7 +4288,7 @@
               ]
             },
             {
-              "label": "Amsterdam transfers ×2",
+              "label": "Amsterdam transfers ×2 (€60.50 pp)",
               "amount": 70.28,
               "status": "paid",
               "statusNote": "paid by Coob Aug 6"
@@ -4295,10 +4301,16 @@
             },
             {
               "label": "Copenhagen transfers ×2 (TAXA 4x35)",
-              "amountLow": 41,
-              "amountHigh": 57,
+              "amountLow": 42,
+              "amountHigh": 58,
               "status": "tobook",
               "statusNote": "not booked yet"
+            },
+            {
+              "label": "Westminster Abbey ticket",
+              "amount": 41.54,
+              "status": "tobook",
+              "statusNote": "£31 · to book"
             },
             {
               "label": "less Round 1 credit",
@@ -4313,17 +4325,17 @@
       {
         "label": "Amsterdam transfers (both legs)",
         "status": "paid",
-        "detail": "€181.50 total — paid in full by Coob Aug 6"
+        "detail": "Both legs paid in full by Coob — €90.75 each, €181.50 total, €60.50 per person."
       },
       {
         "label": "London transfers (JK Executive V-Class, both legs)",
         "status": "inprogress",
-        "detail": "£370.80 inc VAT — awaiting payment/confirmation"
+        "detail": "Mercedes V-Class both ways. £185.40 inc VAT per leg, £370.80 round trip ÷ 3."
       },
       {
         "label": "Copenhagen transfers (TAXA 4x35, both legs)",
         "status": "tobook",
-        "detail": "Rebooking after the Sixt cancellation"
+        "detail": "TAXA 4x35 ramp minibus. Est. 400–550 DKK per leg, roughly 800–1,100 DKK total."
       },
       {
         "label": "Vienna hotel balance",
@@ -4334,6 +4346,11 @@
         "label": "Tours ×4",
         "status": "paid",
         "detail": "All four booked — reimbursed in Round 2"
+      },
+      {
+        "label": "Westminster Abbey tickets ×3",
+        "status": "tobook",
+        "detail": "£31 each, £93 total. Timed entry and they sell out — book before we fly."
       }
     ]
   },
@@ -4375,6 +4392,13 @@
           "mandatory": true,
           "label": "Cancel all six Sixt rides",
           "desc": "18088159 · 18088219 · 18099979 · 18100007 · 18100031 · 18100055. Sixt refused the rigid non-folding wheelchair, so every leg is replaced. They bill after completion — cancel cleanly rather than no-showing."
+        },
+        {
+          "id": "sovienna-card",
+          "emoji": "💳",
+          "mandatory": true,
+          "label": "Update the card on file with SO/Vienna",
+          "desc": "The old card was replaced. The Vienna hotel balance settles against whatever is on file — fix it before Aug 27."
         },
         {
           "id": "passport",
