@@ -12,7 +12,7 @@
       "Grant"
     ],
     "organizer": "Coob",
-    "dataVersion": "2.6.0",
+    "dataVersion": "2.7.1",
     "lastUpdated": "2026-08-06",
     "questionsUnlockHour": 20,
     "fixedQuestions": [
@@ -1412,61 +1412,6 @@
       "outdoor": true,
       "note": "Waterfront beer garden on a pier near Centraal. Canal-side beers if the group's up for it."
     },
-    "foodhallen": {
-      "name": "Foodhallen",
-      "address": "Hannie Dankbaarpassage 16, 1053 RT Amsterdam",
-      "city": "Amsterdam",
-      "website": "https://www.foodhallen.nl/amsterdam?lang=en",
-      "menu": "https://www.foodhallen.nl/amsterdam?lang=en",
-      "instagram": "https://instagram.com/foodhallen",
-      "igHandle": "@foodhallen",
-      "note": "Converted tram depot, Oud-West. 19 stalls: The Butcher burgers, Holy Fried Chicken, ramen, tacos, pizza, 3 bars. €8–16 a plate. OPENS 12:00 SHARP, walk-in only — send one guy to claim a table immediately.",
-      "orderCard": {
-        "title": "🍽 What to order",
-        "intro": "19 stalls, each with its own till and menu — there is no central bill. Three separate bars; the Beer Bar has 60+ taps including two house brews. Walk-in only.",
-        "sections": [
-          {
-            "label": "Send someone to this queue first",
-            "items": [
-              {
-                "name": "The Butcher — 'The Daddy'",
-                "price": "€15.00",
-                "desc": "230g Aberdeen Angus, melted Edam, lettuce, tomato, bacon, BBQ sauce, grilled onions. Hits 20 minutes at peak.",
-                "must": true
-              }
-            ]
-          },
-          {
-            "label": "Split the other queues",
-            "items": [
-              {
-                "name": "SMOKEY GOODNESS",
-                "price": "€12–17",
-                "desc": "Dutch pitmaster Jord Althuizen's stall: brisket, pulled pork, burnt ends. The most on-brand stall for you three."
-              },
-              {
-                "name": "VIETVIEW",
-                "price": "€8–12",
-                "desc": "Caramelised pork belly bánh mì and bao. The palate-cleanser that stops this becoming three brown meals."
-              },
-              {
-                "name": "TAQUERIA LIMA",
-                "price": "€10–14",
-                "desc": "Cochinita pibil tacos, 3 for about €10–14. Shares cleanly."
-              },
-              {
-                "name": "Also good",
-                "price": "",
-                "desc": "Renato's (antipasti and pizza), Toko Bumbu (Indonesian satay and babi pangang), Mr Temaki, Santiago."
-              }
-            ]
-          }
-        ],
-        "suggested": "One man grabs a table immediately — the raised platform at the back is best — while the other two split up and queue different stalls",
-        "skip": "Don't all order burgers. One burger, one BBQ plate, one bánh mì, one taco order is the right density for three. Order small from several stalls rather than one big meal each.",
-        "footer": "~€20–30pp food plus €6–7 a beer."
-      }
-    },
     "van-gogh-museum": {
       "name": "Van Gogh Museum",
       "address": "Museumplein 6, 1071 DJ Amsterdam",
@@ -2617,6 +2562,71 @@
       "instagram": "https://instagram.com/sofitellegendthegrandamsterdam",
       "igHandle": "@sofitellegendthegrandamsterdam",
       "note": "About 140 yards from the hotel — the one to fall back on."
+    },
+    "nieuwe-kafe": {
+      "name": "'t Nieuwe Kafé",
+      "address": "Eggertstraat 8, 1012 NN Amsterdam",
+      "city": "Amsterdam",
+      "website": "https://www.nieuwekafe.nl",
+      "menu": null,
+      "instagram": "https://instagram.com/tnieuwekafe",
+      "igHandle": "@tnieuwekafe",
+      "note": "Beside the Nieuwe Kerk on Dam Square, in the church annexe — big airy room. 8 min from the hotel and on the way to De Pijp. Walk-in.",
+      "orderCard": {
+        "title": "🍽 What to order",
+        "intro": "Eat properly here. After the tour there is no meal until 5:00.",
+        "sections": [
+          {
+            "label": "The known one",
+            "items": [
+              {
+                "name": "Apple pie",
+                "price": "",
+                "desc": "What the place is known for.",
+                "must": true
+              }
+            ]
+          },
+          {
+            "label": "Otherwise",
+            "items": [
+              {
+                "name": "Pancakes",
+                "price": ""
+              },
+              {
+                "name": "Eggs, done properly",
+                "price": ""
+              },
+              {
+                "name": "Proper coffee",
+                "price": ""
+              }
+            ]
+          }
+        ],
+        "footer": "Walk-in, no booking."
+      }
+    },
+    "heineken-experience": {
+      "name": "Heineken Experience",
+      "address": "Stadhouderskade 78, 1072 AE Amsterdam",
+      "city": "Amsterdam",
+      "website": "https://www.heinekenexperience.com",
+      "menu": null,
+      "instagram": "https://instagram.com/heineken_experience",
+      "igHandle": "@heineken_experience",
+      "note": "VIP tour: €65 per person, 2.5 hours, 18+ only, capped at 10 people. Friday slots run hourly from 10am to 4pm."
+    },
+    "albert-cuyp-market": {
+      "name": "Albert Cuyp Market",
+      "address": "Albert Cuypstraat, 1073 BD Amsterdam",
+      "city": "Amsterdam",
+      "website": "https://albertcuyp-markt.amsterdam",
+      "menu": null,
+      "instagram": "https://instagram.com/albertcuypmarkt",
+      "igHandle": "@albertcuypmarkt",
+      "note": "4 minutes from the brewery door, open till 5. Stroopwafels, herring, cheese, the lot."
     }
   },
   "days": [
@@ -3606,6 +3616,10 @@
           {
             "q": "What are those hooks sticking out of the top of Amsterdam's canal houses for?",
             "a": "Hoisting furniture up through the windows. The staircases are far too narrow."
+          },
+          {
+            "q": "The Van Gogh Museum holds the largest collection of his work anywhere. Roughly how many paintings?",
+            "a": "About 200 paintings, plus around 500 drawings and 750 letters."
           }
         ],
         "discussion": [
@@ -3626,22 +3640,46 @@
       "locked": true,
       "blocks": [
         {
-          "time": "12:00",
+          "time": "09:00",
           "type": "meal",
-          "title": "Lunch · Foodhallen",
-          "venue": "foodhallen",
-          "desc": "Converted tram depot in Oud-West. 19 stalls — The Butcher burgers, Holy Fried Chicken, ramen, tacos, pizza, three bars. €8–16 a plate.",
-          "warn": "OPENS 12:00 SHARP, walk-in only. Be there right at noon and send ONE guy to claim a table immediately.",
+          "title": "Breakfast · 't Nieuwe Kafé",
+          "venue": "nieuwe-kafe",
+          "desc": "Beside the Nieuwe Kerk on Dam Square. 8 min from the hotel, and on the way to De Pijp. Walk-in.",
+          "warn": "Eat properly — after the tour there's no meal until 5:00."
+        },
+        {
+          "time": "10:45",
+          "type": "note",
+          "title": "Arrive at the Heineken Experience",
+          "venue": null,
+          "desc": "Metro 52 from Rokin → Vijzelgracht, one stop, then about a 7-minute walk. ~20 min door to door. Be there early — VIP groups are capped at 10 people."
+        },
+        {
+          "time": "11:00",
+          "type": "activity",
+          "title": "🍺 HEINEKEN EXPERIENCE · VIP TOUR",
+          "venue": "heineken-experience",
+          "highlight": true,
+          "alertLead": 35,
+          "desc": "€65 per person · 2.5 hours, ends 1:30 PM · 18+ only · max 10 people. A personal English-speaking guide, a tasting of 5 premium beers paired with Dutch cheese, behind-the-scenes access and a personalised gift.",
+          "warn": "🔴 Book ahead — the 10-person cap fills. Friday slots run hourly 10am–4pm."
+        },
+        {
+          "time": "13:40",
+          "type": "activity",
+          "title": "Albert Cuyp Market",
+          "venue": "albert-cuyp-market",
+          "desc": "4 minutes from the brewery door, open till 5. Stroopwafels, herring, cheese, the lot. Worth half an hour, and it bridges the gap to dinner.",
           "outdoor": true,
           "rainCheck": true
         },
         {
-          "time": "13:45",
-          "type": "free",
-          "title": "Free afternoon",
-          "desc": "Nothing booked — concert day stays loose.",
-          "leaveBy": true,
-          "venue": null
+          "time": "14:15",
+          "type": "hotel",
+          "title": "Back at the hotel",
+          "venue": "radisson-blu-ams",
+          "desc": "Two hours to shower, change into the Loge shirt, and sleep off five beers before the night starts.",
+          "note": "The tour ends at 1:30 and you don't leave until 4:20 — that's deliberate. It's the biggest night of the trip and the afternoon is built as a buffer, not a gap to fill."
         },
         {
           "time": "17:00",
@@ -3690,8 +3728,8 @@
             "a": "Akron. Dan Auerbach and Patrick Carney, together since 2001."
           },
           {
-            "q": "The Van Gogh Museum holds the largest collection of his work anywhere. Roughly how many paintings?",
-            "a": "About 200 paintings, plus around 500 drawings and 750 letters."
+            "q": "Look closely at the Heineken logo today. What's odd about the three e's?",
+            "a": "They're tilted back so they read as smiling faces — Alfred Heineken's idea. Once you see it you can't unsee it."
           },
           {
             "q": "AFAS Live opened in 2001 under a different, beer-sponsored name. What was it?",
@@ -3702,7 +3740,7 @@
           "Best song of the night. Everyone answers, no repeats.",
           "Was the VIP loge worth it? Honest answers only.",
           "Rate Robert Finley's opening set.",
-          "Van Gogh this afternoon, the Black Keys tonight. Which one actually hit harder?",
+          "Five beers at 11 in the morning and the Black Keys at 8. Was the brewery a stroke of genius or a terrible idea?",
           "Best moment of the whole damn trip so far — and we're past halfway."
         ]
       },
@@ -4420,6 +4458,15 @@
           "linkLabel": "Book tickets"
         },
         {
+          "id": "book-heineken",
+          "emoji": "🍺",
+          "mandatory": true,
+          "label": "Book the Heineken VIP tour — all 3",
+          "desc": "€65 each, €195 total. Fri Sep 4 at 11:00, 18+ only. VIP groups cap at 10 people and Friday slots fill — book before we fly.",
+          "link": "https://www.heinekenexperience.com",
+          "linkLabel": "Book the VIP tour"
+        },
+        {
           "id": "sovienna-card",
           "emoji": "💳",
           "mandatory": true,
@@ -4669,8 +4716,9 @@
         },
         {
           "city": "Amsterdam",
-          "venue": "Foodhallen",
-          "pp": "€30–40"
+          "venue": "Heineken Experience VIP",
+          "pp": "€65",
+          "extra": "tour, not a meal"
         },
         {
           "city": "Amsterdam",
