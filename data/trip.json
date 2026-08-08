@@ -12,7 +12,7 @@
       "Grant"
     ],
     "organizer": "Coob",
-    "dataVersion": "2.4.0",
+    "dataVersion": "2.5.0",
     "lastUpdated": "2026-08-06",
     "questionsUnlockHour": 20,
     "fixedQuestions": [
@@ -193,7 +193,7 @@
       "nights": 3,
       "conf": "QKJDDGMM",
       "rooms": "2 rooms",
-      "note": "Balance due in Round 2. Das Loft (18th floor) is CLOSED for renovation until Sep 3 — use the lobby bar."
+      "note": "Balance due in Round 2."
     },
     {
       "cityKey": "copenhagen",
@@ -1112,16 +1112,6 @@
       "igHandle": "@citizencph",
       "note": "Open Mondays. Cocktails & Comedy night. Ground level."
     },
-    "ruby": {
-      "name": "Ruby",
-      "address": "Nybrogade 10, 1203 København K",
-      "city": "Copenhagen",
-      "website": "https://rby.dk",
-      "menu": null,
-      "instagram": "https://instagram.com/rubycph",
-      "igHandle": "@rubycph",
-      "note": "World's-top-50 cocktail bar. Mon 5 PM–1 AM. No sign on the door — look for the townhouse."
-    },
     "reffen": {
       "name": "Reffen — Copenhagen Street Food",
       "address": "Refshalevej 167A, 1432 København K",
@@ -1342,7 +1332,7 @@
       "menu": "https://luminairamsterdam.com/menu",
       "instagram": "https://instagram.com/luminair.amsterdam",
       "igHandle": "@luminair.amsterdam",
-      "note": "DoubleTree 11th floor. Walk in, no booking. Until 1 AM (2 AM Thu). NOT DeDakkas — that's in Haarlem."
+      "note": "DoubleTree 11th floor. Walk in, no booking. Until 1 AM (2 AM Thursday)."
     },
     "greenwoods": {
       "name": "Greenwoods Singel",
@@ -2179,7 +2169,7 @@
       "menu": "https://www.sevendialsmarket.com/food-drink/",
       "instagram": "https://instagram.com/sevendialsmkt",
       "igHandle": "@sevendialsmkt",
-      "note": "Suggestion if you want a graze instead of the V&A."
+      "note": "Covered market off Seven Dials — a graze rather than a sit-down."
     },
     "palaces-parliament": {
       "name": "Palaces & Parliament Walking Tour",
@@ -2230,72 +2220,6 @@
       "instagram": "https://instagram.com/curfewcph",
       "igHandle": "@curfewcph",
       "note": "Speakeasy behind a former bookstore's shelves. Serious cocktails, open til 01:00 Tuesdays. Small room — book a table."
-    },
-    "cafe-hoppe": {
-      "name": "Café Hoppe",
-      "address": "Spui 18-20, 1012 XA Amsterdam",
-      "city": "Amsterdam",
-      "website": "https://cafehoppe.com",
-      "menu": null,
-      "instagram": "https://instagram.com/cafehoppe",
-      "igHandle": "@cafehoppe",
-      "note": "Brown café since 1670. Always packed, spills onto the street. Open til 01:00. Walk in.",
-      "orderCard": {
-        "title": "🍽 What to order",
-        "sections": [
-          {
-            "label": "The most Amsterdam thing three Americans can do",
-            "items": [
-              {
-                "name": "A kopstootje",
-                "price": "€7.80",
-                "desc": "Amstel vaas €3.80 + Jonge Hoppe jenever €4.00. The little head-butt: a tulip glass of jenever filled to the brim beside a beer. You bend down and sip the first mouthful without hands, then chase with the beer. Hoppe has been a jenever house since 1670. Do a round of three.",
-                "must": true
-              }
-            ]
-          },
-          {
-            "label": "Then step up",
-            "items": [
-              {
-                "name": "Oude Corenwijn",
-                "price": "€5.00",
-                "desc": "Aged, malty, whisky-adjacent."
-              },
-              {
-                "name": "IJwit, Brouwerij 't IJ, 30cl",
-                "price": "€6.00",
-                "desc": "The local pick."
-              }
-            ]
-          },
-          {
-            "label": "Snacks — order early, the kitchen closes well before the bar",
-            "items": [
-              {
-                "name": "Gemengd garnituur warm, 16 pcs",
-                "price": "€17.00"
-              },
-              {
-                "name": "Amsterdamse ossenworst",
-                "price": "€9.50",
-                "desc": "Raw beef sausage."
-              },
-              {
-                "name": "Bitterballen (8)",
-                "price": "€8.50"
-              },
-              {
-                "name": "Vlammetjes (8)",
-                "price": "€9.00"
-              }
-            ]
-          }
-        ],
-        "skip": "The nachos — wrong venue.",
-        "suggested": "Two rooms: the left-hand old tasting room has a sand and sawdust floor, is standing-only with no table service, and you order at the bar. That's the one you came for.",
-        "footer": "~€30–35pp with three rounds."
-      }
     },
     "westminster-abbey": {
       "name": "Westminster Abbey",
@@ -2451,11 +2375,81 @@
       "name": "Bierfabriek",
       "address": "Nes 67, 1012 KD Amsterdam",
       "city": "Amsterdam",
-      "website": "https://bierfabriek.com",
+      "website": "https://bierfabriek.com/amsterdam",
       "menu": null,
       "instagram": "https://instagram.com/bierfabriekamsterdam",
       "igHandle": "@bierfabriekamsterdam",
-      "note": "3 min from the hotel. Own-brewed beer, self-pour tap tables at the table, free peanuts. Open til midnight."
+      "note": "Beer brewed on the premises in open kettles you can see from the table, self-pour tap tables, charcoal-grilled 24-hour-marinated farmhouse chicken, free peanuts. Dutch groups and company borrels, not tourists. 4 min walk on a flat pedestrian street. Open till 23:00.",
+      "phone": "+31 20 528 9910",
+      "orderCard": {
+        "title": "🍽 What to order",
+        "sections": [
+          {
+            "label": "The signature",
+            "items": [
+              {
+                "name": "Farmer's chicken",
+                "price": "€18.50",
+                "desc": "Charcoal-grilled, marinated 24 hours. €21.50 in their own satay sauce.",
+                "must": true
+              },
+              {
+                "name": "½-metre butcher plank",
+                "price": "€72",
+                "desc": "Built for three. Full metre €102.",
+                "must": true
+              }
+            ]
+          },
+          {
+            "label": "The rest",
+            "items": [
+              {
+                "name": "Drunken spareribs",
+                "price": "€27.50"
+              },
+              {
+                "name": "Classic beef stew in dark beer",
+                "price": "€24.50"
+              },
+              {
+                "name": "Beer-battered fish & chips",
+                "price": "€24.50"
+              },
+              {
+                "name": "Ribeye 220g",
+                "price": "€32"
+              },
+              {
+                "name": "Bitterballen, 8 pc",
+                "price": "€9.50"
+              },
+              {
+                "name": "Chorizo croquettes, 6 pc",
+                "price": "€11.50"
+              }
+            ]
+          },
+          {
+            "label": "House beers, 30cl",
+            "items": [
+              {
+                "name": "PUUR",
+                "price": "€3.80"
+              },
+              {
+                "name": "Snipperdag / Vals Alarm / Schafttijd / Fabrieksgeheim",
+                "price": "€4.90"
+              },
+              {
+                "name": "Ploegbaas",
+                "price": "€6.50"
+              }
+            ]
+          }
+        ],
+        "footer": "Brewed on site. The tap tables pour themselves — pace accordingly."
+      }
     },
     "cafe-eik-en-linde": {
       "name": "Café Eik en Linde",
@@ -2551,6 +2545,78 @@
         "skip": "Artichokes are currently off the menu — don't go looking for them.",
         "footer": "Kitchen 17:00–22:00. Open till midnight."
       }
+    },
+    "freddys-bar": {
+      "name": "Freddy's Bar / Hèt Terras",
+      "address": "Nieuwe Doelenstraat 2-14, 1012 CP Amsterdam",
+      "city": "Amsterdam",
+      "website": "https://www.deleurope.com",
+      "menu": "https://www.deleurope.com",
+      "instagram": "https://instagram.com/deleuropeamsterdam",
+      "igHandle": "@deleuropeamsterdam",
+      "phone": "+31 20 531 1777",
+      "note": "Hotel de l'Europe. Hèt Terras sits directly on the Amstel at the Halvemaansbrug; Freddy's is the room inside — jenever, whisky and classic cocktails, named after Freddy Heineken, who drank there. Open till 01:00 daily. Walk-in."
+    },
+    "super-lyan": {
+      "name": "Super Lyan",
+      "address": "Nieuwezijds Voorburgwal 3, 1012 RC Amsterdam",
+      "city": "Amsterdam",
+      "website": "https://www.superlyan.com",
+      "menu": null,
+      "instagram": "https://instagram.com/super.lyan",
+      "igHandle": "@super.lyan",
+      "note": "Inside Kimpton De Witt. One of Europe's 50 Best Bars and #1 in the Netherlands. Concrete Spritz €16 · Beeswax Old Fashioned €17 · Lyan Negroni €17 · Espresso Martini 61' €17. Happy hour 17:00–18:00, everything €6. Till midnight. ⚠️ Use the hotel entrance at No. 5, not the Super Lyan street door at No. 3."
+    },
+    "de-kroon": {
+      "name": "De Kroon",
+      "address": "Rembrandtplein 17-I, 1017 CT Amsterdam",
+      "city": "Amsterdam",
+      "website": "https://www.dekroon.nl",
+      "menu": null,
+      "instagram": "https://instagram.com/dekroonamsterdam",
+      "igHandle": "@dekroonamsterdam",
+      "note": "Grand café est. 1898. Balcony over the square, Josper charcoal grill, DJs after 22:00."
+    },
+    "kitchen-bar-van-rijn": {
+      "name": "Kitchen & Bar Van Rijn",
+      "address": "Rembrandtplein 17, 1017 CT Amsterdam",
+      "city": "Amsterdam",
+      "website": null,
+      "menu": null,
+      "instagram": null,
+      "igHandle": null,
+      "phone": "+31 20 450 0555",
+      "note": "Ground floor of the same building as De Kroon. Open late, big terrace."
+    },
+    "tht-tolhuistuin": {
+      "name": "THT @ Tolhuistuin",
+      "address": "IJpromenade 2, 1031 KT Amsterdam",
+      "city": "Amsterdam",
+      "website": "https://tolhuistuin.nl",
+      "menu": null,
+      "instagram": "https://instagram.com/tolhuistuin",
+      "igHandle": "@tolhuistuin",
+      "note": "Free 24-hour ferry from behind Centraal — the bar is right at the landing. Big pavilion on the IJ, live music, Amsterdam-Noord locals. Till midnight. Cards only, no cash."
+    },
+    "paradiso": {
+      "name": "Paradiso",
+      "address": "Weteringschans 6-8, 1017 SG Amsterdam",
+      "city": "Amsterdam",
+      "website": "https://www.paradiso.nl",
+      "menu": null,
+      "instagram": "https://instagram.com/paradisoadam",
+      "igHandle": "@paradisoadam",
+      "note": "Former church, huge and loud, club nights to 04:00. Event-dependent — check what's on."
+    },
+    "bridges-sofitel": {
+      "name": "Bridges @ Sofitel Legend The Grand",
+      "address": "Oudezijds Voorburgwal 197, 1012 EX Amsterdam",
+      "city": "Amsterdam",
+      "website": "https://www.bridgesrestaurant.nl",
+      "menu": null,
+      "instagram": "https://instagram.com/sofitellegendthegrandamsterdam",
+      "igHandle": "@sofitellegendthegrandamsterdam",
+      "note": "About 140 yards from the hotel — the one to fall back on."
     }
   },
   "days": [
@@ -2652,14 +2718,14 @@
           "type": "hotel",
           "title": "Check in · SO/ Vienna",
           "venue": "so-vienna",
-          "desc": "Settle in, shower off the flight. Res QKJDDGMM, 2 rooms."
+          "desc": "First drink of the trip, in the lobby bar."
         },
         {
           "time": "17:45",
           "type": "drinks",
           "title": "First drink of the trip — lobby bar",
           "venue": "so-vienna",
-          "desc": "Das Loft upstairs is closed for renovation. The lobby bar is the move."
+          "desc": "First drink of the trip, in the lobby bar."
         },
         {
           "time": "19:00",
@@ -2893,7 +2959,6 @@
           "title": "Sunset drinks · Atmosphere Rooftop",
           "venue": "atmosphere-rooftop",
           "desc": "Rooftop of The Ritz-Carlton, looking over the Ring. Falstaff 92 pts. Walk in — open til 1am Saturdays.",
-          "note": "Replaces Das Loft, which is shut for renovation until Sep 3.",
           "outdoor": true,
           "suggestions": [
             {
@@ -3003,15 +3068,16 @@
           "desc": "Res 1209031060 / 1209031059 (Grant). Paid in Round 1."
         },
         {
-          "time": "19:30",
+          "time": "19:00",
           "type": "meal",
           "title": "Dinner · Esmée",
           "venue": "esmee",
-          "desc": "Ask for the Orangerie room — go for the room, order smart.",
+          "desc": "The Orangerie room. Table is yours until 21:30, which is why the PS Bar nightcap still works.",
           "res": {
             "conf": "7PX9HU44FXWP",
             "party": 3,
-            "time": "19:30"
+            "time": "19:00",
+            "note": "Table held 19:00–21:30 (2.5 hours)."
           },
           "suggestions": [
             {
@@ -3135,14 +3201,7 @@
           "type": "drinks",
           "title": "Cocktails · Citizen",
           "venue": "citizen",
-          "desc": "Open Mondays. Cocktails & Comedy night. Ground level.",
-          "suggestions": [
-            {
-              "title": "Ruby",
-              "desc": "World's-top-50 cocktail bar, Mon 5 PM–1 AM. No sign on the door — look for the townhouse at Nybrogade 10.",
-              "venue": "ruby"
-            }
-          ]
+          "desc": "Open Mondays. Cocktails & Comedy night. Ground level."
         }
       ],
       "questions": {
@@ -3344,24 +3403,69 @@
         {
           "time": "17:00",
           "type": "drinks",
-          "title": "Drinks · TBD",
-          "desc": "Replacement picked, not yet phoned through. Coming in the next update.",
-          "warn": "Café de Jaren is cut — asked directly about access and they replied \"No, we do not.\""
+          "title": "Drinks · Freddy's Bar / Hèt Terras",
+          "venue": "freddys-bar",
+          "desc": "Hotel de l'Europe, 4 minutes from the hotel. Hèt Terras is right on the Amstel at the Halvemaansbrug; Freddy's is the room inside. Walk in — open till 01:00.",
+          "outdoor": true,
+          "rainCheck": true
         },
         {
-          "time": "18:30",
+          "time": "19:00",
           "type": "meal",
-          "title": "Dinner · TBD",
-          "desc": "Replacement picked, not yet phoned through. Coming in the next update.",
-          "warn": "Cannibale Royale is cut — the toilets are downstairs and reachable only by stairs, and the Rozengracht branch has three steps down at the entrance."
+          "title": "Dinner · Bierfabriek",
+          "venue": "bierfabriek",
+          "desc": "Beer brewed on the premises in open kettles you can see from the table, self-pour taps at the table, charcoal-grilled farmhouse chicken. 4 min walk on a flat pedestrian street.",
+          "res": {
+            "conf": "YYsYtoerr5z",
+            "party": 3,
+            "time": "19:00"
+          },
+          "highlight": true
         },
         {
           "time": "21:00",
           "type": "drinks",
-          "title": "Café Hoppe",
-          "venue": "cafe-hoppe",
-          "desc": "Brown café since 1670. Always packed, spills out onto the street. 4 min from dinner, 6 min from the hotel. Open til 01:00, walk in.",
-          "note": "Calling ahead to confirm access — this one may still be replaced."
+          "title": "🍸 Open bar night — nothing booked",
+          "desc": "Ordered by how easy each is to reach from Nes.",
+          "highlight": true,
+          "warn": "Nothing in the centre is reliably open past 2am. Plan to head back before then.",
+          "suggestions": [
+            {
+              "title": "① Super Lyan",
+              "desc": "8 min. One of Europe's 50 Best Bars, #1 in the Netherlands. Happy hour 17:00–18:00, everything €6. Till midnight. Use the hotel entrance at No. 5, not the street door at No. 3.",
+              "venue": "super-lyan"
+            },
+            {
+              "title": "② De Kroon",
+              "desc": "8 min. Grand café est. 1898 — balcony over Rembrandtplein, Josper grill, DJs after 22:00.",
+              "venue": "de-kroon"
+            },
+            {
+              "title": "③ Kitchen & Bar Van Rijn",
+              "desc": "Ground floor of the same building. Open late, big terrace.",
+              "venue": "kitchen-bar-van-rijn"
+            },
+            {
+              "title": "④ Freddy's Bar",
+              "desc": "5 min back the way you came. Open till 01:00.",
+              "venue": "freddys-bar"
+            },
+            {
+              "title": "⑤ THT @ Tolhuistuin",
+              "desc": "Free 24-hour ferry from behind Centraal, the bar is at the landing. Live music, Noord locals, till midnight. Cards only.",
+              "venue": "tht-tolhuistuin"
+            },
+            {
+              "title": "⑥ Paradiso",
+              "desc": "Former church, huge and loud, club nights to 04:00. Check what's on first.",
+              "venue": "paradiso"
+            },
+            {
+              "title": "⑦ Bridges @ Sofitel Legend The Grand",
+              "desc": "140 yards from the hotel — the one to fall back on.",
+              "venue": "bridges-sofitel"
+            }
+          ]
         }
       ],
       "questions": {
@@ -3425,20 +3529,6 @@
           }
         },
         {
-          "time": "14:00",
-          "type": "free",
-          "title": "Free afternoon",
-          "venue": null,
-          "desc": "Nothing booked, keep it loose. Wander the canals, or beers at Hannekes Boom if everyone's up for it.",
-          "suggestions": [
-            {
-              "title": "Hannekes Boom",
-              "desc": "Waterfront beer garden on a pier near Centraal. Casual, outdoor.",
-              "venue": "hannekes-boom"
-            }
-          ]
-        },
-        {
           "time": "19:00",
           "type": "meal",
           "title": "Dinner · Café-Restaurant Amsterdam",
@@ -3461,41 +3551,44 @@
           "highlight": true,
           "suggestions": [
             {
-              "title": "① Bierfabriek",
-              "desc": "3 min from the hotel. Own-brewed Dutch beer, self-pour tap tables, free peanuts. Til midnight.",
-              "venue": "bierfabriek"
-            },
-            {
-              "title": "② Café-Restaurant de Plantage",
+              "title": "① Café-Restaurant de Plantage",
               "desc": "Glass orangery beside Artis zoo, local crowd, til midnight. Use the Artisplein side entrance — the main door has 3 steps.",
               "venue": "cafe-de-plantage"
             },
             {
-              "title": "③ De Balie",
+              "title": "② De Balie",
               "desc": "Leidseplein's debate-and-film house. Journalists and students, not tourists.",
               "venue": "de-balie"
             },
             {
-              "title": "④ Café Eik en Linde",
+              "title": "③ Café Eik en Linde",
               "desc": "A genuine unreconstructed brown café — billiards, regulars. Thu til 01:00. 300 yards from de Plantage, so pair them.",
               "venue": "cafe-eik-en-linde"
             },
             {
-              "title": "⑤ Canvas @ Volkshotel",
+              "title": "④ Canvas @ Volkshotel",
               "desc": "7th floor, free Thursday DJ night, lift access.",
               "venue": "canvas-volkshotel"
             },
             {
-              "title": "⑥ Door 74",
+              "title": "⑤ Door 74",
               "desc": "The original Amsterdam speakeasy behind an unmarked door. World's 50 Best alum, cocktails €14–17. Closes midnight Thursdays — WhatsApp +31 6 34045122.",
               "venue": "door-74"
             },
             {
-              "title": "⑦ LuminAir",
+              "title": "⑥ LuminAir",
               "desc": "11th-floor rooftop, lift from the DoubleTree lobby, open til 2am. The late-night backstop.",
               "venue": "luminair"
             }
           ]
+        },
+        {
+          "time": "14:00",
+          "type": "activity",
+          "title": "Van Gogh Museum",
+          "venue": "van-gogh-museum",
+          "desc": "The tour ends at Spui around 1:30 — tram 2 or 12 from Spui to Van Baerlestraat, about 10 minutes. Allow ~90 minutes, back at the hotel by 4:30 with a clear run at dinner.",
+          "warn": "Timed tickets — book ahead, they sell out."
         }
       ],
       "questions": {
@@ -3542,26 +3635,18 @@
         },
         {
           "time": "13:45",
-          "type": "travel",
-          "title": "Out by 1:45 → tram 3 to the museum",
-          "desc": "Tram 3 from Bilderdijkstraat to Van Baerlestraat. ~15 min.",
-          "leaveBy": true
+          "type": "free",
+          "title": "Free afternoon",
+          "desc": "Nothing booked — concert day stays loose.",
+          "leaveBy": true,
+          "venue": null
         },
         {
-          "time": "14:30",
-          "type": "activity",
-          "title": "Van Gogh Museum",
-          "venue": "van-gogh-museum",
-          "desc": "Timed entry.",
-          "warn": "TIMED TICKETS — book these ahead. They sell out.",
-          "critical": true
-        },
-        {
-          "time": "17:00",
+          "time": "17:15",
           "type": "meal",
           "title": "Early dinner · BLVD020",
           "venue": "blvd020",
-          "desc": "Right next to the venue.",
+          "desc": "Right next to the venue, 2 min from the station.",
           "warn": "WALK-IN ONLY on event days. No reservations. Be there by 5 to beat the rush."
         },
         {
@@ -3961,8 +4046,8 @@
             "a": "Bombay — Mumbai. Those cafés were run by Zoroastrian immigrants from Iran."
           },
           {
-            "q": "The V&A is named for Queen Victoria and Prince Albert. What year was it founded?",
-            "a": "1852, originally as the Museum of Manufactures."
+            "q": "How many monarchs have been crowned in Westminster Abbey?",
+            "a": "Forty, starting with William the Conqueror on Christmas Day 1066."
           },
           {
             "q": "The Connaught Bar wheels a trolley to your table. What does it make?",
@@ -4329,13 +4414,6 @@
           "linkLabel": "Book tickets"
         },
         {
-          "id": "cancel-sixt",
-          "emoji": "🚗",
-          "mandatory": true,
-          "label": "Cancel all six Sixt rides",
-          "desc": "18088159 · 18088219 · 18099979 · 18100007 · 18100031 · 18100055. Sixt refused the rigid non-folding wheelchair, so every leg is replaced. They bill after completion — cancel cleanly rather than no-showing."
-        },
-        {
           "id": "sovienna-card",
           "emoji": "💳",
           "mandatory": true,
@@ -4570,14 +4648,8 @@
         },
         {
           "city": "Amsterdam",
-          "venue": "Wed Sep 2 drinks + dinner",
-          "pp": "TBD",
-          "extra": "Replacements being confirmed"
-        },
-        {
-          "city": "Amsterdam",
-          "venue": "Café Hoppe",
-          "pp": "€30–35"
+          "venue": "Bierfabriek",
+          "pp": "€35–45"
         },
         {
           "city": "Amsterdam",
@@ -4629,18 +4701,6 @@
           "venue": "Connaught Bar",
           "pp": "£75–95"
         }
-      ]
-    },
-    "sixtCancellations": {
-      "title": "🚨 Cancel the six Sixt rides",
-      "why": "All six are cancelled — Sixt refused to carry a rigid non-folding wheelchair. They bill after completion, so cancel cleanly rather than no-showing.",
-      "orders": [
-        "18088159",
-        "18088219",
-        "18099979",
-        "18100007",
-        "18100031",
-        "18100055"
       ]
     }
   },

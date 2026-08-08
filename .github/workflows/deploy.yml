@@ -86,6 +86,26 @@ jobs:
               if t.get('status') in ('paid', 'confirmed') and STALE.search(text):
                   errs.append(f"transfer '{t.get('label')}' is {t['status']} but reads as unconfirmed")
 
+          # Venues that were dropped must be INVISIBLE — not struck through, not
+          # explained. The site is the plan, not a changelog of what got cut.
+          # These kept reappearing in backup lists and stray notes, so CI blocks them.
+          BANNED = [
+              'Café de Jaren', 'Cannibale', 'Restaurant BLACK', 'Loetje', 'Café Hoppe',
+              'Das Loft', 'Palmenhaus', 'Kleinod', 'Dignita', 'DeDakkas', 'Ye Grapes',
+              'Balderdash', 'Waterhole', 'Blue Boat', 'Changing of the Guard',
+              'V&A', 'Sixt', 'JK Executive',
+          ]
+          ASIDES = ['double-booked', 'considered, not chosen', 'Malmö dropped',
+                    'stall list correction', 'is cut —', 'was cut', 'Replaces ']
+
+          blob = json.dumps(D, ensure_ascii=False)
+          for name in BANNED:
+              if name in blob:
+                  errs.append(f"'{name}' was cut from the trip but still appears in trip.json")
+          for aside in ASIDES:
+              if aside in blob:
+                  errs.append(f"leftover explanatory aside in trip.json: '{aside}'")
+
           if errs:
               print('❌ trip.json validation failed:')
               for e in errs:
