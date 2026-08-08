@@ -645,7 +645,20 @@ const R = (() => {
       <div class="mh coming"><div class="mh-l">Round 2</div><div class="mh-v amber">Late August</div><div class="mh-n">Estimates below</div></div>
     </div>`;
 
-    h += `<div class="void-note">⚠️ ${esc(M.voidNote)}</div>`;
+    /* The Sixt-void note is gone now that every leg is booked and priced.
+       Kept optional so a future edit can put a warning back without JS. */
+    if (M.voidNote) h += `<div class="void-note">⚠️ ${esc(M.voidNote)}</div>`;
+
+    if (M.transferSummary) {
+      const t = M.transferSummary;
+      h += `<div class="card" style="border-color:rgba(53,199,127,.45);background:rgba(53,199,127,.07)">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px">
+          <div class="bk-t" style="color:var(--green)">✅ ${esc(t.title)}</div>
+          <div class="li-a" style="color:var(--green);font-size:17px">${esc(t.perPerson)} pp</div>
+        </div>
+        <div class="blk-desc" style="margin-top:6px">${esc(t.detail)}</div>
+      </div>`;
+    }
 
     h += `<div class="toggle-row"><button class="toggle-btn${seeAll ? ' on' : ''}" id="seeAllBtn">${seeAll ? '👥 Showing everyone' : '👤 Just me'}</button></div>`;
 

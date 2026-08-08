@@ -12,7 +12,7 @@
       "Grant"
     ],
     "organizer": "Coob",
-    "dataVersion": "2.3.0",
+    "dataVersion": "2.4.0",
     "lastUpdated": "2026-08-06",
     "questionsUnlockHour": 20,
     "fixedQuestions": [
@@ -234,11 +234,11 @@
       "cityKey": "vienna",
       "label": "Vienna — Airport Driver",
       "status": "paid",
-      "cost": "€59 per leg · €118 total · PREPAID",
+      "cost": "€59 per leg · €118 round trip · PREPAID, settled in Round 1",
       "legs": [
         {
           "when": "Thu Aug 27, 3:55 PM pickup",
-          "detail": "VIE arrivals → Praterstraße 1",
+          "detail": "VIE → Praterstraße 1",
           "conf": "AVBO53170"
         },
         {
@@ -249,72 +249,71 @@
       ],
       "email": "office@airportdriver.at",
       "contact": "Adeline Sharma",
-      "note": "✅ Confirmed Aug 6: a VAN has been booked to accommodate the non-folding wheelchair."
+      "note": "✅ Van confirmed Aug 6 for the non-folding wheelchair."
     },
     {
       "cityKey": "copenhagen",
-      "label": "Copenhagen — Makhens Limousine & Concierge · Mercedes EQV",
-      "status": "confirmed",
-      "cost": "1,650 DKK round trip · about 550 DKK / $86 per person",
+      "label": "Copenhagen — Makhens Limousine & Concierge",
+      "status": "paid",
+      "cost": "DKK 825.00 per leg · 1,650 DKK round trip · $42.90 per person per leg",
       "legs": [
         {
           "when": "Sun Aug 30, tracking SK1694 (lands 11:55 AM)",
-          "detail": "CPH → Scandic Copenhagen",
-          "conf": null
+          "detail": "CPH Kastrup → Scandic · Business Van, 3 pax",
+          "conf": "#T21BWF"
         },
         {
           "when": "Wed Sep 2, 9:45 AM pickup",
-          "detail": "Scandic → CPH Airport · flight SK547",
-          "conf": null
+          "detail": "Scandic → CPH Kastrup · flight SK547",
+          "conf": "#7BQVDA"
         }
       ],
       "phone": "+45 4231 7204",
-      "note": "✅ Booked — Mercedes EQV, wheelchair accessible. Invoice pending.\n⚠️ If the Rolex is bought, the Sep 2 leg needs the Customs desk in Terminal 3 BEFORE check-in — build in 45–60 minutes.",
       "email": "info@makhens.com",
-      "contact": "Zeinab Harz · makhens.com"
+      "contact": "Zeinab Harz · makhens.com",
+      "note": "✅ Both legs paid. Luggage is listed as \"5 + wheelchair\" on both confirmations.\n⚠️ If the Rolex is bought, the Sep 2 leg needs the Customs desk in Terminal 3 BEFORE check-in — build in 45–60 minutes."
     },
     {
       "cityKey": "amsterdam",
       "label": "Amsterdam — Schiphol Travel Taxi BV",
       "status": "paid",
-      "cost": "€90.75 per leg · €181.50 total · €60.50 pp — PAID IN FULL BY COOB",
+      "cost": "€90.75 per leg · €181.50 round trip · $35.14 per person per leg",
       "legs": [
         {
-          "when": "Wed Sep 2, meets SK547 (requested 14:10)",
-          "detail": "Schiphol → Radisson Blu · Business Bus · 3 pax + 5 check-in bags",
+          "when": "Wed Sep 2, meets SK547",
+          "detail": "Schiphol → Radisson Blu · Business Bus, 3 pax + 5 bags",
           "conf": "Order 8992296"
         },
         {
           "when": "Sat Sep 5, 11:45 AM pickup",
-          "detail": "Radisson Blu → Schiphol · BA435 on file · same spec",
+          "detail": "Radisson Blu → Schiphol · same spec",
           "conf": "Order 8992297"
         }
       ],
       "phone": "+31 38 339 47 68",
       "email": "sttintake@connexxion.nl",
-      "note": "✅ \"Wheelchair: 1\" is an explicit field on both confirmations — not just a driver remark — and the company confirmed the round trip in writing on Aug 7. Rigid non-folding chair + 5 bags are also in the driver remarks. Cancellation service: YES on both."
+      "note": "✅ Both legs paid. \"Wheelchair: 1\" is an explicit field on both confirmations, and the rigid non-folding chair plus 5 bags are in the driver remarks."
     },
     {
       "cityKey": "london",
-      "label": "London — JK Executive Chauffeurs",
-      "status": "inprogress",
-      "cost": "£154.50 + VAT = £185.40 per leg · £370.80 round trip",
+      "label": "London — The May Fair concierge · Mercedes V-Class",
+      "status": "confirmed",
+      "cost": "£157.50 per leg inc all taxes · £315.00 round trip · $70.35 per person per leg",
       "legs": [
         {
-          "when": "Sat Sep 5, meets BA 435 (lands 2:45 PM)",
-          "detail": "LHR → The May Fair · Mercedes V-Class · 60 min free wait from landing",
+          "when": "Sat Sep 5, 14:45 pickup · flight BA435",
+          "detail": "LHR → The May Fair. The chauffeur meets you in the arrivals hall holding a tablet with your name. 1 hour complimentary waiting after landing, then £70/hr.",
           "conf": null
         },
         {
-          "when": "Tue Sep 8, 7:00 AM pickup",
-          "detail": "The May Fair → LHR Terminal 3 · Mercedes V-Class",
+          "when": "Tue Sep 8, 7:00 AM from the hotel",
+          "detail": "The May Fair → LHR, arriving about 08:00",
           "conf": null
         }
       ],
-      "phone": "+44 203 475 9906",
-      "email": "info@jkexecutivechauffeurs.com",
-      "contact": "Sam Magar",
-      "note": "🟡 Booking in progress. ⚠️ Get the rigid non-folding wheelchair + 5 bags written into the confirmation BEFORE paying. Add the confirmation number here once booked."
+      "phone": "+44 (0)20 7769 3005",
+      "email": "concierge@themayfairhotel.co.uk",
+      "note": "✅ Confirmed. Charged to the room account — nothing to pay up front.\n⚠️ Cancelling inside 24 hours incurs the full charge.\n£157.50 a leg beat the previous chauffeur quote of £185.40 — £55.80 cheaper on the round trip, and no payment link to chase."
     }
   ],
   "venues": {
@@ -2992,9 +2991,9 @@
         {
           "time": "12:10",
           "type": "transfer",
-          "title": "Airport transfer → Scandic Copenhagen",
-          "desc": "TAXA 4x35 ramp minibus — arrive ~12:52.",
-          "warn": "🔴 NOT YET BOOKED. Call +45 35 35 35 35 and say \"kørestolstaxa, the wheelchair does NOT fold.\""
+          "title": "Makhens Business Van → Scandic",
+          "desc": "Meets flight SK1694, lands 11:55 AM. Confirmation #T21BWF. Arrive at the hotel ~12:52.",
+          "conf": "#T21BWF"
         },
         {
           "time": "15:00",
@@ -3317,10 +3316,10 @@
         {
           "time": "09:45",
           "type": "transfer",
-          "title": "Makhens EQV → CPH Airport",
-          "desc": "Mercedes EQV, pickup 9:45 AM from the Scandic. Flight SK547.",
+          "title": "Makhens Business Van → CPH Kastrup",
+          "desc": "Pickup 9:45 AM from the Scandic. Flight SK547. Luggage listed as \"5 + wheelchair\".",
           "warn": "🔴 Not yet confirmed.",
-          "conf": "Makhens Limousine & Concierge"
+          "conf": "#7BQVDA"
         },
         {
           "time": "12:40",
@@ -3653,8 +3652,8 @@
         {
           "time": "14:45",
           "type": "transfer",
-          "title": "JK Executive V-Class → The May Fair",
-          "desc": "Mercedes V-Class. Meets BA 435, 60 min free wait.",
+          "title": "May Fair concierge V-Class → The May Fair",
+          "desc": "Mercedes V-Class, pickup 14:45 for flight BA435. The chauffeur meets you in the arrivals hall holding a tablet with your name. One hour of complimentary waiting after landing, then £70/hr.",
           "warn": "🟡 Booking in progress — confirmation number pending. Check Bookings tab."
         },
         {
@@ -3992,8 +3991,8 @@
         {
           "time": "07:00",
           "type": "transfer",
-          "title": "Car → Heathrow Terminal 3",
-          "desc": "JK Executive V-Class. Be in the lobby at 6:50.",
+          "title": "May Fair concierge V-Class → Heathrow T3",
+          "desc": "Mercedes V-Class, 7:00 AM from the hotel, arriving LHR around 08:00. Be in the lobby at 6:50.",
           "leaveBy": true,
           "critical": true
         },
@@ -4057,7 +4056,6 @@
         "note": "Estimates below. Final numbers once Copenhagen and London transfers are booked."
       }
     },
-    "voidNote": "The old Sixt rides line ($321.69pp) is VOID — the replacement bookings come in roughly $30–45pp CHEAPER.",
     "footer": "Food & dinners are split as we go — not in these numbers.",
     "people": {
       "Coob": {
@@ -4105,8 +4103,8 @@
           ]
         },
         "round2": {
-          "estimateLow": 1070,
-          "estimateHigh": 1070,
+          "estimateLow": 1045,
+          "estimateHigh": 1045,
           "items": [
             {
               "label": "Vienna hotel balance",
@@ -4137,22 +4135,22 @@
               ]
             },
             {
-              "label": "Amsterdam transfers ×2 (€60.50 pp)",
+              "label": "Copenhagen transfers ×2 (Makhens Business Van)",
+              "amount": 85.8,
+              "status": "paid",
+              "statusNote": "paid up front by Coob"
+            },
+            {
+              "label": "Amsterdam transfers ×2 (Schiphol Travel Taxi)",
               "amount": 70.28,
               "status": "paid",
-              "statusNote": "paid by Coob Aug 6"
+              "statusNote": "paid up front by Coob"
             },
             {
-              "label": "London transfers ×2 (JK Executive V-Class)",
-              "amount": 165.62,
-              "status": "inprogress",
-              "statusNote": "booking in progress"
-            },
-            {
-              "label": "Copenhagen transfers ×2 (Makhens EQV)",
-              "status": "inprogress",
-              "statusNote": "booked · invoice pending",
-              "amount": 86.0
+              "label": "London transfers ×2 (May Fair V-Class)",
+              "amount": 140.7,
+              "status": "pending",
+              "statusNote": "on Coob's room account"
             },
             {
               "label": "Westminster Abbey ticket",
@@ -4197,8 +4195,8 @@
           ]
         },
         "round2": {
-          "estimateLow": 1494,
-          "estimateHigh": 1494,
+          "estimateLow": 1469,
+          "estimateHigh": 1469,
           "items": [
             {
               "label": "Vienna hotel balance",
@@ -4229,22 +4227,22 @@
               ]
             },
             {
-              "label": "Amsterdam transfers ×2 (€60.50 pp)",
+              "label": "Copenhagen transfers ×2 (Makhens Business Van)",
+              "amount": 85.8,
+              "status": "paid",
+              "statusNote": "paid up front by Coob"
+            },
+            {
+              "label": "Amsterdam transfers ×2 (Schiphol Travel Taxi)",
               "amount": 70.28,
               "status": "paid",
-              "statusNote": "paid by Coob Aug 6"
+              "statusNote": "paid up front by Coob"
             },
             {
-              "label": "London transfers ×2 (JK Executive V-Class)",
-              "amount": 165.62,
-              "status": "inprogress",
-              "statusNote": "booking in progress"
-            },
-            {
-              "label": "Copenhagen transfers ×2 (Makhens EQV)",
-              "status": "inprogress",
-              "statusNote": "booked · invoice pending",
-              "amount": 86.0
+              "label": "London transfers ×2 (May Fair V-Class)",
+              "amount": 140.7,
+              "status": "pending",
+              "statusNote": "on Coob's room account"
             },
             {
               "label": "Westminster Abbey ticket",
@@ -4263,36 +4261,41 @@
     },
     "stillToCome": [
       {
-        "label": "Amsterdam transfers (both legs)",
+        "label": "Copenhagen transfers (Makhens, both legs)",
         "status": "paid",
-        "detail": "Both legs paid in full by Coob — €90.75 each, €181.50 total, €60.50 per person."
+        "detail": "1,650 DKK round trip. Paid up front by Coob — $85.80 per person."
       },
       {
-        "label": "London transfers (JK Executive V-Class, both legs)",
-        "status": "inprogress",
-        "detail": "Mercedes V-Class both ways. £185.40 inc VAT per leg, £370.80 round trip ÷ 3."
+        "label": "Amsterdam transfers (Schiphol Travel Taxi, both legs)",
+        "status": "paid",
+        "detail": "€181.50 round trip. Paid up front by Coob — $70.28 per person."
       },
       {
-        "label": "Copenhagen transfers (Makhens EQV, both legs)",
+        "label": "London transfers (May Fair V-Class, both legs)",
         "status": "inprogress",
-        "detail": "Booked. 1,650 DKK round trip, about 550 DKK / $86 per person. Invoice pending."
+        "detail": "£315.00 round trip on the room account — $140.70 per person, settles at checkout."
       },
       {
         "label": "Vienna hotel balance",
         "status": "inprogress",
-        "detail": "Due at/before checkout"
+        "detail": "Settles against the card on file at SO/Vienna."
       },
       {
         "label": "Tours ×4",
         "status": "paid",
-        "detail": "All four booked — reimbursed in Round 2"
+        "detail": "Paid by Coob."
       },
       {
         "label": "Westminster Abbey tickets ×3",
         "status": "tobook",
         "detail": "£31 each, £93 total. Timed entry and they sell out — book before we fly."
       }
-    ]
+    ],
+    "transferSummary": {
+      "title": "All 8 transfers booked",
+      "perPerson": "$296.78",
+      "detail": "Vienna €118 (prepaid, settled in Round 1) · Copenhagen 1,650 DKK · Amsterdam €181.50 · London £315. Copenhagen and Amsterdam were paid up front by Coob and are owed back; London goes on the room account and lands on his folio at checkout."
+    }
   },
   "checklists": {
     "documents": {
