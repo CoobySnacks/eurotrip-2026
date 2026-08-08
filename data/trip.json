@@ -12,7 +12,7 @@
       "Grant"
     ],
     "organizer": "Coob",
-    "dataVersion": "2.5.0",
+    "dataVersion": "2.5.1",
     "lastUpdated": "2026-08-06",
     "questionsUnlockHour": 20,
     "fixedQuestions": [
@@ -3646,8 +3646,9 @@
           "type": "meal",
           "title": "Early dinner · BLVD020",
           "venue": "blvd020",
-          "desc": "Right next to the venue, 2 min from the station.",
-          "warn": "WALK-IN ONLY on event days. No reservations. Be there by 5 to beat the rush."
+          "desc": "Head for the metro around 5. You'll land somewhere between 5:15 and 5:30 — doesn't matter. The point is getting a table before the concert crowd does.",
+          "warn": "WALK-IN ONLY on event days. No reservations. Be there by 5 to beat the rush.",
+          "alertLead": 30
         },
         {
           "time": "18:30",
@@ -4714,20 +4715,20 @@
     },
     "timeline": [
       {
-        "time": "4:45 PM",
+        "time": "~4:45 PM",
         "what": "Leave the hotel"
       },
       {
-        "time": "5:00 PM",
+        "time": "~5:00 PM",
         "what": "Metro from Nieuwmarkt"
       },
       {
-        "time": "5:20 PM",
+        "time": "~5:20 PM",
         "what": "Arrive Bijlmer ArenA"
       },
       {
-        "time": "5:25 PM",
-        "what": "Dinner at BLVD020"
+        "time": "5:15–5:30",
+        "what": "Dinner at BLVD020 — get a table"
       },
       {
         "time": "6:30 PM",
@@ -4791,7 +4792,7 @@
         "lines": [
           "Exit the station following signs for ArenAPoort / Johan Cruijff Boulevard.",
           "You come out on a wide flat pedestrian boulevard — stadium on one side, restaurants on the other. Impossible to get lost.",
-          "BLVD020 is on that strip, number 139."
+          "BLVD020 is on that strip, number 139. Anywhere between 5:15 and 5:30 is fine — you just want a table before the rush."
         ],
         "alert": {
           "title": "NO RESERVATIONS ON EVENT NIGHTS",
