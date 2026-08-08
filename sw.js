@@ -7,6 +7,10 @@
    ══════════════════════════════════════════════════════════ */
 
 const CACHE = 'eurotrip-v23';
+/* Holds the tab a tapped notification asked for. Must NOT be swept by the
+   activate handler below — a version bump landing between the tap and the
+   relaunch would otherwise delete the note and drop you on the countdown. */
+const NAV_CACHE = 'eurotrip-nav';
 const SHELL = [
   './', './index.html', './css/style.css',
   './js/store.js', './js/time.js', './js/weather.js',
@@ -26,7 +30,8 @@ self.addEventListener('install', e => {
 self.addEventListener('activate', e => {
   e.waitUntil(
     caches.keys()
-      .then(ks => Promise.all(ks.filter(k => k !== CACHE).map(k => caches.delete(k))))
+      .then(ks => Promise.all(ks.filter(k => k !== CACHE && k !== NAV_CACHE)
+                                .map(k => caches.delete(k))))
       .then(() => self.clients.claim())
   );
 });
@@ -85,7 +90,6 @@ self.addEventListener('push', e => {
  * app was still in memory. Leave the target somewhere that survives a cold
  * start: the Cache API is reachable from both the worker and the page.
  */
-const NAV_CACHE = 'eurotrip-nav';
 async function stashTab(tab) {
   try {
     const c = await caches.open(NAV_CACHE);
