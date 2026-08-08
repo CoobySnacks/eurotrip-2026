@@ -12,7 +12,7 @@
       "Grant"
     ],
     "organizer": "Coob",
-    "dataVersion": "2.8.1",
+    "dataVersion": "2.9.0",
     "lastUpdated": "2026-08-06",
     "questionsUnlockHour": 20,
     "fixedQuestions": [
@@ -404,7 +404,7 @@
       "menu": "https://klyo.at/en",
       "instagram": "https://instagram.com/this.is.klyo",
       "igHandle": "@this.is.klyo",
-      "note": "Riverfront canal bar on the Donaukanal."
+      "note": "Riverfront canal bar on the Urania. The rooftop terrace runs to Sep 6, daily 18:00–23:00 — open while we're there. Thu–Sat till midnight."
     },
     "albertina": {
       "name": "Albertina",
@@ -1400,18 +1400,6 @@
       "igHandle": "@volkshotel",
       "note": "7th floor. Free DJ night on Thursdays. Wildcard second stop."
     },
-    "hannekes-boom": {
-      "name": "Hannekes Boom",
-      "address": "Dijksgracht 4, 1019 BS Amsterdam",
-      "city": "Amsterdam",
-      "website": "https://hannekesboom.nl/en/",
-      "menu": "https://hannekesboom.nl/en/",
-      "instagram": "https://instagram.com/hannekesboom",
-      "igHandle": "@hannekesboom",
-      "phone": "+31 20 419 9820",
-      "outdoor": true,
-      "note": "Waterfront beer garden on a pier near Centraal. Canal-side beers if the group's up for it."
-    },
     "van-gogh-museum": {
       "name": "Van Gogh Museum",
       "address": "Museumplein 6, 1071 DJ Amsterdam",
@@ -1486,16 +1474,6 @@
       "igHandle": "@afaslive",
       "note": "Metro Line 54, Nieuwmarkt ↔ Bijlmer ArenA, ~15 min. TAP YOUR CARD AT THE GATE. Pre-book a taxi home."
     },
-    "adam-lookout": {
-      "name": "A'DAM Lookout",
-      "address": "IJpromenade 4, 1031 KT Amsterdam",
-      "city": "Amsterdam",
-      "website": "https://www.adamlookout.com",
-      "menu": "https://www.adamlookout.com/what-to-expect/",
-      "instagram": "https://instagram.com/adamlookout",
-      "igHandle": "@adamlookout",
-      "note": "Free ferry behind Centraal. Europe's highest swing."
-    },
     "amsterdamliebe": {
       "name": "Amsterdamliebe Private Tour",
       "address": "Dam Square, 1012 NP Amsterdam",
@@ -1505,16 +1483,6 @@
       "instagram": "https://instagram.com/amsterdamliebe",
       "igHandle": "@amsterdamliebe",
       "note": "Meet at the National Monument, by the LIONS. Guide wears a RED BADGE. Arrive 11:25. Ends at Spui."
-    },
-    "neni": {
-      "name": "NENI Amsterdam",
-      "address": "Nieuwezijds Voorburgwal 5, 1012 RC Amsterdam",
-      "city": "Amsterdam",
-      "website": "https://www.kimptondewitthotel.com/en/restaurant-neni-centrum/",
-      "menu": "https://neni-amsterdam.nl/menus",
-      "instagram": "https://instagram.com/neni.netherlands",
-      "igHandle": "@neni.netherlands",
-      "note": "Backup dinner option."
     },
     "may-fair-hotel": {
       "name": "The May Fair Hotel",
@@ -1851,7 +1819,7 @@
       "name": "The Breakfast Club Old Compton St",
       "address": "18 Old Compton Street, London W1D 4TN",
       "city": "London",
-      "website": "https://thebreakfastclubcafes.com/soho-old-compton-street/",
+      "website": "https://www.thebreakfastclubcafes.com/",
       "menu": "https://thebreakfastclubcafes.com/menu",
       "instagram": "https://instagram.com/thebrekkyclub",
       "igHandle": "@thebrekkyclub",
@@ -1899,16 +1867,6 @@
         "skip": "Nothing. No bookings at Old Compton St and the queue is famous — 10:30 on a Monday is the smart slot, you'll walk straight in.",
         "footer": "~£30–35pp including 12.5% service."
       }
-    },
-    "harrods": {
-      "name": "Harrods",
-      "address": "87-135 Brompton Road, London SW1X 7XL",
-      "city": "London",
-      "website": "https://www.harrods.com/en-gb",
-      "menu": "https://www.harrods.com/en-gb/c/restaurants",
-      "instagram": "https://instagram.com/harrods",
-      "igHandle": "@harrods",
-      "note": "Food hall, watch windows. No dress code."
     },
     "dishoom-carnaby": {
       "name": "Dishoom Carnaby",
@@ -2110,7 +2068,7 @@
       "name": "Atmosphere Rooftop Bar",
       "address": "Schubertring 5–7, 1010 Wien",
       "city": "Vienna",
-      "website": "https://www.ritzcarlton.com/en/hotels/vievi-the-ritz-carlton-vienna/dining/",
+      "website": "https://www.ritzcarlton.com/en/hotels/vievi-the-ritz-carlton-vienna/overview/",
       "menu": null,
       "instagram": "https://instagram.com/ritzcarltonvienna",
       "igHandle": "@ritzcarltonvienna",
@@ -2160,7 +2118,7 @@
       "name": "Nimb American Bar",
       "address": "Bernstorffsgade 5, 1577 København V",
       "city": "Copenhagen",
-      "website": "https://www.nimb.dk/en/nimb-bar/",
+      "website": "https://www.nimb.dk/en/",
       "menu": null,
       "instagram": "https://instagram.com/nimbcph",
       "igHandle": "@nimbcph",
@@ -2186,16 +2144,6 @@
       "igHandle": "@toweroflondon",
       "note": "Book ahead."
     },
-    "coach-and-horses": {
-      "name": "Coach & Horses",
-      "address": "29 Greek Street, Soho, London W1D 5DH",
-      "city": "London",
-      "website": null,
-      "menu": null,
-      "instagram": "https://instagram.com/normanscoachsoho",
-      "igHandle": "@normanscoachsoho",
-      "note": "Jeffrey Bernard's old pub. Intact 1930s interior, wet-led with bar snacks only. Their old domain is dead and redirects — the pub is still trading."
-    },
     "hija-de-sanchez": {
       "name": "Hija de Sanchez",
       "address": "Slagterboderne 8, 1716 København V",
@@ -2210,7 +2158,7 @@
       "name": "Door 74",
       "address": "Reguliersdwarsstraat 74, 1017 BN Amsterdam",
       "city": "Amsterdam",
-      "website": "https://door-74.com",
+      "website": "https://door74.nl",
       "menu": null,
       "instagram": "https://instagram.com/door_74",
       "igHandle": "@door_74",
@@ -2436,7 +2384,7 @@
       "name": "De Kroon",
       "address": "Rembrandtplein 17-I, 1017 CT Amsterdam",
       "city": "Amsterdam",
-      "website": "https://www.dekroon.nl",
+      "website": "https://dekroon.nl/en/",
       "menu": null,
       "instagram": "https://instagram.com/dekroonamsterdam",
       "igHandle": "@dekroonamsterdam",
@@ -2596,8 +2544,8 @@
       "name": "Duck & Waffle",
       "address": "40th floor, Heron Tower, 110 Bishopsgate, London EC2N 4AY",
       "city": "London",
-      "website": "https://duckandwaffle.com",
-      "menu": "https://duckandwaffle.com/menus/",
+      "website": "https://duckandwaffle.com/london/",
+      "menu": "https://duckandwaffle.com/london/",
       "instagram": "https://instagram.com/duckandwaffle",
       "igHandle": "@duckandwaffle",
       "phone": "020 3640 7310",
@@ -2700,7 +2648,9 @@
           "title": "BA 724 → Vienna",
           "flightRef": "BA 724",
           "desc": "Lands 3:55 PM Vienna time.",
-          "tz": "Europe/London"
+          "tz": "Europe/London",
+          "warn": "⚠️ 100-minute connection at Heathrow. Both BA flights, so no terminal change — but if assistance is meeting the aircraft, be the first to ask for it, not the last. Do not stop for food landside.",
+          "leaveBy": true
         },
         {
           "time": "15:55",
@@ -3100,8 +3050,8 @@
             "a": "The Danish krone (DKK). And the country is effectively cashless — card everywhere, don't withdraw."
           },
           {
-            "q": "Tivoli Gardens opened in what year?",
-            "a": "1843 — one of the oldest operating amusement parks on earth."
+            "q": "Copenhagen's harbour is clean enough to swim in. What's the Danish word for the harbour baths?",
+            "a": "Havnebadet. There are several — the one at Islands Brygge is the famous one."
           },
           {
             "q": "Esmée sits on Kongens Nytorv. What does that mean in English?",
