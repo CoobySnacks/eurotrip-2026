@@ -6,7 +6,7 @@
    · receives push and opens the Questions tab
    ══════════════════════════════════════════════════════════ */
 
-const CACHE = 'eurotrip-v22';
+const CACHE = 'eurotrip-v23';
 const SHELL = [
   './', './index.html', './css/style.css',
   './js/store.js', './js/time.js', './js/weather.js',
@@ -79,6 +79,21 @@ self.addEventListener('push', e => {
   }));
 });
 
+/**
+ * iOS relaunches an installed PWA at its start_url and throws away the
+ * notification's URL, so ?tab= never arrives and postMessage only helps if the
+ * app was still in memory. Leave the target somewhere that survives a cold
+ * start: the Cache API is reachable from both the worker and the page.
+ */
+const NAV_CACHE = 'eurotrip-nav';
+async function stashTab(tab) {
+  try {
+    const c = await caches.open(NAV_CACHE);
+    await c.put('/__pending', new Response(JSON.stringify({ tab, at: Date.now() }),
+      { headers: { 'Content-Type': 'application/json' } }));
+  } catch {}
+}
+
 self.addEventListener('notificationclick', e => {
   e.notification.close();
   const target = e.notification.data?.url || './index.html?tab=questions';
@@ -90,16 +105,16 @@ self.addEventListener('notificationclick', e => {
   let tab = null;
   try { tab = new URL(target, self.location.href).searchParams.get('tab'); } catch {}
 
-  e.waitUntil(
-    clients.matchAll({ type: 'window', includeUncontrolled: true }).then(list => {
-      for (const c of list) {
-        if ('focus' in c) {
-          if (tab) c.postMessage({ type: 'navigate', tab });
-          if ('navigate' in c) { try { c.navigate(target); } catch {} }
-          return c.focus();
-        }
+  e.waitUntil((async () => {
+    if (tab) await stashTab(tab);          // must happen before anything focuses
+    const list = await clients.matchAll({ type: 'window', includeUncontrolled: true });
+    for (const c of list) {
+      if ('focus' in c) {
+        if (tab) c.postMessage({ type: 'navigate', tab });
+        if ('navigate' in c) { try { await c.navigate(target); } catch {} }
+        return c.focus();
       }
-      return clients.openWindow(target);
-    })
-  );
+    }
+    return clients.openWindow(target);
+  })());
 });

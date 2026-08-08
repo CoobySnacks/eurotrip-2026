@@ -336,9 +336,10 @@ const App = (() => {
    * The parameter is stripped afterwards so a later refresh doesn't pin the
    * app to whatever tab a three-day-old notification pointed at.
    */
+  const VALID_TABS = ['today','trip','vienna','copenhagen','amsterdam','london',
+                      'concert','bookings','money','checklists','questions'];
+
   function startTab() {
-    const VALID = ['today','trip','vienna','copenhagen','amsterdam','london',
-                   'concert','bookings','money','checklists','questions'];
     let want = null;
     try {
       want = new URLSearchParams(location.search).get('tab');
@@ -346,7 +347,30 @@ const App = (() => {
         history.replaceState(null, '', location.pathname + location.hash);
       }
     } catch {}
-    return VALID.includes(want) ? want : 'today';
+    return VALID_TABS.includes(want) ? want : null;
+  }
+
+  /**
+   * The tab a tapped notification asked for, left by the service worker.
+   *
+   * iOS relaunches an installed PWA at its start_url and discards the
+   * notification's URL, so ?tab= never survives a cold start — verified on
+   * a real phone, twice. The worker writes the target into the Cache API
+   * instead, which does survive, and we read it here.
+   *
+   * Two-minute window: long enough for a slow relaunch, short enough that a
+   * notification tapped last night can't hijack this morning's open.
+   */
+  async function pendingTab() {
+    try {
+      const c = await caches.open('eurotrip-nav');
+      const r = await c.match('/__pending');
+      if (!r) return null;
+      const { tab, at } = await r.json();
+      await c.delete('/__pending');
+      if (!at || Date.now() - at > 120000) return null;
+      return VALID_TABS.includes(tab) ? tab : null;
+    } catch { return null; }
   }
 
   /* ══════════════ BOOT ══════════════ */
@@ -367,7 +391,8 @@ const App = (() => {
     if (!Store.getWho()) $('#whoGate').classList.remove('hidden');
     else { maybeShowInstall(); }
 
-    await go(startTab());
+    /* a tapped notification wins over the URL, which wins over the default */
+    await go((await pendingTab()) || startTab() || 'today');
     Push.init();
 
     /* roll the day over automatically while the app sits open */
