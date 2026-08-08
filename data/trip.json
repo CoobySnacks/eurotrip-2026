@@ -12,7 +12,7 @@
       "Grant"
     ],
     "organizer": "Coob",
-    "dataVersion": "2.2.0",
+    "dataVersion": "2.3.0",
     "lastUpdated": "2026-08-06",
     "questionsUnlockHour": 20,
     "fixedQuestions": [
@@ -253,23 +253,25 @@
     },
     {
       "cityKey": "copenhagen",
-      "label": "Copenhagen — NOT YET BOOKED",
-      "status": "tobook",
-      "cost": "est. 400–550 DKK per leg",
+      "label": "Copenhagen — Makhens Limousine & Concierge · Mercedes EQV",
+      "status": "confirmed",
+      "cost": "1,650 DKK round trip · about 550 DKK / $86 per person",
       "legs": [
         {
-          "when": "Sun Aug 30, on arrival",
-          "detail": "CPH → Vester Søgade 6",
+          "when": "Sun Aug 30, tracking SK1694 (lands 11:55 AM)",
+          "detail": "CPH → Scandic Copenhagen",
           "conf": null
         },
         {
-          "when": "Wed Sep 2, 9:30 AM",
-          "detail": "Scandic → CPH Terminal 3",
+          "when": "Wed Sep 2, 9:45 AM pickup",
+          "detail": "Scandic → CPH Airport · flight SK547",
           "conf": null
         }
       ],
-      "phone": "+45 35 35 35 35",
-      "note": "🔴 BOOK THIS. Call TAXA 4x35 (24/7) and ask for a ramp minibus — say \"kørestolstaxa, the wheelchair does NOT fold.\" Alternative: Copenhagen Services EQV at €150–165 fixed. ⚠️ If the Rolex is bought, the Sep 2 leg needs the Customs desk in Terminal 3 BEFORE check-in — build in 45–60 minutes."
+      "phone": "+45 4231 7204",
+      "note": "✅ Booked — Mercedes EQV, wheelchair accessible. Invoice pending.\n⚠️ If the Rolex is bought, the Sep 2 leg needs the Customs desk in Terminal 3 BEFORE check-in — build in 45–60 minutes.",
+      "email": "info@makhens.com",
+      "contact": "Zeinab Harz · makhens.com"
     },
     {
       "cityKey": "amsterdam",
@@ -1333,88 +1335,6 @@
       "igHandle": "@radissonbluamsterdamcitycenter",
       "note": "Breakfast included."
     },
-    "cafe-de-jaren": {
-      "name": "Café de Jaren",
-      "address": "Nieuwe Doelenstraat 20-22, 1012 CP Amsterdam",
-      "city": "Amsterdam",
-      "website": "https://cafedejaren.nl/en/",
-      "menu": "https://cafedejaren.nl/en/food/",
-      "instagram": "https://instagram.com/cafedejaren",
-      "igHandle": "@cafedejaren",
-      "outdoor": true,
-      "note": "a hundred yards from the hotel. Canal-side terrace — the reason to go."
-    },
-    "cannibale-royale": {
-      "name": "Cannibale Royale Handboogstraat",
-      "address": "Handboogstraat 17-19, 1012 XM Amsterdam",
-      "city": "Amsterdam",
-      "website": "https://cannibaleroyale.nl/locations/handboogstraat/",
-      "menu": "https://cannibaleroyale.nl/menus/",
-      "instagram": "https://instagram.com/cannibaleroyale",
-      "igHandle": "@cannibaleroyale",
-      "note": "Ribs and meat. Loud, dark, good.",
-      "orderCard": {
-        "title": "🍽 What to order",
-        "sections": [
-          {
-            "label": "Boxed on their own menu as the house item",
-            "items": [
-              {
-                "name": "Cannibale Royale's Favourite Ribs",
-                "price": "€24.50",
-                "desc": "Slow-roasted organic pork ribs, sweet sticky glaze.",
-                "must": true
-              }
-            ]
-          },
-          {
-            "label": "The rest",
-            "items": [
-              {
-                "name": "Short Rib",
-                "price": "€33.50",
-                "desc": "About 350g organic beef rib, house rub, chimichurri."
-              },
-              {
-                "name": "Le Modeste 250g",
-                "price": "€29.50",
-                "desc": "Chef's-choice flat iron, Uruguay. Add Sauce Royale €4 — rum-infused green pepper, that's the move."
-              },
-              {
-                "name": "Pork Belly 'n Pickle",
-                "price": "€15.50",
-                "desc": "Smoked belly strips with a Kesbeke pickle collab, 200g."
-              },
-              {
-                "name": "Cannibale's Bitterbal, 9 pcs",
-                "price": "€11.80",
-                "desc": "Beef, Dijon."
-              }
-            ]
-          },
-          {
-            "label": "Sides",
-            "items": [
-              {
-                "name": "Mac 'n cheese",
-                "price": "€6.50"
-              },
-              {
-                "name": "Mashed potatoes",
-                "price": "€6.90"
-              },
-              {
-                "name": "Fries",
-                "price": "€4.90"
-              }
-            ]
-          }
-        ],
-        "suggested": "Cheaper structure: Plateau de Cannibale for Two (€55) + one Ribs (€24.50) + fries feeds three for about €30pp",
-        "skip": "Chicken nachos €15.50, Le Wagyu €99 (needs 24h notice), Le Tomahawk €88.50 (you're paying for the bone). The menu prints a beer pairing per dish — follow it.",
-        "footer": "~€60–70pp with beers."
-      }
-    },
     "luminair": {
       "name": "LuminAir Rooftop",
       "address": "Oosterdoksstraat 4, 1011 DK Amsterdam",
@@ -1617,7 +1537,7 @@
           }
         ],
         "suggested": "Arrive right at 17:00, skip starters, order all three mains at once — 2× Beef Burger + 1× Pizza Shoarma",
-        "skip": "The Ossenhaas Steak (€38.50) — slowest ticket in the kitchen, steakhouse money in a stadium forecourt, and you had a far better steak at Loetje the night before. Same for the carpaccio; it eats clock. Tell the server you have a show — they run this every event night and will fire the table together.",
+        "skip": "The Ossenhaas Steak (€38.50) — slowest ticket in the kitchen, steakhouse money in a stadium forecourt, and you had a far better steak at Café-Restaurant Amsterdam the night before. Same for the carpaccio; it eats clock. Tell the server you have a show — they run this every event night and will fire the table together.",
         "warn": "The room fills in 20 minutes after 17:00. Walk-in only on event days.",
         "footer": "~€30–36pp with a beer."
       }
@@ -2538,69 +2458,6 @@
       "igHandle": "@bierfabriekamsterdam",
       "note": "3 min from the hotel. Own-brewed beer, self-pour tap tables at the table, free peanuts. Open til midnight."
     },
-    "loetje-centraal": {
-      "name": "Loetje Centraal",
-      "address": "Stationsplein 10, 1012 AB Amsterdam",
-      "city": "Amsterdam",
-      "website": "https://loetje.nl/en/locations/amsterdam-centraal",
-      "menu": "https://loetje.nl/en/locations/amsterdam-centraal",
-      "instagram": "https://instagram.com/loetje_restaurant",
-      "igHandle": "@loetje_restaurant",
-      "note": "The Amsterdam steak institution, est. 1926. Loud, casual, full of locals rather than tourists. Daily 10:00–22:30. 6 min from LuminAir — the best geography of any option. About a mile from the hotel.",
-      "orderCard": {
-        "title": "🍽 What to order",
-        "intro": "One dish is the reason this place has existed since 1926.",
-        "sections": [
-          {
-            "label": "The dish",
-            "items": [
-              {
-                "name": "Biefstuk van de haas (ossenhaas)",
-                "price": "€23.50 / €26.50 / €36.50",
-                "desc": "150g / 195g / 300g. Medium-rare, swimming in its own jus, with white bread to mop it up. That's it. That's the order.",
-                "must": true
-              }
-            ]
-          },
-          {
-            "label": "Variations on it",
-            "items": [
-              {
-                "name": "Ossenhaas 'Bali' with sambal",
-                "price": "€25.50–39.50"
-              },
-              {
-                "name": "'De Roode Waard'",
-                "price": "€28.50–41.50"
-              },
-              {
-                "name": "Kalfslever",
-                "price": "€21"
-              }
-            ]
-          },
-          {
-            "label": "If someone doesn't want steak",
-            "items": [
-              {
-                "name": "Loetje's hamburger",
-                "price": "€19.50"
-              },
-              {
-                "name": "Kipsaté",
-                "price": "€20"
-              },
-              {
-                "name": "Bitterballen",
-                "price": "",
-                "desc": "To start."
-              }
-            ]
-          }
-        ],
-        "footer": "About €35–50pp."
-      }
-    },
     "cafe-eik-en-linde": {
       "name": "Café Eik en Linde",
       "address": "Plantage Middenlaan 22A, 1018 DE Amsterdam",
@@ -2610,6 +2467,91 @@
       "instagram": "https://instagram.com/eikenlinde",
       "igHandle": "@eikenlinde",
       "note": "A genuine unreconstructed brown café — billiards, regulars, no concessions to tourism. Thu til 01:00. 300 yards from de Plantage, so pair them."
+    },
+    "cafe-restaurant-amsterdam": {
+      "name": "Café-Restaurant Amsterdam",
+      "address": "Watertorenplein 6, 1051 PA Amsterdam",
+      "city": "Amsterdam",
+      "website": "https://cradam.nl",
+      "menu": "https://cradam.nl",
+      "instagram": "https://instagram.com/caferestaurantamsterdam",
+      "igHandle": "@caferestaurantamsterdam",
+      "phone": "+31 20 682 2666",
+      "note": "The 1897 Haarlemmerweg pumping station. You eat in the old engine room — one of the original diesel engines still stands in it, and the hall is lit by 22 floodlights salvaged from the old Ajax stadium and the Olympic Stadium. Kitchen 17:00–22:00, open till midnight.",
+      "orderCard": {
+        "title": "🍽 What to order",
+        "intro": "The shellfish counter is the signature here — it has its own menu.",
+        "sections": [
+          {
+            "label": "The counter",
+            "items": [
+              {
+                "name": "Fines de Claires oysters",
+                "price": "€20.50",
+                "must": true
+              },
+              {
+                "name": "Fruits de mer plateau",
+                "price": "€49.50 for two",
+                "desc": "Large €98 · extra €115.75.",
+                "must": true
+              }
+            ]
+          },
+          {
+            "label": "The meat",
+            "items": [
+              {
+                "name": "Rib-eye béarnaise",
+                "price": "€25.00",
+                "desc": "The most-praised meat dish.",
+                "must": true
+              },
+              {
+                "name": "Steak tartare",
+                "price": "€22.50"
+              }
+            ]
+          },
+          {
+            "label": "Starters",
+            "items": [
+              {
+                "name": "Holtkamp shrimp croquettes",
+                "price": "€9.85"
+              },
+              {
+                "name": "Escargots",
+                "price": "€10.50"
+              },
+              {
+                "name": "Carpaccio",
+                "price": "€12.90"
+              },
+              {
+                "name": "Vitello tonnato",
+                "price": "€11.60"
+              },
+              {
+                "name": "Truffle pasta",
+                "price": "€22"
+              }
+            ]
+          },
+          {
+            "label": "Dessert",
+            "items": [
+              {
+                "name": "Sticky toffee pudding",
+                "price": "€9.75",
+                "desc": "The one everyone names."
+              }
+            ]
+          }
+        ],
+        "skip": "Artichokes are currently off the menu — don't go looking for them.",
+        "footer": "Kitchen 17:00–22:00. Open till midnight."
+      }
     }
   },
   "days": [
@@ -3373,11 +3315,12 @@
           "critical": true
         },
         {
-          "time": "09:30",
+          "time": "09:45",
           "type": "transfer",
-          "title": "Transfer → CPH",
-          "desc": "TAXA 4x35 / Copenhagen Services — update when confirmed.",
-          "warn": "🔴 Not yet confirmed."
+          "title": "Makhens EQV → CPH Airport",
+          "desc": "Mercedes EQV, pickup 9:45 AM from the Scandic. Flight SK547.",
+          "warn": "🔴 Not yet confirmed.",
+          "conf": "Makhens Limousine & Concierge"
         },
         {
           "time": "12:40",
@@ -3403,22 +3346,16 @@
         {
           "time": "17:00",
           "type": "drinks",
-          "title": "Drinks · Café de Jaren",
-          "venue": "cafe-de-jaren",
-          "desc": "a hundred yards from the hotel. Canal-side terrace — that's the whole point.",
-          "outdoor": true
+          "title": "Drinks · TBD",
+          "desc": "Replacement picked, not yet phoned through. Coming in the next update.",
+          "warn": "Café de Jaren is cut — asked directly about access and they replied \"No, we do not.\""
         },
         {
           "time": "18:30",
           "type": "meal",
-          "title": "Dinner · Cannibale Royale",
-          "venue": "cannibale-royale",
-          "desc": "Ribs and meat. Handboogstraat location.",
-          "res": {
-            "conf": "CONFIRMED",
-            "party": 3,
-            "time": "18:30"
-          }
+          "title": "Dinner · TBD",
+          "desc": "Replacement picked, not yet phoned through. Coming in the next update.",
+          "warn": "Cannibale Royale is cut — the toilets are downstairs and reachable only by stairs, and the Rozengracht branch has three steps down at the entrance."
         },
         {
           "time": "21:00",
@@ -3426,7 +3363,7 @@
           "title": "Café Hoppe",
           "venue": "cafe-hoppe",
           "desc": "Brown café since 1670. Always packed, spills out onto the street. 4 min from dinner, 6 min from the hotel. Open til 01:00, walk in.",
-          "note": "LuminAir moves to Thursday — it was double-booked across two nights."
+          "note": "Calling ahead to confirm access — this one may still be replaced."
         }
       ],
       "questions": {
@@ -3506,11 +3443,16 @@
         {
           "time": "19:00",
           "type": "meal",
-          "title": "Dinner · Loetje Centraal",
-          "venue": "loetje-centraal",
-          "desc": "The Amsterdam steak institution since 1926 — loud, casual, locals not tourists. 6 minutes from LuminAir, so the night flows straight on from dinner.",
-          "warn": "Their online system won't take a booking. Loetje takes walk-ins and only *recommends* reserving — turn up at 7, or phone the day before.",
-          "note": "Replaces Restaurant BLACK, which emailed Aug 7: the restaurant is accessible but the toilet is upstairs and is not.",
+          "title": "Dinner · Café-Restaurant Amsterdam",
+          "venue": "cafe-restaurant-amsterdam",
+          "desc": "The 1897 Haarlemmerweg pumping station. You eat in the old engine room — one of the original diesel engines is still standing in it, under 22 floodlights salvaged from the old Ajax stadium and the Olympic Stadium.",
+          "res": {
+            "conf": "CONFIRMED",
+            "party": 3,
+            "time": "19:00",
+            "note": "Booked under Jacob Talavera."
+          },
+          "warn": "🚋 THE ONLY DINNER THAT ISN'T WALKABLE — about 3 miles out in Westerpark. Plan the journey.\nTHERE: Tram 5 → Van Hallstraat, then a 4-minute walk. About 30 min door to door.\nBACK: Tram 5 runs until 00:48 and goes straight to Elandsgracht, Rozengracht and Leidseplein with no transfer — the right direction if the night continues. Night bus N88 hourly after that (01:51, 02:51, 03:51). Taxi €18–28, about 12 minutes.",
           "highlight": true
         },
         {
@@ -3565,8 +3507,8 @@
             "a": "Dutch victims of the Second World War. Unveiled in 1956."
           },
           {
-            "q": "Loetje has been serving essentially the same steak since what year?",
-            "a": "1926. One dish, a hundred years, and they still won't take your booking online."
+            "q": "Tonight's dining room used to be what, and what's still standing in it?",
+            "a": "The 1897 Haarlemmerweg water-pumping station. One of the original diesel engines is still in the room, lit by 22 floodlights salvaged from the old Ajax stadium and the Olympic Stadium."
           },
           {
             "q": "What are those hooks sticking out of the top of Amsterdam's canal houses for?",
@@ -3576,7 +3518,7 @@
         "discussion": [
           "Rank all three cities right now. Then argue about it.",
           "Best thing you saw today that wasn't on the itinerary.",
-          "Does the steak at Loetje crack the top three meals of this trip?",
+          "Best room we've eaten in so far — does tonight take it?",
           "Who's taken the best photo of the trip? Phones out, settle it.",
           "Most touristy shit you've secretly loved so far."
         ]
@@ -4163,8 +4105,8 @@
           ]
         },
         "round2": {
-          "estimateLow": 1026,
-          "estimateHigh": 1042,
+          "estimateLow": 1070,
+          "estimateHigh": 1070,
           "items": [
             {
               "label": "Vienna hotel balance",
@@ -4207,11 +4149,10 @@
               "statusNote": "booking in progress"
             },
             {
-              "label": "Copenhagen transfers ×2 (TAXA 4x35)",
-              "amountLow": 42,
-              "amountHigh": 58,
-              "status": "tobook",
-              "statusNote": "not booked yet"
+              "label": "Copenhagen transfers ×2 (Makhens EQV)",
+              "status": "inprogress",
+              "statusNote": "booked · invoice pending",
+              "amount": 86.0
             },
             {
               "label": "Westminster Abbey ticket",
@@ -4256,8 +4197,8 @@
           ]
         },
         "round2": {
-          "estimateLow": 1450,
-          "estimateHigh": 1466,
+          "estimateLow": 1494,
+          "estimateHigh": 1494,
           "items": [
             {
               "label": "Vienna hotel balance",
@@ -4300,11 +4241,10 @@
               "statusNote": "booking in progress"
             },
             {
-              "label": "Copenhagen transfers ×2 (TAXA 4x35)",
-              "amountLow": 42,
-              "amountHigh": 58,
-              "status": "tobook",
-              "statusNote": "not booked yet"
+              "label": "Copenhagen transfers ×2 (Makhens EQV)",
+              "status": "inprogress",
+              "statusNote": "booked · invoice pending",
+              "amount": 86.0
             },
             {
               "label": "Westminster Abbey ticket",
@@ -4333,9 +4273,9 @@
         "detail": "Mercedes V-Class both ways. £185.40 inc VAT per leg, £370.80 round trip ÷ 3."
       },
       {
-        "label": "Copenhagen transfers (TAXA 4x35, both legs)",
-        "status": "tobook",
-        "detail": "TAXA 4x35 ramp minibus. Est. 400–550 DKK per leg, roughly 800–1,100 DKK total."
+        "label": "Copenhagen transfers (Makhens EQV, both legs)",
+        "status": "inprogress",
+        "detail": "Booked. 1,650 DKK round trip, about 550 DKK / $86 per person. Invoice pending."
       },
       {
         "label": "Vienna hotel balance",
@@ -4628,8 +4568,9 @@
         },
         {
           "city": "Amsterdam",
-          "venue": "Cannibale Royale",
-          "pp": "€60–70"
+          "venue": "Wed Sep 2 drinks + dinner",
+          "pp": "TBD",
+          "extra": "Replacements being confirmed"
         },
         {
           "city": "Amsterdam",
@@ -4643,8 +4584,8 @@
         },
         {
           "city": "Amsterdam",
-          "venue": "Loetje Centraal",
-          "pp": "€35–50"
+          "venue": "Café-Restaurant Amsterdam",
+          "pp": "€45–60"
         },
         {
           "city": "Amsterdam",

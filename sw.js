@@ -6,7 +6,7 @@
    · receives push and opens the Questions tab
    ══════════════════════════════════════════════════════════ */
 
-const CACHE = 'eurotrip-v11';
+const CACHE = 'eurotrip-v12';
 const SHELL = [
   './', './index.html', './css/style.css',
   './js/store.js', './js/time.js', './js/weather.js',
