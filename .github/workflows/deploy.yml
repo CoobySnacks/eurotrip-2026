@@ -86,6 +86,25 @@ jobs:
               if t.get('status') in ('paid', 'confirmed') and STALE.search(text):
                   errs.append(f"transfer '{t.get('label')}' is {t['status']} but reads as unconfirmed")
 
+          # The check above only fires when a block carries a confirmation, which
+          # missed a real case: the Sep 5 arrival still said "booking in progress"
+          # after London was confirmed, because that block has no conf field.
+          # So: if every transfer is settled, no transfer block anywhere may read
+          # as unbooked. A pending *time change* is fine — the ride still exists.
+          UNBOOKED = re.compile(
+              r'booking in progress|not booked|not yet confirmed|rebooking'
+              r'|confirmation number pending', re.I)
+          if all(t.get('status') in ('paid', 'confirmed') for t in D.get('transfers', [])):
+              for day in D['days']:
+                  for b in day['blocks']:
+                      if b.get('type') != 'transfer':
+                          continue
+                      text = ' '.join(str(b.get(k, '')) for k in ('title', 'desc', 'note', 'warn'))
+                      if UNBOOKED.search(text):
+                          errs.append(
+                              f"{day['date']} {b.get('time')}: transfer block reads as unbooked, "
+                              f"but every transfer is settled")
+
           # Venues that were dropped must be INVISIBLE — not struck through, not
           # explained. The site is the plan, not a changelog of what got cut.
           # These kept reappearing in backup lists and stray notes, so CI blocks them.

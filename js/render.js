@@ -576,6 +576,23 @@ const R = (() => {
       </div>`;
     });
 
+    /* one glanceable table of every airport ride, before the detail cards */
+    const tt = D.reference.transferTimes;
+    if (tt) {
+      h += `<div class="sec-title">⏱ ${esc(tt.title)}</div><div class="card">`;
+      h += `<div class="blk-desc" style="margin-bottom:10px">${esc(tt.note)}</div>`;
+      tt.rows.forEach(r => {
+        const chip = { paid: 'chip paid', inprogress: 'chip inprogress', tobook: 'chip tobook' }[r.status] || 'chip pending';
+        h += `<div class="bk-row" style="align-items:flex-start">
+          <span class="bk-k" style="flex:0 0 78px">${esc(r.when)}</span>
+          <span class="bk-v" style="flex:1;text-align:left">${esc(r.leg)}
+            <span class="${chip}">${esc(r.chip)}</span></span>
+          <span class="bk-v mono" style="flex:0 0 auto">${esc(r.time)}</span>
+        </div>`;
+      });
+      h += `</div>`;
+    }
+
     h += `<div class="sec-title">🚐 Ground transfers</div>`;
     const chip = s => ({ paid:'<span class="chip paid">✅ paid</span>',
                          inprogress:'<span class="chip inprogress">🟡 in progress</span>',

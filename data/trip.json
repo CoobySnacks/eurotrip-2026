@@ -12,7 +12,7 @@
       "Grant"
     ],
     "organizer": "Coob",
-    "dataVersion": "2.5.1",
+    "dataVersion": "2.6.0",
     "lastUpdated": "2026-08-06",
     "questionsUnlockHour": 20,
     "fixedQuestions": [
@@ -242,14 +242,14 @@
           "conf": "AVBO53170"
         },
         {
-          "when": "Sun Aug 30, 7:00 AM pickup",
+          "when": "Sun Aug 30, 7:30 AM pickup (change requested)",
           "detail": "SO/ Vienna → VIE",
           "conf": "AZBO50842"
         }
       ],
       "email": "office@airportdriver.at",
       "contact": "Adeline Sharma",
-      "note": "✅ Van confirmed Aug 6 for the non-folding wheelchair."
+      "note": "✅ Van confirmed Aug 6 for the non-folding wheelchair.\n🟡 Pickup move 7:00 → 7:30 requested. The 7:00 booking stands until they reply."
     },
     {
       "cityKey": "copenhagen",
@@ -285,14 +285,14 @@
           "conf": "Order 8992296"
         },
         {
-          "when": "Sat Sep 5, 11:45 AM pickup",
+          "when": "Sat Sep 5, 11:15 AM pickup",
           "detail": "Radisson Blu → Schiphol · same spec",
           "conf": "Order 8992297"
         }
       ],
       "phone": "+31 38 339 47 68",
       "email": "sttintake@connexxion.nl",
-      "note": "✅ Both legs paid. \"Wheelchair: 1\" is an explicit field on both confirmations, and the rigid non-folding chair plus 5 bags are in the driver remarks."
+      "note": "✅ Both legs paid. Departure reissued Aug 8 at 11:15. \"Wheelchair: 1\" is an explicit field on both confirmations, and the driver remark spells out the non-folding chair and 5 bags."
     },
     {
       "cityKey": "london",
@@ -306,14 +306,14 @@
           "conf": null
         },
         {
-          "when": "Tue Sep 8, 7:00 AM from the hotel",
+          "when": "Tue Sep 8, 6:30 AM from the hotel (change requested)",
           "detail": "The May Fair → LHR, arriving about 08:00",
           "conf": null
         }
       ],
       "phone": "+44 (0)20 7769 3005",
       "email": "concierge@themayfairhotel.co.uk",
-      "note": "✅ Confirmed. Charged to the room account — nothing to pay up front.\n⚠️ Cancelling inside 24 hours incurs the full charge.\n£157.50 a leg beat the previous chauffeur quote of £185.40 — £55.80 cheaper on the round trip, and no payment link to chase."
+      "note": "✅ Confirmed. Charged to the room account — nothing to pay up front.\n🟡 Pickup move 7:00 → 6:30 requested with the concierge.\n⚠️ Cancelling inside 24 hours incurs the full charge.\n£157.50 a leg beat the previous chauffeur quote of £185.40 — £55.80 cheaper on the round trip, and no payment link to chase."
     }
   ],
   "venues": {
@@ -2629,12 +2629,13 @@
       "locked": true,
       "blocks": [
         {
-          "time": "17:00",
-          "type": "travel",
-          "title": "Leave for DFW",
+          "time": "16:15",
+          "type": "transfer",
+          "title": "Driver → DFW Terminal D",
           "venue": "dfw-terminal-d",
-          "desc": "Terminal D. Do not cut this close — international check-in and security eat time.",
-          "leaveBy": true
+          "desc": "Booked for 4:15 PM. Puts you at Terminal D around 5:00 — about 1h50 before boarding. BA 192 is an A380 and boards around 6:50 PM.",
+          "leaveBy": true,
+          "conf": "Driver booked"
         },
         {
           "time": "17:45",
@@ -3038,13 +3039,14 @@
       "locked": false,
       "blocks": [
         {
-          "time": "07:00",
+          "time": "07:30",
           "type": "transfer",
           "title": "Airport Driver → VIE",
-          "desc": "Prepaid. Confirmation AZBO50842. Be in the lobby at 6:50.",
+          "desc": "Prepaid, Order AZBO50842. A 7:30 pickup reaches VIE around 7:55 — about 1h50 before boarding, and half an hour more sleep.",
           "conf": "AZBO50842",
           "leaveBy": true,
-          "critical": true
+          "critical": true,
+          "warn": "🟡 Time change requested: 7:00 → 7:30. Until Airport Driver replies, treat 7:00 as the one that stands — be in the lobby at 6:50 and you're fine either way."
         },
         {
           "time": "10:15",
@@ -3642,13 +3644,14 @@
           "venue": null
         },
         {
-          "time": "17:15",
+          "time": "17:00",
           "type": "meal",
           "title": "Early dinner · BLVD020",
           "venue": "blvd020",
-          "desc": "Head for the metro around 5. You'll land somewhere between 5:15 and 5:30 — doesn't matter. The point is getting a table before the concert crowd does.",
+          "desc": "Walk-in only on event days, no reservations. Leave the hotel 4:20, Metro 54 from Nieuwmarkt 4:35, arrive Bijlmer ArenA 4:55, then a 2-minute walk. Sitting down at 5 means you eat properly and are done long before the 6:00 crush.",
           "warn": "WALK-IN ONLY on event days. No reservations. Be there by 5 to beat the rush.",
-          "alertLead": 30
+          "alertLead": 40,
+          "note": "Eat here — the venue only sells snacks."
         },
         {
           "time": "18:30",
@@ -3719,12 +3722,13 @@
       "locked": false,
       "blocks": [
         {
-          "time": "11:45",
+          "time": "11:15",
           "type": "transfer",
           "title": "Schiphol Travel Taxi → Schiphol",
-          "desc": "Order 8992297. PAID IN FULL. Pickup 11:45 AM from the Radisson Blu.",
-          "conf": "8992297",
-          "leaveBy": true
+          "desc": "Order 8992297, paid in full. Business Bus, 3 passengers, 5 check-in bags, Wheelchair: 1, cancellation service included. BA 435 is tracked and boards around 1:45 PM, so you're at Schiphol about 2 hours before boarding.",
+          "conf": "Order 8992297",
+          "leaveBy": true,
+          "note": "Driver remark on the booking: \"we have a group of 3. One man in a non folding wheelchair. Need to make sure there is room for the wheelchair and maybe 5 pieces of luggage.\""
         },
         {
           "time": "14:20",
@@ -3739,7 +3743,7 @@
           "type": "transfer",
           "title": "May Fair concierge V-Class → The May Fair",
           "desc": "Mercedes V-Class, pickup 14:45 for flight BA435. The chauffeur meets you in the arrivals hall holding a tablet with your name. One hour of complimentary waiting after landing, then £70/hr.",
-          "warn": "🟡 Booking in progress — confirmation number pending. Check Bookings tab."
+          "note": "Charged to the room account — nothing to pay the driver."
         },
         {
           "time": "15:45",
@@ -4074,12 +4078,13 @@
       "locked": true,
       "blocks": [
         {
-          "time": "07:00",
+          "time": "06:30",
           "type": "transfer",
           "title": "May Fair concierge V-Class → Heathrow T3",
-          "desc": "Mercedes V-Class, 7:00 AM from the hotel, arriving LHR around 08:00. Be in the lobby at 6:50.",
+          "desc": "Mercedes V-Class. The concierge reckons an hour to Heathrow at that time, so 6:30 puts you there about 7:30 — 1h50 before BA 1590 boards at 9:20.",
           "leaveBy": true,
-          "critical": true
+          "critical": true,
+          "warn": "🟡 Time change requested: 7:00 → 6:30. Brutal start — last night in Soho ends early, the car comes at 6:30."
         },
         {
           "time": "10:05",
@@ -4703,6 +4708,47 @@
           "pp": "£75–95"
         }
       ]
+    },
+    "transferTimes": {
+      "title": "Every airport ride, checked against boarding",
+      "note": "Each pickup was set from when boarding starts, not when the plane departs. Two are waiting on a reply; until then the original time stands.",
+      "rows": [
+        {
+          "when": "Wed Aug 26",
+          "leg": "Home → DFW",
+          "time": "4:15 PM",
+          "status": "paid",
+          "chip": "driver booked"
+        },
+        {
+          "when": "Sun Aug 30",
+          "leg": "SO/Vienna → VIE",
+          "time": "7:30 AM",
+          "status": "inprogress",
+          "chip": "change requested"
+        },
+        {
+          "when": "Wed Sep 2",
+          "leg": "Scandic → CPH",
+          "time": "9:45 AM",
+          "status": "paid",
+          "chip": "paid, unchanged"
+        },
+        {
+          "when": "Sat Sep 5",
+          "leg": "Radisson → Schiphol",
+          "time": "11:15 AM",
+          "status": "paid",
+          "chip": "change confirmed"
+        },
+        {
+          "when": "Tue Sep 8",
+          "leg": "May Fair → LHR T3",
+          "time": "6:30 AM",
+          "status": "inprogress",
+          "chip": "change requested"
+        }
+      ]
     }
   },
   "concertNight": {
@@ -4715,20 +4761,20 @@
     },
     "timeline": [
       {
-        "time": "~4:45 PM",
+        "time": "4:20 PM",
         "what": "Leave the hotel"
       },
       {
-        "time": "~5:00 PM",
+        "time": "4:35 PM",
         "what": "Metro from Nieuwmarkt"
       },
       {
-        "time": "~5:20 PM",
+        "time": "4:55 PM",
         "what": "Arrive Bijlmer ArenA"
       },
       {
-        "time": "5:15–5:30",
-        "what": "Dinner at BLVD020 — get a table"
+        "time": "5:00 PM",
+        "what": "Dinner at BLVD020"
       },
       {
         "time": "6:30 PM",
@@ -4792,11 +4838,11 @@
         "lines": [
           "Exit the station following signs for ArenAPoort / Johan Cruijff Boulevard.",
           "You come out on a wide flat pedestrian boulevard — stadium on one side, restaurants on the other. Impossible to get lost.",
-          "BLVD020 is on that strip, number 139. Anywhere between 5:15 and 5:30 is fine — you just want a table before the rush."
+          "BLVD020 is on that strip, number 139."
         ],
         "alert": {
           "title": "NO RESERVATIONS ON EVENT NIGHTS",
-          "body": "Walk-in only. That's why you're there at 5:25 — by 6:00 it's full of the concert crowd.\n\nBurgers, casual food, beers. About €20–30 each. If it's rammed, the same boulevard has a row of other restaurants.\n\nEat something — the venue only sells snacks."
+          "body": "Walk-in only. That's why you're there at 5:00 — you get a seat, eat properly, and are done before the 6:00 crush.\n\nBurgers, casual food, beers. About €20–30 each. If it's rammed, the same boulevard has a row of other restaurants.\n\nEat something — the venue only sells snacks."
         }
       },
       {
