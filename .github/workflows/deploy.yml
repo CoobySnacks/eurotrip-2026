@@ -62,6 +62,30 @@ jobs:
                   if not re.fullmatch(r'\d{2}:\d{2}', b.get('time', '')):
                       errs.append(f"{day['date']}: bad time '{b.get('time')}' on '{b.get('title')}'")
 
+          # A card must not claim a confirmation and also read as unconfirmed.
+          # This happened for real: the Sep 2 Makhens transfer kept a stale
+          # "Not yet confirmed" warning after the booking came through, so the
+          # card showed a confirmation number directly above a red 🔴.
+          STALE = re.compile(
+              r'not yet|not booked|rebooking|to be confirmed|not confirmed'
+              r'|awaiting|booking in progress', re.I)
+
+          for day in D['days']:
+              for b in day['blocks']:
+                  text = ' '.join(str(b.get(k, '')) for k in ('title', 'desc', 'note', 'warn'))
+                  if (b.get('conf') or b.get('res')) and STALE.search(text):
+                      errs.append(
+                          f"{day['date']} {b.get('time')}: '{b.get('title')}' has a confirmation "
+                          f"but still reads as unconfirmed — clear the stale warning")
+                  if 'TBD' in str(b.get('title', '')) and (b.get('conf') or b.get('res')):
+                      errs.append(
+                          f"{day['date']} {b.get('time')}: marked TBD but carries a confirmation")
+
+          for t in D.get('transfers', []):
+              text = ' '.join(str(t.get(k, '')) for k in ('label', 'cost', 'note'))
+              if t.get('status') in ('paid', 'confirmed') and STALE.search(text):
+                  errs.append(f"transfer '{t.get('label')}' is {t['status']} but reads as unconfirmed")
+
           if errs:
               print('❌ trip.json validation failed:')
               for e in errs:
