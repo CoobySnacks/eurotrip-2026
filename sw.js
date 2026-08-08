@@ -6,12 +6,12 @@
    · receives push and opens the Questions tab
    ══════════════════════════════════════════════════════════ */
 
-const CACHE = 'eurotrip-v21';
+const CACHE = 'eurotrip-v22';
 const SHELL = [
   './', './index.html', './css/style.css',
   './js/store.js', './js/time.js', './js/weather.js',
   './js/render.js', './js/push.js', './js/app.js',
-  './manifest.json', './icons/icon-192.png', './icons/icon-512.png',
+  './data/weather.json', './manifest.json', './icons/icon-192.png', './icons/icon-512.png',
   './assets/logo.png', './assets/crew.jpg'
 ];
 
@@ -82,10 +82,22 @@ self.addEventListener('push', e => {
 self.addEventListener('notificationclick', e => {
   e.notification.close();
   const target = e.notification.data?.url || './index.html?tab=questions';
+
+  /* Which tab the notification wants, so an ALREADY-OPEN app can be told
+     directly. Focusing an existing window doesn't re-run boot(), so the
+     ?tab= parameter alone isn't enough — without the postMessage below, a
+     tap while the app is open lands on whatever tab was last viewed. */
+  let tab = null;
+  try { tab = new URL(target, self.location.href).searchParams.get('tab'); } catch {}
+
   e.waitUntil(
     clients.matchAll({ type: 'window', includeUncontrolled: true }).then(list => {
       for (const c of list) {
-        if ('focus' in c) { c.navigate(target); return c.focus(); }
+        if ('focus' in c) {
+          if (tab) c.postMessage({ type: 'navigate', tab });
+          if ('navigate' in c) { try { c.navigate(target); } catch {} }
+          return c.focus();
+        }
       }
       return clients.openWindow(target);
     })

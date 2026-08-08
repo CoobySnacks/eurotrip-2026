@@ -275,6 +275,15 @@ const App = (() => {
     document.addEventListener('visibilitychange', () => {
       if (!document.hidden) go(tab, { keepScroll: true });
     });
+
+    /* the service worker tells us where a tapped notification wanted to go,
+       for the case where the app was already open and never re-booted */
+    navigator.serviceWorker?.addEventListener('message', e => {
+      if (e.data?.type === 'navigate' && e.data.tab) {
+        qDate = null;
+        go(e.data.tab);
+      }
+    });
   }
 
   function paintWho() {
@@ -319,6 +328,27 @@ const App = (() => {
     if (standalone) $('#notifBtn').classList.remove('hidden');
   }
 
+  /**
+   * Where to open. Notifications deep-link with ?tab=questions — without this
+   * the nightly push lands everyone on the countdown and they have to go
+   * hunting for the game.
+   *
+   * The parameter is stripped afterwards so a later refresh doesn't pin the
+   * app to whatever tab a three-day-old notification pointed at.
+   */
+  function startTab() {
+    const VALID = ['today','trip','vienna','copenhagen','amsterdam','london',
+                   'concert','bookings','money','checklists','questions'];
+    let want = null;
+    try {
+      want = new URLSearchParams(location.search).get('tab');
+      if (want && location.search) {
+        history.replaceState(null, '', location.pathname + location.hash);
+      }
+    } catch {}
+    return VALID.includes(want) ? want : 'today';
+  }
+
   /* ══════════════ BOOT ══════════════ */
   async function boot() {
     try {
@@ -337,7 +367,7 @@ const App = (() => {
     if (!Store.getWho()) $('#whoGate').classList.remove('hidden');
     else { maybeShowInstall(); }
 
-    await go('today');
+    await go(startTab());
     Push.init();
 
     /* roll the day over automatically while the app sits open */

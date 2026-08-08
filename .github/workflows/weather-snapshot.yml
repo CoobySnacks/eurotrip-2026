@@ -1,0 +1,43 @@
+name: Weather snapshot
+
+# Freezes the forecast into data/weather.json once a day so the app has real
+# numbers with no signal — on the plane, on the metro, wherever roaming drops.
+#
+# Unlike the notification jobs, GitHub's unreliable cron is fine here: a
+# snapshot arriving a few hours late is still a snapshot, and the app prefers
+# live data whenever it has a connection. That is why this one keeps a
+# schedule while the push workflows do not.
+#
+# Trip dates only enter Open-Meteo's 16-day window on Aug 10, so runs before
+# then write an empty-but-valid file on purpose.
+
+on:
+  schedule:
+    - cron: '17 5 * * *'      # 05:17 UTC daily, off the hour to dodge the rush
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - run: python scripts/snapshot_weather.py
+
+      - name: Commit if the forecast moved
+        run: |
+          if git diff --quiet -- data/weather.json; then
+            echo "forecast unchanged — nothing to commit"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/weather.json
+          git commit -m "Weather snapshot $(date -u +%Y-%m-%d)"
+          git push

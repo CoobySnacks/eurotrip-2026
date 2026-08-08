@@ -41,7 +41,8 @@ css/style.css           all styling (dark, phone-first, city accent via --c)
 data/trip.json          ← EVERYTHING. The single source of truth.
 js/store.js             localStorage: identity, checkboxes, weather cache
 js/time.js              timezone engine (see "The 4 AM rule" below)
-js/weather.js           Open-Meteo client, 1-hour cache, fails soft
+js/weather.js           Open-Meteo client, 1-hour cache, falls back to data/weather.json
+data/weather.json       daily forecast snapshot — the offline fallback, written by CI
 js/render.js            pure render functions — data in, HTML string out
 js/push.js              service worker registration + push subscription
 js/app.js               boot, routing, countdown ticker, event delegation

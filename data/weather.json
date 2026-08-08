@@ -1,0 +1,27 @@
+{
+ "generated": "2026-08-08T20:39:37+00:00",
+ "source": "open-meteo.com",
+ "note": "Offline fallback. The app prefers live data whenever it has signal.",
+ "cities": {
+  "dallas": {
+   "daily": {},
+   "hourly": {}
+  },
+  "vienna": {
+   "daily": {},
+   "hourly": {}
+  },
+  "copenhagen": {
+   "daily": {},
+   "hourly": {}
+  },
+  "amsterdam": {
+   "daily": {},
+   "hourly": {}
+  },
+  "london": {
+   "daily": {},
+   "hourly": {}
+  }
+ }
+}

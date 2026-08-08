@@ -30,6 +30,29 @@ const WX = (() => {
     return days >= -1 && days <= 15;
   }
 
+  /* ---------- offline snapshot ----------
+     data/weather.json is written into the repo by a daily job. It exists for
+     the plane, the metro and dead-zone roaming — the moments someone actually
+     opens the app to decide about a jacket. Live data still wins when there's
+     signal; this only catches the fall. */
+  let snapPromise = null;
+  function loadSnapshot() {
+    if (!snapPromise) {
+      snapPromise = fetch('data/weather.json')
+        .then(r => (r.ok ? r.json() : null))
+        .catch(() => null);
+    }
+    return snapPromise;
+  }
+
+  /** Snapshot payloads are tagged so hoursFor/dayFor know which shape they hold. */
+  async function snapshotFor(cityKey) {
+    const s = await loadSnapshot();
+    const c = s?.cities?.[cityKey];
+    if (!c || !Object.keys(c.daily || {}).length) return null;
+    return { __snapshot: true, generated: s.generated, daily: c.daily, hourly: c.hourly };
+  }
+
   /**
    * Fetch forecast for a city. Returns null on failure (caller falls back).
    * @param {object} city  city object from trip.json
@@ -56,8 +79,8 @@ const WX = (() => {
       Store.setWx(city.key, d);
       return d;
     } catch (e) {
-      console.warn('[wx] fetch failed for', city.key, e.message);
-      return null;
+      console.warn('[wx] live fetch failed for', city.key, e.message, '— trying snapshot');
+      return await snapshotFor(city.key);
     }
   }
 
@@ -66,6 +89,11 @@ const WX = (() => {
    * @returns {Array<{time,temp,pop,code}>}
    */
   function hoursFor(data, dateStr) {
+    if (data?.__snapshot) {
+      return (data.hourly?.[dateStr] || []).map(x => ({
+        time: x.t, hour: +x.t.slice(0, 2), temp: x.temp, pop: x.pop, wind: x.wind, code: x.code
+      }));
+    }
     if (!data?.hourly?.time) return [];
     const out = [];
     data.hourly.time.forEach((t, i) => {
@@ -86,6 +114,10 @@ const WX = (() => {
 
   /** Daily summary for one date, or null if outside the window. */
   function dayFor(data, dateStr) {
+    if (data?.__snapshot) {
+      const d = data.daily?.[dateStr];
+      return d ? { date: dateStr, ...d } : null;
+    }
     if (!data?.daily?.time) return null;
     const i = data.daily.time.indexOf(dateStr);
     if (i === -1) return null;
@@ -134,5 +166,5 @@ const WX = (() => {
   }
 
   return { fetchCity, hoursFor, dayFor, outlook, rainFlag, dayRainRisk,
-           icon, label, inForecastWindow };
+           icon, label, inForecastWindow, loadSnapshot, snapshotFor };
 })();
