@@ -12,7 +12,7 @@
       "Grant"
     ],
     "organizer": "Coob",
-    "dataVersion": "2.7.1",
+    "dataVersion": "2.8.0",
     "lastUpdated": "2026-08-06",
     "questionsUnlockHour": 20,
     "fixedQuestions": [
@@ -1699,16 +1699,6 @@
       "igHandle": "@devonshiresoho",
       "note": "WALK-IN ONLY. Expect a queue — it's a Premier League Saturday. Worth it."
     },
-    "three-greyhounds": {
-      "name": "The Three Greyhounds",
-      "address": "25 Greek Street, London W1D 5DD",
-      "city": "London",
-      "website": "https://www.nicholsonspubs.co.uk/restaurants/london/thethreegreyhoundssoholondon",
-      "menu": "https://www.nicholsonspubs.co.uk/restaurants/london/thethreegreyhoundssoholondon/menus",
-      "instagram": null,
-      "igHandle": null,
-      "note": "Optional second stop. Best Guinness in Soho, mock-Tudor room from 1847."
-    },
     "the-wolseley": {
       "name": "The Wolseley",
       "address": "160 Piccadilly, London W1J 9EB",
@@ -1856,26 +1846,6 @@
         "skip": "Desserts are the weak link. Skip the £39.95 Golden Dragon; if you want one, the Ube Doughnuts £10.25. Better plan: skip dessert, go drink. Ask for a window table with the St Paul's view when booking and again on arrival.",
         "footer": "~£95–115pp."
       }
-    },
-    "sexy-fish": {
-      "name": "Sexy Fish",
-      "address": "Berkeley Square House, London W1J 6BR",
-      "city": "London",
-      "website": "https://sexyfish.com",
-      "menu": "https://sexyfish.com/menus/",
-      "instagram": "https://instagram.com/sexyfishlondon",
-      "igHandle": "@sexyfishlondon",
-      "note": "Bar table reserved. Closes MIDNIGHT on Sundays. Damien Hirst art."
-    },
-    "park-chinois": {
-      "name": "Park Chinois",
-      "address": "17 Berkeley Street, London W1J 8EA",
-      "city": "London",
-      "website": "https://parkchinois.com",
-      "menu": "https://parkchinois.com/menus/",
-      "instagram": "https://instagram.com/parkchinois",
-      "igHandle": "@parkchinois",
-      "note": "Backup for Sexy Fish. Live music, 1930s Shanghai."
     },
     "breakfast-club": {
       "name": "The Breakfast Club Old Compton St",
@@ -2185,56 +2155,6 @@
       "instagram": "https://instagram.com/i_w_m",
       "igHandle": "@i_w_m",
       "note": "£29.75pp. 9:30am–6pm, last entry 5pm. Book ahead. 5 min from Westminster Abbey. ⚠️ Underground, no step-free access."
-    },
-    "red-lion-westminster": {
-      "name": "The Red Lion",
-      "address": "48 Parliament Street, London SW1A 2NH",
-      "city": "London",
-      "website": "https://www.redlionwestminster.co.uk",
-      "menu": null,
-      "instagram": "https://instagram.com/theredlionwestminster",
-      "igHandle": "@theredlionwestminster",
-      "note": "Mon 11:00–23:00. Grade II listed — 1890s mahogany bar-back and etched glass, and a working division bell that rings to summon MPs back to the House. Downing Street is a hundred yards away. Three handpumps, London Pride. Drinks only — don't eat here."
-    },
-    "the-chandos": {
-      "name": "The Chandos",
-      "address": "29 St Martin's Lane, London WC2N 4ER",
-      "city": "London",
-      "website": null,
-      "menu": null,
-      "instagram": null,
-      "igHandle": null,
-      "note": "Mon 12:00–23:00. Sam Smith's — no website or Instagram, that's normal, not a closure. Cheapest proper pint in the West End. Go upstairs to the panelled Opera Room. Own-brewery beers only (no Guinness) and a house no-phones policy."
-    },
-    "the-harp": {
-      "name": "The Harp",
-      "address": "47 Chandos Place, London WC2N 4HS",
-      "city": "London",
-      "website": "https://www.harpcoventgarden.com",
-      "menu": null,
-      "instagram": "https://instagram.com/theharpcoventgarden",
-      "igHandle": "@theharpcoventgarden",
-      "note": "Mon 11:00–23:00. CAMRA National Pub of the Year — the only central London pub ever to win it. Narrow room, walls of oil portraits, stained glass, no TV, no music. 3 regular + 5 rotating cask ales. No kitchen at all, so it's structurally impossible to ruin your appetite here."
-    },
-    "old-coffee-house": {
-      "name": "The Old Coffee House",
-      "address": "49 Beak Street, Soho, London W1F 9SF",
-      "city": "London",
-      "website": null,
-      "menu": null,
-      "instagram": "https://instagram.com/theoldcoffeehouse",
-      "igHandle": "@theoldcoffeehouse",
-      "note": "Mon 11:00–23:00. First licensed 1772, rebuilt 1894 — genuinely independent in a Soho full of chains. Ceiling-to-floor brass, taxidermy, oil paintings, music-hall memorabilia. Kitchen shuts at 3 PM, so by evening it's a pure drinking room."
-    },
-    "the-clachan": {
-      "name": "The Clachan",
-      "address": "34 Kingly Street, London W1B 5QH",
-      "city": "London",
-      "website": null,
-      "menu": null,
-      "instagram": null,
-      "igHandle": null,
-      "note": "Grade II listed, built as a Liberty draper's shop — spectacular carved ceiling. 60 seconds from Dishoom. The guaranteed fallback."
     },
     "nimb-bar": {
       "name": "Nimb American Bar",
@@ -2627,6 +2547,71 @@
       "instagram": "https://instagram.com/albertcuypmarkt",
       "igHandle": "@albertcuypmarkt",
       "note": "4 minutes from the brewery door, open till 5. Stroopwafels, herring, cheese, the lot."
+    },
+    "the-feathers": {
+      "name": "The Feathers",
+      "address": "18–20 Broadway, London SW1H 0BH",
+      "city": "London",
+      "website": null,
+      "menu": null,
+      "instagram": null,
+      "igHandle": null,
+      "phone": "020 7227 0921",
+      "note": "Mon 11:00–23:00. About 400 yards from the Abbey. Schooner Scorer pub."
+    },
+    "the-admiralty": {
+      "name": "The Admiralty",
+      "address": "66 Trafalgar Square, London WC2N 5DS",
+      "city": "London",
+      "website": null,
+      "menu": null,
+      "instagram": null,
+      "igHandle": null,
+      "phone": "020 7930 0066",
+      "note": "Right on the square. Mon 11:00–21:00 — an afternoon venue, not a late one. ⚠️ Use the side-street entrance, not the main door."
+    },
+    "swan-at-the-globe": {
+      "name": "Swan at the Globe",
+      "address": "21 New Globe Walk, London SE1 9DT",
+      "city": "London",
+      "website": "https://www.swanlondon.co.uk",
+      "menu": null,
+      "instagram": "https://instagram.com/swanlondonse1",
+      "igHandle": "@swanlondonse1",
+      "phone": "020 7928 9444",
+      "note": "Sunday bar 10:00–22:00. Smart theatre bar with river views — full and buzzy rather than raucous. reservations@swanlondon.co.uk"
+    },
+    "hippodrome-casino": {
+      "name": "The Hippodrome Casino",
+      "address": "Cranbourn Street, Leicester Square, London WC2H 7JH",
+      "city": "London",
+      "website": "https://www.hippodromecasino.com",
+      "menu": null,
+      "instagram": "https://instagram.com/hippodromecasino",
+      "igHandle": "@hippodromecasino",
+      "phone": "020 7769 8888",
+      "note": "Open 24 hours, 7 days. Free entry, no membership, no guest list. 18+ with photo ID. Nine bars, a sportsbook with giant HD screens, live music, gaming across seven storeys. ⚠️ Enter on Little Newport Street — the rear entrance. Tell the driver that, not Cranbourn Street."
+    },
+    "duck-and-waffle": {
+      "name": "Duck & Waffle",
+      "address": "40th floor, Heron Tower, 110 Bishopsgate, London EC2N 4AY",
+      "city": "London",
+      "website": "https://duckandwaffle.com",
+      "menu": "https://duckandwaffle.com/menus/",
+      "instagram": "https://instagram.com/duckandwaffle",
+      "igHandle": "@duckandwaffle",
+      "phone": "020 3640 7310",
+      "note": "Open 24/7, loud and music-led. 8-minute cab from Ivy Asia. Phone ahead and ask for a table, not the bar counter."
+    },
+    "bar-americain": {
+      "name": "Bar Américain @ Brasserie Zédel",
+      "address": "20 Sherwood Street, London W1F 7ED",
+      "city": "London",
+      "website": "https://www.brasseriezedel.com",
+      "menu": null,
+      "instagram": "https://instagram.com/brasseriezedel",
+      "igHandle": "@brasseriezedel",
+      "note": "Mon 17:00–00:00. A huge subterranean art-deco room, busy on a Monday because the complex seats 200+ and the noise carries. Buzzy and glamorous rather than rowdy. 3 min from Dishoom."
     }
   },
   "days": [
@@ -3661,8 +3646,13 @@
           "venue": "heineken-experience",
           "highlight": true,
           "alertLead": 35,
-          "desc": "€65 per person · 2.5 hours, ends 1:30 PM · 18+ only · max 10 people. A personal English-speaking guide, a tasting of 5 premium beers paired with Dutch cheese, behind-the-scenes access and a personalised gift.",
-          "warn": "🔴 Book ahead — the 10-person cap fills. Friday slots run hourly 10am–4pm."
+          "desc": "✅ 3 tickets booked. €65 per person · 2.5 hours, ends 1:30 PM · 18+ only · max 10 people. A personal English-speaking guide, a tasting of 5 premium beers paired with Dutch cheese, behind-the-scenes access and a personalised gift.",
+          "res": {
+            "conf": "CONFIRMED",
+            "party": 3,
+            "time": "11:00",
+            "note": "3 VIP tickets, €65pp."
+          }
         },
         {
           "time": "13:40",
@@ -3814,19 +3804,13 @@
           ]
         },
         {
-          "time": "21:30",
+          "time": "20:00",
           "type": "drinks",
-          "title": "Soho · The Devonshire",
+          "title": "The Devonshire",
           "venue": "the-devonshire",
-          "desc": "Walk-in only. Expect a queue — it's a Premier League Saturday.",
+          "desc": "17 Denman Street. 20,000 pints of Guinness a week. Walk-in only — they take no drinks reservations at all.",
           "highlight": true,
-          "suggestions": [
-            {
-              "title": "Second stop: Three Greyhounds",
-              "desc": "25 Greek Street. Optional, 6 min walk. Great Guinness, 1847 pub.",
-              "venue": "three-greyhounds"
-            }
-          ]
+          "note": "Get there at 8:00 and let it fill around you: you claim a spot while there's still one to choose, and the crush builds over the next 90 minutes. By 9:30 on a Saturday it spills onto Denman Street. Closes 23:00, so 8:00 buys three hours instead of ninety minutes. Kitchen last sitting 22:00."
         }
       ],
       "questions": {
@@ -3902,7 +3886,8 @@
           "type": "drinks",
           "title": "Pint · The Audley",
           "venue": "the-audley",
-          "desc": "Mount Street. Walk-in. Victorian stunner — look up at the ceiling."
+          "desc": "Mount Street. Walk-in. Victorian stunner — look up at the ceiling.",
+          "note": "Book the ground-floor pub, not the upstairs Mount St. Restaurant. Leave by ~5:00 to make Bankside."
         },
         {
           "time": "19:00",
@@ -3914,22 +3899,34 @@
             "conf": "CONFIRMED",
             "party": 3,
             "time": "19:00"
-          }
+          },
+          "note": "From the Swan it's a 10-minute step-free walk back over the Millennium Bridge — gentle ramp on the north side, two-stage ramp on the south."
         },
         {
           "time": "22:00",
           "type": "drinks",
-          "title": "Nightcap · Sexy Fish",
-          "venue": "sexy-fish",
-          "desc": "Walk in at the bar. Closes midnight on Sundays. Berkeley Square, Damien Hirst on the walls.",
-          "note": "Nightcap option, not a headline event. Skip it if the day's run long.",
+          "title": "🎰 The Hippodrome Casino",
+          "venue": "hippodrome-casino",
+          "desc": "Cranbourn Street, Leicester Square. Nine bars, a sportsbook with giant HD screens, live music, gaming across seven storeys. Free entry, no membership, no guest list, 18+ with photo ID. At 10 PM on a Sunday it's one of the very few genuinely full, noisy rooms in central London.",
+          "note": "Heliot Steak House and the Penny Bar both take bookings if you'd rather have a guaranteed table.",
           "suggestions": [
             {
-              "title": "Backup: Park Chinois",
-              "desc": "2 min away, open Sun 6pm–midnight.",
-              "venue": "park-chinois"
+              "title": "Backup: Duck & Waffle",
+              "desc": "40th floor of Heron Tower, open 24/7, loud and music-led. 8-minute cab from Ivy Asia. Phone ahead and ask for a table, not the bar counter.",
+              "venue": "duck-and-waffle"
             }
-          ]
+          ],
+          "warn": "Enter on Little Newport Street — the rear entrance. Tell the driver that, not Cranbourn Street.",
+          "highlight": true
+        },
+        {
+          "time": "17:30",
+          "type": "drinks",
+          "title": "Swan at the Globe",
+          "venue": "swan-at-the-globe",
+          "desc": "21 New Globe Walk, about a 20-minute cab from The Audley. Bar open till 22:00 on Sundays. Cross the river — Bankside is alive on a Sunday evening in a way the City simply isn't.",
+          "note": "The Globe's summer season is mid-run on Sep 6, so 5:30 lands you in the pre-show crowd on top of Bankside's Sunday churn. Then a 10-minute step-free walk over the Millennium Bridge to Ivy Asia.",
+          "highlight": true
         }
       ],
       "questions": {
@@ -3939,8 +3936,8 @@
             "a": "A car showroom, for Wolseley Motors. The bank that took it over kept the interior."
           },
           {
-            "q": "Sexy Fish's dining room features work by which British artist, best known for a shark in formaldehyde?",
-            "a": "Damien Hirst."
+            "q": "The Hippodrome opened in 1900 as what, before it was ever a casino?",
+            "a": "A circus and variety theatre — it had a water tank under the stage for aquatic shows. Later a music hall, then a nightclub, and a casino since 2012."
           },
           {
             "q": "How many rooms does Buckingham Palace have?",
@@ -3950,7 +3947,7 @@
         "discussion": [
           "Best room we have been inside on this entire trip.",
           "Most underrated stop of the trip.",
-          "Sexy Fish: incredible or ridiculous? You're allowed to say both.",
+          "Everyone declares their table before we sit down. Who walks out of the Hippodrome up?",
           "Who has aged the worst over twelve days? Look at each other before you answer.",
           "First thing you'll tell people about when you get home?"
         ]
@@ -3996,22 +3993,6 @@
           ]
         },
         {
-          "time": "13:45",
-          "type": "drinks",
-          "title": "① The Red Lion, Westminster",
-          "venue": "red-lion-westminster",
-          "desc": "5 min walk from the Abbey. Drinks only — don't eat here, dinner is the point of today.",
-          "highlight": true
-        },
-        {
-          "time": "15:00",
-          "type": "drinks",
-          "title": "② The Harp, Covent Garden",
-          "venue": "the-harp",
-          "desc": "15 min up Whitehall, past Horse Guards, across Trafalgar Square. No kitchen — safe.",
-          "highlight": true
-        },
-        {
           "time": "16:15",
           "type": "free",
           "title": "🚶 THE RESET — walk it off",
@@ -4035,51 +4016,53 @@
           "highlight": true
         },
         {
-          "time": "19:30",
-          "type": "drinks",
-          "title": "③ The Old Coffee House, Beak Street",
-          "venue": "old-coffee-house",
-          "desc": "3 min walk from Dishoom. Kitchen shut since 3 — pure drinking room.",
-          "highlight": true
-        },
-        {
-          "time": "20:30",
-          "type": "drinks",
-          "title": "④ The Connaught Bar — the martini trolley",
-          "venue": "connaught-bar",
-          "desc": "12 min walk from Beak Street. Walk-in only, and Monday is the easiest night of the week to get in. Smart casual.",
-          "highlight": true,
-          "suggestions": [
-            {
-              "title": "Alternate: The Chandos",
-              "desc": "Sam Smith's, cheapest proper pint in the West End. Upstairs to the panelled Opera Room. Own-brewery beers only, house no-phones policy.",
-              "venue": "the-chandos"
-            },
-            {
-              "title": "Alternate: The Clachan",
-              "desc": "60 seconds from Dishoom. The guaranteed fallback if anywhere's rammed.",
-              "venue": "the-clachan"
-            },
-            {
-              "title": "Alternate: Coach & Horses",
-              "desc": "Jeffrey Bernard's old pub, intact 1930s interior.",
-              "venue": "coach-and-horses"
-            }
-          ]
-        },
-        {
-          "time": "22:00",
-          "type": "drinks",
-          "title": "Then Soho, if the legs hold",
-          "venue": null,
-          "warn": "The Shaston Arms on Ganton Street is PERMANENTLY CLOSED (June 2025). It's the pub nearest Dishoom and still shows up in older Soho guides. Do not route to it."
-        },
-        {
           "time": "22:30",
           "type": "note",
           "title": "PACK AFTER DINNER — not after Soho",
           "venue": null,
-          "desc": "The car comes at 7 AM for Heathrow Terminal 3. Past-you will not do this at 6 AM."
+          "desc": "The car comes at 6:30 AM for Heathrow Terminal 3. Past-you will not do this at 5:45."
+        },
+        {
+          "time": "13:45",
+          "type": "drinks",
+          "title": "① The Feathers",
+          "venue": "the-feathers",
+          "desc": "18–20 Broadway, about 400 yards from the Abbey — closer than it looks. Mon 11:00–23:00.",
+          "highlight": true
+        },
+        {
+          "time": "15:00",
+          "type": "drinks",
+          "title": "② The Admiralty",
+          "venue": "the-admiralty",
+          "desc": "Right on Trafalgar Square, so the walk is short. Mon 11:00–21:00 — an afternoon venue, not a late one.",
+          "warn": "Use the side-street entrance, not the main door.",
+          "highlight": true
+        },
+        {
+          "time": "19:30",
+          "type": "drinks",
+          "title": "🌙 After dinner — entirely optional",
+          "desc": "No fixed times. Nobody has to go out.",
+          "warn": "The car comes at 6:30 AM. Decide over dinner whether you're going out at all.",
+          "critical": true,
+          "suggestions": [
+            {
+              "title": "① ~8:00 PM · The Devonshire",
+              "desc": "4 min walk from Dishoom. A genuinely different pub on a Monday — Saturday you're shoulder-to-shoulder, Monday you can actually see the room. Closes 23:00.",
+              "venue": "the-devonshire"
+            },
+            {
+              "title": "② ~10:00 PM · The Connaught Bar",
+              "desc": "8-min cab. World's-best-bar list, tableside martini trolley £30. Open Mon till 1 AM — the only thing here running that late, which is why it's last rather than first.",
+              "venue": "connaught-bar"
+            },
+            {
+              "title": "③ Bar Américain @ Brasserie Zédel",
+              "desc": "3 min from Dishoom, Mon 17:00–00:00. A huge subterranean art-deco room — buzzy and glamorous rather than rowdy.",
+              "venue": "bar-americain"
+            }
+          ]
         }
       ],
       "questions": {
@@ -4231,8 +4214,8 @@
           ]
         },
         "round2": {
-          "estimateLow": 1045,
-          "estimateHigh": 1045,
+          "estimateLow": 1079,
+          "estimateHigh": 1079,
           "items": [
             {
               "label": "Vienna hotel balance",
@@ -4281,10 +4264,10 @@
               "statusNote": "on Coob's room account"
             },
             {
-              "label": "Westminster Abbey ticket",
-              "amount": 41.54,
-              "status": "tobook",
-              "statusNote": "£31 · to book"
+              "label": "Heineken Experience VIP tour",
+              "amount": 75.5,
+              "status": "paid",
+              "statusNote": "bought by Coob"
             },
             {
               "label": "less Round 1 credit",
@@ -4323,8 +4306,8 @@
           ]
         },
         "round2": {
-          "estimateLow": 1469,
-          "estimateHigh": 1469,
+          "estimateLow": 1503,
+          "estimateHigh": 1503,
           "items": [
             {
               "label": "Vienna hotel balance",
@@ -4373,10 +4356,10 @@
               "statusNote": "on Coob's room account"
             },
             {
-              "label": "Westminster Abbey ticket",
-              "amount": 41.54,
-              "status": "tobook",
-              "statusNote": "£31 · to book"
+              "label": "Heineken Experience VIP tour",
+              "amount": 75.5,
+              "status": "paid",
+              "statusNote": "bought by Coob"
             },
             {
               "label": "less Round 1 credit",
@@ -4416,7 +4399,12 @@
       {
         "label": "Westminster Abbey tickets ×3",
         "status": "tobook",
-        "detail": "£31 each, £93 total. Timed entry and they sell out — book before we fly."
+        "detail": "£31 each, £93 total. Timed entry and they sell out. Not part of the Round 2 request."
+      },
+      {
+        "label": "Heineken Experience VIP tour ×3",
+        "status": "paid",
+        "detail": "€65 each. Bought by Coob — $75.50 per person."
       }
     ],
     "transferSummary": {
@@ -4456,15 +4444,6 @@
           "desc": "Timed entry and they genuinely sell out. Fri Sep 4 at 2:30 PM, before the Black Keys.",
           "link": "https://www.vangoghmuseum.nl/en",
           "linkLabel": "Book tickets"
-        },
-        {
-          "id": "book-heineken",
-          "emoji": "🍺",
-          "mandatory": true,
-          "label": "Book the Heineken VIP tour — all 3",
-          "desc": "€65 each, €195 total. Fri Sep 4 at 11:00, 18+ only. VIP groups cap at 10 people and Friday slots fill — book before we fly.",
-          "link": "https://www.heinekenexperience.com",
-          "linkLabel": "Book the VIP tour"
         },
         {
           "id": "sovienna-card",
@@ -4520,7 +4499,7 @@
           "emoji": "👔",
           "mandatory": true,
           "label": "One decent night-out shirt",
-          "desc": "Volksgarten (Vienna) is a club and Sexy Fish (London) is Mayfair. Neither publishes a strict code — just don't turn up in gym gear or flip-flops. Jeans are fine."
+          "desc": "Volksgarten in Vienna is a club and the Connaught Bar in London turns people away in trainers. Neither publishes a strict code — just don't turn up in gym gear or flip-flops. Jeans are fine."
         },
         {
           "id": "adapters",
