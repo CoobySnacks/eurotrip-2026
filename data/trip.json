@@ -12,7 +12,7 @@
       "Grant"
     ],
     "organizer": "Coob",
-    "dataVersion": "2.8.0",
+    "dataVersion": "2.8.1",
     "lastUpdated": "2026-08-06",
     "questionsUnlockHour": 20,
     "fixedQuestions": [
@@ -2144,7 +2144,7 @@
       "menu": null,
       "instagram": "https://instagram.com/wabbey",
       "igHandle": "@wabbey",
-      "note": "£31 each, timed entry, book online. Closes 3:30 PM. Verger-guided tours bookable at the desk."
+      "note": "Tickets needed — book ahead. Timed entry. Closes 3:30 PM. Verger-guided tours bookable at the desk on the day."
     },
     "churchill-war-rooms": {
       "name": "Churchill War Rooms",
@@ -3980,9 +3980,9 @@
           "type": "activity",
           "title": "Westminster Abbey",
           "venue": "westminster-abbey",
-          "desc": "Straight from breakfast — about a 15-minute cab from Soho. Allow 90 minutes, out by ~1:30.",
+          "desc": "Straight from breakfast — about a 15-minute cab from Soho. Allow 90 minutes, out by ~1:30. The Abbey closes at 3:30 PM.",
           "critical": true,
-          "warn": "🔴 ALL THREE OF US NEED A TICKET — £31 each, £93 total. Timed entry, book online in advance. Closes 3:30 PM.",
+          "warn": "🔴 Tickets needed — book ahead. Timed entry.",
           "highlight": true,
           "suggestions": [
             {
@@ -4397,9 +4397,9 @@
         "detail": "Paid by Coob."
       },
       {
-        "label": "Westminster Abbey tickets ×3",
+        "label": "Westminster Abbey tickets",
         "status": "tobook",
-        "detail": "£31 each, £93 total. Timed entry and they sell out. Not part of the Round 2 request."
+        "detail": "Timed entry and they sell out. Not part of the Round 2 request."
       },
       {
         "label": "Heineken Experience VIP tour ×3",
@@ -4431,8 +4431,8 @@
           "id": "book-westminster",
           "emoji": "🎟",
           "mandatory": true,
-          "label": "Book Westminster Abbey — all 3 tickets",
-          "desc": "£31 each, £93 total. Timed entry, sells out. Mon Sep 7 at noon, and the Abbey closes at 3:30 PM.",
+          "label": "Book Westminster Abbey tickets",
+          "desc": "Timed entry and they sell out. Mon Sep 7 at noon, and the Abbey closes at 3:30 PM. Check what you actually need before paying for three.",
           "link": "https://www.westminster-abbey.org/visit-us",
           "linkLabel": "Book tickets"
         },
