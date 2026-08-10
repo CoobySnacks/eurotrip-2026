@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-09T08:03:31+00:00",
+ "generated": "2026-08-10T10:02:39+00:00",
  "source": "open-meteo.com",
  "note": "Offline fallback. The app prefers live data whenever it has signal.",
  "cities": {
