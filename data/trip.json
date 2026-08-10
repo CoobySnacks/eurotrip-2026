@@ -12,7 +12,7 @@
       "Grant"
     ],
     "organizer": "Coob",
-    "dataVersion": "3.0.0",
+    "dataVersion": "3.1.0",
     "lastUpdated": "2026-08-06",
     "questionsUnlockHour": 20,
     "fixedQuestions": [
@@ -840,7 +840,8 @@
         ],
         "skip": "Green salad 180, tomato carpaccio 185, French asparagus 355 — that's $28–55 for a side, and it's the section people complain about. Ask the price of the Prime Cuts Selection before ordering; it's listed at market price with no number. Water is 50 DKK a head, not free.",
         "footer": "~850 DKK ($134) pp food; 1,100–1,400 DKK with drinks."
-      }
+      },
+      "phone": "+45 33 13 37 13"
     },
     "groeften": {
       "name": "Grøften",
@@ -2184,86 +2185,6 @@
       "igHandle": "@debalie",
       "note": "Leidseplein's debate-and-film house. Journalists and students, not tourists."
     },
-    "bierfabriek": {
-      "name": "Bierfabriek",
-      "address": "Nes 67, 1012 KD Amsterdam",
-      "city": "Amsterdam",
-      "website": "https://bierfabriek.com/amsterdam",
-      "menu": null,
-      "instagram": "https://instagram.com/bierfabriekamsterdam",
-      "igHandle": "@bierfabriekamsterdam",
-      "note": "Beer brewed on the premises in open kettles you can see from the table, self-pour tap tables, charcoal-grilled 24-hour-marinated farmhouse chicken, free peanuts. Dutch groups and company borrels, not tourists. 4 min walk on a flat pedestrian street. Open till 23:00.",
-      "phone": "+31 20 528 9910",
-      "orderCard": {
-        "title": "🍽 What to order",
-        "sections": [
-          {
-            "label": "The signature",
-            "items": [
-              {
-                "name": "Farmer's chicken",
-                "price": "€18.50",
-                "desc": "Charcoal-grilled, marinated 24 hours. €21.50 in their own satay sauce.",
-                "must": true
-              },
-              {
-                "name": "½-metre butcher plank",
-                "price": "€72",
-                "desc": "Built for three. Full metre €102.",
-                "must": true
-              }
-            ]
-          },
-          {
-            "label": "The rest",
-            "items": [
-              {
-                "name": "Drunken spareribs",
-                "price": "€27.50"
-              },
-              {
-                "name": "Classic beef stew in dark beer",
-                "price": "€24.50"
-              },
-              {
-                "name": "Beer-battered fish & chips",
-                "price": "€24.50"
-              },
-              {
-                "name": "Ribeye 220g",
-                "price": "€32"
-              },
-              {
-                "name": "Bitterballen, 8 pc",
-                "price": "€9.50"
-              },
-              {
-                "name": "Chorizo croquettes, 6 pc",
-                "price": "€11.50"
-              }
-            ]
-          },
-          {
-            "label": "House beers, 30cl",
-            "items": [
-              {
-                "name": "PUUR",
-                "price": "€3.80"
-              },
-              {
-                "name": "Snipperdag / Vals Alarm / Schafttijd / Fabrieksgeheim",
-                "price": "€4.90"
-              },
-              {
-                "name": "Ploegbaas",
-                "price": "€6.50"
-              }
-            ]
-          }
-        ],
-        "footer": "Brewed on site. The tap tables pour themselves — pace accordingly."
-      }
-    },
     "cafe-eik-en-linde": {
       "name": "Café Eik en Linde",
       "address": "Plantage Middenlaan 22A, 1018 DE Amsterdam",
@@ -2560,6 +2481,70 @@
       "instagram": "https://instagram.com/brasseriezedel",
       "igHandle": "@brasseriezedel",
       "note": "Mon 17:00–00:00. A huge subterranean art-deco room, busy on a Monday because the complex seats 200+ and the noise carries. Buzzy and glamorous rather than rowdy. 3 min from Dishoom."
+    },
+    "foodhallen": {
+      "name": "Foodhallen",
+      "address": "Hannie Dankbaarpassage 16, 1053 RT Amsterdam",
+      "city": "Amsterdam",
+      "website": "https://www.foodhallen.nl/amsterdam?lang=en",
+      "menu": "https://www.foodhallen.nl/amsterdam?lang=en",
+      "instagram": "https://instagram.com/foodhallen",
+      "igHandle": "@foodhallen",
+      "note": "A converted tram depot inside De Hallen, Oud-West. 19 stalls and three bars. Open 12:00–23:00, 364 days a year. No reservations — walk in. Cash, card, contactless, Apple and Google Pay all accepted.",
+      "orderCard": {
+        "title": "🍽 What to order",
+        "intro": "19 stalls, each with its own till. There is no central bill.",
+        "sections": [
+          {
+            "label": "Send someone here first",
+            "items": [
+              {
+                "name": "The Butcher",
+                "price": "",
+                "desc": "Aberdeen Angus with a caramelised crust. The signature — expect a 20-minute wait at peak.",
+                "must": true
+              }
+            ]
+          },
+          {
+            "label": "Split the other queues",
+            "items": [
+              {
+                "name": "Smokey Goodness",
+                "price": "",
+                "desc": "Dutch pitmaster Jord Althuizen. Brisket, burnt ends."
+              },
+              {
+                "name": "Toko Bumbu",
+                "price": "",
+                "desc": "Indonesian."
+              },
+              {
+                "name": "Vietview",
+                "price": "",
+                "desc": "Caramelised pork belly bánh mì."
+              },
+              {
+                "name": "Taqueria Lima",
+                "price": "",
+                "desc": "Cochinita pibil tacos. Small portions — treat them as a shared starter, not a main."
+              }
+            ]
+          },
+          {
+            "label": "Also in the hall",
+            "items": [
+              {
+                "name": "Bulls & Dogs · Holy Fried Chicken · The Ramen Shop · Mer du Nord · Padrón · Píta · Dim Sum Thing · Mr Temaki · Renato's · Santiago · Shirkhan · FENTO · De la Crepe · Petit Gâteau (dessert)",
+                "price": ""
+              }
+            ]
+          }
+        ],
+        "suggested": "Claim a seat BEFORE you buy food — one of you takes a table, the raised platform at the back is easiest, while the other two split queues. Order two drinks at a time; the bar queue is the tax.",
+        "skip": "Don't all get burgers.",
+        "footer": "About €20–30pp plus drinks."
+      }
     }
   },
   "days": [
@@ -2780,7 +2765,7 @@
             "conf": "CONFIRMED",
             "party": 3,
             "time": "19:30",
-            "note": "Kitchen closes at 10 PM."
+            "note": "Wiener Brasserie, ground floor — not the standing bar. Kitchen till 10."
           }
         },
         {
@@ -3024,7 +3009,7 @@
             "conf": "7PX9HU44FXWP",
             "party": 3,
             "time": "19:00",
-            "note": "Table held 19:00–21:30 (2.5 hours)."
+            "note": "Reissued Aug 10. Table is yours 19:00–21:30."
           },
           "suggestions": [
             {
@@ -3032,7 +3017,8 @@
               "desc": "Danish institution since 1874, 8 min from the hotel, open til ~23:00. ⚠️ Smørrebrød is LUNCH ONLY (12:00–15:30) — at dinner the open sandwiches are off.",
               "venue": "groeften"
             }
-          ]
+          ],
+          "warn": "⏱ THEY HOLD THE TABLE 15 MINUTES. Every booking gets 2h30, and 15 minutes past 19:00 they may give it away. Sunday is a travel day — if the transfer or check-in runs late, PHONE +45 33 13 37 13 rather than just turning up."
         },
         {
           "time": "21:30",
@@ -3132,7 +3118,7 @@
             "conf": "61704221",
             "party": 3,
             "time": "19:00",
-            "note": "KITCHEN CLOSES AT 9 PM."
+            "note": "Smallegade 36, Frederiksberg. Kitchen closes at 9."
           },
           "warn": "Kitchen closes 9 PM sharp.",
           "suggestions": [
@@ -3359,21 +3345,17 @@
         {
           "time": "19:00",
           "type": "meal",
-          "title": "Dinner · Bierfabriek",
-          "venue": "bierfabriek",
-          "desc": "Beer brewed on the premises in open kettles you can see from the table, self-pour taps at the table, charcoal-grilled farmhouse chicken. 4 min walk on a flat pedestrian street.",
-          "res": {
-            "conf": "YYsYtoerr5z",
-            "party": 3,
-            "time": "19:00"
-          },
-          "highlight": true
+          "title": "Dinner · Foodhallen",
+          "venue": "foodhallen",
+          "desc": "A converted tram depot inside De Hallen, Oud-West. 19 stalls and three bars, open till 23:00. No reservations — walk in, grab a drink, find a spot.",
+          "highlight": true,
+          "warn": "🚋 Tram 17 to Ten Katestraat, about 20 minutes. This is the one Amsterdam night that isn't a walk."
         },
         {
           "time": "21:00",
           "type": "drinks",
           "title": "🍸 Open bar night — nothing booked",
-          "desc": "Ordered by how easy each is to reach from Nes.",
+          "desc": "Dinner is out in Oud-West now — decide over food whether you tram back into the centre or stay put. Foodhallen's own three bars run till 23:00, and Kanarie Club is in the same building. The list below is ordered from Nes, so add the tram ride if you're coming back in.",
           "highlight": true,
           "warn": "Nothing in the centre is reliably open past 2am. Plan to head back before then.",
           "suggestions": [
@@ -4631,8 +4613,9 @@
         },
         {
           "city": "Amsterdam",
-          "venue": "Bierfabriek",
-          "pp": "€35–45"
+          "venue": "Foodhallen",
+          "pp": "€20–30",
+          "extra": "plus drinks"
         },
         {
           "city": "Amsterdam",
