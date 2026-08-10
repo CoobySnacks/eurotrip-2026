@@ -12,7 +12,7 @@
       "Grant"
     ],
     "organizer": "Coob",
-    "dataVersion": "2.9.0",
+    "dataVersion": "3.0.0",
     "lastUpdated": "2026-08-06",
     "questionsUnlockHour": 20,
     "fixedQuestions": [
@@ -123,7 +123,7 @@
     },
     {
       "date": "2026-08-30",
-      "code": "SAS",
+      "code": "SAS SK 1694",
       "from": "VIE",
       "fromCity": "Vienna",
       "to": "CPH",
@@ -242,14 +242,14 @@
           "conf": "AVBO53170"
         },
         {
-          "when": "Sun Aug 30, 7:30 AM pickup (change requested)",
+          "when": "Sun Aug 30, 7:30 AM pickup",
           "detail": "SO/ Vienna → VIE",
           "conf": "AZBO50842"
         }
       ],
       "email": "office@airportdriver.at",
       "contact": "Adeline Sharma",
-      "note": "✅ Van confirmed Aug 6 for the non-folding wheelchair.\n🟡 Pickup move 7:00 → 7:30 requested. The 7:00 booking stands until they reply."
+      "note": "✅ Van confirmed Aug 6 for the non-folding wheelchair. Pickup moved to 7:30 and confirmed Aug 8. Flight SK 1694 is on the booking."
     },
     {
       "cityKey": "copenhagen",
@@ -306,14 +306,14 @@
           "conf": null
         },
         {
-          "when": "Tue Sep 8, 6:30 AM from the hotel (change requested)",
+          "when": "Tue Sep 8, 6:30 AM from the hotel",
           "detail": "The May Fair → LHR, arriving about 08:00",
           "conf": null
         }
       ],
       "phone": "+44 (0)20 7769 3005",
       "email": "concierge@themayfairhotel.co.uk",
-      "note": "✅ Confirmed. Charged to the room account — nothing to pay up front.\n🟡 Pickup move 7:00 → 6:30 requested with the concierge.\n⚠️ Cancelling inside 24 hours incurs the full charge.\n£157.50 a leg beat the previous chauffeur quote of £185.40 — £55.80 cheaper on the round trip, and no payment link to chase."
+      "note": "✅ Confirmed. Charged to the room account — nothing to pay up front. Pickup moved to 6:30 and confirmed Aug 8 by the Concierge Desk.\n⚠️ Cancelling inside 24 hours incurs the full charge.\n£157.50 a leg beat the previous chauffeur quote of £185.40 — £55.80 cheaper on the round trip, and no payment link to chase."
     }
   ],
   "venues": {
@@ -2986,19 +2986,19 @@
         {
           "time": "07:30",
           "type": "transfer",
-          "title": "Airport Driver → VIE",
-          "desc": "Prepaid, Order AZBO50842. A 7:30 pickup reaches VIE around 7:55 — about 1h50 before boarding, and half an hour more sleep.",
+          "title": "Airport Driver → Vienna Airport",
+          "desc": "Prepaid, Order AZBO50842. SO/Vienna → Flughafen Wien-Schwechat, about 11.5 miles. 3 persons, 3 large + 3 small bags, €59.00. Flight SK 1694 is on the booking.",
           "conf": "AZBO50842",
           "leaveBy": true,
           "critical": true,
-          "warn": "🟡 Time change requested: 7:00 → 7:30. Until Airport Driver replies, treat 7:00 as the one that stands — be in the lobby at 6:50 and you're fine either way."
+          "note": "Be in the lobby at 7:20."
         },
         {
           "time": "10:15",
           "type": "flight",
-          "title": "SAS → Copenhagen",
-          "flightRef": "SAS",
-          "desc": "Lands 11:55 AM. Conf BLXH8G."
+          "title": "SAS SK 1694 → Copenhagen",
+          "flightRef": "SAS SK 1694",
+          "desc": "VIE 10:15 → CPH 11:55. Conf BLXH8G."
         },
         {
           "time": "12:10",
@@ -4052,10 +4052,11 @@
           "time": "06:30",
           "type": "transfer",
           "title": "May Fair concierge V-Class → Heathrow T3",
-          "desc": "Mercedes V-Class. The concierge reckons an hour to Heathrow at that time, so 6:30 puts you there about 7:30 — 1h50 before BA 1590 boards at 9:20.",
+          "desc": "Mercedes V-Class, £157.50 including all taxes, charged to the room account. Arrives Heathrow around 7:30 — roughly 1h50 before BA 1590 boards.",
           "leaveBy": true,
           "critical": true,
-          "warn": "🟡 Time change requested: 7:00 → 6:30. Brutal start — last night in Soho ends early, the car comes at 6:30."
+          "note": "Be in the lobby at 6:20.",
+          "conf": "Confirmed by the Concierge Desk"
         },
         {
           "time": "10:05",
@@ -4688,7 +4689,7 @@
     },
     "transferTimes": {
       "title": "Every airport ride, checked against boarding",
-      "note": "Each pickup was set from when boarding starts, not when the plane departs. Two are waiting on a reply; until then the original time stands.",
+      "note": "Each pickup was set from when boarding starts, not when the plane departs. All five are booked, paid and time-confirmed — nothing outstanding on transport.",
       "rows": [
         {
           "when": "Wed Aug 26",
@@ -4701,29 +4702,29 @@
           "when": "Sun Aug 30",
           "leg": "SO/Vienna → VIE",
           "time": "7:30 AM",
-          "status": "inprogress",
-          "chip": "change requested"
+          "status": "paid",
+          "chip": "confirmed"
         },
         {
           "when": "Wed Sep 2",
           "leg": "Scandic → CPH",
           "time": "9:45 AM",
           "status": "paid",
-          "chip": "paid, unchanged"
+          "chip": "paid"
         },
         {
           "when": "Sat Sep 5",
           "leg": "Radisson → Schiphol",
           "time": "11:15 AM",
           "status": "paid",
-          "chip": "change confirmed"
+          "chip": "confirmed"
         },
         {
           "when": "Tue Sep 8",
           "leg": "May Fair → LHR T3",
           "time": "6:30 AM",
-          "status": "inprogress",
-          "chip": "change requested"
+          "status": "paid",
+          "chip": "confirmed"
         }
       ]
     }
