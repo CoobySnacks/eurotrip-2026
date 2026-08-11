@@ -1,27 +1,142 @@
 {
- "generated": "2026-08-10T10:02:39+00:00",
+ "generated": "2026-08-11T08:34:58+00:00",
  "source": "open-meteo.com",
  "note": "Offline fallback. The app prefers live data whenever it has signal.",
  "cities": {
-  "dallas": {
-   "daily": {},
-   "hourly": {}
-  },
   "vienna": {
-   "daily": {},
-   "hourly": {}
-  },
-  "copenhagen": {
-   "daily": {},
-   "hourly": {}
-  },
-  "amsterdam": {
-   "daily": {},
-   "hourly": {}
-  },
-  "london": {
-   "daily": {},
-   "hourly": {}
+   "daily": {
+    "2026-08-26": {
+     "code": 3,
+     "max": 81,
+     "min": 62,
+     "popMax": 0,
+     "sunrise": "06:04",
+     "sunset": "19:48"
+    }
+   },
+   "hourly": {
+    "2026-08-26": [
+     {
+      "t": "07:00",
+      "temp": 70,
+      "pop": 0,
+      "code": 3,
+      "wind": 4
+     },
+     {
+      "t": "08:00",
+      "temp": 71,
+      "pop": 0,
+      "code": 3,
+      "wind": 4
+     },
+     {
+      "t": "09:00",
+      "temp": 73,
+      "pop": 0,
+      "code": 3,
+      "wind": 6
+     },
+     {
+      "t": "10:00",
+      "temp": 75,
+      "pop": 0,
+      "code": 3,
+      "wind": 8
+     },
+     {
+      "t": "11:00",
+      "temp": 77,
+      "pop": 0,
+      "code": 3,
+      "wind": 9
+     },
+     {
+      "t": "12:00",
+      "temp": 79,
+      "pop": 0,
+      "code": 3,
+      "wind": 9
+     },
+     {
+      "t": "13:00",
+      "temp": 80,
+      "pop": 0,
+      "code": 3,
+      "wind": 8
+     },
+     {
+      "t": "14:00",
+      "temp": 80,
+      "pop": 0,
+      "code": 3,
+      "wind": 8
+     },
+     {
+      "t": "15:00",
+      "temp": 81,
+      "pop": 0,
+      "code": 3,
+      "wind": 8
+     },
+     {
+      "t": "16:00",
+      "temp": 81,
+      "pop": 0,
+      "code": 3,
+      "wind": 9
+     },
+     {
+      "t": "17:00",
+      "temp": 80,
+      "pop": 0,
+      "code": 3,
+      "wind": 10
+     },
+     {
+      "t": "18:00",
+      "temp": 79,
+      "pop": 0,
+      "code": 3,
+      "wind": 10
+     },
+     {
+      "t": "19:00",
+      "temp": 77,
+      "pop": 0,
+      "code": 3,
+      "wind": 9
+     },
+     {
+      "t": "20:00",
+      "temp": 75,
+      "pop": 0,
+      "code": 3,
+      "wind": 8
+     },
+     {
+      "t": "21:00",
+      "temp": 73,
+      "pop": 0,
+      "code": 3,
+      "wind": 7
+     },
+     {
+      "t": "22:00",
+      "temp": 72,
+      "pop": 0,
+      "code": 3,
+      "wind": 5
+     },
+     {
+      "t": "23:00",
+      "temp": 71,
+      "pop": 0,
+      "code": 3,
+      "wind": 5
+     }
+    ]
+   }
   }
  }
 }
