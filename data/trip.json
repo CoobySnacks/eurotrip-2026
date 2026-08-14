@@ -12,7 +12,7 @@
       "Grant"
     ],
     "organizer": "Coob",
-    "dataVersion": "3.2.1",
+    "dataVersion": "3.2.2",
     "lastUpdated": "2026-08-06",
     "questionsUnlockHour": 20,
     "fixedQuestions": [
@@ -3986,20 +3986,13 @@
           "type": "activity",
           "title": "The Queen's Diamond Jubilee Galleries",
           "venue": "westminster-abbey",
-          "desc": "Straight from breakfast — a 15-minute cab from Soho. 20 Deans Yard. Multimedia guides are included with entry.",
+          "desc": "Timed slot, already covered by the booking. The medieval triforium, 52 feet above the abbey floor, with the best view down the nave in London. Lift access. Allow 45–60 minutes.",
           "res": {
             "conf": "thedeanchapter1-14082026031057-219",
             "party": 3,
             "time": "13:00",
             "note": "Covered by the Abbey booking."
-          },
-          "suggestions": [
-            {
-              "title": "Optional: verger-led tour",
-              "desc": "90 minutes, £5pp on top of entry, capped at 25, phone-only: +44 20 7654 4834. Only worth the call if you decide you want it — the included audio guide covers the same ground. If you do book one, note a 12:00 tour runs to 1:30, straight through the 1:00 galleries slot, so ask for one that finishes earlier or push the galleries later.",
-              "venue": "westminster-abbey"
-            }
-          ]
+          }
         },
         {
           "time": "16:00",
