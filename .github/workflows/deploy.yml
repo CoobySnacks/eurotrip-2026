@@ -114,7 +114,7 @@ jobs:
               'Balderdash', 'Waterhole', 'Blue Boat', 'Changing of the Guard',
               'V&A', 'Sixt', 'JK Executive', 'Bierfabriek', 'Sexy Fish', 'Park Chinois',
               'The Harp', 'Old Coffee House', 'Chandos', 'Clachan', 'Three Greyhounds',
-              'Red Lion',
+              'Red Lion', 'Admiralty',
           ]
           ASIDES = ['double-booked', 'considered, not chosen', 'Malmö dropped',
                     'stall list correction', 'is cut —', 'was cut', 'Replaces ']

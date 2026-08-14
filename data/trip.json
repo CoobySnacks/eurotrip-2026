@@ -12,7 +12,7 @@
       "Grant"
     ],
     "organizer": "Coob",
-    "dataVersion": "3.1.0",
+    "dataVersion": "3.2.0",
     "lastUpdated": "2026-08-06",
     "questionsUnlockHour": 20,
     "fixedQuestions": [
@@ -1409,7 +1409,8 @@
       "menu": null,
       "instagram": "https://instagram.com/vangoghmuseum",
       "igHandle": "@vangoghmuseum",
-      "note": "TIMED TICKETS — book ahead, they sell out. Largest Van Gogh collection in the world."
+      "note": "Timed entry, paid. Main entrance, then the audiotour desk — the audio tickets scan separately.",
+      "phone": "+31 20 570 5200"
     },
     "blvd020": {
       "name": "BLVD020",
@@ -2427,17 +2428,6 @@
       "igHandle": null,
       "phone": "020 7227 0921",
       "note": "Mon 11:00–23:00. About 400 yards from the Abbey. Schooner Scorer pub."
-    },
-    "the-admiralty": {
-      "name": "The Admiralty",
-      "address": "66 Trafalgar Square, London WC2N 5DS",
-      "city": "London",
-      "website": null,
-      "menu": null,
-      "instagram": null,
-      "igHandle": null,
-      "phone": "020 7930 0066",
-      "note": "Right on the square. Mon 11:00–21:00 — an afternoon venue, not a late one. ⚠️ Use the side-street entrance, not the main door."
     },
     "swan-at-the-globe": {
       "name": "Swan at the Globe",
@@ -3516,8 +3506,16 @@
           "type": "activity",
           "title": "Van Gogh Museum",
           "venue": "van-gogh-museum",
-          "desc": "The tour ends at Spui around 1:30 — tram 2 or 12 from Spui to Van Baerlestraat, about 10 minutes. Allow ~90 minutes, back at the hotel by 4:30 with a clear run at dinner.",
-          "warn": "Timed tickets — book ahead, they sell out."
+          "desc": "Museumplein 6 — go to the MAIN ENTRANCE. Scan the QR there, then go straight to the audiotour desk: the audio tickets are separate tickets and scan separately. Allow ~90 minutes. Back at the hotel by 4:30, clear run at a 7:00 dinner.",
+          "warn": "⏱ THE TIGHTEST HAND-OFF OF THE TRIP. They will not admit you more than 30 minutes after 14:00. The Amsterdamliebe tour ends at Spui around 1:30; tram 2 or 12 from Spui to Van Baerlestraat is about 10 minutes — roughly 20 minutes of slack and no more.",
+          "res": {
+            "conf": "PAID",
+            "party": 3,
+            "time": "14:00",
+            "note": "Timed 14:00 entry for all three, audiotours included."
+          },
+          "alertLead": 35,
+          "highlight": true
         }
       ],
       "questions": {
@@ -3912,33 +3910,23 @@
           "type": "activity",
           "title": "Westminster Abbey",
           "venue": "westminster-abbey",
-          "desc": "Straight from breakfast — about a 15-minute cab from Soho. Allow 90 minutes, out by ~1:30. The Abbey closes at 3:30 PM.",
+          "desc": "Straight from breakfast — a 15-minute cab from Soho. 20 Deans Yard.",
           "critical": true,
-          "warn": "🔴 Tickets needed — book ahead. Timed entry.",
+          "warn": "🔴 BOOK THE VERGER TOUR BY PHONE: +44 20 7654 4834. Verger-led tours run 90 minutes, £5 per person on top of entry, cap at 25, and cannot be booked online. AND RESOLVE THE CLASH ON THAT CALL: a 90-minute tour from the 12:00 entry runs to 1:30 — straight through the 1:00 galleries slot. Ask for a tour that finishes before 1:00, or move the galleries entry later so the tour runs 12:00–1:30 and the galleries follow.",
           "highlight": true,
-          "suggestions": [
-            {
-              "title": "Verger-guided tour",
-              "desc": "Bookable at the desk on the day. Worth it if there's a slot.",
-              "venue": "westminster-abbey"
-            }
-          ]
-        },
-        {
-          "time": "16:15",
-          "type": "free",
-          "title": "🚶 THE RESET — walk it off",
-          "venue": null,
-          "desc": "Covent Garden → Seven Dials → Soho, about 20 minutes. Browse, get a coffee, let it wear off. Arrive at Dishoom clear-headed.",
-          "warn": "This gap is deliberate. Do NOT add a third pub here — this is the best dinner of the trip. And go straight from the pubs to Dishoom: do NOT route via the hotel, you will not leave again.",
-          "critical": true
+          "res": {
+            "conf": "thedeanchapter1-14082026031057-219",
+            "party": 3,
+            "time": "12:00",
+            "note": "Paid. One adult + disabled visitor + essential companion, galleries included."
+          }
         },
         {
           "time": "17:45",
           "type": "meal",
           "title": "Dinner · Dishoom Carnaby",
           "venue": "dishoom-carnaby",
-          "desc": "22 Kingly Street. Last bookable slot of the night.",
+          "desc": "22 Kingly Street — straight from the hotel, 10 minutes on foot. Last bookable slot of the night.",
           "res": {
             "conf": "8TCB8HDE4MCB",
             "party": 3,
@@ -3955,20 +3943,11 @@
           "desc": "The car comes at 6:30 AM for Heathrow Terminal 3. Past-you will not do this at 5:45."
         },
         {
-          "time": "13:45",
+          "time": "14:45",
           "type": "drinks",
-          "title": "① The Feathers",
+          "title": "The Feathers — the only pub",
           "venue": "the-feathers",
-          "desc": "18–20 Broadway, about 400 yards from the Abbey — closer than it looks. Mon 11:00–23:00.",
-          "highlight": true
-        },
-        {
-          "time": "15:00",
-          "type": "drinks",
-          "title": "② The Admiralty",
-          "venue": "the-admiralty",
-          "desc": "Right on Trafalgar Square, so the walk is short. Mon 11:00–21:00 — an afternoon venue, not a late one.",
-          "warn": "Use the side-street entrance, not the main door.",
+          "desc": "400 yards from the Abbey — you walk out and you're there. Schooner Scorer pub. Leave around 3:35 and cab to the hotel, about 15 minutes.",
           "highlight": true
         },
         {
@@ -3995,6 +3974,26 @@
               "venue": "bar-americain"
             }
           ]
+        },
+        {
+          "time": "13:00",
+          "type": "activity",
+          "title": "The Queen's Diamond Jubilee Galleries",
+          "venue": "westminster-abbey",
+          "desc": "Timed slot, already covered by the booking. The medieval triforium, 52 feet above the abbey floor, with the best view down the nave in London. Lift access. Allow 45–60 minutes.",
+          "res": {
+            "conf": "thedeanchapter1-14082026031057-219",
+            "party": 3,
+            "time": "13:00",
+            "note": "Covered by the Abbey booking."
+          }
+        },
+        {
+          "time": "16:00",
+          "type": "hotel",
+          "title": "🛁 Back at the hotel — GET READY",
+          "venue": "may-fair-hotel",
+          "desc": "No later than 4:00. This block is deliberately long, and that's the point: shower, change, sit down, have a drink in the room. Nobody is rushing anybody. Leave around 5:25 for Dishoom — 10 minutes on foot from Stratton Street, or 5 in a cab."
         }
       ],
       "questions": {
@@ -4147,8 +4146,8 @@
           ]
         },
         "round2": {
-          "estimateLow": 1079,
-          "estimateHigh": 1079,
+          "estimateLow": 1109,
+          "estimateHigh": 1109,
           "items": [
             {
               "label": "Vienna hotel balance",
@@ -4203,6 +4202,18 @@
               "statusNote": "bought by Coob"
             },
             {
+              "label": "Westminster Abbey — entry + Jubilee Galleries",
+              "amount": 16.08,
+              "status": "paid",
+              "statusNote": "paid by Coob"
+            },
+            {
+              "label": "Van Gogh Museum — entry + audiotours",
+              "amount": 14.03,
+              "status": "paid",
+              "statusNote": "paid by Coob"
+            },
+            {
               "label": "less Round 1 credit",
               "amount": -0.32,
               "status": "credit"
@@ -4239,8 +4250,8 @@
           ]
         },
         "round2": {
-          "estimateLow": 1503,
-          "estimateHigh": 1503,
+          "estimateLow": 1533,
+          "estimateHigh": 1533,
           "items": [
             {
               "label": "Vienna hotel balance",
@@ -4295,6 +4306,18 @@
               "statusNote": "bought by Coob"
             },
             {
+              "label": "Westminster Abbey — entry + Jubilee Galleries",
+              "amount": 16.08,
+              "status": "paid",
+              "statusNote": "paid by Coob"
+            },
+            {
+              "label": "Van Gogh Museum — entry + audiotours",
+              "amount": 14.03,
+              "status": "paid",
+              "statusNote": "paid by Coob"
+            },
+            {
               "label": "less Round 1 credit",
               "amount": -0.5,
               "status": "credit"
@@ -4330,14 +4353,19 @@
         "detail": "Paid by Coob."
       },
       {
-        "label": "Westminster Abbey tickets",
-        "status": "tobook",
-        "detail": "Timed entry and they sell out. Not part of the Round 2 request."
-      },
-      {
         "label": "Heineken Experience VIP tour ×3",
         "status": "paid",
         "detail": "€65 each. Bought by Coob — $75.50 per person."
+      },
+      {
+        "label": "Westminster Abbey + Jubilee Galleries",
+        "status": "paid",
+        "detail": "£36 total — the disabled-visitor and essential-companion concession made it one paid ticket instead of three, galleries included, against the £108 it would have been. $16.08 per person."
+      },
+      {
+        "label": "Van Gogh Museum + audiotours ×3",
+        "status": "paid",
+        "detail": "€36.25 total — 1 adult at €25 + 2 companion tickets at €0 + 3 audiotours at €3.75. €50 cheaper than three full adults. $14.03 per person."
       }
     ],
     "transferSummary": {
@@ -4359,24 +4387,6 @@
           "link": "https://www.gov.uk/guidance/apply-for-an-electronic-travel-authorisation-eta",
           "linkLabel": "Apply on gov.uk",
           "warn": "Do not leave this to the last week."
-        },
-        {
-          "id": "book-westminster",
-          "emoji": "🎟",
-          "mandatory": true,
-          "label": "Book Westminster Abbey tickets",
-          "desc": "Timed entry and they sell out. Mon Sep 7 at noon, and the Abbey closes at 3:30 PM. Check what you actually need before paying for three.",
-          "link": "https://www.westminster-abbey.org/visit-us",
-          "linkLabel": "Book tickets"
-        },
-        {
-          "id": "book-vangogh",
-          "emoji": "🎟",
-          "mandatory": true,
-          "label": "Book Van Gogh Museum — all 3 tickets",
-          "desc": "Timed entry and they genuinely sell out. Fri Sep 4 at 2:30 PM, before the Black Keys.",
-          "link": "https://www.vangoghmuseum.nl/en",
-          "linkLabel": "Book tickets"
         },
         {
           "id": "sovienna-card",
