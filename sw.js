@@ -6,7 +6,7 @@
    · receives push and opens the Questions tab
    ══════════════════════════════════════════════════════════ */
 
-const CACHE = 'eurotrip-v26';
+const CACHE = 'eurotrip-v27';
 /* Holds the tab a tapped notification asked for. Must NOT be swept by the
    activate handler below — a version bump landing between the tap and the
    relaunch would otherwise delete the note and drop you on the countdown. */
