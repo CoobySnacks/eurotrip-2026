@@ -50,16 +50,25 @@ def fetch(city):
 
 
 def trim(data, dates):
-    """Keep only the trip's own dates, and only what the UI actually renders."""
+    """Keep only the trip's own dates, and only what the UI actually renders.
+
+    Open-Meteo returns null for values at the far edge of its 16-day window.
+    An unguarded round(None) here crashed four of five cities on Aug 14 and
+    they were silently dropped from the snapshot — so: skip any day or hour
+    whose core numbers are missing rather than dying on it.
+    """
     out = {"daily": {}, "hourly": {}}
     d = data.get("daily", {})
     for i, day in enumerate(d.get("time", [])):
         if day not in dates:
             continue
+        mx, mn = d["temperature_2m_max"][i], d["temperature_2m_min"][i]
+        if mx is None or mn is None:
+            continue                      # window edge — no usable forecast yet
         out["daily"][day] = {
-            "code": d["weather_code"][i],
-            "max": round(d["temperature_2m_max"][i]),
-            "min": round(d["temperature_2m_min"][i]),
+            "code": d["weather_code"][i] or 0,
+            "max": round(mx),
+            "min": round(mn),
             "popMax": d.get("precipitation_probability_max", [None] * 99)[i] or 0,
             "sunrise": (d.get("sunrise") or [None])[i][11:16] if d.get("sunrise") else None,
             "sunset": (d.get("sunset") or [None])[i][11:16] if d.get("sunset") else None,
@@ -69,11 +78,14 @@ def trim(data, dates):
         day, hh = stamp[:10], int(stamp[11:13])
         if day not in dates or hh < 7 or hh > 23:
             continue
+        t = h["temperature_2m"][i]
+        if t is None:
+            continue
         out["hourly"].setdefault(day, []).append({
             "t": stamp[11:16],
-            "temp": round(h["temperature_2m"][i]),
+            "temp": round(t),
             "pop": h.get("precipitation_probability", [0] * 99)[i] or 0,
-            "code": h["weather_code"][i],
+            "code": h["weather_code"][i] or 0,
             "wind": round(h.get("wind_speed_10m", [0] * 99)[i] or 0),
         })
     return out
@@ -83,11 +95,21 @@ def main():
     trip = json.loads(TRIP.read_text(encoding="utf-8"))
     dates = {d["date"] for d in trip["days"]}
 
+    # Start from the previous snapshot so one failed fetch keeps yesterday's
+    # data for that city instead of erasing it. Mid-trip, a slightly stale
+    # forecast beats "seasonal averages" every time.
+    prev = {}
+    if OUT.exists():
+        try:
+            prev = json.loads(OUT.read_text(encoding="utf-8")).get("cities", {})
+        except Exception:
+            prev = {}
+
     snap = {
         "generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "source": "open-meteo.com",
         "note": "Offline fallback. The app prefers live data whenever it has signal.",
-        "cities": {},
+        "cities": dict(prev),
     }
 
     for key, city in trip["cities"].items():
@@ -96,7 +118,8 @@ def main():
             got = len(snap["cities"][key]["daily"])
             print(f"  {key:<12} {got} trip day(s) in range")
         except Exception as e:
-            print(f"  {key:<12} FAILED: {e}")
+            kept = len(prev.get(key, {}).get("daily", {}))
+            print(f"  {key:<12} FAILED ({e}) — kept previous snapshot ({kept} day(s))")
 
     if not any(c["daily"] for c in snap["cities"].values()):
         print("\nNo trip dates are inside the 16-day window yet — nothing useful to store.")
