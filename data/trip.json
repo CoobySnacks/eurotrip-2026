@@ -12,8 +12,8 @@
       "Grant"
     ],
     "organizer": "Coob",
-    "dataVersion": "3.2.2",
-    "lastUpdated": "2026-08-06",
+    "dataVersion": "3.2.3",
+    "lastUpdated": "2026-08-15",
     "questionsUnlockHour": 20,
     "fixedQuestions": [
       "Who drank the most alcohol last night?",
@@ -249,7 +249,8 @@
       ],
       "email": "office@airportdriver.at",
       "contact": "Adeline Sharma",
-      "note": "✅ Van confirmed Aug 6 for the non-folding wheelchair. Pickup moved to 7:30 and confirmed Aug 8. Flight SK 1694 is on the booking."
+      "note": "✅ Van confirmed Aug 6 for the non-folding wheelchair. Pickup moved to 7:30 and confirmed Aug 8. Flight SK 1694 is on the booking.",
+      "phone": "+43 1 22822"
     },
     {
       "cityKey": "copenhagen",
@@ -324,7 +325,9 @@
       "website": "https://www.so-hotels.com/en/vienna/",
       "menu": "https://www.so-hotels.com/en/vienna/restaurants-and-bars/",
       "instagram": "https://instagram.com/so.vienna",
-      "igHandle": "@so.vienna"
+      "igHandle": "@so.vienna",
+      "phone": "+43 1 90616 0",
+      "phoneLabel": "Front desk"
     },
     "cucina-itameshi": {
       "name": "Cucina Itameshi",
@@ -394,7 +397,8 @@
         "skip": "The pizza. Plates arrive as they're ready, not in courses — order in two waves. The €6.50pp Gedeck (bread, miso butter, water) is effectively compulsory.",
         "allergy": "The current menu has NO shrimp. Only shellfish is Pasta Fredda (cockles — mollusc). The menu rotates every few weeks, so flag the allergy when confirming.",
         "footer": "~€90–100pp all-in."
-      }
+      },
+      "phone": "+43 1 212 25 75 70"
     },
     "klyo": {
       "name": "Klyo",
@@ -470,7 +474,8 @@
         "skip": "Nothing — but don't sit down before doing the Feinkost counter. The famous Brötchen (open sandwiches) are NOT on the brasserie menu. They're at the counter out front, ordered by pointing, ~€2.50–4.50 each. Beinschinken with horseradish, roastbeef with artichoke, curry-egg with chives. 3–4 each with a glass of Grüner ≈ €20–25pp.",
         "allergy": "THIS IS THE RISKY ONE. Avoid: Shrimpscocktail €21.90, Rosa Garnelen €23.90, Gebratene Garnelen €22.50, Garnelenspieße €22.50, Caesar mit Garnele €22.00, Fischplatte €37.50, and Hors-d'œuvre 'Kameel' €33 (plated off the same cold station). Austrian menus mark crustaceans allergen B. Everything recommended above is clean.",
         "footer": "~€70–80pp for dinner and drinks, plus €20–25 at the counter."
-      }
+      },
+      "phone": "+43 1 533 81 25"
     },
     "verde": {
       "name": "Verde",
@@ -651,7 +656,8 @@
         "skip": "Saturday means no lunch menu — the €16.90 soup+main deal is Mon–Fri only. If you're hitting Demel later, skip cake here.",
         "allergy": "Only crustacean is a '+ grilled prawns €9' add-on. Just don't add it.",
         "footer": "~€49pp."
-      }
+      },
+      "phone": "+43 1 24 100 120"
     },
     "lugeck": {
       "name": "Lugeck",
@@ -710,7 +716,8 @@
         "skip": "The €49.90 truffle schnitzel and the €31.90 wagyu burger. You're here for schnitzel.",
         "allergy": "No crustaceans on the menu at all. (The octopus on the specials card is a mollusc.)",
         "footer": "~€67–78pp."
-      }
+      },
+      "phone": "+43 1 512 50 60"
     },
     "figlmueller": {
       "name": "Figlmüller Bäckerstraße",
@@ -760,7 +767,9 @@
       "menu": null,
       "instagram": null,
       "igHandle": null,
-      "note": "Hotel pickup at SO/ Vienna."
+      "note": "Hotel pickup at SO/ Vienna.",
+      "phone": "+1 855 957 1272",
+      "phoneLabel": "GetYourGuide 24/7 support"
     },
     "scandic-copenhagen": {
       "name": "Scandic Copenhagen",
@@ -769,7 +778,9 @@
       "website": "https://www.scandichotels.com/en/hotels/scandic-copenhagen",
       "menu": "https://www.scandichotels.com/en/hotels/scandic-copenhagen",
       "instagram": "https://instagram.com/scandiccopenhagen",
-      "igHandle": "@scandiccopenhagen"
+      "igHandle": "@scandiccopenhagen",
+      "phone": "+45 33 14 35 35",
+      "phoneLabel": "Front desk"
     },
     "esmee": {
       "name": "Esmée",
@@ -1050,7 +1061,8 @@
         ],
         "skip": "Nothing — but burgers come medium by default. Say something if you want otherwise.",
         "footer": "~600 DKK ($93) pp food."
-      }
+      },
+      "phone": "+45 38 10 64 00"
     },
     "madklubben": {
       "name": "Madklubben Frederiksberg",
@@ -1303,7 +1315,9 @@
       "menu": null,
       "instagram": "https://instagram.com/politicallyincorrecttours",
       "igHandle": "@politicallyincorrecttours",
-      "note": "Meet at Gammel Strand Metro — look for the ORANGE UMBRELLA. Arrive 10:45."
+      "note": "Meet at Gammel Strand Metro — look for the ORANGE UMBRELLA. Arrive 10:45.",
+      "phone": "+1 855 957 1272",
+      "phoneLabel": "GetYourGuide 24/7 support"
     },
     "harbour-bus": {
       "name": "Harbour Bus 991/992",
@@ -1323,7 +1337,9 @@
       "menu": "https://www.radissonhotels.com/en-us/hotels/radisson-blu-amsterdam",
       "instagram": "https://instagram.com/radissonbluamsterdamcitycenter",
       "igHandle": "@radissonbluamsterdamcitycenter",
-      "note": "Breakfast included."
+      "note": "Breakfast included.",
+      "phone": "+31 20 623 1231",
+      "phoneLabel": "Front desk"
     },
     "luminair": {
       "name": "LuminAir Rooftop",
@@ -1474,7 +1490,9 @@
       "menu": null,
       "instagram": "https://instagram.com/afaslive",
       "igHandle": "@afaslive",
-      "note": "Metro Line 54, Nieuwmarkt ↔ Bijlmer ArenA, ~15 min. TAP YOUR CARD AT THE GATE. Pre-book a taxi home."
+      "note": "Metro Line 54, Nieuwmarkt ↔ Bijlmer ArenA, ~15 min. TAP YOUR CARD AT THE GATE. Pre-book a taxi home.",
+      "phone": "+31 900 687 4242",
+      "phoneLabel": "Venue line (Dutch premium rate)"
     },
     "amsterdamliebe": {
       "name": "Amsterdamliebe Private Tour",
@@ -1484,7 +1502,9 @@
       "menu": null,
       "instagram": "https://instagram.com/amsterdamliebe",
       "igHandle": "@amsterdamliebe",
-      "note": "Meet at the National Monument, by the LIONS. Guide wears a RED BADGE. Arrive 11:25. Ends at Spui."
+      "note": "Meet at the National Monument, by the LIONS. Guide wears a RED BADGE. Arrive 11:25. Ends at Spui.",
+      "phone": "+1 855 957 1272",
+      "phoneLabel": "GetYourGuide 24/7 support"
     },
     "may-fair-hotel": {
       "name": "The May Fair Hotel",
@@ -1493,7 +1513,9 @@
       "website": "https://www.themayfairhotel.co.uk",
       "menu": "https://www.themayfairhotel.co.uk/restaurants-bars/the-may-fair-bar",
       "instagram": "https://instagram.com/themayfairhotel",
-      "igHandle": "@themayfairhotel"
+      "igHandle": "@themayfairhotel",
+      "phone": "+44 20 7769 8200",
+      "phoneLabel": "Front desk"
     },
     "may-fair-bar": {
       "name": "May Fair Bar",
@@ -1717,7 +1739,8 @@
         "suggested": "One of each of the three above — all British-specific things you can't get at home",
         "skip": "The English (£24.50) — reviewed as unremarkable for the price, and you'll get a better fry-up at Breakfast Club on Monday for £16.50. Also skip the pain au chocolat (dry). Ask for a table in the main room under the vaulted ceiling — the room is 80% of what you're paying for.",
         "footer": "~£45–55pp."
-      }
+      },
+      "phone": "+44 20 7499 6996"
     },
     "the-audley": {
       "name": "The Audley",
@@ -1815,7 +1838,8 @@
         "suggested": "Order like a sharing restaurant — 2 large plates plus 4–5 small plates for three, not one main each",
         "skip": "Desserts are the weak link. Skip the £39.95 Golden Dragon; if you want one, the Ube Doughnuts £10.25. Better plan: skip dessert, go drink. Ask for a window table with the St Paul's view when booking and again on arrival.",
         "footer": "~£95–115pp."
-      }
+      },
+      "phone": "+44 20 3971 2600"
     },
     "breakfast-club": {
       "name": "The Breakfast Club Old Compton St",
@@ -1868,7 +1892,8 @@
         ],
         "skip": "Nothing. No bookings at Old Compton St and the queue is famous — 10:30 on a Monday is the smart slot, you'll walk straight in.",
         "footer": "~£30–35pp including 12.5% service."
-      }
+      },
+      "phone": "+44 20 3948 6266"
     },
     "dishoom-carnaby": {
       "name": "Dishoom Carnaby",
@@ -1962,7 +1987,8 @@
         ],
         "suggested": "House Black Daal ×2 · Lamb Raan · Charred Lamb Chops · Dishoom Chicken Tikka · Gunpowder Potatoes · Roomali Roti",
         "footer": "Roughly £35–40 a head with a drink."
-      }
+      },
+      "phone": "+44 20 7420 9322"
     },
     "connaught-bar": {
       "name": "Connaught Bar",
@@ -2054,7 +2080,9 @@
       "menu": null,
       "instagram": null,
       "igHandle": null,
-      "note": "Meet OUTSIDE The Ritz by the TWO RED PHONE BOXES. Arrive 11:50. 3 hours."
+      "note": "Meet OUTSIDE The Ritz by the TWO RED PHONE BOXES. Arrive 11:50. 3 hours.",
+      "phone": "+1 855 957 1272",
+      "phoneLabel": "GetYourGuide 24/7 support"
     },
     "dfw-terminal-d": {
       "name": "DFW Terminal D",
@@ -2064,7 +2092,9 @@
       "menu": null,
       "instagram": null,
       "igHandle": null,
-      "note": "International terminal. Lounge access with Business."
+      "note": "International terminal. Lounge access with Business.",
+      "phone": "+1 972 973 3112",
+      "phoneLabel": "DFW Airport information"
     },
     "atmosphere-rooftop": {
       "name": "Atmosphere Rooftop Bar",
@@ -2104,7 +2134,8 @@
       "menu": null,
       "instagram": "https://instagram.com/wabbey",
       "igHandle": "@wabbey",
-      "note": "Tickets needed — book ahead. Timed entry. Closes 3:30 PM. Verger-guided tours bookable at the desk on the day."
+      "note": "Tickets needed — book ahead. Timed entry. Closes 3:30 PM. Verger-guided tours bookable at the desk on the day.",
+      "phone": "+44 20 7654 4832"
     },
     "churchill-war-rooms": {
       "name": "Churchill War Rooms",
@@ -2406,7 +2437,8 @@
       "menu": null,
       "instagram": "https://instagram.com/heineken_experience",
       "igHandle": "@heineken_experience",
-      "note": "VIP tour: €65 per person, 2.5 hours, 18+ only, capped at 10 people. Friday slots run hourly from 10am to 4pm."
+      "note": "VIP tour: €65 per person, 2.5 hours, 18+ only, capped at 10 people. Friday slots run hourly from 10am to 4pm.",
+      "phone": "+31 20 523 92 22"
     },
     "albert-cuyp-market": {
       "name": "Albert Cuyp Market",
