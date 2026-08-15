@@ -132,6 +132,15 @@ b,strong{font-weight:650}
   .crew-img{object-position:center 26%}
 }
 
+/* ─────────── CITY / HOTEL PHOTOS ───────────
+   Same treatment as the family site. A missing file removes its frame
+   via onerror, so these only ever render around a real image. */
+.photo-fig{
+  margin:0 0 12px;border-radius:16px;overflow:hidden;
+  border:1px solid var(--line-2);background:var(--card);
+}
+.photo-img{display:block;width:100%;height:auto;max-height:340px;object-fit:cover}
+
 /* ─────────── COUNTDOWN HERO ─────────── */
 .hero{
   position:relative;overflow:hidden;

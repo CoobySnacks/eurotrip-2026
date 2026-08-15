@@ -463,6 +463,24 @@ const R = (() => {
   }
 
   /* ══════════════ CITY TAB ══════════════ */
+  /**
+   * Photo slot, replicated from the family app so both sites show the same
+   * shots the same way. Files live in assets/photos/ by convention:
+   * <cityKey>-city.jpg and <cityKey>-hotel.jpg.
+   *
+   * The frame starts hidden and is revealed by onload, so a missing file
+   * renders NOTHING — no empty frame, no broken-image icon. Deliberately not
+   * loading="lazy": a lazy image below the fold never attempts to load, so
+   * neither handler would ever fire (that bug shipped briefly on the family
+   * site). City tabs render on demand, which is all the laziness needed.
+   */
+  const photoSlot = (name, alt) =>
+    `<figure class="photo-fig" hidden>
+      <img class="photo-img" src="assets/photos/${esc(name)}.jpg" alt="${esc(alt)}"
+           onload="this.parentElement.hidden=false"
+           onerror="this.parentElement.remove()">
+    </figure>`;
+
   function city(D, key, wxData) {
     const c = D.cities[key];
     const days = D.days.filter(d => d.cityKey === key);
@@ -474,11 +492,13 @@ const R = (() => {
       <div class="ch-sum">${esc(c.summary)}</div>
       <div class="ch-cur">💱 ${esc(c.currency)} · 🕐 ${esc(c.tz.split('/')[1].replace('_',' '))} time</div>
     </div>`;
+    h += photoSlot(key + '-city', c.name);
 
     /* hotel */
     const hotel = D.hotels.find(x => x.cityKey === key);
     if (hotel) {
       h += `<div class="sec-title">Where we're staying</div>`;
+      h += photoSlot(key + '-hotel', hotel.name);
       h += `<div class="card"><div class="blk-title">🏨 ${esc(hotel.name)}</div>`;
       h += venueAddress(D, hotel.venue);
       h += `<div class="blk-desc">${T.prettyDate(hotel.checkIn)} – ${T.prettyDate(hotel.checkOut)} · ${hotel.nights} nights · ${esc(hotel.rooms)}</div>`;

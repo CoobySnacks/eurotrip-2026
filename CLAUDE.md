@@ -52,6 +52,9 @@ icons/                  app icons, generated from assets/logo.png
 assets/logo.png         group-chat badge — gate screen + source for every icon
 assets/crew.jpg         the three of them, pre-cropped to 6:5 (countdown hero, pre-trip only)
 assets/crew-original.jpg full-frame master - KEEP IT, re-crop from this, never overwrite
+assets/photos/          city + hotel shots, shared with the family site. Naming
+                        convention <cityKey>-city.jpg / <cityKey>-hotel.jpg; a
+                        missing file renders nothing (no frame, no broken icon)
 scripts/send_push.py    nightly 8 PM notification sender
 worker/worker.js        Cloudflare Worker — subscription store AND the notification
                         scheduler. Cron every 5 min. THIS sends everything.
