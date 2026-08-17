@@ -12,7 +12,7 @@
       "Grant"
     ],
     "organizer": "Coob",
-    "dataVersion": "3.2.3",
+    "dataVersion": "3.3.0",
     "lastUpdated": "2026-08-15",
     "questionsUnlockHour": 20,
     "fixedQuestions": [
@@ -134,7 +134,7 @@
       "arriveTz": "Europe/Copenhagen",
       "cabin": "Economy",
       "conf": "BLXH8G",
-      "note": "7:00 AM pickup from the hotel. Pack the night before."
+      "note": "7:30 AM pickup from the hotel. Pack the night before."
     },
     {
       "date": "2026-09-02",
@@ -1604,7 +1604,7 @@
             ]
           }
         ],
-        "suggested": "Sit at the counter, not a table. Every review says the same — the counter is where the energy is.",
+        "suggested": "You're at a booked table — deliberate, with a party of three. The counter is where the solo energy is; the table is where you can actually talk.",
         "footer": "~£85–100pp including 15% service."
       }
     },
@@ -2953,8 +2953,8 @@
           "time": "22:30",
           "type": "note",
           "title": "PACK TONIGHT",
-          "desc": "7:00 AM pickup tomorrow. Pack before you go to bed, not at 6:40 AM.",
-          "warn": "7 AM pickup. Pack tonight."
+          "desc": "7:30 AM pickup tomorrow. Pack before you go to bed, not at 7:10 AM.",
+          "warn": "7:30 AM pickup. Pack tonight."
         }
       ],
       "questions": {
@@ -3751,19 +3751,26 @@
           "warn": "The bar is CLOSED SUNDAYS. Tonight is the only night it works."
         },
         {
-          "time": "19:00",
+          "time": "18:00",
           "type": "meal",
           "title": "Dinner · Dover Street Counter",
           "venue": "dover-street-counter",
           "desc": "Mayfair diner. \"McDonald's for oligarchs.\"",
-          "warn": "🟡 Booking window still pending — not yet confirmed.",
+          "warn": "💳 Cashless venue — all major cards and Apple Pay. No cash accepted for anything.",
           "suggestions": [
             {
-              "title": "Fallback: Hawksmoor Seven Dials",
-              "desc": "Steak. Never a bad night.",
+              "title": "Backup: Hawksmoor Seven Dials",
+              "desc": "Steak. Never a bad night. Nothing to book — it's just the backup.",
               "venue": "hawksmoor"
             }
-          ]
+          ],
+          "res": {
+            "conf": "CONFIRMED",
+            "party": 3,
+            "time": "18:00",
+            "note": "Booked under Jacob Talavera. 31 Dover Street — 31, not 21."
+          },
+          "note": "Dinner runs 6:00–7:45 and hands off straight to The Devonshire at 8:00 — which was the whole point of getting there early."
         },
         {
           "time": "20:00",
@@ -3942,22 +3949,14 @@
           "type": "activity",
           "title": "Westminster Abbey",
           "venue": "westminster-abbey",
-          "desc": "Straight from breakfast — a 15-minute cab from Soho. 20 Deans Yard. Multimedia guides are included with entry.",
-          "critical": true,
+          "desc": "Straight from breakfast — a 15-minute cab from Soho. 20 Deans Yard.\n🎧 Multimedia guide — included free with your entry. Grab three at the door. Narrated by Jeremy Irons, ~60–75 minutes at your own pace: guide from 12:00, galleries at 1:00, out around 2:00.",
           "highlight": true,
           "res": {
             "conf": "thedeanchapter1-14082026031057-219",
             "party": 3,
             "time": "12:00",
             "note": "Paid. One adult + disabled visitor + essential companion, galleries included."
-          },
-          "suggestions": [
-            {
-              "title": "Optional: verger-led tour",
-              "desc": "90 minutes, £5pp on top of entry, capped at 25, phone-only: +44 20 7654 4834. Only worth the call if you decide you want it — the included audio guide covers the same ground. If you do book one, note a 12:00 tour runs to 1:30, straight through the 1:00 galleries slot, so ask for one that finishes earlier or push the galleries later.",
-              "venue": "westminster-abbey"
-            }
-          ]
+          }
         },
         {
           "time": "17:45",
