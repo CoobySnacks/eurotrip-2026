@@ -942,7 +942,63 @@ const R = (() => {
     return h;
   }
 
+  /* ══════════════ GAMEDAY ABROAD ══════════════
+     Top 25 college football, pre-converted to each city's local time.
+     The Tech game gets top billing — that's the room the night is built
+     around, per the man himself. */
+  function gameday(D) {
+    const G = D.gameday;
+    if (!G) return `<div class="empty">No gameday data.</div>`;
+
+    let h = `<div class="cn-hero" style="border-color:#CC0000;background:linear-gradient(150deg,#1A0505,#141821)">
+      <div class="cn-kicker">🏈 ${esc(G.title)}</div>
+      <div class="cn-route">${esc(G.subtitle)}</div>
+      <div class="wx-note" style="margin-top:8px">${esc(G.tzNote)}</div>
+    </div>`;
+
+    /* the headliner — Red Raider red, top billing */
+    const HL = G.headliner;
+    h += `<div class="gd-headliner">
+      <div class="gd-hl-kicker">${esc(HL.kicker)}</div>
+      <div class="gd-hl-title">${esc(HL.title)}</div>
+      <div class="gd-hl-body">${esc(HL.body)}</div>
+      ${HL.facts.map(f => `<div class="gd-hl-fact">• ${esc(f)}</div>`).join('')}
+      <div class="gd-hl-flow">${esc(HL.flow)}</div>
+      <div class="warn red" style="margin-top:10px"><span>⚠️</span><span>${esc(HL.warn)}</span></div>
+      <div class="gd-hl-note">${esc(HL.note)}</div>
+      ${HL.venue ? venueLinks(D, HL.venue) : ''}
+    </div>`;
+
+    /* day by day */
+    for (const day of G.days) {
+      const c = D.cities[day.cityKey];
+      h += `<div class="sec-title" style="color:${c.color}">${esc(c.flag)} ${esc(day.heading)}</div>`;
+      h += `<div class="card card-tight">`;
+      day.games.forEach(g => {
+        h += `<div class="gd-game${g.tech ? ' tech' : ''}${g.star ? ' star' : ''}">
+          <div class="gd-time">${esc(g.time)}</div>
+          <div class="gd-body">
+            <div class="gd-matchup">${g.star ? '⭐ ' : ''}${esc(g.matchup)}</div>
+            ${g.venue ? `<div class="gd-venue">${esc(g.venue)}</div>` : ''}
+            ${g.note ? `<div class="gd-note">${esc(g.note)}</div>` : ''}
+          </div>
+          <div class="gd-tv">${esc(g.tv)}</div>
+        </div>`;
+      });
+      h += `</div>`;
+      if (day.footer) h += `<div class="note-box">${esc(day.footer)}</div>`;
+    }
+
+    h += `<div class="sec-title">${esc(G.tba.title)}</div>
+      <div class="note-box">${esc(G.tba.body)}</div>`;
+
+    h += `<div class="sec-title">${esc(G.howToWatch.title)}</div><div class="card">`;
+    G.howToWatch.lines.forEach(l => h += `<div class="cn-line" style="font-size:13.5px">${esc(l)}</div>`);
+    h += `</div>`;
+    return h;
+  }
+
   return { esc, home, today, city, fullTrip, bookings, money, checklists,
-           questions, concertNight, dayList, blockHTML, venueLinks, mapsUrl,
-           sortedBlocks, hero };
+           questions, concertNight, gameday, dayList, blockHTML, venueLinks,
+           mapsUrl, sortedBlocks, hero };
 })();

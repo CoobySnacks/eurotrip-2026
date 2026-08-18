@@ -251,6 +251,15 @@ site-wide, one instruction per `cn-line`, everything hardcoded (no fetches).
 The sticky **GETTING HOME** button is `.cn-jump`, anchored to `#getting-home`.
 That is the section they will actually need at midnight; don't bury it.
 
+### `gameday` — the college-football page
+
+Top 25 kickoffs pre-converted to each city's local time, rendered by
+`R.gameday()` on the `gameday` tab. `days[]` each carry `games[]`
+({time, matchup, tv, note?, tech?, star?}); `tech: true` gets the Red Raider
+red row, `star` the gold matchup. `headliner` is the Tech-at-the-sportsbook
+card. TBA kickoff times are deliberately absent — add games to the right day
+when times drop, never show empty slots.
+
 ### `pinnedLink` — big button at the top of a day
 
 ```jsonc

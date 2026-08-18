@@ -12,7 +12,7 @@
       "Grant"
     ],
     "organizer": "Coob",
-    "dataVersion": "3.3.0",
+    "dataVersion": "3.4.0",
     "lastUpdated": "2026-08-15",
     "questionsUnlockHour": 20,
     "fixedQuestions": [
@@ -2979,6 +2979,11 @@
           "Lugeck's schnitzel vs everything else we've eaten. Where does it land?",
           "One more day in Vienna, no budget, no rules. What are we doing?"
         ]
+      },
+      "pinnedLink": {
+        "tab": "gameday",
+        "label": "🏈 TCU kicks at 6 PM YOUR time tonight",
+        "sub": "The Dublin game — the only kickoff of the weekend at a human hour."
       }
     },
     {
@@ -3804,6 +3809,11 @@
           "The Devonshire queue — worth it, or a mistake we'll happily make again?",
           "Funniest thing that's happened in eleven days."
         ]
+      },
+      "pinnedLink": {
+        "tab": "gameday",
+        "label": "🏈 GAMEDAY ABROAD — Tech at midnight at the sportsbook",
+        "sub": "Every Top 25 kickoff this trip, already in your local time."
       }
     },
     {
@@ -5049,5 +5059,173 @@
       "title": "✈️ THE TIME IS NOW",
       "body": "WHEELS UP 7:40 PM. CAR LEAVES AT 5. TERMINAL D.\n\nPASSPORT. ETA. BATTERY PACK. ONE DECENT SHIRT.\n\nFOUR COUNTRIES. FOURTEEN DAYS. THREE IDIOTS.\n\nEUROPEAN ON MY FACE IS LIVE. LET'S GO BOYS. 🤠"
     }
-  ]
+  ],
+  "gameday": {
+    "title": "GAMEDAY ABROAD",
+    "subtitle": "Top 25 kickoffs in YOUR local time. No filler games.",
+    "tzNote": "Vienna and Amsterdam run 6 hours ahead of Eastern; London runs 5.",
+    "days": [
+      {
+        "date": "2026-08-29",
+        "cityKey": "vienna",
+        "heading": "SAT AUG 29 — VIENNA · the season opens in YOUR timezone",
+        "games": [
+          {
+            "time": "6:00 PM",
+            "matchup": "North Carolina vs TCU",
+            "tv": "ESPN",
+            "venue": "Aer Lingus Classic · Dublin, Ireland",
+            "star": true,
+            "note": "The Frogs open the season one country over, and the noon-ET Dublin kick means a 6 PM Vienna start — the only game of the weekend at a human hour. First half runs through drinks at Atmosphere (5:00); second half is on your phone at Lugeck. (TCU is #23 in the coaches poll — just outside the AP 25, but it's a DFW team playing in Europe while you're in Europe. It's in.)"
+          }
+        ],
+        "footer": "Everything else in Week 0 kicks off between 1 and 4 AM Vienna time. Skip."
+      },
+      {
+        "date": "2026-09-04",
+        "cityKey": "amsterdam",
+        "heading": "THU SEP 3 – FRI SEP 4 — AMSTERDAM · nothing worth losing sleep over",
+        "games": [
+          {
+            "time": "3:00 AM Sat",
+            "matchup": "#7 Miami at Stanford",
+            "tv": "ESPN",
+            "note": "Listed for completeness only."
+          },
+          {
+            "time": "3:00 AM Sat",
+            "matchup": "#14 USC vs Fresno State",
+            "tv": "FOX",
+            "note": "Friday is Black Keys night and these kick at 3 AM. Nobody is doing this."
+          }
+        ]
+      },
+      {
+        "date": "2026-09-05",
+        "cityKey": "london",
+        "heading": "SAT SEP 5 — LONDON · the first full Saturday, and the times actually work",
+        "games": [
+          {
+            "time": "5:00 PM",
+            "matchup": "#13 Alabama vs East Carolina",
+            "tv": "ABC"
+          },
+          {
+            "time": "5:00 PM",
+            "matchup": "#6 Indiana vs North Texas",
+            "tv": "FOX"
+          },
+          {
+            "time": "5:30 PM",
+            "matchup": "#1 Ohio State vs Ball State",
+            "tv": "BTN"
+          },
+          {
+            "time": "8:30 PM",
+            "matchup": "#2 Oregon vs Boise State",
+            "tv": "CBS"
+          },
+          {
+            "time": "8:30 PM",
+            "matchup": "#5 Texas vs Texas State",
+            "tv": "ESPN"
+          },
+          {
+            "time": "8:30 PM",
+            "matchup": "#18 Penn State vs Marshall",
+            "tv": "FS1"
+          },
+          {
+            "time": "9:15 PM",
+            "matchup": "#22 Iowa vs Northern Illinois",
+            "tv": "BTN"
+          },
+          {
+            "time": "12:00 AM",
+            "matchup": "#12 TEXAS TECH vs Abilene Christian",
+            "tv": "FS1",
+            "tech": true,
+            "note": "THE ONE THAT MATTERS — see the headliner below."
+          },
+          {
+            "time": "12:30 AM",
+            "matchup": "#11 LSU vs Clemson",
+            "tv": "ABC",
+            "note": "The national game of the weekend — on the wall next to the Tech screen."
+          },
+          {
+            "time": "12:30 AM",
+            "matchup": "#16 Michigan vs Western Michigan",
+            "tv": "NBC"
+          }
+        ],
+        "footer": "How the day collides with the plan: the 5:00 window is your hotel-bar hour before Dover Street at 6:00 · Texas kicks at 8:30 — right in the middle of The Devonshire · then the pub closes and it's Tech o'clock at the sportsbook."
+      },
+      {
+        "date": "2026-09-06",
+        "cityKey": "london",
+        "heading": "SUN SEP 6 — LONDON · casino night IS gameday night 🎰",
+        "games": [
+          {
+            "time": "9:00 PM",
+            "matchup": "#17 Washington vs Washington State",
+            "tv": "NBC/Peacock",
+            "note": "Yes, technically the Washington State game. Washington is #17. You said Top 25 — blame the rules. You'll be at the Swan / Ivy Asia anyway."
+          },
+          {
+            "time": "12:30 AM",
+            "matchup": "#4 Notre Dame vs Wisconsin (Green Bay)",
+            "tv": "NBC"
+          },
+          {
+            "time": "12:30 AM",
+            "matchup": "#9 Ole Miss vs #24 Louisville (Nashville)",
+            "tv": "ABC"
+          }
+        ],
+        "footer": "At 12:30 AM you will already be standing in the Hippodrome — whose 24-hour sportsbook has giant HD screens. Notre Dame and Ole Miss kick off while you're on the casino floor. This is not a conflict, it's the best-planned night of the trip."
+      },
+      {
+        "date": "2026-09-07",
+        "cityKey": "london",
+        "heading": "MON SEP 7 — LONDON · last night, one game, one warning",
+        "games": [
+          {
+            "time": "12:30 AM Tue",
+            "matchup": "#19 SMU at Florida State",
+            "tv": "ESPN",
+            "note": "The Dallas boys, on the road, on the one night that ends with a 6:30 AM car. Same rule as everything else that night: decide over dinner, nobody has to."
+          }
+        ]
+      }
+    ],
+    "headliner": {
+      "title": "🔴⚫ WRECK 'EM AT THE SPORTSBOOK",
+      "kicker": "#12 TEXAS TECH · MIDNIGHT · SATURDAY SEP 5",
+      "body": "Texas Tech kicks off its season at MIDNIGHT London time, Saturday night Sep 5 — and you're watching it at Paddy's Sportsbook inside the Hippodrome Casino.",
+      "facts": [
+        "Cranbourn Street, Leicester Square · open till 4 AM Fri–Sun · free entry · 18+ with photo ID",
+        "55 HD screens plus a 33-foot big screen, and they show NCAA college football — this is the room in London built for exactly this night",
+        "Smashburgers and table service if you grab a private booth — book one, and ask the host to put Tech on your booth screen"
+      ],
+      "flow": "THE FLOW: Devonshire till ~11:15 → 5-min cab (or 15-min walk) to Leicester Square → Tech kicks at 12:00 on your screen, LSU–Clemson kicks 12:30 on the wall next to it. Game ends ~3:30, doors don't close till 4. This is the best possible way to be jet-lagged.",
+      "warn": "Enter on Little Newport Street — tell the driver that, not Cranbourn Street.",
+      "note": "Same building as Sunday's casino night. Saturday is the scouting trip.",
+      "venue": "hippodrome-casino"
+    },
+    "tba": {
+      "title": "⏳ Times still TBA",
+      "body": "#3 Georgia, #8 Texas A&M, #10 Oklahoma, #14 BYU, #20 Tennessee, #21 Utah, #23 Houston and #25 Missouri all open Sat Sep 5, but kickoff times aren't announced yet. They'll be added once times drop — most will land in the same 5 PM–2 AM London windows above."
+    },
+    "howToWatch": {
+      "title": "📺 How to actually watch",
+      "lines": [
+        "US streaming apps geo-block in Europe. Two fixes, set up BEFORE the flight:",
+        "① ESPN Player (espnplayer.com) — ESPN's own European service, carries the ABC/ESPN college slate, no VPN needed.",
+        "② A VPN set to the US for everything else: FOX/FS1/BTN → Fox One · CBS → Paramount+ · NBC → Peacock.",
+        "🔴⚫ The Tech game itself is handled — Paddy's Sportsbook carries NCAA football on its own feeds. But set up the VPN + Fox One anyway as the insurance policy (FS1 isn't on ESPN Player), and for anything you want to watch from a hotel room.",
+        "Test it before wheels-up. Hotel wifi handles all of it fine."
+      ]
+    }
+  }
 }

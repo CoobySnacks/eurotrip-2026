@@ -89,6 +89,10 @@ const App = (() => {
         setAccent('amsterdam');
         view.innerHTML = R.concertNight(D);
         break;
+      case 'gameday':
+        setAccent('london');            // the big nights are London nights
+        view.innerHTML = R.gameday(D);
+        break;
       case 'bookings':   view.innerHTML = R.bookings(D); break;
       case 'money':      view.innerHTML = R.money(D, who); break;
       case 'checklists': view.innerHTML = R.checklists(D); break;
@@ -337,7 +341,7 @@ const App = (() => {
    * app to whatever tab a three-day-old notification pointed at.
    */
   const VALID_TABS = ['today','trip','vienna','copenhagen','amsterdam','london',
-                      'concert','bookings','money','checklists','questions'];
+                      'concert','gameday','bookings','money','checklists','questions'];
 
   function startTab() {
     let want = null;

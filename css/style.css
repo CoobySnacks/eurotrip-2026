@@ -700,6 +700,41 @@ b,strong{font-weight:650}
 .pl-label{font-size:16.5px;font-weight:850;line-height:1.3}
 .pl-sub{font-size:12.5px;font-weight:650;margin-top:5px;opacity:.82;line-height:1.4}
 
+/* ═══════════ GAMEDAY ABROAD ═══════════ */
+.gd-headliner{
+  background:linear-gradient(150deg,#1C0000,#0E0E10);
+  border:2px solid #CC0000;border-radius:16px;
+  padding:18px 16px;margin-bottom:16px;
+}
+.gd-hl-kicker{font-size:11px;font-weight:850;letter-spacing:.16em;color:#FF6B6B;text-transform:uppercase}
+.gd-hl-title{font-size:23px;font-weight:900;letter-spacing:.01em;color:#fff;margin-top:6px}
+.gd-hl-body{font-size:14px;color:var(--tx-2);line-height:1.55;margin-top:9px}
+.gd-hl-fact{font-size:12.5px;color:var(--tx-2);line-height:1.5;margin-top:7px}
+.gd-hl-flow{
+  margin-top:12px;padding:11px 12px;border-radius:10px;
+  background:rgba(204,0,0,.1);border:1px solid rgba(204,0,0,.35);
+  font-size:13px;line-height:1.6;color:#FFC9C9;font-weight:600;
+}
+.gd-hl-note{font-size:11.5px;color:var(--tx-3);margin-top:9px;font-style:italic}
+
+.gd-game{display:flex;gap:10px;padding:11px 0;border-bottom:1px solid var(--line);align-items:baseline}
+.gd-game:last-child{border-bottom:none}
+.gd-time{flex:0 0 78px;font-size:13px;font-weight:800;font-variant-numeric:tabular-nums;color:var(--tx-2)}
+.gd-body{flex:1;min-width:0}
+.gd-matchup{font-size:13.5px;font-weight:750;line-height:1.35}
+.gd-venue{font-size:11px;color:var(--tx-3);margin-top:2px}
+.gd-note{font-size:11.5px;color:var(--tx-2);margin-top:4px;line-height:1.5}
+.gd-tv{flex:0 0 auto;font-size:10px;font-weight:800;letter-spacing:.05em;
+  padding:3px 7px;border-radius:5px;background:var(--card-2);
+  border:1px solid var(--line-2);color:var(--tx-2)}
+.gd-game.tech{
+  background:rgba(204,0,0,.09);margin:0 -13px;padding:12px 13px;
+  border-left:3px solid #CC0000;border-bottom:1px solid var(--line);
+}
+.gd-game.tech .gd-time{color:#FF6B6B}
+.gd-game.tech .gd-matchup{color:#fff;font-weight:850}
+.gd-game.star .gd-matchup{color:var(--c)}
+
 /* ─────────── GATE ─────────── */
 .gate{
   position:fixed;inset:0;z-index:200;background:var(--bg);
