@@ -277,7 +277,7 @@ const App = (() => {
 
     /* re-render on wake so "now" is never stale */
     document.addEventListener('visibilitychange', () => {
-      if (!document.hidden) go(tab, { keepScroll: true });
+      if (!document.hidden) { checkFresh(); go(tab, { keepScroll: true }); }
     });
 
     /* the service worker tells us where a tapped notification wanted to go,
@@ -375,6 +375,27 @@ const App = (() => {
       if (!at || Date.now() - at > 120000) return null;
       return VALID_TABS.includes(tab) ? tab : null;
     } catch { return null; }
+  }
+
+  /**
+   * Stale-code self-heal. The Gameday launch hit this for real: an open PWA
+   * keeps running the JS it booted with, so after a deploy the fresh
+   * index.html showed the new tab while the old app.js had no route for it —
+   * tap, nothing. JS only refreshes on a page reload, so when the data
+   * version moves, reload ourselves. Throttled so waking the phone doesn't
+   * hammer the network.
+   */
+  let lastFreshCheck = 0;
+  async function checkFresh() {
+    if (Date.now() - lastFreshCheck < 5 * 60 * 1000) return;
+    lastFreshCheck = Date.now();
+    try {
+      const r = await fetch('data/trip.json', { cache: 'no-store' });
+      const j = await r.json();
+      if (j?.meta?.dataVersion && j.meta.dataVersion !== D.meta.dataVersion) {
+        location.reload();
+      }
+    } catch {}
   }
 
   /* ══════════════ BOOT ══════════════ */

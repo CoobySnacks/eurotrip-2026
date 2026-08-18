@@ -12,7 +12,7 @@
       "Grant"
     ],
     "organizer": "Coob",
-    "dataVersion": "3.4.0",
+    "dataVersion": "3.4.1",
     "lastUpdated": "2026-08-15",
     "questionsUnlockHour": 20,
     "fixedQuestions": [
@@ -3785,6 +3785,23 @@
           "desc": "17 Denman Street. 20,000 pints of Guinness a week. Walk-in only — they take no drinks reservations at all.",
           "highlight": true,
           "note": "Get there at 8:00 and let it fill around you: you claim a spot while there's still one to choose, and the crush builds over the next 90 minutes. By 9:30 on a Saturday it spills onto Denman Street. Closes 23:00, so 8:00 buys three hours instead of ninety minutes. Kitchen last sitting 22:00."
+        },
+        {
+          "time": "20:30",
+          "type": "activity",
+          "title": "🏈 #5 Texas vs Texas State — kicks mid-Devonshire",
+          "desc": "8:30 PM on ESPN, right in the middle of the pub. It's on your phone via ESPN Player, or just keep an eye on the score — the real game is at midnight.",
+          "highlight": true
+        },
+        {
+          "time": "00:00",
+          "type": "activity",
+          "title": "🔴⚫ #12 TEXAS TECH vs Abilene Christian — Paddy's Sportsbook",
+          "venue": "hippodrome-casino",
+          "desc": "Midnight kick on 55 HD screens plus the 33-foot big one. Devonshire till ~11:15, then a 5-min cab (or 15-min walk) to Leicester Square. Grab a private booth and ask the host to put Tech on your screen — LSU–Clemson kicks 12:30 on the wall next to it. Game ends ~3:30, doors don't close till 4.",
+          "warn": "Enter on Little Newport Street — tell the driver that, not Cranbourn Street.",
+          "alertLead": 45,
+          "highlight": true
         }
       ],
       "questions": {
