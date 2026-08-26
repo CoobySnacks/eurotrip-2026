@@ -12,7 +12,7 @@
       "Grant"
     ],
     "organizer": "Coob",
-    "dataVersion": "3.4.1",
+    "dataVersion": "3.4.2",
     "lastUpdated": "2026-08-15",
     "questionsUnlockHour": 20,
     "fixedQuestions": [
@@ -2591,7 +2591,8 @@
           "time": "17:45",
           "type": "drinks",
           "title": "Lounge",
-          "desc": "Business class gets you in. First drink of the trip is on the ground."
+          "desc": "Business class gets you in. First drink of the trip is on the ground.",
+          "alert": false
         },
         {
           "time": "19:40",

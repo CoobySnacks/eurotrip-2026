@@ -93,11 +93,16 @@ const ICON = { meal: '🍽', drinks: '🍺', club: '🕺', tour: '🚶', activit
  */
 function computeDue(trip, now) {
   const out = [];
-  const dep = new Date(trip.meta.departureISO).getTime();
-  const preTrip = now.getTime() < dep;
 
-  /* ---- pre-trip: 7:30 AM Central countdown ---- */
-  if (preTrip) {
+  /* ---- 7:30 AM Central countdown ----
+     Naturally self-limiting: it only fires on a date that has a
+     countdownPushes entry, and those end on departure day. It must NOT
+     gate the day-processing below. The original code returned early
+     whenever now < departureISO — which suppressed EVERYTHING on Aug 26
+     before the 7:40 PM wheels-up: the 4 PM driver alert, the 7:25 flight
+     alert, and the 6 PM lounge questions the whole night was built
+     around. Caught in the departure-day audit, deployed the same morning. */
+  {
     const tz = trip.cities.dallas.tz;
     const p = partsIn(tz, now);
     const target = 7 * 60 + 30;
@@ -105,10 +110,9 @@ function computeDue(trip, now) {
       const m = (trip.countdownPushes || []).find(x => x.date === p.dateStr);
       if (m) out.push({ id: `countdown:${m.date}`, title: m.title, body: m.body, url: SITE, tag: 'countdown', ttl: 21600 });
     }
-    return out;
   }
 
-  /* ---- during the trip ---- */
+  /* ---- trip days (none exist before departure day, so nothing fires early) ---- */
   for (const day of trip.days) {
     const city = trip.cities[day.cityKey];
     const tn = tripNow(city.tz, now);
