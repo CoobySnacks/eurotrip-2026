@@ -1,54 +1,46 @@
 {
- "generated": "2026-09-02T05:31:46+00:00",
+ "generated": "2026-09-03T05:47:10+00:00",
  "source": "open-meteo.com",
  "note": "Offline fallback. The app prefers live data whenever it has signal.",
  "cities": {
   "vienna": {
    "daily": {
-    "2026-09-02": {
-     "code": 3,
-     "max": 82,
-     "min": 64,
-     "popMax": 0,
-     "sunrise": "06:13",
-     "sunset": "19:34"
-    },
     "2026-09-03": {
      "code": 3,
-     "max": 80,
+     "max": 81,
      "min": 68,
-     "popMax": 20,
+     "popMax": 13,
      "sunrise": "06:15",
      "sunset": "19:32"
     },
     "2026-09-04": {
-     "code": 61,
-     "max": 85,
-     "min": 69,
-     "popMax": 13,
+     "code": 3,
+     "max": 87,
+     "min": 67,
+     "popMax": 8,
      "sunrise": "06:16",
      "sunset": "19:30"
     },
     "2026-09-05": {
-     "code": 80,
-     "max": 80,
-     "min": 67,
-     "popMax": 35,
+     "code": 61,
+     "max": 76,
+     "min": 68,
+     "popMax": 40,
      "sunrise": "06:17",
      "sunset": "19:28"
     },
     "2026-09-06": {
-     "code": 2,
-     "max": 80,
-     "min": 60,
-     "popMax": 1,
+     "code": 3,
+     "max": 79,
+     "min": 62,
+     "popMax": 0,
      "sunrise": "06:19",
      "sunset": "19:26"
     },
     "2026-09-07": {
      "code": 3,
-     "max": 89,
-     "min": 60,
+     "max": 83,
+     "min": 58,
      "popMax": 0,
      "sunrise": "06:20",
      "sunset": "19:24"
@@ -56,1160 +48,910 @@
     "2026-09-08": {
      "code": 3,
      "max": 90,
-     "min": 69,
-     "popMax": 21,
+     "min": 61,
+     "popMax": 34,
      "sunrise": "06:21",
      "sunset": "19:22"
     }
    },
    "hourly": {
-    "2026-09-02": [
-     {
-      "t": "07:00",
-      "temp": 65,
-      "pop": 0,
-      "code": 3,
-      "wind": 1
-     },
-     {
-      "t": "08:00",
-      "temp": 65,
-      "pop": 0,
-      "code": 3,
-      "wind": 2
-     },
-     {
-      "t": "09:00",
-      "temp": 67,
-      "pop": 0,
-      "code": 2,
-      "wind": 2
-     },
-     {
-      "t": "10:00",
-      "temp": 70,
-      "pop": 0,
-      "code": 2,
-      "wind": 3
-     },
-     {
-      "t": "11:00",
-      "temp": 73,
-      "pop": 0,
-      "code": 2,
-      "wind": 3
-     },
-     {
-      "t": "12:00",
-      "temp": 76,
-      "pop": 0,
-      "code": 1,
-      "wind": 4
-     },
-     {
-      "t": "13:00",
-      "temp": 79,
-      "pop": 0,
-      "code": 1,
-      "wind": 4
-     },
-     {
-      "t": "14:00",
-      "temp": 80,
-      "pop": 0,
-      "code": 1,
-      "wind": 5
-     },
-     {
-      "t": "15:00",
-      "temp": 80,
-      "pop": 0,
-      "code": 3,
-      "wind": 4
-     },
-     {
-      "t": "16:00",
-      "temp": 82,
-      "pop": 0,
-      "code": 3,
-      "wind": 4
-     },
-     {
-      "t": "17:00",
-      "temp": 82,
-      "pop": 0,
-      "code": 3,
-      "wind": 3
-     },
-     {
-      "t": "18:00",
-      "temp": 80,
-      "pop": 0,
-      "code": 1,
-      "wind": 6
-     },
-     {
-      "t": "19:00",
-      "temp": 79,
-      "pop": 0,
-      "code": 3,
-      "wind": 5
-     },
-     {
-      "t": "20:00",
-      "temp": 78,
-      "pop": 0,
-      "code": 3,
-      "wind": 4
-     },
-     {
-      "t": "21:00",
-      "temp": 76,
-      "pop": 0,
-      "code": 3,
-      "wind": 4
-     },
-     {
-      "t": "22:00",
-      "temp": 74,
-      "pop": 0,
-      "code": 3,
-      "wind": 5
-     },
-     {
-      "t": "23:00",
-      "temp": 72,
-      "pop": 0,
-      "code": 3,
-      "wind": 6
-     }
-    ],
     "2026-09-03": [
      {
       "t": "07:00",
-      "temp": 68,
-      "pop": 20,
+      "temp": 69,
+      "pop": 3,
       "code": 3,
-      "wind": 5
+      "wind": 3
      },
      {
       "t": "08:00",
-      "temp": 70,
-      "pop": 20,
+      "temp": 69,
+      "pop": 13,
       "code": 3,
-      "wind": 6
+      "wind": 4
      },
      {
       "t": "09:00",
       "temp": 70,
-      "pop": 10,
+      "pop": 0,
       "code": 3,
-      "wind": 7
+      "wind": 5
      },
      {
       "t": "10:00",
-      "temp": 71,
-      "pop": 13,
-      "code": 3,
+      "temp": 74,
+      "pop": 3,
+      "code": 2,
       "wind": 7
      },
      {
       "t": "11:00",
-      "temp": 74,
-      "pop": 3,
-      "code": 2,
+      "temp": 76,
+      "pop": 0,
+      "code": 3,
       "wind": 8
      },
      {
       "t": "12:00",
-      "temp": 76,
+      "temp": 78,
+      "pop": 0,
+      "code": 3,
+      "wind": 8
+     },
+     {
+      "t": "13:00",
+      "temp": 79,
+      "pop": 0,
+      "code": 3,
+      "wind": 8
+     },
+     {
+      "t": "14:00",
+      "temp": 80,
       "pop": 0,
       "code": 3,
       "wind": 9
      },
      {
-      "t": "13:00",
-      "temp": 78,
-      "pop": 0,
-      "code": 3,
-      "wind": 10
-     },
-     {
-      "t": "14:00",
-      "temp": 78,
-      "pop": 0,
-      "code": 2,
-      "wind": 10
-     },
-     {
       "t": "15:00",
-      "temp": 78,
+      "temp": 81,
       "pop": 0,
       "code": 3,
       "wind": 11
      },
      {
       "t": "16:00",
-      "temp": 80,
-      "pop": 0,
-      "code": 3,
-      "wind": 12
-     },
-     {
-      "t": "17:00",
-      "temp": 79,
+      "temp": 81,
       "pop": 0,
       "code": 3,
       "wind": 11
      },
      {
+      "t": "17:00",
+      "temp": 81,
+      "pop": 0,
+      "code": 2,
+      "wind": 10
+     },
+     {
       "t": "18:00",
-      "temp": 78,
-      "pop": 5,
+      "temp": 80,
+      "pop": 0,
       "code": 3,
-      "wind": 9
+      "wind": 10
      },
      {
       "t": "19:00",
-      "temp": 77,
-      "pop": 5,
-      "code": 3,
-      "wind": 8
+      "temp": 79,
+      "pop": 0,
+      "code": 2,
+      "wind": 9
      },
      {
       "t": "20:00",
       "temp": 75,
-      "pop": 0,
+      "pop": 8,
       "code": 3,
-      "wind": 6
+      "wind": 10
      },
      {
       "t": "21:00",
-      "temp": 74,
+      "temp": 72,
       "pop": 5,
       "code": 3,
-      "wind": 4
+      "wind": 10
      },
      {
       "t": "22:00",
-      "temp": 72,
+      "temp": 70,
       "pop": 0,
       "code": 3,
-      "wind": 5
+      "wind": 9
      },
      {
       "t": "23:00",
-      "temp": 72,
-      "pop": 5,
-      "code": 2,
-      "wind": 5
+      "temp": 68,
+      "pop": 0,
+      "code": 1,
+      "wind": 9
      }
     ],
     "2026-09-04": [
      {
       "t": "07:00",
-      "temp": 70,
-      "pop": 6,
+      "temp": 69,
+      "pop": 8,
       "code": 3,
-      "wind": 5
+      "wind": 7
      },
      {
       "t": "08:00",
-      "temp": 72,
-      "pop": 8,
+      "temp": 70,
+      "pop": 5,
       "code": 3,
-      "wind": 6
+      "wind": 8
      },
      {
       "t": "09:00",
-      "temp": 73,
-      "pop": 10,
+      "temp": 72,
+      "pop": 0,
       "code": 3,
-      "wind": 7
+      "wind": 8
      },
      {
       "t": "10:00",
-      "temp": 72,
-      "pop": 12,
-      "code": 61,
-      "wind": 7
-     },
-     {
-      "t": "11:00",
-      "temp": 74,
-      "pop": 13,
-      "code": 3,
+      "temp": 75,
+      "pop": 8,
+      "code": 2,
       "wind": 9
      },
      {
+      "t": "11:00",
+      "temp": 78,
+      "pop": 0,
+      "code": 3,
+      "wind": 10
+     },
+     {
       "t": "12:00",
-      "temp": 77,
-      "pop": 11,
+      "temp": 81,
+      "pop": 0,
       "code": 3,
       "wind": 10
      },
      {
       "t": "13:00",
-      "temp": 80,
-      "pop": 6,
+      "temp": 82,
+      "pop": 0,
       "code": 3,
-      "wind": 11
+      "wind": 10
      },
      {
       "t": "14:00",
-      "temp": 82,
-      "pop": 3,
+      "temp": 85,
+      "pop": 0,
       "code": 3,
-      "wind": 12
+      "wind": 9
      },
      {
       "t": "15:00",
-      "temp": 84,
-      "pop": 1,
+      "temp": 86,
+      "pop": 0,
       "code": 3,
-      "wind": 11
+      "wind": 10
      },
      {
       "t": "16:00",
-      "temp": 85,
-      "pop": 1,
-      "code": 2,
-      "wind": 10
+      "temp": 87,
+      "pop": 0,
+      "code": 1,
+      "wind": 11
      },
      {
       "t": "17:00",
-      "temp": 85,
+      "temp": 87,
       "pop": 0,
       "code": 1,
-      "wind": 10
+      "wind": 9
      },
      {
       "t": "18:00",
-      "temp": 85,
+      "temp": 87,
       "pop": 0,
-      "code": 0,
-      "wind": 8
+      "code": 3,
+      "wind": 10
      },
      {
       "t": "19:00",
-      "temp": 83,
+      "temp": 85,
       "pop": 0,
-      "code": 0,
-      "wind": 6
+      "code": 1,
+      "wind": 8
      },
      {
       "t": "20:00",
-      "temp": 80,
+      "temp": 83,
       "pop": 0,
       "code": 0,
-      "wind": 4
+      "wind": 5
      },
      {
       "t": "21:00",
-      "temp": 78,
+      "temp": 80,
+      "pop": 0,
+      "code": 0,
+      "wind": 2
+     },
+     {
+      "t": "22:00",
+      "temp": 79,
       "pop": 0,
       "code": 0,
       "wind": 3
      },
      {
-      "t": "22:00",
-      "temp": 75,
-      "pop": 0,
-      "code": 0,
-      "wind": 2
-     },
-     {
       "t": "23:00",
-      "temp": 73,
+      "temp": 77,
       "pop": 0,
       "code": 0,
-      "wind": 2
+      "wind": 4
      }
     ],
     "2026-09-05": [
      {
       "t": "07:00",
       "temp": 74,
-      "pop": 1,
-      "code": 1,
-      "wind": 5
-     },
-     {
-      "t": "08:00",
-      "temp": 76,
-      "pop": 3,
-      "code": 2,
+      "pop": 0,
+      "code": 3,
       "wind": 8
      },
      {
-      "t": "09:00",
-      "temp": 78,
-      "pop": 7,
+      "t": "08:00",
+      "temp": 74,
+      "pop": 0,
       "code": 3,
       "wind": 9
      },
      {
-      "t": "10:00",
-      "temp": 80,
-      "pop": 14,
+      "t": "09:00",
+      "temp": 75,
+      "pop": 7,
       "code": 3,
-      "wind": 11
+      "wind": 10
+     },
+     {
+      "t": "10:00",
+      "temp": 70,
+      "pop": 16,
+      "code": 3,
+      "wind": 10
      },
      {
       "t": "11:00",
-      "temp": 80,
-      "pop": 21,
+      "temp": 69,
+      "pop": 25,
+      "code": 61,
+      "wind": 6
+     },
+     {
+      "t": "12:00",
+      "temp": 68,
+      "pop": 32,
+      "code": 61,
+      "wind": 6
+     },
+     {
+      "t": "13:00",
+      "temp": 69,
+      "pop": 38,
+      "code": 61,
+      "wind": 5
+     },
+     {
+      "t": "14:00",
+      "temp": 70,
+      "pop": 40,
+      "code": 3,
+      "wind": 5
+     },
+     {
+      "t": "15:00",
+      "temp": 72,
+      "pop": 34,
+      "code": 61,
+      "wind": 9
+     },
+     {
+      "t": "16:00",
+      "temp": 74,
+      "pop": 24,
       "code": 3,
       "wind": 12
      },
      {
-      "t": "12:00",
-      "temp": 78,
-      "pop": 28,
-      "code": 80,
-      "wind": 11
-     },
-     {
-      "t": "13:00",
-      "temp": 74,
-      "pop": 33,
-      "code": 80,
-      "wind": 9
-     },
-     {
-      "t": "14:00",
-      "temp": 72,
-      "pop": 35,
-      "code": 80,
-      "wind": 7
-     },
-     {
-      "t": "15:00",
-      "temp": 74,
-      "pop": 34,
-      "code": 2,
-      "wind": 7
-     },
-     {
-      "t": "16:00",
-      "temp": 76,
-      "pop": 30,
-      "code": 2,
-      "wind": 8
-     },
-     {
       "t": "17:00",
-      "temp": 78,
-      "pop": 24,
-      "code": 2,
-      "wind": 8
+      "temp": 75,
+      "pop": 15,
+      "code": 3,
+      "wind": 10
      },
      {
       "t": "18:00",
-      "temp": 78,
-      "pop": 18,
-      "code": 2,
-      "wind": 7
+      "temp": 74,
+      "pop": 9,
+      "code": 1,
+      "wind": 10
      },
      {
       "t": "19:00",
-      "temp": 77,
-      "pop": 12,
-      "code": 2,
-      "wind": 6
+      "temp": 73,
+      "pop": 4,
+      "code": 1,
+      "wind": 10
      },
      {
       "t": "20:00",
-      "temp": 75,
-      "pop": 8,
-      "code": 2,
-      "wind": 5
+      "temp": 71,
+      "pop": 0,
+      "code": 3,
+      "wind": 10
      },
      {
       "t": "21:00",
-      "temp": 73,
-      "pop": 5,
-      "code": 0,
-      "wind": 4
+      "temp": 70,
+      "pop": 0,
+      "code": 2,
+      "wind": 10
      },
      {
       "t": "22:00",
       "temp": 70,
-      "pop": 4,
-      "code": 0,
-      "wind": 3
+      "pop": 0,
+      "code": 2,
+      "wind": 9
      },
      {
       "t": "23:00",
-      "temp": 67,
-      "pop": 2,
-      "code": 0,
-      "wind": 2
+      "temp": 69,
+      "pop": 0,
+      "code": 2,
+      "wind": 6
      }
     ],
     "2026-09-06": [
      {
       "t": "07:00",
-      "temp": 61,
+      "temp": 62,
       "pop": 0,
-      "code": 2,
-      "wind": 0
+      "code": 0,
+      "wind": 3
      },
      {
       "t": "08:00",
-      "temp": 62,
+      "temp": 64,
       "pop": 0,
-      "code": 2,
-      "wind": 0
+      "code": 0,
+      "wind": 3
      },
      {
       "t": "09:00",
-      "temp": 65,
+      "temp": 66,
       "pop": 0,
-      "code": 2,
-      "wind": 0
+      "code": 0,
+      "wind": 4
      },
      {
       "t": "10:00",
       "temp": 69,
       "pop": 0,
-      "code": 2,
-      "wind": 1
+      "code": 0,
+      "wind": 6
      },
      {
       "t": "11:00",
       "temp": 72,
       "pop": 0,
-      "code": 2,
-      "wind": 1
+      "code": 0,
+      "wind": 7
      },
      {
       "t": "12:00",
-      "temp": 75,
+      "temp": 74,
       "pop": 0,
       "code": 1,
-      "wind": 2
+      "wind": 7
      },
      {
       "t": "13:00",
       "temp": 76,
       "pop": 0,
       "code": 1,
-      "wind": 2
+      "wind": 6
      },
      {
       "t": "14:00",
-      "temp": 78,
+      "temp": 77,
       "pop": 0,
       "code": 1,
-      "wind": 2
+      "wind": 6
      },
      {
       "t": "15:00",
-      "temp": 79,
+      "temp": 78,
       "pop": 0,
       "code": 0,
-      "wind": 2
+      "wind": 6
      },
      {
       "t": "16:00",
-      "temp": 80,
-      "pop": 0,
-      "code": 0,
-      "wind": 2
-     },
-     {
-      "t": "17:00",
-      "temp": 80,
-      "pop": 0,
-      "code": 0,
-      "wind": 2
-     },
-     {
-      "t": "18:00",
       "temp": 79,
       "pop": 0,
       "code": 0,
-      "wind": 2
+      "wind": 5
      },
      {
-      "t": "19:00",
+      "t": "17:00",
+      "temp": 79,
+      "pop": 0,
+      "code": 0,
+      "wind": 4
+     },
+     {
+      "t": "18:00",
       "temp": 77,
       "pop": 0,
       "code": 0,
-      "wind": 2
+      "wind": 4
      },
      {
-      "t": "20:00",
+      "t": "19:00",
       "temp": 75,
       "pop": 0,
       "code": 0,
-      "wind": 2
+      "wind": 3
+     },
+     {
+      "t": "20:00",
+      "temp": 73,
+      "pop": 0,
+      "code": 0,
+      "wind": 4
      },
      {
       "t": "21:00",
-      "temp": 73,
+      "temp": 71,
       "pop": 0,
-      "code": 1,
-      "wind": 2
+      "code": 0,
+      "wind": 3
      },
      {
       "t": "22:00",
-      "temp": 70,
+      "temp": 68,
       "pop": 0,
-      "code": 1,
+      "code": 0,
       "wind": 2
      },
      {
       "t": "23:00",
-      "temp": 68,
+      "temp": 66,
       "pop": 0,
-      "code": 1,
+      "code": 0,
       "wind": 1
      }
     ],
     "2026-09-07": [
      {
       "t": "07:00",
-      "temp": 60,
-      "pop": 0,
-      "code": 3,
-      "wind": 1
-     },
-     {
-      "t": "08:00",
-      "temp": 61,
-      "pop": 0,
-      "code": 3,
-      "wind": 1
-     },
-     {
-      "t": "09:00",
-      "temp": 64,
+      "temp": 58,
       "pop": 0,
       "code": 1,
-      "wind": 1
-     },
-     {
-      "t": "10:00",
-      "temp": 69,
-      "pop": 0,
-      "code": 1,
-      "wind": 1
-     },
-     {
-      "t": "11:00",
-      "temp": 74,
-      "pop": 0,
-      "code": 1,
-      "wind": 1
-     },
-     {
-      "t": "12:00",
-      "temp": 78,
-      "pop": 0,
-      "code": 3,
-      "wind": 1
-     },
-     {
-      "t": "13:00",
-      "temp": 81,
-      "pop": 0,
-      "code": 3,
-      "wind": 1
-     },
-     {
-      "t": "14:00",
-      "temp": 84,
-      "pop": 0,
-      "code": 3,
-      "wind": 0
-     },
-     {
-      "t": "15:00",
-      "temp": 87,
-      "pop": 0,
-      "code": 3,
       "wind": 2
      },
      {
-      "t": "16:00",
-      "temp": 89,
+      "t": "08:00",
+      "temp": 59,
+      "pop": 0,
+      "code": 1,
+      "wind": 2
+     },
+     {
+      "t": "09:00",
+      "temp": 61,
+      "pop": 0,
+      "code": 3,
+      "wind": 3
+     },
+     {
+      "t": "10:00",
+      "temp": 65,
+      "pop": 0,
+      "code": 3,
+      "wind": 4
+     },
+     {
+      "t": "11:00",
+      "temp": 68,
       "pop": 0,
       "code": 3,
       "wind": 5
      },
      {
-      "t": "17:00",
-      "temp": 89,
-      "pop": 0,
-      "code": 3,
-      "wind": 7
-     },
-     {
-      "t": "18:00",
-      "temp": 88,
-      "pop": 0,
-      "code": 3,
-      "wind": 7
-     },
-     {
-      "t": "19:00",
-      "temp": 84,
+      "t": "12:00",
+      "temp": 72,
       "pop": 0,
       "code": 3,
       "wind": 6
      },
      {
-      "t": "20:00",
+      "t": "13:00",
+      "temp": 75,
+      "pop": 0,
+      "code": 3,
+      "wind": 6
+     },
+     {
+      "t": "14:00",
+      "temp": 78,
+      "pop": 0,
+      "code": 3,
+      "wind": 6
+     },
+     {
+      "t": "15:00",
+      "temp": 81,
+      "pop": 0,
+      "code": 3,
+      "wind": 6
+     },
+     {
+      "t": "16:00",
       "temp": 82,
+      "pop": 0,
+      "code": 3,
+      "wind": 6
+     },
+     {
+      "t": "17:00",
+      "temp": 83,
       "pop": 0,
       "code": 3,
       "wind": 5
      },
      {
-      "t": "21:00",
-      "temp": 80,
+      "t": "18:00",
+      "temp": 82,
       "pop": 0,
       "code": 2,
       "wind": 4
      },
      {
-      "t": "22:00",
-      "temp": 78,
+      "t": "19:00",
+      "temp": 80,
       "pop": 0,
       "code": 2,
       "wind": 3
      },
      {
-      "t": "23:00",
-      "temp": 76,
+      "t": "20:00",
+      "temp": 78,
       "pop": 0,
       "code": 2,
-      "wind": 3
+      "wind": 2
+     },
+     {
+      "t": "21:00",
+      "temp": 76,
+      "pop": 0,
+      "code": 0,
+      "wind": 1
+     },
+     {
+      "t": "22:00",
+      "temp": 74,
+      "pop": 0,
+      "code": 0,
+      "wind": 1
+     },
+     {
+      "t": "23:00",
+      "temp": 72,
+      "pop": 0,
+      "code": 0,
+      "wind": 1
      }
     ],
     "2026-09-08": [
      {
       "t": "07:00",
-      "temp": 69,
-      "pop": 2,
-      "code": 2,
-      "wind": 2
+      "temp": 61,
+      "pop": 0,
+      "code": 0,
+      "wind": 1
      },
      {
       "t": "08:00",
-      "temp": 70,
-      "pop": 3,
-      "code": 2,
+      "temp": 62,
+      "pop": 0,
+      "code": 0,
       "wind": 1
      },
      {
       "t": "09:00",
-      "temp": 74,
-      "pop": 4,
+      "temp": 66,
+      "pop": 0,
       "code": 1,
-      "wind": 2
+      "wind": 1
      },
      {
       "t": "10:00",
-      "temp": 79,
-      "pop": 4,
+      "temp": 71,
+      "pop": 0,
       "code": 1,
       "wind": 2
      },
      {
       "t": "11:00",
-      "temp": 83,
-      "pop": 5,
+      "temp": 76,
+      "pop": 0,
       "code": 1,
       "wind": 2
      },
      {
       "t": "12:00",
-      "temp": 86,
-      "pop": 6,
-      "code": 2,
-      "wind": 1
+      "temp": 80,
+      "pop": 0,
+      "code": 0,
+      "wind": 3
      },
      {
       "t": "13:00",
-      "temp": 88,
-      "pop": 7,
-      "code": 2,
+      "temp": 84,
+      "pop": 1,
+      "code": 0,
       "wind": 3
      },
      {
       "t": "14:00",
-      "temp": 89,
-      "pop": 8,
-      "code": 2,
-      "wind": 4
+      "temp": 87,
+      "pop": 3,
+      "code": 0,
+      "wind": 3
      },
      {
       "t": "15:00",
-      "temp": 90,
-      "pop": 9,
-      "code": 2,
-      "wind": 5
+      "temp": 89,
+      "pop": 5,
+      "code": 3,
+      "wind": 4
      },
      {
       "t": "16:00",
       "temp": 90,
-      "pop": 10,
-      "code": 2,
-      "wind": 5
+      "pop": 8,
+      "code": 3,
+      "wind": 6
      },
      {
       "t": "17:00",
       "temp": 90,
-      "pop": 12,
-      "code": 2,
-      "wind": 5
+      "pop": 11,
+      "code": 3,
+      "wind": 6
      },
      {
       "t": "18:00",
       "temp": 88,
-      "pop": 13,
+      "pop": 14,
       "code": 3,
-      "wind": 5
+      "wind": 6
      },
      {
       "t": "19:00",
       "temp": 86,
-      "pop": 15,
+      "pop": 18,
       "code": 3,
-      "wind": 5
+      "wind": 4
      },
      {
       "t": "20:00",
       "temp": 83,
-      "pop": 16,
+      "pop": 22,
       "code": 3,
-      "wind": 4
-     },
-     {
-      "t": "21:00",
-      "temp": 81,
-      "pop": 18,
-      "code": 1,
-      "wind": 4
-     },
-     {
-      "t": "22:00",
-      "temp": 78,
-      "pop": 19,
-      "code": 1,
       "wind": 3
      },
      {
+      "t": "21:00",
+      "temp": 79,
+      "pop": 26,
+      "code": 2,
+      "wind": 3
+     },
+     {
+      "t": "22:00",
+      "temp": 75,
+      "pop": 30,
+      "code": 2,
+      "wind": 8
+     },
+     {
       "t": "23:00",
-      "temp": 76,
-      "pop": 21,
-      "code": 1,
-      "wind": 2
+      "temp": 71,
+      "pop": 34,
+      "code": 2,
+      "wind": 11
      }
     ]
    }
   },
   "dallas": {
    "daily": {
-    "2026-09-02": {
-     "code": 3,
-     "max": 98,
-     "min": 81,
-     "popMax": 17,
-     "sunrise": "07:02",
-     "sunset": "19:50"
-    },
     "2026-09-03": {
      "code": 3,
-     "max": 91,
+     "max": 90,
      "min": 78,
-     "popMax": 28,
+     "popMax": 17,
      "sunrise": "07:03",
      "sunset": "19:49"
     },
     "2026-09-04": {
-     "code": 3,
-     "max": 101,
-     "min": 81,
-     "popMax": 25,
+     "code": 2,
+     "max": 98,
+     "min": 78,
+     "popMax": 15,
      "sunrise": "07:04",
      "sunset": "19:48"
     },
     "2026-09-05": {
-     "code": 0,
-     "max": 103,
-     "min": 84,
-     "popMax": 3,
+     "code": 3,
+     "max": 99,
+     "min": 81,
+     "popMax": 2,
      "sunrise": "07:04",
      "sunset": "19:46"
     },
     "2026-09-06": {
      "code": 3,
-     "max": 104,
-     "min": 86,
-     "popMax": 5,
+     "max": 102,
+     "min": 84,
+     "popMax": 2,
      "sunrise": "07:05",
      "sunset": "19:45"
     },
     "2026-09-07": {
-     "code": 1,
-     "max": 104,
-     "min": 86,
-     "popMax": 5,
+     "code": 3,
+     "max": 103,
+     "min": 87,
+     "popMax": 4,
      "sunrise": "07:06",
      "sunset": "19:44"
     },
     "2026-09-08": {
-     "code": 1,
-     "max": 104,
+     "code": 3,
+     "max": 102,
      "min": 86,
-     "popMax": 2,
+     "popMax": 3,
      "sunrise": "07:06",
      "sunset": "19:42"
     }
    },
    "hourly": {
-    "2026-09-02": [
-     {
-      "t": "07:00",
-      "temp": 81,
-      "pop": 2,
-      "code": 0,
-      "wind": 3
-     },
-     {
-      "t": "08:00",
-      "temp": 82,
-      "pop": 2,
-      "code": 0,
-      "wind": 3
-     },
-     {
-      "t": "09:00",
-      "temp": 84,
-      "pop": 1,
-      "code": 0,
-      "wind": 4
-     },
-     {
-      "t": "10:00",
-      "temp": 87,
-      "pop": 1,
-      "code": 0,
-      "wind": 5
-     },
-     {
-      "t": "11:00",
-      "temp": 90,
-      "pop": 1,
-      "code": 0,
-      "wind": 4
-     },
-     {
-      "t": "12:00",
-      "temp": 93,
-      "pop": 1,
-      "code": 0,
-      "wind": 7
-     },
-     {
-      "t": "13:00",
-      "temp": 94,
-      "pop": 1,
-      "code": 0,
-      "wind": 8
-     },
-     {
-      "t": "14:00",
-      "temp": 96,
-      "pop": 2,
-      "code": 0,
-      "wind": 7
-     },
-     {
-      "t": "15:00",
-      "temp": 98,
-      "pop": 4,
-      "code": 0,
-      "wind": 6
-     },
-     {
-      "t": "16:00",
-      "temp": 97,
-      "pop": 11,
-      "code": 1,
-      "wind": 8
-     },
-     {
-      "t": "17:00",
-      "temp": 97,
-      "pop": 17,
-      "code": 3,
-      "wind": 9
-     },
-     {
-      "t": "18:00",
-      "temp": 97,
-      "pop": 8,
-      "code": 3,
-      "wind": 10
-     },
-     {
-      "t": "19:00",
-      "temp": 94,
-      "pop": 5,
-      "code": 2,
-      "wind": 11
-     },
-     {
-      "t": "20:00",
-      "temp": 91,
-      "pop": 3,
-      "code": 0,
-      "wind": 10
-     },
-     {
-      "t": "21:00",
-      "temp": 88,
-      "pop": 2,
-      "code": 0,
-      "wind": 10
-     },
-     {
-      "t": "22:00",
-      "temp": 85,
-      "pop": 2,
-      "code": 0,
-      "wind": 9
-     },
-     {
-      "t": "23:00",
-      "temp": 84,
-      "pop": 2,
-      "code": 0,
-      "wind": 6
-     }
-    ],
     "2026-09-03": [
      {
       "t": "07:00",
       "temp": 78,
-      "pop": 22,
-      "code": 3,
-      "wind": 5
+      "pop": 7,
+      "code": 0,
+      "wind": 6
      },
      {
       "t": "08:00",
-      "temp": 78,
-      "pop": 20,
-      "code": 3,
-      "wind": 6
+      "temp": 80,
+      "pop": 10,
+      "code": 1,
+      "wind": 9
      },
      {
       "t": "09:00",
-      "temp": 79,
-      "pop": 22,
-      "code": 3,
-      "wind": 6
+      "temp": 82,
+      "pop": 9,
+      "code": 1,
+      "wind": 11
      },
      {
       "t": "10:00",
-      "temp": 82,
-      "pop": 17,
-      "code": 3,
-      "wind": 6
+      "temp": 85,
+      "pop": 8,
+      "code": 2,
+      "wind": 12
      },
      {
       "t": "11:00",
-      "temp": 84,
-      "pop": 15,
-      "code": 3,
-      "wind": 3
+      "temp": 87,
+      "pop": 9,
+      "code": 1,
+      "wind": 12
      },
      {
       "t": "12:00",
-      "temp": 87,
-      "pop": 22,
-      "code": 3,
-      "wind": 4
-     },
-     {
-      "t": "13:00",
-      "temp": 90,
-      "pop": 22,
-      "code": 3,
-      "wind": 3
-     },
-     {
-      "t": "14:00",
-      "temp": 91,
-      "pop": 28,
-      "code": 3,
-      "wind": 4
-     },
-     {
-      "t": "15:00",
-      "temp": 91,
-      "pop": 28,
-      "code": 3,
-      "wind": 6
-     },
-     {
-      "t": "16:00",
-      "temp": 90,
-      "pop": 28,
+      "temp": 88,
+      "pop": 6,
       "code": 3,
       "wind": 12
      },
      {
-      "t": "17:00",
-      "temp": 90,
-      "pop": 28,
-      "code": 2,
-      "wind": 13
+      "t": "13:00",
+      "temp": 89,
+      "pop": 9,
+      "code": 3,
+      "wind": 12
      },
      {
-      "t": "18:00",
-      "temp": 86,
-      "pop": 28,
+      "t": "14:00",
+      "temp": 88,
+      "pop": 13,
       "code": 3,
       "wind": 14
      },
      {
-      "t": "19:00",
-      "temp": 86,
-      "pop": 28,
+      "t": "15:00",
+      "temp": 88,
+      "pop": 13,
       "code": 3,
-      "wind": 13
+      "wind": 14
      },
      {
-      "t": "20:00",
-      "temp": 84,
-      "pop": 11,
+      "t": "16:00",
+      "temp": 87,
+      "pop": 13,
+      "code": 3,
+      "wind": 14
+     },
+     {
+      "t": "17:00",
+      "temp": 86,
+      "pop": 17,
+      "code": 3,
+      "wind": 14
+     },
+     {
+      "t": "18:00",
+      "temp": 90,
+      "pop": 13,
       "code": 2,
       "wind": 12
      },
      {
-      "t": "21:00",
-      "temp": 82,
-      "pop": 11,
-      "code": 2,
+      "t": "19:00",
+      "temp": 89,
+      "pop": 15,
+      "code": 1,
       "wind": 11
      },
      {
+      "t": "20:00",
+      "temp": 87,
+      "pop": 14,
+      "code": 3,
+      "wind": 9
+     },
+     {
+      "t": "21:00",
+      "temp": 86,
+      "pop": 12,
+      "code": 2,
+      "wind": 8
+     },
+     {
       "t": "22:00",
-      "temp": 81,
-      "pop": 11,
+      "temp": 83,
+      "pop": 12,
       "code": 1,
-      "wind": 10
+      "wind": 9
      },
      {
       "t": "23:00",
-      "temp": 81,
-      "pop": 11,
+      "temp": 82,
+      "pop": 7,
       "code": 1,
       "wind": 9
      }
@@ -1217,485 +959,485 @@
     "2026-09-04": [
      {
       "t": "07:00",
-      "temp": 81,
-      "pop": 25,
-      "code": 2,
-      "wind": 7
+      "temp": 78,
+      "pop": 11,
+      "code": 0,
+      "wind": 4
      },
      {
       "t": "08:00",
-      "temp": 81,
+      "temp": 79,
       "pop": 15,
       "code": 2,
-      "wind": 7
+      "wind": 6
      },
      {
       "t": "09:00",
-      "temp": 83,
-      "pop": 15,
-      "code": 3,
-      "wind": 7
+      "temp": 82,
+      "pop": 11,
+      "code": 1,
+      "wind": 6
      },
      {
       "t": "10:00",
-      "temp": 86,
-      "pop": 15,
-      "code": 3,
+      "temp": 84,
+      "pop": 12,
+      "code": 2,
       "wind": 7
      },
      {
       "t": "11:00",
-      "temp": 90,
-      "pop": 15,
-      "code": 3,
-      "wind": 6
+      "temp": 87,
+      "pop": 6,
+      "code": 1,
+      "wind": 7
      },
      {
       "t": "12:00",
-      "temp": 93,
-      "pop": 15,
-      "code": 3,
+      "temp": 91,
+      "pop": 11,
+      "code": 1,
       "wind": 6
      },
      {
       "t": "13:00",
-      "temp": 96,
-      "pop": 15,
+      "temp": 94,
+      "pop": 11,
       "code": 0,
-      "wind": 6
+      "wind": 5
      },
      {
       "t": "14:00",
-      "temp": 98,
-      "pop": 4,
-      "code": 0,
+      "temp": 96,
+      "pop": 2,
+      "code": 1,
       "wind": 6
      },
      {
       "t": "15:00",
-      "temp": 99,
-      "pop": 4,
-      "code": 0,
+      "temp": 97,
+      "pop": 2,
+      "code": 1,
       "wind": 7
      },
      {
       "t": "16:00",
-      "temp": 101,
-      "pop": 4,
+      "temp": 98,
+      "pop": 2,
+      "code": 1,
+      "wind": 8
+     },
+     {
+      "t": "17:00",
+      "temp": 96,
+      "pop": 2,
+      "code": 1,
+      "wind": 9
+     },
+     {
+      "t": "18:00",
+      "temp": 96,
+      "pop": 2,
       "code": 0,
       "wind": 9
      },
      {
-      "t": "17:00",
-      "temp": 100,
-      "pop": 4,
-      "code": 1,
-      "wind": 13
-     },
-     {
-      "t": "18:00",
-      "temp": 98,
-      "pop": 4,
-      "code": 0,
-      "wind": 12
-     },
-     {
       "t": "19:00",
-      "temp": 97,
-      "pop": 4,
-      "code": 1,
-      "wind": 12
-     },
-     {
-      "t": "20:00",
       "temp": 94,
-      "pop": 1,
-      "code": 2,
+      "pop": 2,
+      "code": 0,
       "wind": 10
      },
      {
-      "t": "21:00",
-      "temp": 93,
-      "pop": 1,
+      "t": "20:00",
+      "temp": 91,
+      "pop": 0,
       "code": 0,
       "wind": 8
+     },
+     {
+      "t": "21:00",
+      "temp": 90,
+      "pop": 0,
+      "code": 0,
+      "wind": 9
      },
      {
       "t": "22:00",
-      "temp": 91,
-      "pop": 1,
+      "temp": 88,
+      "pop": 0,
       "code": 0,
-      "wind": 8
+      "wind": 10
      },
      {
       "t": "23:00",
-      "temp": 90,
-      "pop": 1,
+      "temp": 86,
+      "pop": 0,
       "code": 0,
-      "wind": 7
+      "wind": 9
      }
     ],
     "2026-09-05": [
      {
       "t": "07:00",
-      "temp": 84,
+      "temp": 81,
       "pop": 0,
-      "code": 0,
-      "wind": 6
-     },
-     {
-      "t": "08:00",
-      "temp": 84,
-      "pop": 1,
-      "code": 0,
-      "wind": 6
-     },
-     {
-      "t": "09:00",
-      "temp": 86,
-      "pop": 1,
-      "code": 0,
-      "wind": 6
-     },
-     {
-      "t": "10:00",
-      "temp": 89,
-      "pop": 1,
-      "code": 0,
-      "wind": 5
-     },
-     {
-      "t": "11:00",
-      "temp": 92,
-      "pop": 1,
-      "code": 0,
-      "wind": 3
-     },
-     {
-      "t": "12:00",
-      "temp": 95,
-      "pop": 1,
-      "code": 0,
-      "wind": 3
-     },
-     {
-      "t": "13:00",
-      "temp": 97,
-      "pop": 1,
       "code": 0,
       "wind": 4
      },
      {
-      "t": "14:00",
-      "temp": 101,
-      "pop": 3,
+      "t": "08:00",
+      "temp": 82,
+      "pop": 2,
       "code": 0,
-      "wind": 2
+      "wind": 4
+     },
+     {
+      "t": "09:00",
+      "temp": 84,
+      "pop": 2,
+      "code": 0,
+      "wind": 4
+     },
+     {
+      "t": "10:00",
+      "temp": 87,
+      "pop": 2,
+      "code": 0,
+      "wind": 4
+     },
+     {
+      "t": "11:00",
+      "temp": 90,
+      "pop": 2,
+      "code": 0,
+      "wind": 4
+     },
+     {
+      "t": "12:00",
+      "temp": 92,
+      "pop": 2,
+      "code": 0,
+      "wind": 5
+     },
+     {
+      "t": "13:00",
+      "temp": 95,
+      "pop": 2,
+      "code": 0,
+      "wind": 6
+     },
+     {
+      "t": "14:00",
+      "temp": 97,
+      "pop": 2,
+      "code": 0,
+      "wind": 7
      },
      {
       "t": "15:00",
-      "temp": 102,
-      "pop": 3,
-      "code": 0,
-      "wind": 2
-     },
-     {
-      "t": "16:00",
-      "temp": 103,
-      "pop": 3,
-      "code": 0,
-      "wind": 0
-     },
-     {
-      "t": "17:00",
-      "temp": 102,
-      "pop": 3,
+      "temp": 98,
+      "pop": 2,
       "code": 0,
       "wind": 8
      },
      {
-      "t": "18:00",
-      "temp": 100,
-      "pop": 3,
+      "t": "16:00",
+      "temp": 99,
+      "pop": 2,
       "code": 0,
-      "wind": 12
+      "wind": 8
+     },
+     {
+      "t": "17:00",
+      "temp": 98,
+      "pop": 2,
+      "code": 0,
+      "wind": 9
+     },
+     {
+      "t": "18:00",
+      "temp": 97,
+      "pop": 2,
+      "code": 0,
+      "wind": 11
      },
      {
       "t": "19:00",
-      "temp": 99,
-      "pop": 3,
+      "temp": 95,
+      "pop": 2,
       "code": 0,
       "wind": 10
      },
      {
       "t": "20:00",
-      "temp": 96,
-      "pop": 2,
-      "code": 0,
-      "wind": 12
+      "temp": 94,
+      "pop": 1,
+      "code": 2,
+      "wind": 7
      },
      {
       "t": "21:00",
-      "temp": 94,
-      "pop": 2,
-      "code": 0,
-      "wind": 11
+      "temp": 93,
+      "pop": 1,
+      "code": 2,
+      "wind": 5
      },
      {
       "t": "22:00",
       "temp": 92,
-      "pop": 2,
+      "pop": 1,
       "code": 0,
-      "wind": 11
+      "wind": 4
      },
      {
       "t": "23:00",
-      "temp": 91,
-      "pop": 2,
-      "code": 0,
-      "wind": 8
+      "temp": 92,
+      "pop": 1,
+      "code": 3,
+      "wind": 6
      }
     ],
     "2026-09-06": [
      {
       "t": "07:00",
-      "temp": 86,
-      "pop": 3,
-      "code": 0,
-      "wind": 4
-     },
-     {
-      "t": "08:00",
-      "temp": 86,
-      "pop": 2,
-      "code": 0,
-      "wind": 5
-     },
-     {
-      "t": "09:00",
-      "temp": 89,
-      "pop": 2,
-      "code": 0,
-      "wind": 5
-     },
-     {
-      "t": "10:00",
-      "temp": 91,
-      "pop": 2,
-      "code": 0,
-      "wind": 5
-     },
-     {
-      "t": "11:00",
-      "temp": 94,
-      "pop": 2,
-      "code": 0,
-      "wind": 5
-     },
-     {
-      "t": "12:00",
-      "temp": 98,
-      "pop": 2,
+      "temp": 84,
+      "pop": 1,
       "code": 0,
       "wind": 3
      },
      {
+      "t": "08:00",
+      "temp": 85,
+      "pop": 1,
+      "code": 0,
+      "wind": 3
+     },
+     {
+      "t": "09:00",
+      "temp": 88,
+      "pop": 1,
+      "code": 0,
+      "wind": 2
+     },
+     {
+      "t": "10:00",
+      "temp": 91,
+      "pop": 1,
+      "code": 0,
+      "wind": 2
+     },
+     {
+      "t": "11:00",
+      "temp": 94,
+      "pop": 1,
+      "code": 0,
+      "wind": 2
+     },
+     {
+      "t": "12:00",
+      "temp": 97,
+      "pop": 1,
+      "code": 0,
+      "wind": 2
+     },
+     {
       "t": "13:00",
-      "temp": 101,
-      "pop": 2,
+      "temp": 99,
+      "pop": 1,
       "code": 0,
       "wind": 1
      },
      {
       "t": "14:00",
-      "temp": 102,
-      "pop": 1,
-      "code": 3,
-      "wind": 0
+      "temp": 101,
+      "pop": 2,
+      "code": 0,
+      "wind": 2
      },
      {
       "t": "15:00",
-      "temp": 104,
-      "pop": 1,
-      "code": 3,
-      "wind": 1
+      "temp": 101,
+      "pop": 2,
+      "code": 0,
+      "wind": 3
      },
      {
       "t": "16:00",
-      "temp": 104,
-      "pop": 1,
-      "code": 3,
-      "wind": 1
+      "temp": 101,
+      "pop": 2,
+      "code": 1,
+      "wind": 6
      },
      {
       "t": "17:00",
-      "temp": 103,
-      "pop": 1,
-      "code": 3,
-      "wind": 4
+      "temp": 102,
+      "pop": 2,
+      "code": 1,
+      "wind": 7
      },
      {
       "t": "18:00",
-      "temp": 102,
-      "pop": 1,
-      "code": 3,
-      "wind": 9
+      "temp": 101,
+      "pop": 2,
+      "code": 0,
+      "wind": 7
      },
      {
       "t": "19:00",
-      "temp": 101,
-      "pop": 1,
-      "code": 3,
-      "wind": 12
+      "temp": 100,
+      "pop": 2,
+      "code": 0,
+      "wind": 8
      },
      {
       "t": "20:00",
-      "temp": 97,
-      "pop": 5,
+      "temp": 98,
+      "pop": 2,
       "code": 3,
-      "wind": 11
+      "wind": 8
      },
      {
       "t": "21:00",
-      "temp": 95,
-      "pop": 5,
-      "code": 3,
-      "wind": 11
+      "temp": 96,
+      "pop": 2,
+      "code": 2,
+      "wind": 7
      },
      {
       "t": "22:00",
-      "temp": 92,
-      "pop": 5,
-      "code": 3,
+      "temp": 94,
+      "pop": 2,
+      "code": 0,
       "wind": 10
      },
      {
       "t": "23:00",
-      "temp": 91,
-      "pop": 5,
-      "code": 2,
-      "wind": 10
+      "temp": 92,
+      "pop": 2,
+      "code": 0,
+      "wind": 9
      }
     ],
     "2026-09-07": [
      {
       "t": "07:00",
-      "temp": 86,
-      "pop": 2,
+      "temp": 87,
+      "pop": 1,
       "code": 0,
-      "wind": 6
+      "wind": 4
      },
      {
       "t": "08:00",
       "temp": 87,
       "pop": 1,
       "code": 0,
-      "wind": 6
+      "wind": 5
      },
      {
       "t": "09:00",
       "temp": 89,
       "pop": 1,
       "code": 0,
-      "wind": 6
+      "wind": 4
      },
      {
       "t": "10:00",
-      "temp": 91,
+      "temp": 92,
       "pop": 1,
       "code": 0,
-      "wind": 6
+      "wind": 4
      },
      {
       "t": "11:00",
-      "temp": 94,
+      "temp": 95,
       "pop": 1,
       "code": 0,
-      "wind": 6
+      "wind": 4
      },
      {
       "t": "12:00",
       "temp": 97,
       "pop": 1,
       "code": 0,
-      "wind": 6
+      "wind": 4
      },
      {
       "t": "13:00",
-      "temp": 100,
+      "temp": 99,
       "pop": 1,
       "code": 0,
       "wind": 5
      },
      {
       "t": "14:00",
-      "temp": 102,
-      "pop": 2,
+      "temp": 101,
+      "pop": 4,
       "code": 0,
-      "wind": 6
+      "wind": 5
      },
      {
       "t": "15:00",
       "temp": 103,
-      "pop": 2,
+      "pop": 4,
       "code": 0,
       "wind": 6
      },
      {
       "t": "16:00",
-      "temp": 104,
-      "pop": 2,
+      "temp": 103,
+      "pop": 4,
       "code": 0,
       "wind": 7
      },
      {
       "t": "17:00",
-      "temp": 104,
-      "pop": 2,
+      "temp": 103,
+      "pop": 4,
       "code": 0,
-      "wind": 8
+      "wind": 9
      },
      {
       "t": "18:00",
-      "temp": 103,
-      "pop": 2,
+      "temp": 102,
+      "pop": 4,
       "code": 0,
       "wind": 10
      },
      {
       "t": "19:00",
-      "temp": 102,
-      "pop": 2,
-      "code": 1,
+      "temp": 101,
+      "pop": 4,
+      "code": 0,
       "wind": 11
      },
      {
       "t": "20:00",
-      "temp": 100,
-      "pop": 2,
-      "code": 1,
+      "temp": 99,
+      "pop": 1,
+      "code": 0,
       "wind": 12
      },
      {
       "t": "21:00",
-      "temp": 97,
-      "pop": 2,
-      "code": 1,
+      "temp": 96,
+      "pop": 1,
+      "code": 0,
       "wind": 12
      },
      {
       "t": "22:00",
       "temp": 94,
-      "pop": 2,
-      "code": 1,
-      "wind": 12
+      "pop": 1,
+      "code": 0,
+      "wind": 11
      },
      {
       "t": "23:00",
       "temp": 93,
-      "pop": 2,
+      "pop": 1,
       "code": 0,
-      "wind": 12
+      "wind": 11
      }
     ],
     "2026-09-08": [
@@ -1704,421 +1446,292 @@
       "temp": 86,
       "pop": 1,
       "code": 0,
-      "wind": 7
+      "wind": 6
      },
      {
       "t": "08:00",
       "temp": 87,
-      "pop": 2,
+      "pop": 1,
       "code": 0,
-      "wind": 8
+      "wind": 6
      },
      {
       "t": "09:00",
       "temp": 89,
-      "pop": 2,
+      "pop": 1,
       "code": 0,
-      "wind": 8
+      "wind": 6
      },
      {
       "t": "10:00",
       "temp": 91,
-      "pop": 2,
+      "pop": 1,
       "code": 0,
-      "wind": 9
+      "wind": 6
      },
      {
       "t": "11:00",
-      "temp": 94,
-      "pop": 2,
+      "temp": 93,
+      "pop": 1,
       "code": 0,
-      "wind": 9
+      "wind": 7
      },
      {
       "t": "12:00",
-      "temp": 97,
-      "pop": 2,
+      "temp": 96,
+      "pop": 1,
       "code": 0,
       "wind": 8
      },
      {
       "t": "13:00",
-      "temp": 100,
-      "pop": 2,
+      "temp": 98,
+      "pop": 1,
       "code": 0,
       "wind": 8
      },
      {
       "t": "14:00",
-      "temp": 102,
-      "pop": 2,
-      "code": 0,
-      "wind": 8
-     },
-     {
-      "t": "15:00",
-      "temp": 103,
-      "pop": 2,
-      "code": 0,
-      "wind": 8
-     },
-     {
-      "t": "16:00",
-      "temp": 104,
-      "pop": 2,
-      "code": 0,
-      "wind": 8
-     },
-     {
-      "t": "17:00",
-      "temp": 104,
-      "pop": 2,
+      "temp": 100,
+      "pop": 3,
       "code": 0,
       "wind": 9
      },
      {
-      "t": "18:00",
-      "temp": 103,
-      "pop": 2,
+      "t": "15:00",
+      "temp": 101,
+      "pop": 3,
       "code": 0,
       "wind": 10
      },
      {
-      "t": "19:00",
+      "t": "16:00",
       "temp": 102,
-      "pop": 2,
+      "pop": 3,
       "code": 0,
       "wind": 11
      },
      {
+      "t": "17:00",
+      "temp": 100,
+      "pop": 3,
+      "code": 1,
+      "wind": 10
+     },
+     {
+      "t": "18:00",
+      "temp": 98,
+      "pop": 3,
+      "code": 2,
+      "wind": 10
+     },
+     {
+      "t": "19:00",
+      "temp": 96,
+      "pop": 3,
+      "code": 3,
+      "wind": 9
+     },
+     {
       "t": "20:00",
-      "temp": 99,
-      "pop": 2,
-      "code": 0,
-      "wind": 12
+      "temp": 95,
+      "pop": 1,
+      "code": 3,
+      "wind": 10
      },
      {
       "t": "21:00",
-      "temp": 96,
-      "pop": 2,
-      "code": 1,
-      "wind": 13
+      "temp": 93,
+      "pop": 1,
+      "code": 2,
+      "wind": 10
      },
      {
       "t": "22:00",
-      "temp": 93,
-      "pop": 2,
+      "temp": 92,
+      "pop": 1,
       "code": 1,
-      "wind": 14
+      "wind": 11
      },
      {
       "t": "23:00",
-      "temp": 92,
-      "pop": 2,
+      "temp": 91,
+      "pop": 1,
       "code": 0,
-      "wind": 14
+      "wind": 12
      }
     ]
    }
   },
   "copenhagen": {
    "daily": {
-    "2026-09-02": {
-     "code": 63,
-     "max": 67,
-     "min": 58,
-     "popMax": 100,
-     "sunrise": "06:16",
-     "sunset": "20:02"
-    },
     "2026-09-03": {
-     "code": 61,
-     "max": 66,
-     "min": 60,
+     "code": 53,
+     "max": 65,
+     "min": 59,
      "popMax": 100,
      "sunrise": "06:18",
      "sunset": "19:59"
     },
     "2026-09-04": {
      "code": 63,
-     "max": 62,
+     "max": 64,
      "min": 59,
-     "popMax": 69,
+     "popMax": 93,
      "sunrise": "06:20",
      "sunset": "19:56"
     },
     "2026-09-05": {
      "code": 51,
-     "max": 65,
+     "max": 64,
      "min": 57,
-     "popMax": 69,
+     "popMax": 97,
      "sunrise": "06:22",
      "sunset": "19:54"
     },
     "2026-09-06": {
-     "code": 3,
+     "code": 51,
      "max": 64,
-     "min": 56,
-     "popMax": 13,
+     "min": 57,
+     "popMax": 34,
      "sunrise": "06:24",
      "sunset": "19:51"
     },
     "2026-09-07": {
      "code": 3,
-     "max": 69,
-     "min": 60,
-     "popMax": 33,
+     "max": 66,
+     "min": 57,
+     "popMax": 16,
      "sunrise": "06:26",
      "sunset": "19:49"
     },
     "2026-09-08": {
-     "code": 51,
-     "max": 63,
-     "min": 57,
-     "popMax": 52,
+     "code": 53,
+     "max": 66,
+     "min": 59,
+     "popMax": 45,
      "sunrise": "06:28",
      "sunset": "19:46"
     }
    },
    "hourly": {
-    "2026-09-02": [
-     {
-      "t": "07:00",
-      "temp": 58,
-      "pop": 10,
-      "code": 51,
-      "wind": 10
-     },
-     {
-      "t": "08:00",
-      "temp": 59,
-      "pop": 16,
-      "code": 51,
-      "wind": 10
-     },
-     {
-      "t": "09:00",
-      "temp": 61,
-      "pop": 19,
-      "code": 3,
-      "wind": 10
-     },
-     {
-      "t": "10:00",
-      "temp": 62,
-      "pop": 21,
-      "code": 3,
-      "wind": 10
-     },
-     {
-      "t": "11:00",
-      "temp": 64,
-      "pop": 29,
-      "code": 3,
-      "wind": 10
-     },
-     {
-      "t": "12:00",
-      "temp": 66,
-      "pop": 50,
-      "code": 3,
-      "wind": 10
-     },
-     {
-      "t": "13:00",
-      "temp": 67,
-      "pop": 76,
-      "code": 3,
-      "wind": 10
-     },
-     {
-      "t": "14:00",
-      "temp": 67,
-      "pop": 96,
-      "code": 3,
-      "wind": 11
-     },
-     {
-      "t": "15:00",
-      "temp": 67,
-      "pop": 100,
-      "code": 3,
-      "wind": 11
-     },
-     {
-      "t": "16:00",
-      "temp": 67,
-      "pop": 100,
-      "code": 51,
-      "wind": 14
-     },
-     {
-      "t": "17:00",
-      "temp": 67,
-      "pop": 100,
-      "code": 3,
-      "wind": 11
-     },
-     {
-      "t": "18:00",
-      "temp": 66,
-      "pop": 100,
-      "code": 3,
-      "wind": 11
-     },
-     {
-      "t": "19:00",
-      "temp": 64,
-      "pop": 100,
-      "code": 63,
-      "wind": 8
-     },
-     {
-      "t": "20:00",
-      "temp": 63,
-      "pop": 96,
-      "code": 61,
-      "wind": 6
-     },
-     {
-      "t": "21:00",
-      "temp": 62,
-      "pop": 72,
-      "code": 51,
-      "wind": 8
-     },
-     {
-      "t": "22:00",
-      "temp": 62,
-      "pop": 40,
-      "code": 3,
-      "wind": 7
-     },
-     {
-      "t": "23:00",
-      "temp": 61,
-      "pop": 16,
-      "code": 2,
-      "wind": 7
-     }
-    ],
     "2026-09-03": [
      {
       "t": "07:00",
-      "temp": 60,
-      "pop": 26,
+      "temp": 61,
+      "pop": 17,
       "code": 3,
       "wind": 7
      },
      {
       "t": "08:00",
       "temp": 61,
-      "pop": 33,
-      "code": 3,
-      "wind": 8
+      "pop": 24,
+      "code": 51,
+      "wind": 7
      },
      {
       "t": "09:00",
       "temp": 62,
-      "pop": 48,
-      "code": 3,
-      "wind": 10
+      "pop": 40,
+      "code": 51,
+      "wind": 8
      },
      {
       "t": "10:00",
       "temp": 62,
-      "pop": 67,
-      "code": 53,
-      "wind": 11
+      "pop": 61,
+      "code": 51,
+      "wind": 10
      },
      {
       "t": "11:00",
       "temp": 62,
-      "pop": 82,
-      "code": 3,
-      "wind": 11
+      "pop": 78,
+      "code": 51,
+      "wind": 10
      },
      {
       "t": "12:00",
       "temp": 62,
-      "pop": 90,
-      "code": 51,
-      "wind": 12
+      "pop": 89,
+      "code": 53,
+      "wind": 10
      },
      {
       "t": "13:00",
       "temp": 62,
-      "pop": 94,
-      "code": 51,
-      "wind": 14
+      "pop": 95,
+      "code": 53,
+      "wind": 11
      },
      {
       "t": "14:00",
-      "temp": 63,
-      "pop": 96,
-      "code": 3,
-      "wind": 14
+      "temp": 62,
+      "pop": 100,
+      "code": 51,
+      "wind": 12
      },
      {
       "t": "15:00",
-      "temp": 64,
-      "pop": 99,
-      "code": 3,
-      "wind": 15
+      "temp": 62,
+      "pop": 100,
+      "code": 53,
+      "wind": 12
      },
      {
       "t": "16:00",
-      "temp": 64,
+      "temp": 63,
       "pop": 100,
-      "code": 61,
-      "wind": 13
-     },
-     {
-      "t": "17:00",
-      "temp": 65,
-      "pop": 98,
-      "code": 53,
-      "wind": 13
-     },
-     {
-      "t": "18:00",
-      "temp": 66,
-      "pop": 89,
       "code": 51,
       "wind": 11
      },
      {
+      "t": "17:00",
+      "temp": 64,
+      "pop": 100,
+      "code": 3,
+      "wind": 10
+     },
+     {
+      "t": "18:00",
+      "temp": 65,
+      "pop": 100,
+      "code": 3,
+      "wind": 13
+     },
+     {
       "t": "19:00",
       "temp": 65,
-      "pop": 77,
-      "code": 3,
-      "wind": 12
+      "pop": 100,
+      "code": 2,
+      "wind": 10
      },
      {
       "t": "20:00",
       "temp": 64,
-      "pop": 65,
-      "code": 2,
-      "wind": 16
+      "pop": 92,
+      "code": 3,
+      "wind": 10
      },
      {
       "t": "21:00",
-      "temp": 63,
-      "pop": 54,
+      "temp": 64,
+      "pop": 67,
       "code": 3,
-      "wind": 14
+      "wind": 12
      },
      {
       "t": "22:00",
       "temp": 63,
-      "pop": 44,
+      "pop": 34,
       "code": 3,
       "wind": 13
      },
      {
       "t": "23:00",
       "temp": 62,
-      "pop": 35,
+      "pop": 10,
       "code": 3,
       "wind": 12
      }
@@ -2127,2423 +1740,2165 @@
      {
       "t": "07:00",
       "temp": 60,
-      "pop": 27,
+      "pop": 12,
       "code": 3,
-      "wind": 12
+      "wind": 10
      },
      {
       "t": "08:00",
       "temp": 60,
-      "pop": 33,
+      "pop": 18,
       "code": 3,
-      "wind": 11
+      "wind": 9
      },
      {
       "t": "09:00",
-      "temp": 61,
-      "pop": 36,
+      "temp": 60,
+      "pop": 31,
       "code": 3,
       "wind": 9
      },
      {
       "t": "10:00",
       "temp": 61,
-      "pop": 38,
-      "code": 3,
-      "wind": 8
-     },
-     {
-      "t": "11:00",
-      "temp": 61,
-      "pop": 41,
+      "pop": 48,
       "code": 51,
       "wind": 7
      },
      {
-      "t": "12:00",
-      "temp": 61,
-      "pop": 48,
+      "t": "11:00",
+      "temp": 63,
+      "pop": 63,
       "code": 51,
-      "wind": 4
+      "wind": 6
+     },
+     {
+      "t": "12:00",
+      "temp": 63,
+      "pop": 74,
+      "code": 51,
+      "wind": 5
      },
      {
       "t": "13:00",
-      "temp": 61,
-      "pop": 56,
-      "code": 55,
-      "wind": 3
+      "temp": 64,
+      "pop": 84,
+      "code": 51,
+      "wind": 6
      },
      {
       "t": "14:00",
-      "temp": 61,
-      "pop": 63,
+      "temp": 63,
+      "pop": 90,
       "code": 61,
-      "wind": 3
+      "wind": 4
      },
      {
       "t": "15:00",
       "temp": 62,
-      "pop": 67,
+      "pop": 93,
       "code": 63,
-      "wind": 3
+      "wind": 2
      },
      {
       "t": "16:00",
-      "temp": 62,
-      "pop": 69,
+      "temp": 63,
+      "pop": 93,
       "code": 51,
-      "wind": 6
+      "wind": 4
      },
      {
       "t": "17:00",
-      "temp": 61,
-      "pop": 69,
-      "code": 55,
-      "wind": 12
+      "temp": 63,
+      "pop": 92,
+      "code": 3,
+      "wind": 4
      },
      {
       "t": "18:00",
-      "temp": 60,
-      "pop": 64,
-      "code": 51,
-      "wind": 6
+      "temp": 62,
+      "pop": 91,
+      "code": 3,
+      "wind": 5
      },
      {
       "t": "19:00",
-      "temp": 60,
-      "pop": 57,
+      "temp": 61,
+      "pop": 90,
       "code": 3,
-      "wind": 7
+      "wind": 6
      },
      {
       "t": "20:00",
       "temp": 60,
-      "pop": 51,
+      "pop": 86,
       "code": 3,
       "wind": 8
      },
      {
       "t": "21:00",
-      "temp": 61,
-      "pop": 47,
+      "temp": 59,
+      "pop": 80,
       "code": 3,
-      "wind": 11
+      "wind": 6
      },
      {
       "t": "22:00",
-      "temp": 60,
-      "pop": 44,
-      "code": 3,
-      "wind": 12
+      "temp": 59,
+      "pop": 72,
+      "code": 51,
+      "wind": 7
      },
      {
       "t": "23:00",
       "temp": 59,
-      "pop": 41,
+      "pop": 63,
       "code": 51,
-      "wind": 12
+      "wind": 13
      }
     ],
     "2026-09-05": [
      {
       "t": "07:00",
       "temp": 57,
-      "pop": 24,
+      "pop": 10,
       "code": 0,
-      "wind": 12
+      "wind": 11
      },
      {
       "t": "08:00",
-      "temp": 59,
-      "pop": 27,
-      "code": 0,
-      "wind": 13
+      "temp": 58,
+      "pop": 6,
+      "code": 1,
+      "wind": 11
      },
      {
       "t": "09:00",
-      "temp": 61,
-      "pop": 38,
+      "temp": 60,
+      "pop": 22,
       "code": 0,
-      "wind": 13
+      "wind": 11
      },
      {
       "t": "10:00",
       "temp": 62,
-      "pop": 52,
-      "code": 0,
-      "wind": 16
+      "pop": 49,
+      "code": 1,
+      "wind": 13
      },
      {
       "t": "11:00",
-      "temp": 63,
-      "pop": 63,
-      "code": 1,
-      "wind": 17
+      "temp": 62,
+      "pop": 71,
+      "code": 2,
+      "wind": 13
      },
      {
       "t": "12:00",
-      "temp": 64,
-      "pop": 66,
-      "code": 51,
-      "wind": 17
+      "temp": 63,
+      "pop": 81,
+      "code": 3,
+      "wind": 16
      },
      {
       "t": "13:00",
-      "temp": 65,
-      "pop": 66,
-      "code": 1,
-      "wind": 17
+      "temp": 64,
+      "pop": 85,
+      "code": 3,
+      "wind": 15
      },
      {
       "t": "14:00",
-      "temp": 65,
-      "pop": 65,
-      "code": 0,
+      "temp": 64,
+      "pop": 88,
+      "code": 1,
       "wind": 18
      },
      {
       "t": "15:00",
-      "temp": 65,
-      "pop": 67,
-      "code": 0,
+      "temp": 64,
+      "pop": 93,
+      "code": 2,
       "wind": 19
      },
      {
       "t": "16:00",
-      "temp": 65,
-      "pop": 69,
-      "code": 0,
-      "wind": 20
+      "temp": 64,
+      "pop": 97,
+      "code": 51,
+      "wind": 18
      },
      {
       "t": "17:00",
-      "temp": 64,
-      "pop": 65,
-      "code": 0,
+      "temp": 63,
+      "pop": 96,
+      "code": 51,
       "wind": 20
      },
      {
       "t": "18:00",
-      "temp": 63,
-      "pop": 51,
-      "code": 0,
+      "temp": 62,
+      "pop": 86,
+      "code": 51,
       "wind": 20
      },
      {
       "t": "19:00",
       "temp": 61,
-      "pop": 31,
-      "code": 0,
-      "wind": 18
+      "pop": 71,
+      "code": 1,
+      "wind": 20
      },
      {
       "t": "20:00",
       "temp": 60,
-      "pop": 16,
-      "code": 0,
+      "pop": 59,
+      "code": 1,
       "wind": 18
      },
      {
       "t": "21:00",
-      "temp": 59,
-      "pop": 9,
-      "code": 0,
-      "wind": 18
+      "temp": 58,
+      "pop": 53,
+      "code": 51,
+      "wind": 20
      },
      {
       "t": "22:00",
       "temp": 58,
-      "pop": 6,
-      "code": 0,
-      "wind": 18
+      "pop": 49,
+      "code": 1,
+      "wind": 20
      },
      {
       "t": "23:00",
-      "temp": 57,
-      "pop": 4,
-      "code": 0,
-      "wind": 19
+      "temp": 58,
+      "pop": 43,
+      "code": 51,
+      "wind": 20
      }
     ],
     "2026-09-06": [
      {
       "t": "07:00",
-      "temp": 57,
-      "pop": 1,
-      "code": 1,
+      "temp": 58,
+      "pop": 0,
+      "code": 2,
       "wind": 14
      },
      {
       "t": "08:00",
-      "temp": 57,
-      "pop": 2,
+      "temp": 59,
+      "pop": 0,
       "code": 1,
       "wind": 14
      },
      {
       "t": "09:00",
-      "temp": 58,
-      "pop": 4,
+      "temp": 60,
+      "pop": 0,
       "code": 1,
-      "wind": 14
+      "wind": 15
      },
      {
       "t": "10:00",
-      "temp": 60,
-      "pop": 8,
+      "temp": 61,
+      "pop": 0,
       "code": 2,
-      "wind": 14
+      "wind": 15
      },
      {
       "t": "11:00",
       "temp": 61,
-      "pop": 10,
+      "pop": 0,
       "code": 2,
-      "wind": 14
+      "wind": 15
      },
      {
       "t": "12:00",
-      "temp": 62,
-      "pop": 11,
+      "temp": 63,
+      "pop": 2,
       "code": 2,
       "wind": 14
      },
      {
       "t": "13:00",
       "temp": 63,
-      "pop": 12,
-      "code": 2,
-      "wind": 13
+      "pop": 5,
+      "code": 3,
+      "wind": 14
      },
      {
       "t": "14:00",
       "temp": 64,
-      "pop": 12,
-      "code": 2,
-      "wind": 13
+      "pop": 6,
+      "code": 3,
+      "wind": 14
      },
      {
       "t": "15:00",
       "temp": 64,
-      "pop": 13,
-      "code": 2,
-      "wind": 13
+      "pop": 5,
+      "code": 3,
+      "wind": 14
      },
      {
       "t": "16:00",
       "temp": 64,
-      "pop": 13,
-      "code": 2,
-      "wind": 12
+      "pop": 2,
+      "code": 3,
+      "wind": 13
      },
      {
       "t": "17:00",
-      "temp": 64,
-      "pop": 12,
+      "temp": 63,
+      "pop": 0,
       "code": 2,
       "wind": 12
      },
      {
       "t": "18:00",
-      "temp": 64,
-      "pop": 9,
+      "temp": 63,
+      "pop": 0,
       "code": 2,
-      "wind": 9
+      "wind": 10
      },
      {
       "t": "19:00",
-      "temp": 62,
-      "pop": 4,
-      "code": 3,
-      "wind": 6
+      "temp": 61,
+      "pop": 0,
+      "code": 1,
+      "wind": 8
      },
      {
       "t": "20:00",
-      "temp": 62,
-      "pop": 2,
-      "code": 3,
-      "wind": 5
+      "temp": 60,
+      "pop": 0,
+      "code": 0,
+      "wind": 6
      },
      {
       "t": "21:00",
-      "temp": 61,
-      "pop": 4,
-      "code": 2,
-      "wind": 5
+      "temp": 59,
+      "pop": 0,
+      "code": 0,
+      "wind": 6
      },
      {
       "t": "22:00",
-      "temp": 60,
-      "pop": 8,
+      "temp": 58,
+      "pop": 0,
       "code": 1,
       "wind": 6
      },
      {
       "t": "23:00",
-      "temp": 60,
-      "pop": 12,
-      "code": 0,
+      "temp": 57,
+      "pop": 0,
+      "code": 2,
       "wind": 7
      }
     ],
     "2026-09-07": [
      {
       "t": "07:00",
-      "temp": 62,
-      "pop": 20,
-      "code": 3,
-      "wind": 13
+      "temp": 59,
+      "pop": 3,
+      "code": 1,
+      "wind": 8
      },
      {
       "t": "08:00",
-      "temp": 63,
-      "pop": 20,
-      "code": 3,
-      "wind": 13
+      "temp": 60,
+      "pop": 2,
+      "code": 1,
+      "wind": 8
      },
      {
       "t": "09:00",
-      "temp": 63,
-      "pop": 23,
-      "code": 3,
-      "wind": 14
+      "temp": 61,
+      "pop": 2,
+      "code": 1,
+      "wind": 10
      },
      {
       "t": "10:00",
-      "temp": 63,
-      "pop": 28,
-      "code": 3,
-      "wind": 14
+      "temp": 62,
+      "pop": 3,
+      "code": 2,
+      "wind": 11
      },
      {
       "t": "11:00",
       "temp": 64,
-      "pop": 32,
-      "code": 2,
-      "wind": 14
+      "pop": 4,
+      "code": 3,
+      "wind": 13
      },
      {
       "t": "12:00",
       "temp": 64,
-      "pop": 33,
+      "pop": 3,
       "code": 2,
       "wind": 14
      },
      {
       "t": "13:00",
+      "temp": 64,
+      "pop": 2,
+      "code": 1,
+      "wind": 14
+     },
+     {
+      "t": "14:00",
+      "temp": 64,
+      "pop": 2,
+      "code": 0,
+      "wind": 14
+     },
+     {
+      "t": "15:00",
       "temp": 65,
-      "pop": 32,
+      "pop": 4,
+      "code": 1,
+      "wind": 14
+     },
+     {
+      "t": "16:00",
+      "temp": 65,
+      "pop": 8,
       "code": 2,
       "wind": 13
      },
      {
-      "t": "14:00",
-      "temp": 66,
-      "pop": 31,
-      "code": 1,
-      "wind": 12
-     },
-     {
-      "t": "15:00",
-      "temp": 66,
-      "pop": 31,
-      "code": 1,
-      "wind": 13
-     },
-     {
-      "t": "16:00",
-      "temp": 67,
-      "pop": 32,
-      "code": 1,
-      "wind": 13
-     },
-     {
       "t": "17:00",
-      "temp": 68,
-      "pop": 32,
-      "code": 1,
+      "temp": 65,
+      "pop": 10,
+      "code": 2,
       "wind": 13
      },
      {
       "t": "18:00",
-      "temp": 68,
-      "pop": 32,
-      "code": 1,
-      "wind": 12
+      "temp": 65,
+      "pop": 10,
+      "code": 2,
+      "wind": 13
      },
      {
       "t": "19:00",
-      "temp": 69,
-      "pop": 32,
+      "temp": 65,
+      "pop": 8,
       "code": 1,
       "wind": 12
      },
      {
       "t": "20:00",
-      "temp": 69,
-      "pop": 31,
-      "code": 2,
+      "temp": 65,
+      "pop": 8,
+      "code": 0,
       "wind": 12
      },
      {
       "t": "21:00",
-      "temp": 63,
-      "pop": 29,
-      "code": 3,
-      "wind": 17
+      "temp": 66,
+      "pop": 10,
+      "code": 0,
+      "wind": 13
      },
      {
       "t": "22:00",
-      "temp": 62,
-      "pop": 26,
-      "code": 3,
-      "wind": 17
+      "temp": 66,
+      "pop": 14,
+      "code": 0,
+      "wind": 14
      },
      {
       "t": "23:00",
-      "temp": 61,
-      "pop": 24,
-      "code": 2,
-      "wind": 17
+      "temp": 66,
+      "pop": 16,
+      "code": 0,
+      "wind": 14
      }
     ],
     "2026-09-08": [
      {
       "t": "07:00",
-      "temp": 57,
+      "temp": 62,
       "pop": 22,
       "code": 3,
       "wind": 10
      },
      {
       "t": "08:00",
-      "temp": 57,
+      "temp": 62,
       "pop": 24,
       "code": 3,
       "wind": 10
      },
      {
       "t": "09:00",
-      "temp": 58,
-      "pop": 28,
+      "temp": 63,
+      "pop": 27,
       "code": 3,
       "wind": 10
      },
      {
       "t": "10:00",
-      "temp": 59,
-      "pop": 33,
+      "temp": 63,
+      "pop": 29,
       "code": 3,
-      "wind": 12
+      "wind": 9
      },
      {
       "t": "11:00",
-      "temp": 60,
-      "pop": 38,
+      "temp": 64,
+      "pop": 31,
       "code": 3,
-      "wind": 13
+      "wind": 8
      },
      {
       "t": "12:00",
-      "temp": 62,
-      "pop": 43,
+      "temp": 64,
+      "pop": 30,
       "code": 3,
-      "wind": 14
+      "wind": 8
      },
      {
       "t": "13:00",
-      "temp": 63,
-      "pop": 48,
+      "temp": 64,
+      "pop": 29,
       "code": 3,
-      "wind": 16
+      "wind": 9
      },
      {
       "t": "14:00",
-      "temp": 63,
-      "pop": 51,
+      "temp": 64,
+      "pop": 29,
       "code": 3,
-      "wind": 16
+      "wind": 9
      },
      {
       "t": "15:00",
-      "temp": 63,
-      "pop": 52,
-      "code": 51,
-      "wind": 17
+      "temp": 64,
+      "pop": 35,
+      "code": 3,
+      "wind": 9
      },
      {
       "t": "16:00",
-      "temp": 63,
-      "pop": 52,
-      "code": 51,
-      "wind": 16
+      "temp": 64,
+      "pop": 42,
+      "code": 3,
+      "wind": 9
      },
      {
       "t": "17:00",
-      "temp": 63,
-      "pop": 52,
-      "code": 51,
-      "wind": 16
+      "temp": 64,
+      "pop": 45,
+      "code": 3,
+      "wind": 10
      },
      {
       "t": "18:00",
-      "temp": 62,
-      "pop": 51,
-      "code": 51,
-      "wind": 15
+      "temp": 63,
+      "pop": 37,
+      "code": 3,
+      "wind": 10
      },
      {
       "t": "19:00",
       "temp": 62,
-      "pop": 50,
-      "code": 51,
-      "wind": 14
+      "pop": 25,
+      "code": 3,
+      "wind": 10
      },
      {
       "t": "20:00",
-      "temp": 61,
-      "pop": 49,
-      "code": 51,
-      "wind": 14
+      "temp": 62,
+      "pop": 18,
+      "code": 3,
+      "wind": 10
      },
      {
       "t": "21:00",
       "temp": 61,
-      "pop": 47,
-      "code": 51,
-      "wind": 14
+      "pop": 22,
+      "code": 53,
+      "wind": 13
      },
      {
       "t": "22:00",
       "temp": 60,
-      "pop": 46,
-      "code": 51,
-      "wind": 13
+      "pop": 31,
+      "code": 53,
+      "wind": 11
      },
      {
       "t": "23:00",
       "temp": 59,
-      "pop": 44,
-      "code": 51,
-      "wind": 12
+      "pop": 38,
+      "code": 53,
+      "wind": 9
      }
     ]
    }
   },
   "amsterdam": {
    "daily": {
-    "2026-09-02": {
-     "code": 61,
-     "max": 69,
-     "min": 59,
-     "popMax": 65,
-     "sunrise": "06:53",
-     "sunset": "20:26"
-    },
     "2026-09-03": {
-     "code": 51,
-     "max": 69,
-     "min": 63,
-     "popMax": 90,
+     "code": 53,
+     "max": 71,
+     "min": 64,
+     "popMax": 99,
      "sunrise": "06:55",
      "sunset": "20:24"
     },
     "2026-09-04": {
-     "code": 61,
-     "max": 69,
-     "min": 64,
-     "popMax": 66,
+     "code": 55,
+     "max": 70,
+     "min": 63,
+     "popMax": 98,
      "sunrise": "06:56",
      "sunset": "20:22"
     },
     "2026-09-05": {
      "code": 51,
-     "max": 67,
+     "max": 66,
      "min": 58,
-     "popMax": 57,
+     "popMax": 30,
      "sunrise": "06:58",
      "sunset": "20:19"
     },
     "2026-09-06": {
-     "code": 3,
-     "max": 72,
-     "min": 55,
-     "popMax": 10,
+     "code": 2,
+     "max": 70,
+     "min": 53,
+     "popMax": 0,
      "sunrise": "07:00",
      "sunset": "20:17"
     },
     "2026-09-07": {
      "code": 51,
-     "max": 73,
-     "min": 60,
-     "popMax": 27,
+     "max": 77,
+     "min": 59,
+     "popMax": 12,
      "sunrise": "07:01",
      "sunset": "20:15"
     },
     "2026-09-08": {
      "code": 80,
-     "max": 66,
-     "min": 57,
-     "popMax": 55,
+     "max": 65,
+     "min": 55,
+     "popMax": 67,
      "sunrise": "07:03",
      "sunset": "20:12"
     }
    },
    "hourly": {
-    "2026-09-02": [
+    "2026-09-03": [
      {
       "t": "07:00",
-      "temp": 59,
-      "pop": 4,
-      "code": 1,
-      "wind": 7
+      "temp": 64,
+      "pop": 66,
+      "code": 53,
+      "wind": 10
      },
      {
       "t": "08:00",
-      "temp": 60,
-      "pop": 6,
-      "code": 0,
-      "wind": 7
+      "temp": 67,
+      "pop": 88,
+      "code": 51,
+      "wind": 14
      },
      {
       "t": "09:00",
-      "temp": 64,
-      "pop": 4,
-      "code": 0,
-      "wind": 9
+      "temp": 67,
+      "pop": 97,
+      "code": 51,
+      "wind": 12
      },
      {
       "t": "10:00",
       "temp": 67,
-      "pop": 2,
-      "code": 0,
-      "wind": 10
-     },
-     {
-      "t": "11:00",
-      "temp": 68,
-      "pop": 4,
-      "code": 3,
-      "wind": 9
-     },
-     {
-      "t": "12:00",
-      "temp": 69,
-      "pop": 15,
-      "code": 3,
-      "wind": 9
-     },
-     {
-      "t": "13:00",
-      "temp": 66,
-      "pop": 30,
-      "code": 3,
-      "wind": 10
-     },
-     {
-      "t": "14:00",
-      "temp": 65,
-      "pop": 43,
-      "code": 61,
-      "wind": 8
-     },
-     {
-      "t": "15:00",
-      "temp": 67,
-      "pop": 54,
-      "code": 55,
-      "wind": 9
-     },
-     {
-      "t": "16:00",
-      "temp": 66,
-      "pop": 63,
-      "code": 3,
-      "wind": 9
-     },
-     {
-      "t": "17:00",
-      "temp": 66,
-      "pop": 65,
-      "code": 51,
-      "wind": 9
-     },
-     {
-      "t": "18:00",
-      "temp": 65,
-      "pop": 55,
-      "code": 51,
-      "wind": 8
-     },
-     {
-      "t": "19:00",
-      "temp": 65,
-      "pop": 38,
-      "code": 3,
-      "wind": 8
-     },
-     {
-      "t": "20:00",
-      "temp": 64,
-      "pop": 24,
-      "code": 3,
-      "wind": 7
-     },
-     {
-      "t": "21:00",
-      "temp": 63,
-      "pop": 16,
-      "code": 3,
-      "wind": 9
-     },
-     {
-      "t": "22:00",
-      "temp": 63,
-      "pop": 10,
+      "pop": 99,
       "code": 51,
       "wind": 11
      },
      {
-      "t": "23:00",
-      "temp": 63,
-      "pop": 6,
+      "t": "11:00",
+      "temp": 68,
+      "pop": 98,
       "code": 3,
-      "wind": 12
-     }
-    ],
-    "2026-09-03": [
-     {
-      "t": "07:00",
-      "temp": 66,
-      "pop": 38,
-      "code": 51,
-      "wind": 12
+      "wind": 16
      },
      {
-      "t": "08:00",
-      "temp": 66,
-      "pop": 53,
-      "code": 51,
-      "wind": 14
+      "t": "12:00",
+      "temp": 69,
+      "pop": 95,
+      "code": 3,
+      "wind": 16
      },
      {
-      "t": "09:00",
-      "temp": 67,
-      "pop": 68,
+      "t": "13:00",
+      "temp": 69,
+      "pop": 90,
       "code": 3,
       "wind": 15
      },
      {
-      "t": "10:00",
-      "temp": 67,
+      "t": "14:00",
+      "temp": 70,
       "pop": 82,
       "code": 3,
-      "wind": 14
-     },
-     {
-      "t": "11:00",
-      "temp": 68,
-      "pop": 90,
-      "code": 3,
-      "wind": 14
-     },
-     {
-      "t": "12:00",
-      "temp": 67,
-      "pop": 88,
-      "code": 3,
-      "wind": 13
-     },
-     {
-      "t": "13:00",
-      "temp": 68,
-      "pop": 80,
-      "code": 51,
-      "wind": 13
-     },
-     {
-      "t": "14:00",
-      "temp": 68,
-      "pop": 73,
-      "code": 51,
-      "wind": 13
+      "wind": 15
      },
      {
       "t": "15:00",
-      "temp": 68,
-      "pop": 69,
+      "temp": 70,
+      "pop": 70,
       "code": 3,
-      "wind": 13
+      "wind": 15
      },
      {
       "t": "16:00",
-      "temp": 68,
-      "pop": 67,
+      "temp": 70,
+      "pop": 55,
       "code": 3,
       "wind": 14
      },
      {
       "t": "17:00",
-      "temp": 68,
-      "pop": 63,
+      "temp": 71,
+      "pop": 43,
       "code": 3,
-      "wind": 13
+      "wind": 14
      },
      {
       "t": "18:00",
-      "temp": 68,
-      "pop": 58,
+      "temp": 70,
+      "pop": 34,
       "code": 3,
       "wind": 12
      },
      {
       "t": "19:00",
       "temp": 69,
-      "pop": 51,
+      "pop": 27,
       "code": 3,
-      "wind": 13
+      "wind": 12
      },
      {
       "t": "20:00",
-      "temp": 68,
-      "pop": 45,
+      "temp": 69,
+      "pop": 24,
       "code": 3,
-      "wind": 10
+      "wind": 12
      },
      {
       "t": "21:00",
-      "temp": 68,
-      "pop": 39,
+      "temp": 69,
+      "pop": 29,
       "code": 3,
-      "wind": 9
+      "wind": 11
      },
      {
       "t": "22:00",
-      "temp": 68,
-      "pop": 33,
+      "temp": 69,
+      "pop": 39,
       "code": 3,
-      "wind": 8
+      "wind": 12
      },
      {
       "t": "23:00",
-      "temp": 67,
-      "pop": 29,
+      "temp": 68,
+      "pop": 43,
       "code": 3,
-      "wind": 8
+      "wind": 12
      }
     ],
     "2026-09-04": [
      {
       "t": "07:00",
       "temp": 68,
-      "pop": 23,
+      "pop": 20,
       "code": 3,
-      "wind": 23
+      "wind": 17
      },
      {
       "t": "08:00",
       "temp": 69,
-      "pop": 27,
+      "pop": 33,
       "code": 3,
-      "wind": 25
+      "wind": 19
      },
      {
       "t": "09:00",
       "temp": 69,
-      "pop": 37,
+      "pop": 50,
       "code": 3,
-      "wind": 24
+      "wind": 21
      },
      {
       "t": "10:00",
-      "temp": 69,
-      "pop": 49,
-      "code": 51,
+      "temp": 70,
+      "pop": 70,
+      "code": 2,
       "wind": 22
      },
      {
       "t": "11:00",
-      "temp": 68,
-      "pop": 59,
-      "code": 51,
-      "wind": 20
+      "temp": 70,
+      "pop": 86,
+      "code": 3,
+      "wind": 26
      },
      {
       "t": "12:00",
       "temp": 68,
-      "pop": 64,
-      "code": 51,
-      "wind": 20
+      "pop": 94,
+      "code": 55,
+      "wind": 22
      },
      {
       "t": "13:00",
-      "temp": 68,
-      "pop": 66,
-      "code": 51,
-      "wind": 21
-     },
-     {
-      "t": "14:00",
-      "temp": 68,
-      "pop": 65,
-      "code": 53,
-      "wind": 16
-     },
-     {
-      "t": "15:00",
       "temp": 66,
-      "pop": 59,
-      "code": 61,
+      "pop": 98,
+      "code": 3,
       "wind": 12
      },
      {
-      "t": "16:00",
-      "temp": 66,
-      "pop": 50,
+      "t": "14:00",
+      "temp": 67,
+      "pop": 98,
       "code": 3,
       "wind": 10
+     },
+     {
+      "t": "15:00",
+      "temp": 69,
+      "pop": 93,
+      "code": 3,
+      "wind": 14
+     },
+     {
+      "t": "16:00",
+      "temp": 67,
+      "pop": 83,
+      "code": 51,
+      "wind": 12
      },
      {
       "t": "17:00",
       "temp": 66,
-      "pop": 45,
-      "code": 51,
-      "wind": 9
+      "pop": 71,
+      "code": 3,
+      "wind": 12
      },
      {
       "t": "18:00",
       "temp": 66,
-      "pop": 46,
+      "pop": 55,
       "code": 3,
-      "wind": 9
+      "wind": 14
      },
      {
       "t": "19:00",
       "temp": 66,
-      "pop": 51,
+      "pop": 37,
       "code": 3,
-      "wind": 10
+      "wind": 15
      },
      {
       "t": "20:00",
       "temp": 65,
-      "pop": 55,
-      "code": 51,
-      "wind": 9
+      "pop": 22,
+      "code": 3,
+      "wind": 15
      },
      {
       "t": "21:00",
       "temp": 64,
-      "pop": 57,
-      "code": 51,
-      "wind": 9
+      "pop": 12,
+      "code": 3,
+      "wind": 14
      },
      {
       "t": "22:00",
       "temp": 64,
-      "pop": 59,
-      "code": 51,
-      "wind": 10
+      "pop": 5,
+      "code": 3,
+      "wind": 13
      },
      {
       "t": "23:00",
-      "temp": 64,
-      "pop": 59,
-      "code": 3,
-      "wind": 10
+      "temp": 63,
+      "pop": 0,
+      "code": 0,
+      "wind": 12
      }
     ],
     "2026-09-05": [
      {
       "t": "07:00",
-      "temp": 60,
-      "pop": 15,
-      "code": 1,
-      "wind": 7
+      "temp": 62,
+      "pop": 0,
+      "code": 3,
+      "wind": 11
      },
      {
       "t": "08:00",
-      "temp": 61,
-      "pop": 12,
-      "code": 1,
-      "wind": 7
+      "temp": 63,
+      "pop": 0,
+      "code": 3,
+      "wind": 12
      },
      {
       "t": "09:00",
       "temp": 63,
-      "pop": 13,
-      "code": 51,
-      "wind": 8
+      "pop": 9,
+      "code": 3,
+      "wind": 12
      },
      {
       "t": "10:00",
-      "temp": 64,
-      "pop": 16,
-      "code": 51,
-      "wind": 10
+      "temp": 63,
+      "pop": 21,
+      "code": 3,
+      "wind": 13
      },
      {
       "t": "11:00",
-      "temp": 65,
-      "pop": 18,
-      "code": 3,
-      "wind": 10
+      "temp": 62,
+      "pop": 29,
+      "code": 51,
+      "wind": 12
      },
      {
       "t": "12:00",
-      "temp": 66,
-      "pop": 18,
-      "code": 2,
-      "wind": 10
+      "temp": 62,
+      "pop": 30,
+      "code": 51,
+      "wind": 12
      },
      {
       "t": "13:00",
-      "temp": 66,
-      "pop": 17,
-      "code": 2,
-      "wind": 11
+      "temp": 64,
+      "pop": 27,
+      "code": 3,
+      "wind": 13
      },
      {
       "t": "14:00",
-      "temp": 67,
-      "pop": 16,
+      "temp": 66,
+      "pop": 24,
       "code": 2,
-      "wind": 10
+      "wind": 13
      },
      {
       "t": "15:00",
-      "temp": 67,
-      "pop": 14,
-      "code": 2,
-      "wind": 11
+      "temp": 65,
+      "pop": 21,
+      "code": 3,
+      "wind": 14
      },
      {
       "t": "16:00",
-      "temp": 66,
-      "pop": 12,
-      "code": 2,
-      "wind": 11
+      "temp": 64,
+      "pop": 16,
+      "code": 3,
+      "wind": 13
      },
      {
       "t": "17:00",
-      "temp": 66,
-      "pop": 10,
-      "code": 3,
-      "wind": 10
+      "temp": 65,
+      "pop": 12,
+      "code": 2,
+      "wind": 13
      },
      {
       "t": "18:00",
-      "temp": 65,
+      "temp": 64,
       "pop": 8,
-      "code": 3,
-      "wind": 8
+      "code": 51,
+      "wind": 11
      },
      {
       "t": "19:00",
-      "temp": 63,
-      "pop": 6,
-      "code": 3,
-      "wind": 5
+      "temp": 64,
+      "pop": 3,
+      "code": 0,
+      "wind": 9
      },
      {
       "t": "20:00",
       "temp": 62,
-      "pop": 4,
-      "code": 3,
-      "wind": 3
+      "pop": 0,
+      "code": 0,
+      "wind": 6
      },
      {
       "t": "21:00",
-      "temp": 61,
-      "pop": 3,
-      "code": 3,
-      "wind": 2
+      "temp": 60,
+      "pop": 0,
+      "code": 0,
+      "wind": 3
      },
      {
       "t": "22:00",
       "temp": 59,
-      "pop": 3,
-      "code": 2,
-      "wind": 1
+      "pop": 0,
+      "code": 0,
+      "wind": 3
      },
      {
       "t": "23:00",
       "temp": 58,
-      "pop": 4,
-      "code": 2,
-      "wind": 0
+      "pop": 0,
+      "code": 0,
+      "wind": 2
      }
     ],
     "2026-09-06": [
      {
       "t": "07:00",
-      "temp": 55,
-      "pop": 3,
-      "code": 0,
-      "wind": 5
+      "temp": 54,
+      "pop": 0,
+      "code": 2,
+      "wind": 3
      },
      {
       "t": "08:00",
       "temp": 56,
-      "pop": 2,
+      "pop": 0,
       "code": 0,
-      "wind": 6
+      "wind": 5
      },
      {
       "t": "09:00",
-      "temp": 58,
-      "pop": 2,
-      "code": 0,
-      "wind": 6
+      "temp": 59,
+      "pop": 0,
+      "code": 1,
+      "wind": 4
      },
      {
       "t": "10:00",
-      "temp": 61,
-      "pop": 2,
+      "temp": 62,
+      "pop": 0,
       "code": 0,
-      "wind": 6
+      "wind": 4
      },
      {
       "t": "11:00",
-      "temp": 64,
-      "pop": 2,
+      "temp": 65,
+      "pop": 0,
       "code": 0,
-      "wind": 6
+      "wind": 5
      },
      {
       "t": "12:00",
-      "temp": 66,
-      "pop": 2,
+      "temp": 67,
+      "pop": 0,
       "code": 0,
       "wind": 6
      },
      {
       "t": "13:00",
       "temp": 68,
-      "pop": 3,
+      "pop": 0,
       "code": 1,
       "wind": 6
      },
      {
       "t": "14:00",
-      "temp": 70,
-      "pop": 4,
-      "code": 1,
-      "wind": 7
+      "temp": 69,
+      "pop": 0,
+      "code": 2,
+      "wind": 6
      },
      {
       "t": "15:00",
-      "temp": 71,
-      "pop": 5,
+      "temp": 70,
+      "pop": 0,
       "code": 1,
-      "wind": 7
+      "wind": 6
      },
      {
       "t": "16:00",
-      "temp": 71,
-      "pop": 7,
-      "code": 0,
-      "wind": 7
+      "temp": 70,
+      "pop": 0,
+      "code": 1,
+      "wind": 6
      },
      {
       "t": "17:00",
-      "temp": 72,
-      "pop": 8,
+      "temp": 70,
+      "pop": 0,
       "code": 0,
-      "wind": 7
+      "wind": 6
      },
      {
       "t": "18:00",
-      "temp": 70,
-      "pop": 8,
-      "code": 1,
-      "wind": 7
+      "temp": 69,
+      "pop": 0,
+      "code": 0,
+      "wind": 5
      },
      {
       "t": "19:00",
-      "temp": 69,
-      "pop": 6,
-      "code": 2,
-      "wind": 6
+      "temp": 67,
+      "pop": 0,
+      "code": 0,
+      "wind": 5
      },
      {
       "t": "20:00",
-      "temp": 68,
-      "pop": 6,
-      "code": 2,
-      "wind": 6
+      "temp": 66,
+      "pop": 0,
+      "code": 0,
+      "wind": 5
      },
      {
       "t": "21:00",
-      "temp": 66,
-      "pop": 7,
-      "code": 3,
+      "temp": 64,
+      "pop": 0,
+      "code": 0,
       "wind": 6
      },
      {
       "t": "22:00",
-      "temp": 66,
-      "pop": 8,
-      "code": 2,
-      "wind": 7
+      "temp": 63,
+      "pop": 0,
+      "code": 0,
+      "wind": 6
      },
      {
       "t": "23:00",
-      "temp": 65,
-      "pop": 10,
-      "code": 2,
+      "temp": 62,
+      "pop": 0,
+      "code": 0,
       "wind": 7
      }
     ],
     "2026-09-07": [
      {
       "t": "07:00",
-      "temp": 64,
-      "pop": 18,
+      "temp": 59,
+      "pop": 8,
       "code": 2,
-      "wind": 6
+      "wind": 8
      },
      {
       "t": "08:00",
-      "temp": 65,
-      "pop": 20,
-      "code": 3,
-      "wind": 6
+      "temp": 60,
+      "pop": 8,
+      "code": 1,
+      "wind": 8
      },
      {
       "t": "09:00",
-      "temp": 67,
-      "pop": 22,
-      "code": 2,
-      "wind": 6
+      "temp": 61,
+      "pop": 7,
+      "code": 51,
+      "wind": 7
      },
      {
       "t": "10:00",
-      "temp": 70,
-      "pop": 23,
-      "code": 1,
+      "temp": 62,
+      "pop": 6,
+      "code": 51,
       "wind": 7
      },
      {
       "t": "11:00",
-      "temp": 73,
-      "pop": 24,
-      "code": 0,
-      "wind": 8
+      "temp": 65,
+      "pop": 6,
+      "code": 51,
+      "wind": 6
      },
      {
       "t": "12:00",
-      "temp": 73,
-      "pop": 25,
-      "code": 0,
-      "wind": 9
+      "temp": 68,
+      "pop": 8,
+      "code": 1,
+      "wind": 7
      },
      {
       "t": "13:00",
       "temp": 73,
-      "pop": 26,
+      "pop": 10,
       "code": 1,
-      "wind": 9
+      "wind": 7
      },
      {
       "t": "14:00",
-      "temp": 72,
-      "pop": 27,
-      "code": 2,
-      "wind": 9
+      "temp": 76,
+      "pop": 12,
+      "code": 0,
+      "wind": 7
      },
      {
       "t": "15:00",
-      "temp": 71,
-      "pop": 27,
-      "code": 51,
-      "wind": 10
+      "temp": 77,
+      "pop": 11,
+      "code": 0,
+      "wind": 6
      },
      {
       "t": "16:00",
-      "temp": 70,
-      "pop": 26,
-      "code": 51,
-      "wind": 10
+      "temp": 77,
+      "pop": 10,
+      "code": 0,
+      "wind": 7
      },
      {
       "t": "17:00",
-      "temp": 69,
-      "pop": 25,
-      "code": 51,
-      "wind": 9
+      "temp": 76,
+      "pop": 8,
+      "code": 0,
+      "wind": 8
      },
      {
       "t": "18:00",
-      "temp": 68,
-      "pop": 24,
-      "code": 2,
+      "temp": 74,
+      "pop": 6,
+      "code": 0,
       "wind": 8
      },
      {
       "t": "19:00",
-      "temp": 68,
-      "pop": 23,
-      "code": 3,
-      "wind": 7
+      "temp": 70,
+      "pop": 3,
+      "code": 1,
+      "wind": 6
      },
      {
       "t": "20:00",
       "temp": 68,
-      "pop": 22,
-      "code": 3,
-      "wind": 6
+      "pop": 2,
+      "code": 2,
+      "wind": 5
      },
      {
       "t": "21:00",
-      "temp": 62,
-      "pop": 21,
-      "code": 3,
-      "wind": 3
+      "temp": 67,
+      "pop": 5,
+      "code": 2,
+      "wind": 4
      },
      {
       "t": "22:00",
-      "temp": 61,
-      "pop": 20,
+      "temp": 66,
+      "pop": 9,
       "code": 3,
-      "wind": 3
+      "wind": 4
      },
      {
       "t": "23:00",
-      "temp": 60,
-      "pop": 19,
+      "temp": 66,
+      "pop": 12,
       "code": 3,
-      "wind": 2
+      "wind": 3
      }
     ],
     "2026-09-08": [
      {
       "t": "07:00",
-      "temp": 58,
-      "pop": 13,
+      "temp": 62,
+      "pop": 18,
       "code": 3,
-      "wind": 6
+      "wind": 4
      },
      {
       "t": "08:00",
-      "temp": 58,
-      "pop": 14,
+      "temp": 62,
+      "pop": 16,
       "code": 3,
-      "wind": 6
+      "wind": 4
      },
      {
       "t": "09:00",
-      "temp": 59,
-      "pop": 16,
+      "temp": 62,
+      "pop": 19,
       "code": 51,
-      "wind": 6
+      "wind": 4
      },
      {
       "t": "10:00",
-      "temp": 61,
-      "pop": 19,
+      "temp": 63,
+      "pop": 25,
       "code": 51,
-      "wind": 7
+      "wind": 5
      },
      {
       "t": "11:00",
-      "temp": 62,
-      "pop": 23,
+      "temp": 64,
+      "pop": 31,
       "code": 51,
-      "wind": 9
+      "wind": 6
      },
      {
       "t": "12:00",
       "temp": 64,
-      "pop": 27,
+      "pop": 36,
       "code": 51,
-      "wind": 11
+      "wind": 6
      },
      {
       "t": "13:00",
-      "temp": 65,
-      "pop": 31,
+      "temp": 64,
+      "pop": 41,
       "code": 51,
-      "wind": 12
+      "wind": 6
      },
      {
       "t": "14:00",
-      "temp": 66,
-      "pop": 35,
+      "temp": 63,
+      "pop": 43,
       "code": 51,
-      "wind": 13
+      "wind": 7
      },
      {
       "t": "15:00",
-      "temp": 65,
-      "pop": 39,
-      "code": 53,
-      "wind": 14
+      "temp": 62,
+      "pop": 42,
+      "code": 55,
+      "wind": 7
      },
      {
       "t": "16:00",
-      "temp": 64,
-      "pop": 43,
-      "code": 53,
-      "wind": 13
+      "temp": 60,
+      "pop": 38,
+      "code": 55,
+      "wind": 7
      },
      {
       "t": "17:00",
-      "temp": 63,
-      "pop": 47,
-      "code": 53,
-      "wind": 12
+      "temp": 59,
+      "pop": 35,
+      "code": 55,
+      "wind": 7
      },
      {
       "t": "18:00",
-      "temp": 61,
-      "pop": 50,
-      "code": 53,
-      "wind": 12
+      "temp": 58,
+      "pop": 33,
+      "code": 80,
+      "wind": 7
      },
      {
       "t": "19:00",
-      "temp": 60,
-      "pop": 53,
-      "code": 53,
-      "wind": 12
+      "temp": 58,
+      "pop": 31,
+      "code": 80,
+      "wind": 8
      },
      {
       "t": "20:00",
-      "temp": 59,
-      "pop": 55,
-      "code": 53,
-      "wind": 13
+      "temp": 58,
+      "pop": 33,
+      "code": 80,
+      "wind": 8
      },
      {
       "t": "21:00",
-      "temp": 58,
-      "pop": 55,
-      "code": 80,
-      "wind": 13
+      "temp": 55,
+      "pop": 43,
+      "code": 51,
+      "wind": 8
      },
      {
       "t": "22:00",
-      "temp": 58,
-      "pop": 54,
-      "code": 80,
-      "wind": 14
+      "temp": 55,
+      "pop": 57,
+      "code": 51,
+      "wind": 7
      },
      {
       "t": "23:00",
-      "temp": 58,
-      "pop": 53,
-      "code": 80,
-      "wind": 14
+      "temp": 55,
+      "pop": 67,
+      "code": 51,
+      "wind": 7
      }
     ]
    }
   },
   "london": {
    "daily": {
-    "2026-09-02": {
-     "code": 51,
-     "max": 70,
-     "min": 62,
-     "popMax": 47,
-     "sunrise": "06:14",
-     "sunset": "19:45"
-    },
     "2026-09-03": {
      "code": 3,
-     "max": 78,
+     "max": 76,
      "min": 66,
-     "popMax": 49,
+     "popMax": 52,
      "sunrise": "06:16",
      "sunset": "19:43"
     },
     "2026-09-04": {
      "code": 51,
-     "max": 74,
-     "min": 65,
-     "popMax": 57,
+     "max": 72,
+     "min": 63,
+     "popMax": 51,
      "sunrise": "06:18",
      "sunset": "19:40"
     },
     "2026-09-05": {
      "code": 3,
-     "max": 72,
-     "min": 59,
-     "popMax": 14,
+     "max": 70,
+     "min": 57,
+     "popMax": 0,
      "sunrise": "06:19",
      "sunset": "19:38"
     },
     "2026-09-06": {
      "code": 3,
-     "max": 79,
-     "min": 64,
-     "popMax": 12,
+     "max": 81,
+     "min": 60,
+     "popMax": 8,
      "sunrise": "06:21",
      "sunset": "19:36"
     },
     "2026-09-07": {
      "code": 3,
-     "max": 70,
-     "min": 60,
-     "popMax": 22,
+     "max": 72,
+     "min": 66,
+     "popMax": 4,
      "sunrise": "06:22",
      "sunset": "19:34"
     },
     "2026-09-08": {
-     "code": 80,
-     "max": 64,
-     "min": 60,
-     "popMax": 35,
+     "code": 55,
+     "max": 65,
+     "min": 55,
+     "popMax": 26,
      "sunrise": "06:24",
      "sunset": "19:31"
     }
    },
    "hourly": {
-    "2026-09-02": [
+    "2026-09-03": [
      {
       "t": "07:00",
-      "temp": 62,
-      "pop": 14,
-      "code": 3,
-      "wind": 5
-     },
-     {
-      "t": "08:00",
-      "temp": 62,
-      "pop": 25,
-      "code": 3,
-      "wind": 7
-     },
-     {
-      "t": "09:00",
-      "temp": 63,
-      "pop": 39,
-      "code": 3,
-      "wind": 7
-     },
-     {
-      "t": "10:00",
-      "temp": 65,
-      "pop": 47,
-      "code": 51,
-      "wind": 8
-     },
-     {
-      "t": "11:00",
-      "temp": 66,
-      "pop": 47,
-      "code": 3,
-      "wind": 8
-     },
-     {
-      "t": "12:00",
-      "temp": 66,
-      "pop": 42,
-      "code": 51,
-      "wind": 7
-     },
-     {
-      "t": "13:00",
-      "temp": 68,
-      "pop": 35,
+      "temp": 67,
+      "pop": 6,
       "code": 3,
       "wind": 9
      },
      {
-      "t": "14:00",
-      "temp": 68,
-      "pop": 27,
-      "code": 3,
-      "wind": 11
-     },
-     {
-      "t": "15:00",
-      "temp": 69,
-      "pop": 17,
-      "code": 3,
-      "wind": 11
-     },
-     {
-      "t": "16:00",
-      "temp": 70,
-      "pop": 10,
-      "code": 3,
-      "wind": 12
-     },
-     {
-      "t": "17:00",
-      "temp": 70,
-      "pop": 9,
-      "code": 3,
-      "wind": 13
-     },
-     {
-      "t": "18:00",
-      "temp": 69,
-      "pop": 11,
-      "code": 3,
-      "wind": 12
-     },
-     {
-      "t": "19:00",
-      "temp": 68,
-      "pop": 12,
-      "code": 3,
-      "wind": 12
-     },
-     {
-      "t": "20:00",
-      "temp": 68,
-      "pop": 8,
-      "code": 3,
-      "wind": 11
-     },
-     {
-      "t": "21:00",
-      "temp": 68,
-      "pop": 3,
-      "code": 3,
-      "wind": 10
-     },
-     {
-      "t": "22:00",
-      "temp": 67,
-      "pop": 0,
-      "code": 3,
-      "wind": 10
-     },
-     {
-      "t": "23:00",
+      "t": "08:00",
       "temp": 67,
       "pop": 1,
       "code": 3,
       "wind": 9
-     }
-    ],
-    "2026-09-03": [
-     {
-      "t": "07:00",
-      "temp": 66,
-      "pop": 25,
-      "code": 3,
-      "wind": 9
-     },
-     {
-      "t": "08:00",
-      "temp": 67,
-      "pop": 25,
-      "code": 3,
-      "wind": 9
      },
      {
       "t": "09:00",
-      "temp": 68,
-      "pop": 23,
+      "temp": 67,
+      "pop": 0,
       "code": 3,
-      "wind": 10
+      "wind": 8
      },
      {
       "t": "10:00",
-      "temp": 70,
-      "pop": 24,
+      "temp": 69,
+      "pop": 0,
       "code": 3,
       "wind": 10
      },
      {
       "t": "11:00",
       "temp": 71,
-      "pop": 32,
+      "pop": 3,
       "code": 3,
       "wind": 10
      },
      {
       "t": "12:00",
       "temp": 72,
-      "pop": 42,
+      "pop": 9,
       "code": 3,
-      "wind": 10
+      "wind": 11
      },
      {
       "t": "13:00",
-      "temp": 74,
-      "pop": 49,
+      "temp": 72,
+      "pop": 12,
       "code": 3,
-      "wind": 10
+      "wind": 12
      },
      {
       "t": "14:00",
-      "temp": 76,
-      "pop": 48,
+      "temp": 72,
+      "pop": 12,
       "code": 3,
       "wind": 11
      },
      {
       "t": "15:00",
-      "temp": 77,
-      "pop": 42,
+      "temp": 74,
+      "pop": 10,
       "code": 3,
       "wind": 11
      },
      {
       "t": "16:00",
-      "temp": 78,
-      "pop": 37,
+      "temp": 75,
+      "pop": 8,
       "code": 2,
-      "wind": 10
+      "wind": 11
      },
      {
       "t": "17:00",
-      "temp": 78,
-      "pop": 33,
+      "temp": 76,
+      "pop": 6,
       "code": 3,
-      "wind": 13
+      "wind": 10
      },
      {
       "t": "18:00",
-      "temp": 77,
-      "pop": 28,
+      "temp": 76,
+      "pop": 5,
       "code": 2,
-      "wind": 12
+      "wind": 11
      },
      {
       "t": "19:00",
-      "temp": 74,
-      "pop": 24,
-      "code": 1,
-      "wind": 12
+      "temp": 75,
+      "pop": 4,
+      "code": 2,
+      "wind": 9
      },
      {
       "t": "20:00",
-      "temp": 72,
-      "pop": 19,
-      "code": 2,
-      "wind": 12
+      "temp": 73,
+      "pop": 5,
+      "code": 0,
+      "wind": 9
      },
      {
       "t": "21:00",
-      "temp": 70,
-      "pop": 14,
-      "code": 0,
-      "wind": 12
+      "temp": 71,
+      "pop": 6,
+      "code": 1,
+      "wind": 8
      },
      {
       "t": "22:00",
-      "temp": 69,
-      "pop": 10,
-      "code": 2,
-      "wind": 11
+      "temp": 70,
+      "pop": 6,
+      "code": 1,
+      "wind": 8
      },
      {
       "t": "23:00",
-      "temp": 69,
-      "pop": 6,
-      "code": 2,
-      "wind": 11
+      "temp": 68,
+      "pop": 4,
+      "code": 1,
+      "wind": 10
      }
     ],
     "2026-09-04": [
      {
       "t": "07:00",
       "temp": 68,
-      "pop": 8,
+      "pop": 4,
       "code": 3,
-      "wind": 14
+      "wind": 13
      },
      {
       "t": "08:00",
       "temp": 68,
-      "pop": 8,
-      "code": 2,
-      "wind": 13
+      "pop": 19,
+      "code": 3,
+      "wind": 14
      },
      {
       "t": "09:00",
       "temp": 69,
-      "pop": 8,
+      "pop": 39,
       "code": 3,
-      "wind": 14
-     },
-     {
-      "t": "10:00",
-      "temp": 70,
-      "pop": 12,
-      "code": 3,
-      "wind": 14
-     },
-     {
-      "t": "11:00",
-      "temp": 72,
-      "pop": 23,
-      "code": 51,
-      "wind": 15
-     },
-     {
-      "t": "12:00",
-      "temp": 73,
-      "pop": 38,
-      "code": 51,
-      "wind": 16
-     },
-     {
-      "t": "13:00",
-      "temp": 74,
-      "pop": 49,
-      "code": 51,
-      "wind": 16
-     },
-     {
-      "t": "14:00",
-      "temp": 74,
-      "pop": 54,
-      "code": 51,
-      "wind": 15
-     },
-     {
-      "t": "15:00",
-      "temp": 74,
-      "pop": 56,
-      "code": 51,
       "wind": 13
      },
      {
-      "t": "16:00",
-      "temp": 73,
-      "pop": 57,
-      "code": 51,
-      "wind": 12
-     },
-     {
-      "t": "17:00",
-      "temp": 72,
-      "pop": 57,
-      "code": 3,
-      "wind": 12
-     },
-     {
-      "t": "18:00",
-      "temp": 71,
-      "pop": 55,
-      "code": 3,
-      "wind": 12
-     },
-     {
-      "t": "19:00",
-      "temp": 70,
-      "pop": 51,
-      "code": 2,
-      "wind": 12
-     },
-     {
-      "t": "20:00",
+      "t": "10:00",
       "temp": 68,
+      "pop": 51,
+      "code": 3,
+      "wind": 12
+     },
+     {
+      "t": "11:00",
+      "temp": 66,
+      "pop": 50,
+      "code": 51,
+      "wind": 10
+     },
+     {
+      "t": "12:00",
+      "temp": 67,
       "pop": 42,
       "code": 3,
       "wind": 11
      },
      {
-      "t": "21:00",
+      "t": "13:00",
       "temp": 67,
-      "pop": 30,
+      "pop": 33,
+      "code": 51,
+      "wind": 10
+     },
+     {
+      "t": "14:00",
+      "temp": 68,
+      "pop": 24,
+      "code": 51,
+      "wind": 10
+     },
+     {
+      "t": "15:00",
+      "temp": 70,
+      "pop": 14,
+      "code": 3,
+      "wind": 11
+     },
+     {
+      "t": "16:00",
+      "temp": 72,
+      "pop": 6,
       "code": 3,
       "wind": 10
      },
      {
-      "t": "22:00",
+      "t": "17:00",
+      "temp": 71,
+      "pop": 2,
+      "code": 3,
+      "wind": 11
+     },
+     {
+      "t": "18:00",
+      "temp": 70,
+      "pop": 1,
+      "code": 3,
+      "wind": 10
+     },
+     {
+      "t": "19:00",
+      "temp": 69,
+      "pop": 0,
+      "code": 3,
+      "wind": 11
+     },
+     {
+      "t": "20:00",
+      "temp": 67,
+      "pop": 0,
+      "code": 3,
+      "wind": 10
+     },
+     {
+      "t": "21:00",
       "temp": 66,
-      "pop": 20,
+      "pop": 0,
       "code": 3,
       "wind": 9
      },
      {
-      "t": "23:00",
+      "t": "22:00",
       "temp": 65,
-      "pop": 15,
-      "code": 3,
-      "wind": 8
+      "pop": 0,
+      "code": 0,
+      "wind": 7
+     },
+     {
+      "t": "23:00",
+      "temp": 63,
+      "pop": 0,
+      "code": 0,
+      "wind": 7
      }
     ],
     "2026-09-05": [
      {
       "t": "07:00",
-      "temp": 59,
-      "pop": 6,
-      "code": 0,
-      "wind": 4
+      "temp": 57,
+      "pop": 0,
+      "code": 3,
+      "wind": 5
      },
      {
       "t": "08:00",
-      "temp": 59,
-      "pop": 5,
-      "code": 0,
-      "wind": 4
+      "temp": 58,
+      "pop": 0,
+      "code": 2,
+      "wind": 5
      },
      {
       "t": "09:00",
-      "temp": 60,
-      "pop": 4,
-      "code": 0,
-      "wind": 4
-     },
-     {
-      "t": "10:00",
-      "temp": 61,
-      "pop": 4,
-      "code": 0,
-      "wind": 5
-     },
-     {
-      "t": "11:00",
-      "temp": 63,
-      "pop": 3,
-      "code": 0,
-      "wind": 5
-     },
-     {
-      "t": "12:00",
-      "temp": 65,
-      "pop": 2,
-      "code": 0,
-      "wind": 5
-     },
-     {
-      "t": "13:00",
-      "temp": 67,
-      "pop": 2,
-      "code": 1,
-      "wind": 5
-     },
-     {
-      "t": "14:00",
-      "temp": 68,
-      "pop": 2,
-      "code": 1,
-      "wind": 4
-     },
-     {
-      "t": "15:00",
-      "temp": 70,
-      "pop": 3,
-      "code": 2,
-      "wind": 4
-     },
-     {
-      "t": "16:00",
-      "temp": 71,
-      "pop": 4,
-      "code": 3,
-      "wind": 4
-     },
-     {
-      "t": "17:00",
-      "temp": 71,
-      "pop": 5,
-      "code": 3,
-      "wind": 3
-     },
-     {
-      "t": "18:00",
-      "temp": 72,
-      "pop": 7,
-      "code": 3,
-      "wind": 2
-     },
-     {
-      "t": "19:00",
-      "temp": 72,
-      "pop": 8,
-      "code": 2,
-      "wind": 2
-     },
-     {
-      "t": "20:00",
-      "temp": 71,
-      "pop": 8,
-      "code": 2,
-      "wind": 4
-     },
-     {
-      "t": "21:00",
-      "temp": 71,
-      "pop": 8,
+      "temp": 59,
+      "pop": 0,
       "code": 3,
       "wind": 6
      },
      {
-      "t": "22:00",
-      "temp": 70,
-      "pop": 8,
+      "t": "10:00",
+      "temp": 60,
+      "pop": 0,
       "code": 3,
+      "wind": 6
+     },
+     {
+      "t": "11:00",
+      "temp": 62,
+      "pop": 0,
+      "code": 2,
+      "wind": 6
+     },
+     {
+      "t": "12:00",
+      "temp": 64,
+      "pop": 0,
+      "code": 1,
+      "wind": 6
+     },
+     {
+      "t": "13:00",
+      "temp": 65,
+      "pop": 0,
+      "code": 0,
+      "wind": 6
+     },
+     {
+      "t": "14:00",
+      "temp": 67,
+      "pop": 0,
+      "code": 0,
+      "wind": 5
+     },
+     {
+      "t": "15:00",
+      "temp": 68,
+      "pop": 0,
+      "code": 0,
+      "wind": 4
+     },
+     {
+      "t": "16:00",
+      "temp": 69,
+      "pop": 0,
+      "code": 0,
+      "wind": 4
+     },
+     {
+      "t": "17:00",
+      "temp": 70,
+      "pop": 0,
+      "code": 0,
+      "wind": 4
+     },
+     {
+      "t": "18:00",
+      "temp": 70,
+      "pop": 0,
+      "code": 0,
+      "wind": 4
+     },
+     {
+      "t": "19:00",
+      "temp": 70,
+      "pop": 0,
+      "code": 0,
+      "wind": 5
+     },
+     {
+      "t": "20:00",
+      "temp": 70,
+      "pop": 0,
+      "code": 0,
+      "wind": 6
+     },
+     {
+      "t": "21:00",
+      "temp": 69,
+      "pop": 0,
+      "code": 0,
+      "wind": 7
+     },
+     {
+      "t": "22:00",
+      "temp": 67,
+      "pop": 0,
+      "code": 0,
       "wind": 8
      },
      {
       "t": "23:00",
-      "temp": 69,
-      "pop": 8,
-      "code": 3,
-      "wind": 7
+      "temp": 66,
+      "pop": 0,
+      "code": 0,
+      "wind": 8
      }
     ],
     "2026-09-06": [
      {
       "t": "07:00",
-      "temp": 64,
-      "pop": 4,
-      "code": 2,
+      "temp": 61,
+      "pop": 0,
+      "code": 0,
       "wind": 4
      },
      {
       "t": "08:00",
-      "temp": 65,
-      "pop": 4,
-      "code": 1,
+      "temp": 62,
+      "pop": 0,
+      "code": 0,
       "wind": 4
      },
      {
       "t": "09:00",
-      "temp": 67,
-      "pop": 4,
+      "temp": 64,
+      "pop": 1,
       "code": 0,
       "wind": 5
      },
      {
       "t": "10:00",
-      "temp": 69,
-      "pop": 4,
+      "temp": 67,
+      "pop": 2,
       "code": 0,
       "wind": 6
      },
      {
       "t": "11:00",
-      "temp": 72,
-      "pop": 4,
+      "temp": 71,
+      "pop": 2,
       "code": 0,
       "wind": 7
      },
      {
       "t": "12:00",
       "temp": 75,
-      "pop": 5,
-      "code": 0,
+      "pop": 2,
+      "code": 1,
       "wind": 8
      },
      {
       "t": "13:00",
-      "temp": 77,
-      "pop": 6,
-      "code": 1,
-      "wind": 10
+      "temp": 78,
+      "pop": 2,
+      "code": 2,
+      "wind": 9
      },
      {
       "t": "14:00",
-      "temp": 78,
-      "pop": 7,
-      "code": 0,
-      "wind": 12
+      "temp": 80,
+      "pop": 1,
+      "code": 1,
+      "wind": 9
      },
      {
       "t": "15:00",
-      "temp": 79,
-      "pop": 9,
+      "temp": 80,
+      "pop": 0,
       "code": 0,
-      "wind": 13
+      "wind": 10
      },
      {
       "t": "16:00",
-      "temp": 79,
-      "pop": 10,
+      "temp": 81,
+      "pop": 0,
       "code": 0,
-      "wind": 14
+      "wind": 11
      },
      {
       "t": "17:00",
-      "temp": 77,
-      "pop": 10,
-      "code": 1,
-      "wind": 15
+      "temp": 80,
+      "pop": 2,
+      "code": 0,
+      "wind": 11
      },
      {
       "t": "18:00",
-      "temp": 75,
-      "pop": 8,
-      "code": 2,
-      "wind": 15
+      "temp": 78,
+      "pop": 4,
+      "code": 1,
+      "wind": 12
      },
      {
       "t": "19:00",
-      "temp": 73,
-      "pop": 8,
-      "code": 3,
-      "wind": 15
+      "temp": 76,
+      "pop": 6,
+      "code": 2,
+      "wind": 12
      },
      {
       "t": "20:00",
-      "temp": 71,
-      "pop": 9,
-      "code": 3,
-      "wind": 15
+      "temp": 74,
+      "pop": 7,
+      "code": 2,
+      "wind": 12
      },
      {
       "t": "21:00",
-      "temp": 70,
-      "pop": 11,
+      "temp": 71,
+      "pop": 8,
       "code": 3,
-      "wind": 14
+      "wind": 12
      },
      {
       "t": "22:00",
       "temp": 69,
-      "pop": 12,
+      "pop": 8,
       "code": 3,
-      "wind": 14
+      "wind": 11
      },
      {
       "t": "23:00",
-      "temp": 69,
-      "pop": 11,
+      "temp": 68,
+      "pop": 6,
       "code": 3,
-      "wind": 14
+      "wind": 11
      }
     ],
     "2026-09-07": [
      {
       "t": "07:00",
-      "temp": 60,
-      "pop": 10,
-      "code": 0,
+      "temp": 66,
+      "pop": 2,
+      "code": 3,
       "wind": 8
      },
      {
       "t": "08:00",
-      "temp": 60,
-      "pop": 9,
-      "code": 1,
+      "temp": 66,
+      "pop": 3,
+      "code": 3,
       "wind": 8
      },
      {
       "t": "09:00",
-      "temp": 60,
-      "pop": 8,
-      "code": 2,
-      "wind": 7
+      "temp": 66,
+      "pop": 4,
+      "code": 3,
+      "wind": 8
      },
      {
       "t": "10:00",
-      "temp": 61,
-      "pop": 8,
+      "temp": 66,
+      "pop": 4,
       "code": 3,
-      "wind": 7
+      "wind": 8
      },
      {
       "t": "11:00",
-      "temp": 64,
-      "pop": 8,
-      "code": 0,
-      "wind": 7
+      "temp": 67,
+      "pop": 3,
+      "code": 3,
+      "wind": 8
      },
      {
       "t": "12:00",
-      "temp": 65,
-      "pop": 9,
-      "code": 0,
-      "wind": 7
+      "temp": 68,
+      "pop": 3,
+      "code": 3,
+      "wind": 8
      },
      {
       "t": "13:00",
-      "temp": 66,
-      "pop": 10,
-      "code": 0,
+      "temp": 69,
+      "pop": 2,
+      "code": 3,
       "wind": 8
      },
      {
       "t": "14:00",
-      "temp": 67,
-      "pop": 12,
-      "code": 0,
+      "temp": 70,
+      "pop": 2,
+      "code": 3,
       "wind": 8
      },
      {
       "t": "15:00",
-      "temp": 68,
-      "pop": 15,
-      "code": 1,
-      "wind": 9
+      "temp": 71,
+      "pop": 3,
+      "code": 3,
+      "wind": 7
      },
      {
       "t": "16:00",
-      "temp": 69,
-      "pop": 17,
-      "code": 1,
-      "wind": 10
+      "temp": 72,
+      "pop": 4,
+      "code": 3,
+      "wind": 7
      },
      {
       "t": "17:00",
-      "temp": 70,
-      "pop": 19,
-      "code": 1,
-      "wind": 12
+      "temp": 72,
+      "pop": 4,
+      "code": 3,
+      "wind": 7
      },
      {
       "t": "18:00",
-      "temp": 70,
-      "pop": 22,
-      "code": 2,
-      "wind": 13
+      "temp": 71,
+      "pop": 4,
+      "code": 3,
+      "wind": 7
      },
      {
       "t": "19:00",
-      "temp": 70,
-      "pop": 22,
-      "code": 2,
-      "wind": 13
+      "temp": 71,
+      "pop": 4,
+      "code": 3,
+      "wind": 7
      },
      {
       "t": "20:00",
       "temp": 70,
-      "pop": 20,
-      "code": 2,
-      "wind": 13
+      "pop": 3,
+      "code": 3,
+      "wind": 7
      },
      {
       "t": "21:00",
       "temp": 69,
-      "pop": 16,
+      "pop": 2,
       "code": 3,
-      "wind": 13
+      "wind": 6
      },
      {
       "t": "22:00",
-      "temp": 67,
-      "pop": 12,
+      "temp": 68,
+      "pop": 2,
       "code": 3,
-      "wind": 12
+      "wind": 6
      },
      {
       "t": "23:00",
-      "temp": 66,
-      "pop": 8,
+      "temp": 67,
+      "pop": 2,
       "code": 3,
-      "wind": 12
+      "wind": 7
      }
     ],
     "2026-09-08": [
      {
       "t": "07:00",
-      "temp": 60,
-      "pop": 12,
-      "code": 51,
+      "temp": 56,
+      "pop": 6,
+      "code": 55,
       "wind": 8
      },
      {
       "t": "08:00",
-      "temp": 60,
-      "pop": 15,
-      "code": 3,
-      "wind": 8
+      "temp": 55,
+      "pop": 10,
+      "code": 1,
+      "wind": 7
      },
      {
       "t": "09:00",
-      "temp": 61,
-      "pop": 17,
-      "code": 3,
-      "wind": 8
+      "temp": 56,
+      "pop": 15,
+      "code": 2,
+      "wind": 6
      },
      {
       "t": "10:00",
-      "temp": 62,
+      "temp": 57,
       "pop": 20,
       "code": 3,
-      "wind": 8
+      "wind": 5
      },
      {
       "t": "11:00",
-      "temp": 62,
+      "temp": 58,
       "pop": 22,
-      "code": 3,
-      "wind": 8
+      "code": 51,
+      "wind": 4
      },
      {
       "t": "12:00",
-      "temp": 62,
-      "pop": 25,
-      "code": 3,
-      "wind": 8
+      "temp": 58,
+      "pop": 23,
+      "code": 51,
+      "wind": 4
      },
      {
       "t": "13:00",
-      "temp": 62,
-      "pop": 27,
-      "code": 3,
-      "wind": 8
+      "temp": 59,
+      "pop": 24,
+      "code": 51,
+      "wind": 3
      },
      {
       "t": "14:00",
-      "temp": 62,
-      "pop": 29,
-      "code": 55,
-      "wind": 10
+      "temp": 59,
+      "pop": 25,
+      "code": 53,
+      "wind": 3
      },
      {
       "t": "15:00",
-      "temp": 62,
-      "pop": 31,
-      "code": 55,
-      "wind": 11
+      "temp": 60,
+      "pop": 26,
+      "code": 53,
+      "wind": 3
      },
      {
       "t": "16:00",
-      "temp": 62,
-      "pop": 33,
-      "code": 55,
-      "wind": 13
+      "temp": 60,
+      "pop": 25,
+      "code": 53,
+      "wind": 2
      },
      {
       "t": "17:00",
-      "temp": 61,
-      "pop": 34,
-      "code": 55,
-      "wind": 14
+      "temp": 60,
+      "pop": 22,
+      "code": 53,
+      "wind": 3
      },
      {
       "t": "18:00",
-      "temp": 61,
-      "pop": 35,
-      "code": 55,
-      "wind": 16
+      "temp": 60,
+      "pop": 18,
+      "code": 53,
+      "wind": 3
      },
      {
       "t": "19:00",
-      "temp": 61,
-      "pop": 35,
-      "code": 55,
-      "wind": 16
+      "temp": 60,
+      "pop": 16,
+      "code": 53,
+      "wind": 3
      },
      {
       "t": "20:00",
-      "temp": 61,
-      "pop": 34,
-      "code": 80,
-      "wind": 17
+      "temp": 59,
+      "pop": 19,
+      "code": 51,
+      "wind": 4
      },
      {
       "t": "21:00",
-      "temp": 62,
-      "pop": 33,
-      "code": 80,
-      "wind": 17
+      "temp": 59,
+      "pop": 24,
+      "code": 51,
+      "wind": 5
      },
      {
       "t": "22:00",
-      "temp": 63,
-      "pop": 31,
-      "code": 80,
-      "wind": 17
+      "temp": 58,
+      "pop": 26,
+      "code": 51,
+      "wind": 6
      },
      {
       "t": "23:00",
-      "temp": 63,
-      "pop": 29,
-      "code": 80,
-      "wind": 17
+      "temp": 57,
+      "pop": 23,
+      "code": 51,
+      "wind": 7
      }
     ]
    }
